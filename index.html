@@ -1,1 +1,76 @@
-from index.html
+<!doctype html>
+<html lang="en-US">
+<head>
+    <link rel="alternate" href="https://TODO.org/" hreflang="en" />
+    <link rel="alternate" href="https://TODO/ru/" hreflang="ru" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <title>TODO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <link href="/css/app.css" rel="stylesheet" type="text/css" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/imgs/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/imgs/favicon/favicon_32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/imgs/favicon/favicon_16x16.png">
+    <link rel="icon" type="image/x-icon" href="/imgs/favicon/favicon.ico">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-TODO"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'TODO');
+    </script>
+</head>
+<body>
+<nav>
+    <div class="inner">
+        <h2><a href="/" title="Go to Homepage">ERP</a></h2>
+        <a class="menu-link" href="#menu">Menu</a>
+        <ul class="nav">
+            <li><a href="page">Features</a></li>
+
+            <li id="languages">
+                <div class="language">
+                    <strong>EN</strong>
+                    <ul>
+                        <li><span class="current">En</span></li>
+                        <li><a href="ru/">Ру</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<header>
+    <div class="inner">
+        header goes here
+    </div>
+</header>
+
+<main class="inner">
+    content goes here
+</main>
+
+<footer>
+    <div class="inner">
+        footer here
+    </div>
+</footer>
+
+<script
+        src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+<script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

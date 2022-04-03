@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05863a48-de35-460d-8137-65aeb02ed490" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="05863a48-de35-460d-8137-65aeb02ed490" name="Default" comment="Header and footer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -18,8 +17,8 @@
       <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="20604">
+              <caret line="1212" column="3" selection-start-line="1212" selection-start-column="3" selection-end-line="1212" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -27,8 +26,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -36,13 +35,95 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            <state relative-caret-position="688">
+              <caret line="385" selection-start-line="385" selection-end-line="385" />
+              <folding>
+                <element signature="e#2807#2811#0" expanded="true" />
+                <element signature="e#2843#2847#0" expanded="true" />
+                <element signature="e#2882#2886#0" expanded="true" />
+                <element signature="n#ul#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#5704#5708#0" expanded="true" />
+                <element signature="e#6091#6095#0" expanded="true" />
+                <element signature="e#6394#6398#0" expanded="true" />
+                <element signature="e#6728#6732#0" expanded="true" />
+                <element signature="e#7039#7043#0" expanded="true" />
+                <element signature="e#7371#7375#0" expanded="true" />
+                <element signature="e#7937#7941#0" expanded="true" />
+                <element signature="e#8314#8318#0" expanded="true" />
+                <element signature="n#ul#1;n#a#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#7800#7804#0" expanded="true" />
+                <element signature="e#4504#4508#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reviews.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reviews.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/news.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="404.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/404.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modules.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>очему lsFusion E</find>
+      <find>кая бизнес-логи</find>
+      <find>#</find>
+      <find>rev</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>modules#</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,6 +133,11 @@
       <list>
         <option value="$PROJECT_DIR$/css/app.scss" />
         <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/reviews.html" />
+        <option value="$PROJECT_DIR$/news.html" />
+        <option value="$PROJECT_DIR$/404.html" />
+        <option value="$PROJECT_DIR$/modules.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -80,6 +166,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -101,7 +188,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -110,6 +196,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dropbox\lsfusion\www_erp" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -138,7 +229,8 @@
       <workItem from="1644861300555" duration="597000" />
       <workItem from="1644919448887" duration="596000" />
       <workItem from="1645040718057" duration="455000" />
-      <workItem from="1648795840407" duration="56000" />
+      <workItem from="1648795840407" duration="3800000" />
+      <workItem from="1648822990955" duration="5246000" />
     </task>
     <task id="LOCAL-00001" summary="Added ingores files">
       <created>1644154751643</created>
@@ -154,28 +246,56 @@
       <option name="project" value="LOCAL" />
       <updated>1644155705904</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Header and footer">
+      <created>1648795940333</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1648795940333</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Header and footer">
+      <created>1648814836346</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1648814836346</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Header and footer">
+      <created>1649010296105</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1649010296105</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Header and footer">
+      <created>1649010338492</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1649010338492</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4708000" />
+    <option name="totallyTimeSpent" value="13698000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="3856" height="1176" extended-state="6" />
+    <frame x="1081" y="17" width="1940" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14401041" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28742203" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32921347" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -193,11 +313,50 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added ingores files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ingores files" />
+    <MESSAGE value="Header and footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Header and footer" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/app.scss">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20604">
+          <caret line="1212" column="3" selection-start-line="1212" selection-start-column="3" selection-end-line="1212" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3230">
+          <caret line="190" column="21" selection-start-line="190" selection-start-column="21" selection-end-line="190" selection-end-column="21" />
+          <folding>
+            <element signature="e#2807#2811#0" expanded="true" />
+            <element signature="e#2843#2847#0" expanded="true" />
+            <element signature="e#2882#2886#0" expanded="true" />
+            <element signature="n#ul#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#5704#5708#0" expanded="true" />
+            <element signature="e#6091#6095#0" expanded="true" />
+            <element signature="e#6394#6398#0" expanded="true" />
+            <element signature="e#6728#6732#0" expanded="true" />
+            <element signature="e#7039#7043#0" expanded="true" />
+            <element signature="e#7371#7375#0" expanded="true" />
+            <element signature="e#7937#7941#0" expanded="true" />
+            <element signature="e#8314#8318#0" expanded="true" />
+            <element signature="n#ul#1;n#a#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#7800#7804#0" expanded="true" />
+            <element signature="e#4504#4508#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
@@ -214,6 +373,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+          <folding>
+            <element signature="e#2807#2811#0" expanded="true" />
+            <element signature="e#2843#2847#0" expanded="true" />
+            <element signature="e#2882#2886#0" expanded="true" />
+            <element signature="n#ul#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#5704#5708#0" expanded="true" />
+            <element signature="e#6091#6095#0" expanded="true" />
+            <element signature="e#6394#6398#0" expanded="true" />
+            <element signature="e#6728#6732#0" expanded="true" />
+            <element signature="e#7039#7043#0" expanded="true" />
+            <element signature="e#7371#7375#0" expanded="true" />
+            <element signature="e#7937#7941#0" expanded="true" />
+            <element signature="e#8314#8318#0" expanded="true" />
+            <element signature="n#ul#1;n#a#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#7800#7804#0" expanded="true" />
+            <element signature="e#4504#4508#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -303,22 +479,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="20604">
+          <caret line="1212" column="3" selection-start-line="1212" selection-start-column="3" selection-end-line="1212" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reviews.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        <state relative-caret-position="688">
+          <caret line="385" selection-start-line="385" selection-end-line="385" />
+          <folding>
+            <element signature="e#2807#2811#0" expanded="true" />
+            <element signature="e#2843#2847#0" expanded="true" />
+            <element signature="e#2882#2886#0" expanded="true" />
+            <element signature="n#ul#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#5704#5708#0" expanded="true" />
+            <element signature="e#6091#6095#0" expanded="true" />
+            <element signature="e#6394#6398#0" expanded="true" />
+            <element signature="e#6728#6732#0" expanded="true" />
+            <element signature="e#7039#7043#0" expanded="true" />
+            <element signature="e#7371#7375#0" expanded="true" />
+            <element signature="e#7937#7941#0" expanded="true" />
+            <element signature="e#8314#8318#0" expanded="true" />
+            <element signature="n#ul#1;n#a#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#7800#7804#0" expanded="true" />
+            <element signature="e#4504#4508#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

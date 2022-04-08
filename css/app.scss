@@ -12,10 +12,10 @@ html, body {
 }
 @media (min-width: $mobileWidth) {
   //setting up 100% height
-  body.flex {
+  body {
     display: flex;
     flex-direction: column;
-    & > .inner {
+    & > main {
       flex: auto;
     }
   }
@@ -132,6 +132,8 @@ body > nav{
         color: #2C2A28;
         text-decoration: none;
         transition: color 0.3s;
+        text-indent: -3000px;
+        overflow: hidden;
         &:hover{
           color: #7DE2FF;
         }
@@ -351,6 +353,26 @@ section{
         @media(max-width: $siteWidth - 1){
           br{
             display: none;
+          }
+        }
+      }
+      table{
+        margin: 0 0 30px 0;
+        tr:nth-child(1){
+          td{
+            color: #7DE2FF;
+            font-size: 35px;
+            line-height: 42px;
+            font-weight: 700;
+            padding: 0 70px 6px 0;
+          }
+        }
+        tr:nth-child(2){
+          td{
+            color: #fff;
+            font-size: 14px;
+            line-height: 19px;
+            padding: 0 70px 0 0;
           }
         }
       }
@@ -1111,6 +1133,8 @@ body > footer{
           text-decoration: none;
           display: block;
           transition: color 0.3s;
+          text-indent: -3000px;
+          overflow: hidden;
           &:hover{
             color: #7DE2FF;
           }

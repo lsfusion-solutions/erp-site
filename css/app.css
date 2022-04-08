@@ -320,10 +320,10 @@ html, body {
   box-sizing: border-box; }
 
 @media (min-width: 768px) {
-  body.flex {
+  body {
     display: flex;
     flex-direction: column; }
-    body.flex > .inner {
+    body > main {
       flex: auto; } }
 body {
   font-family: 'Open Sans', sans-serif;
@@ -427,7 +427,9 @@ body > nav {
         padding: 0 0 0 50px;
         color: #2C2A28;
         text-decoration: none;
-        transition: color 0.3s; }
+        transition: color 0.3s;
+        text-indent: -3000px;
+        overflow: hidden; }
         body > nav > div.inner h2 a:hover {
           color: #7DE2FF; }
         body > nav > div.inner h2 a.active {
@@ -599,6 +601,19 @@ section#section-header {
     @media (max-width: 1109px) {
       section#section-header > div.inner p br {
         display: none; } }
+  section#section-header > div.inner table {
+    margin: 0 0 30px 0; }
+    section#section-header > div.inner table tr:nth-child(1) td {
+      color: #7DE2FF;
+      font-size: 35px;
+      line-height: 42px;
+      font-weight: 700;
+      padding: 0 70px 6px 0; }
+    section#section-header > div.inner table tr:nth-child(2) td {
+      color: #fff;
+      font-size: 14px;
+      line-height: 19px;
+      padding: 0 70px 0 0; }
   section#section-header > div.inner nav:after {
     content: "";
     display: table;
@@ -1182,7 +1197,9 @@ body > footer {
         padding: 0 0 0 40px;
         text-decoration: none;
         display: block;
-        transition: color 0.3s; }
+        transition: color 0.3s;
+        text-indent: -3000px;
+        overflow: hidden; }
         body > footer nav div h3 a:hover {
           color: #7DE2FF; }
         body > footer nav div h3 a.active {

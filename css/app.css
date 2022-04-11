@@ -1275,6 +1275,18 @@ body > footer {
           background: url(../imgs/icons/blog-hover.svg) no-repeat 0 0; }
         body > footer nav ul.social li.blog a:active, body > footer nav ul.community li.blog a:active {
           background: url(../imgs/icons/blog-active.svg) no-repeat 0 0; }
+      body > footer nav ul.social li.ln a, body > footer nav ul.community li.ln a {
+        background: url(../imgs/icons/ln.svg) no-repeat 0 0; }
+        body > footer nav ul.social li.ln a:hover, body > footer nav ul.community li.ln a:hover {
+          background: url(../imgs/icons/ln-hover.svg) no-repeat 0 0; }
+        body > footer nav ul.social li.ln a:active, body > footer nav ul.community li.ln a:active {
+          background: url(../imgs/icons/ln-active.svg) no-repeat 0 0; }
+      body > footer nav ul.social li.yt a, body > footer nav ul.community li.yt a {
+        background: url(../imgs/icons/yt.svg) no-repeat 0 0; }
+        body > footer nav ul.social li.yt a:hover, body > footer nav ul.community li.yt a:hover {
+          background: url(../imgs/icons/yt-hover.svg) no-repeat 0 0; }
+        body > footer nav ul.social li.yt a:active, body > footer nav ul.community li.yt a:active {
+          background: url(../imgs/icons/yt-active.svg) no-repeat 0 0; }
   body > footer #absfooter {
     clear: both;
     border-top: 1px solid #596062;

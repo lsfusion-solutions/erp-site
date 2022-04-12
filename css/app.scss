@@ -390,8 +390,9 @@ section{
   }
   &#section-companies{
     background: #EFF6F8;
-    & > div.inner{
+    & > div.noinner{
       @include clearfix;
+      padding: 30px 0;
       h2{
         text-align: center;
         margin: 0 0 30px 0;
@@ -409,10 +410,34 @@ section{
           @extend .btn;
         }
       }
+      div.swiper{
+        padding: 0 0 50px 0;
+        &:before{
+          content: "";
+          position: absolute;
+          z-index: 2;
+          background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0.8) 46.8%, rgba(255, 255, 255, 0) 100%);
+          left: 0;
+          right: calc(50% + 600px);
+          top: 0;
+          bottom: 50px;
+        }
+        &:after{
+          content: "";
+          position: absolute;
+          z-index: 2;
+          background: linear-gradient(-90deg, #FFFFFF 0%, rgba(255, 255, 255, 0.8) 46.8%, rgba(255, 255, 255, 0) 100%);
+          right: 0;
+          left: calc(50% + 600px);
+          top: 0;
+          bottom: 50px;
+        }
+      }
       ul{
         list-style: none;
         display: flex;
         flex-direction: row;
+
         li{
           padding: 0 5px;
           flex: 0 0 174px;

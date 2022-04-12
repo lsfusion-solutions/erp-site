@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;600&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
 
     <link href="css/app.css" rel="stylesheet" type="text/css" />
+    <link href="css/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="imgs/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon/favicon_32x32.png">
@@ -79,51 +80,54 @@
         </div>
     </section>
     <section id="section-companies">
-        <div class="inner">
+        <div class="noinner">
             <h2><em>70%</em> Major retail chains in Belarus have implemented<br /> lsFusion ERP since 2014</h2>
             <nav>
                 <span class="active">FMCG</span>
                 <span>Fashion</span>
                 <span>Farma</span>
             </nav>
-            <ul>
-                <li>
-                    <div class="inner">
-                        <img src="imgs/companies/1.png" alt="" title="" />
-                        <p>19 hypermarkets</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="inner">
-                        <img src="imgs/companies/2.png" alt="" title="" />
-                        <p>140 supermarkets</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="inner">
-                        <img src="imgs/companies/3.png" alt="" title="" />
-                        <p>126 супермаркетов</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="inner">
-                        <img src="imgs/companies/4.png" alt="" title="" />
-                        <p>582 супермаркетов</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="inner">
-                        <img src="imgs/companies/5.png" alt="" title="" />
-                        <p>69 супермаркетов</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="inner">
-                        <img src="imgs/companies/6.png" alt="" title="" />
-                        <p>75 супермаркетов</p>
-                    </div>
-                </li>
-            </ul>
+            <div class="swiper">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <div class="inner">
+                            <img src="imgs/companies/1.png" alt="" title="" />
+                            <p>19 hypermarkets</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="inner">
+                            <img src="imgs/companies/2.png" alt="" title="" />
+                            <p>140 supermarkets</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="inner">
+                            <img src="imgs/companies/3.png" alt="" title="" />
+                            <p>126 супермаркетов</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="inner">
+                            <img src="imgs/companies/4.png" alt="" title="" />
+                            <p>582 супермаркетов</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="inner">
+                            <img src="imgs/companies/5.png" alt="" title="" />
+                            <p>69 супермаркетов</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="inner">
+                            <img src="imgs/companies/6.png" alt="" title="" />
+                            <p>75 супермаркетов</p>
+                        </div>
+                    </li>
+                </ul>
+                <p class="swiper-pagination"></p>
+            </div>
         </div>
     </section>
     <section id="section-why">
@@ -583,5 +587,19 @@
         crossorigin="anonymous"></script>
 <script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
 <script src="js/app.js"></script>
+
+<script src="js/swiper-bundle.min.js"></script>
+<script>
+    var companiesSwiper = new Swiper(".swiper", {
+        slidesPerView: "auto",
+        spaceBetween: 0,
+        loop: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+</script>
+
 </body>
 </html>

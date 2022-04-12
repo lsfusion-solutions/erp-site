@@ -254,7 +254,7 @@ em {
   /* Non-prefixed version, currently
                supported by Chrome, Edge, Opera and Firefox */ }
 
-.btn-default, .btn, section#section-companies > div.inner nav span.active, section#section-best > div.inner > nav span.active, .btn-empty, .btn-invert, .btn-empty-invert, section#section-companies > div.inner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner div.info ul li, section#section-reviews > div.inner h2 a {
+.btn-default, .btn, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, .btn-empty, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner div.info ul li, section#section-reviews > div.inner h2 a {
   position: relative;
   text-decoration: none;
   transition: background-color .3s, border-color 0.3s, color 0.3s;
@@ -268,17 +268,17 @@ em {
   white-space: nowrap;
   display: inline-block; }
   @media (max-width: 479px) {
-    .btn-default, .btn, section#section-companies > div.inner nav span.active, section#section-best > div.inner > nav span.active, .btn-empty, .btn-invert, .btn-empty-invert, section#section-companies > div.inner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner div.info ul li, section#section-reviews > div.inner h2 a {
+    .btn-default, .btn, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, .btn-empty, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner div.info ul li, section#section-reviews > div.inner h2 a {
       padding: 10px 18px; } }
-  .btn-default:active, .btn:active, section#section-companies > div.inner nav span.active:active, section#section-best > div.inner > nav span.active:active, .btn-empty:active, .btn-invert:active, .btn-empty-invert:active, section#section-companies > div.inner nav span:active:not(.active), section#section-best > div.inner > nav span:active:not(.active), section#section-best > div.inner div.info ul li:active, section#section-reviews > div.inner h2 a:active {
+  .btn-default:active, .btn:active, section#section-companies > div.noinner nav span.active:active, section#section-best > div.inner > nav span.active:active, .btn-empty:active, .btn-invert:active, .btn-empty-invert:active, section#section-companies > div.noinner nav span:active:not(.active), section#section-best > div.inner > nav span:active:not(.active), section#section-best > div.inner div.info ul li:active, section#section-reviews > div.inner h2 a:active {
     top: 1px; }
 
-.btn, section#section-companies > div.inner nav span.active, section#section-best > div.inner > nav span.active {
+.btn, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active {
   background: #26C4F7;
   color: #fff !important; }
-  .btn:hover, section#section-companies > div.inner nav span.active:hover, section#section-best > div.inner > nav span.active:hover {
+  .btn:hover, section#section-companies > div.noinner nav span.active:hover, section#section-best > div.inner > nav span.active:hover {
     background-color: #0295FF; }
-  .btn:active, section#section-companies > div.inner nav span.active:active, section#section-best > div.inner > nav span.active:active {
+  .btn:active, section#section-companies > div.noinner nav span.active:active, section#section-best > div.inner > nav span.active:active {
     background-color: #0B85DE; }
 
 .btn-empty {
@@ -303,13 +303,13 @@ em {
     background-color: #F1F8FA;
     color: #26C4F7; }
 
-.btn-empty-invert, section#section-companies > div.inner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner div.info ul li, section#section-reviews > div.inner h2 a {
+.btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner div.info ul li, section#section-reviews > div.inner h2 a {
   background: transparent !important;
   border: 1px solid rgba(132, 132, 132, 0.2);
   color: #0E84BC !important; }
-  .btn-empty-invert:hover, section#section-companies > div.inner nav span:hover:not(.active), section#section-best > div.inner > nav span:hover:not(.active), section#section-best > div.inner div.info ul li:hover, section#section-reviews > div.inner h2 a:hover {
+  .btn-empty-invert:hover, section#section-companies > div.noinner nav span:hover:not(.active), section#section-best > div.inner > nav span:hover:not(.active), section#section-best > div.inner div.info ul li:hover, section#section-reviews > div.inner h2 a:hover {
     border-color: #848484; }
-  .btn-empty-invert:active, section#section-companies > div.inner nav span:active:not(.active), section#section-best > div.inner > nav span:active:not(.active), section#section-best > div.inner div.info ul li:active, section#section-reviews > div.inner h2 a:active {
+  .btn-empty-invert:active, section#section-companies > div.noinner nav span:active:not(.active), section#section-best > div.inner > nav span:active:not(.active), section#section-best > div.inner div.info ul li:active, section#section-reviews > div.inner h2 a:active {
     border-color: #848484; }
 
 html, body {
@@ -625,39 +625,61 @@ section#section-header {
       margin-right: 30px; }
 section#section-companies {
   background: #EFF6F8; }
-  section#section-companies > div.inner:after {
-    content: "";
-    display: table;
-    clear: both; }
-  section#section-companies > div.inner h2 {
-    text-align: center;
-    margin: 0 0 30px 0; }
-  section#section-companies > div.inner nav {
-    text-align: center;
-    margin: 0 0 30px 0; }
-    section#section-companies > div.inner nav span {
-      cursor: pointer; }
-  section#section-companies > div.inner ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row; }
-    section#section-companies > div.inner ul li {
-      padding: 0 5px;
-      flex: 0 0 174px; }
-      section#section-companies > div.inner ul li div.inner {
-        background: #fff;
-        padding: 10px 20px;
-        border-radius: 4px; }
-        section#section-companies > div.inner ul li div.inner img {
-          filter: grayscale(100%);
-          transition: filter 0.3s; }
-        section#section-companies > div.inner ul li div.inner:hover img {
-          filter: none; }
-        section#section-companies > div.inner ul li div.inner p {
-          text-align: center;
-          color: #848484;
-          font-size: 14px;
-          line-height: 19px; }
+  section#section-companies > div.noinner {
+    padding: 30px 0; }
+    section#section-companies > div.noinner:after {
+      content: "";
+      display: table;
+      clear: both; }
+    section#section-companies > div.noinner h2 {
+      text-align: center;
+      margin: 0 0 30px 0; }
+    section#section-companies > div.noinner nav {
+      text-align: center;
+      margin: 0 0 30px 0; }
+      section#section-companies > div.noinner nav span {
+        cursor: pointer; }
+    section#section-companies > div.noinner div.swiper {
+      padding: 0 0 50px 0; }
+      section#section-companies > div.noinner div.swiper:before {
+        content: "";
+        position: absolute;
+        z-index: 2;
+        background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0.8) 46.8%, rgba(255, 255, 255, 0) 100%);
+        left: 0;
+        right: calc(50% + 600px);
+        top: 0;
+        bottom: 50px; }
+      section#section-companies > div.noinner div.swiper:after {
+        content: "";
+        position: absolute;
+        z-index: 2;
+        background: linear-gradient(-90deg, #FFFFFF 0%, rgba(255, 255, 255, 0.8) 46.8%, rgba(255, 255, 255, 0) 100%);
+        right: 0;
+        left: calc(50% + 600px);
+        top: 0;
+        bottom: 50px; }
+    section#section-companies > div.noinner ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row; }
+      section#section-companies > div.noinner ul li {
+        padding: 0 5px;
+        flex: 0 0 174px; }
+        section#section-companies > div.noinner ul li div.inner {
+          background: #fff;
+          padding: 10px 20px;
+          border-radius: 4px; }
+          section#section-companies > div.noinner ul li div.inner img {
+            filter: grayscale(100%);
+            transition: filter 0.3s; }
+          section#section-companies > div.noinner ul li div.inner:hover img {
+            filter: none; }
+          section#section-companies > div.noinner ul li div.inner p {
+            text-align: center;
+            color: #848484;
+            font-size: 14px;
+            line-height: 19px; }
 section#section-why > div.inner h2 {
   text-align: center;
   margin: 0 0 20px 0; }

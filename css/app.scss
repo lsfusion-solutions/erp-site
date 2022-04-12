@@ -533,18 +533,120 @@ section{
     }
   }
   &#section-others{
-    background-color: #0062BD;
+    background: #0062BD url(../imgs/other-bg1.svg) no-repeat left 0 top 100%;
     & > div.inner{
-
+      background: transparent url(../imgs/other-bg2.svg) no-repeat left 800px top 198px;
+      h2{
+        color: #fff;
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0 0 20px 0;
+      }
+      ul.list4{
+        li{
+          & > .inner{
+            background: transparent url(../imgs/icons/other.svg) no-repeat right 15px top 15px;
+            transition: background-color 0.3s;
+            &:hover{
+              background-color: #046cc3;
+            }
+            p{
+              color: #fff;
+              font-size: 16px;
+              line-height: 22px;
+              padding: 0 30px 0 0;
+            }
+            strong{
+              color: #fff;
+              font-size: 16px;
+              line-height: 22px;
+            }
+          }
+        }
+      }
     }
   }
   &#section-reviews{
     background-color: #EFF6F8;
     & > div.inner{
-
+      h2{
+        margin: 0 0 20px 0;
+        a{
+          float: right;
+          @extend .btn-empty-invert;
+        }
+      }
+      ul.list3{
+        li{
+          & > .inner{
+            text-decoration: none;
+            display: block;
+            background-color: #fff;
+            transition: background-color 0.3s;
+            &:hover{
+              background: #E1F7FE;
+            }
+            p{
+              font-size: 16px;
+              line-height: 22px;
+              margin: 0 0 10px 0;
+            }
+            a{
+              display: block;
+              margin: 0 0 10px 0;
+              font-size: 14px;
+              line-height: 19px;
+            }
+            em{
+              color: #596062;
+              font-size: 14px;
+              line-height: 19px;
+              font-style: normal;
+            }
+          }
+        }
+      }
     }
   }
-
+  &#section-news{
+    background-color: #fff;
+    & > div.inner{
+      h2{
+        margin: 0 0 20px 0;
+      }
+      ul.list3{
+        li{
+          & > .inner{
+            text-decoration: none;
+            display: block;
+            transition: background-color 0.3s;
+            &:hover{
+              background: #E1F7FE;
+            }
+            h3{
+              color: #2C2A28;
+              font-size: 16px;
+              line-height: 22px;
+              margin: 0 0 15px;
+              font-weight: 700;
+            }
+            p{
+              color: #596062;
+              margin: 0 0 15px 0;
+              font-size: 14px;
+              line-height: 19px;
+            }
+            em{
+              color: #C1C1C1;
+              font-size: 12px;
+              line-height: 16px;
+              font-style: normal;
+            }
+          }
+        }
+      }
+    }
+  }
 
   &.inner{
     padding: 30px 20px;
@@ -645,6 +747,15 @@ ul.list6{
     }
   }
 }
+div.ulbox{
+  margin: 0 -15px;
+  @media (max-width: 767px){
+    margin: 0 -12px;
+  }
+  @media (max-width: 479px){
+    margin: 0;
+  }
+}
 ul.list4{
   list-style: none;
   @include clearfix;
@@ -656,7 +767,7 @@ ul.list4{
     padding: 10px 15px;
     @media (min-width: 768px) {
       width: 25%;
-      flex: 0 0 33.33333%;
+      flex: 0 0 25%;
     }
     @media (max-width: 767px){
       width: 50%;
@@ -722,7 +833,7 @@ ul.list3{
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: flex;
-    & > div.inner{
+    & > .inner{
       border: 1px solid #F2F2F2;
       border-radius: 4px;
       padding: 22px 20px;
@@ -910,7 +1021,11 @@ body > footer{
             padding: 0 0 0 27px;
             transition: background 0.3s;
           }
-
+          &.yt{
+            a{
+              padding-bottom: 1px;
+            }
+          }
           $classes: sl,em,blog,ln,yt;
           @each $class in $classes{
             &.#{$class} {

@@ -638,20 +638,26 @@ section#section-companies {
     section#section-companies > div.inner nav span {
       cursor: pointer; }
   section#section-companies > div.inner ul {
-    list-style: none; }
+    list-style: none;
+    display: flex;
+    flex-direction: row; }
     section#section-companies > div.inner ul li {
-      float: left;
-      background: #fff;
-      border-radius: 4px;
-      width: 174px;
-      margin: 0 10px; }
+      padding: 0 5px;
+      flex: 0 0 174px; }
       section#section-companies > div.inner ul li div.inner {
-        padding: 10px 20px; }
-      section#section-companies > div.inner ul li p {
-        text-align: center;
-        color: #848484;
-        font-size: 14px;
-        line-height: 19px; }
+        background: #fff;
+        padding: 10px 20px;
+        border-radius: 4px; }
+        section#section-companies > div.inner ul li div.inner img {
+          filter: grayscale(100%);
+          transition: filter 0.3s; }
+        section#section-companies > div.inner ul li div.inner:hover img {
+          filter: none; }
+        section#section-companies > div.inner ul li div.inner p {
+          text-align: center;
+          color: #848484;
+          font-size: 14px;
+          line-height: 19px; }
 section#section-why > div.inner h2 {
   text-align: center;
   margin: 0 0 20px 0; }

@@ -411,23 +411,31 @@ section{
       }
       ul{
         list-style: none;
+        display: flex;
+        flex-direction: row;
         li{
-          float: left;
-          background: #fff;
-          border-radius: 4px;
-          width: 174px;
-          margin: 0 10px;
-          div.inner{
+          padding: 0 5px;
+          flex: 0 0 174px;
+          div.inner {
+            background: #fff;
             padding: 10px 20px;
-          }
-          img{
+            border-radius: 4px;
 
-          }
-          p{
-            text-align: center;
-            color: #848484;
-            font-size: 14px;
-            line-height: 19px;
+            img {
+              filter: grayscale(100%);
+              transition: filter 0.3s;
+            }
+            &:hover {
+              img {
+                filter: none;
+              }
+            }
+            p {
+              text-align: center;
+              color: #848484;
+              font-size: 14px;
+              line-height: 19px;
+            }
           }
         }
       }

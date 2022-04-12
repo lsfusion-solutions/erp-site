@@ -254,7 +254,7 @@ em {
   /* Non-prefixed version, currently
                supported by Chrome, Edge, Opera and Firefox */ }
 
-.btn-default, .btn, section#section-companies > div.inner nav span.active, .btn-empty, .btn-invert, .btn-empty-invert, section#section-companies > div.inner nav span:not(.active) {
+.btn-default, .btn, section#section-companies > div.inner nav span.active, section#section-best > div.inner > nav span.active, .btn-empty, .btn-invert, .btn-empty-invert, section#section-companies > div.inner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner div.info ul li, section#section-reviews > div.inner h2 a {
   position: relative;
   text-decoration: none;
   transition: background-color .3s, border-color 0.3s, color 0.3s;
@@ -268,17 +268,17 @@ em {
   white-space: nowrap;
   display: inline-block; }
   @media (max-width: 479px) {
-    .btn-default, .btn, section#section-companies > div.inner nav span.active, .btn-empty, .btn-invert, .btn-empty-invert, section#section-companies > div.inner nav span:not(.active) {
+    .btn-default, .btn, section#section-companies > div.inner nav span.active, section#section-best > div.inner > nav span.active, .btn-empty, .btn-invert, .btn-empty-invert, section#section-companies > div.inner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner div.info ul li, section#section-reviews > div.inner h2 a {
       padding: 10px 18px; } }
-  .btn-default:active, .btn:active, section#section-companies > div.inner nav span.active:active, .btn-empty:active, .btn-invert:active, .btn-empty-invert:active, section#section-companies > div.inner nav span:active:not(.active) {
+  .btn-default:active, .btn:active, section#section-companies > div.inner nav span.active:active, section#section-best > div.inner > nav span.active:active, .btn-empty:active, .btn-invert:active, .btn-empty-invert:active, section#section-companies > div.inner nav span:active:not(.active), section#section-best > div.inner > nav span:active:not(.active), section#section-best > div.inner div.info ul li:active, section#section-reviews > div.inner h2 a:active {
     top: 1px; }
 
-.btn, section#section-companies > div.inner nav span.active {
+.btn, section#section-companies > div.inner nav span.active, section#section-best > div.inner > nav span.active {
   background: #26C4F7;
   color: #fff !important; }
-  .btn:hover, section#section-companies > div.inner nav span.active:hover {
+  .btn:hover, section#section-companies > div.inner nav span.active:hover, section#section-best > div.inner > nav span.active:hover {
     background-color: #0295FF; }
-  .btn:active, section#section-companies > div.inner nav span.active:active {
+  .btn:active, section#section-companies > div.inner nav span.active:active, section#section-best > div.inner > nav span.active:active {
     background-color: #0B85DE; }
 
 .btn-empty {
@@ -303,13 +303,13 @@ em {
     background-color: #F1F8FA;
     color: #26C4F7; }
 
-.btn-empty-invert, section#section-companies > div.inner nav span:not(.active) {
+.btn-empty-invert, section#section-companies > div.inner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner div.info ul li, section#section-reviews > div.inner h2 a {
   background: transparent !important;
   border: 1px solid rgba(132, 132, 132, 0.2);
   color: #0E84BC !important; }
-  .btn-empty-invert:hover, section#section-companies > div.inner nav span:hover:not(.active) {
+  .btn-empty-invert:hover, section#section-companies > div.inner nav span:hover:not(.active), section#section-best > div.inner > nav span:hover:not(.active), section#section-best > div.inner div.info ul li:hover, section#section-reviews > div.inner h2 a:hover {
     border-color: #848484; }
-  .btn-empty-invert:active, section#section-companies > div.inner nav span:active:not(.active) {
+  .btn-empty-invert:active, section#section-companies > div.inner nav span:active:not(.active), section#section-best > div.inner > nav span:active:not(.active), section#section-best > div.inner div.info ul li:active, section#section-reviews > div.inner h2 a:active {
     border-color: #848484; }
 
 html, body {
@@ -706,10 +706,123 @@ section#section-cases {
     font-size: 20px;
     line-height: 24px;
     margin: 0 0 20px 0; }
+section#section-best > div.inner:after {
+  content: "";
+  display: table;
+  clear: both; }
+section#section-best > div.inner > nav {
+  text-align: center;
+  margin: 0 0 20px 0; }
+section#section-best > div.inner div.videos {
+  margin: 0 0 20px 0; }
+section#section-best > div.inner div.info {
+  float: left;
+  width: 50%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  section#section-best > div.inner div.info h2 {
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0 0 20px 0; }
+  section#section-best > div.inner div.info p {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 0 20px 0; }
+    section#section-best > div.inner div.info p em {
+      font-style: normal;
+      color: #26C4F7; }
+  section#section-best > div.inner div.info ul {
+    list-style: none; }
+section#section-best > div.inner div.img {
+  float: right;
+  width: 50%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #F7FBFC;
+  border-radius: 4px;
+  padding: 12px; }
+  section#section-best > div.inner div.img img {
+    max-width: 100%;
+    display: block;
+    background-color: #fff; }
 section#section-others {
-  background-color: #0062BD; }
+  background: #0062BD url(../imgs/other-bg1.svg) no-repeat left 0 top 100%; }
+  section#section-others > div.inner {
+    background: transparent url(../imgs/other-bg2.svg) no-repeat left 800px top 198px; }
+    section#section-others > div.inner h2 {
+      color: #fff;
+      font-size: 20px;
+      line-height: 24px;
+      margin: 0 0 20px 0; }
+    section#section-others > div.inner ul.list4 li > .inner {
+      background: transparent url(../imgs/icons/other.svg) no-repeat right 15px top 15px;
+      transition: background-color 0.3s; }
+      section#section-others > div.inner ul.list4 li > .inner:hover {
+        background-color: #046cc3; }
+      section#section-others > div.inner ul.list4 li > .inner p {
+        color: #fff;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 0 30px 0 0; }
+      section#section-others > div.inner ul.list4 li > .inner strong {
+        color: #fff;
+        font-size: 16px;
+        line-height: 22px; }
 section#section-reviews {
   background-color: #EFF6F8; }
+  section#section-reviews > div.inner h2 {
+    margin: 0 0 20px 0; }
+    section#section-reviews > div.inner h2 a {
+      float: right; }
+  section#section-reviews > div.inner ul.list3 li > .inner {
+    text-decoration: none;
+    display: block;
+    background-color: #fff;
+    transition: background-color 0.3s; }
+    section#section-reviews > div.inner ul.list3 li > .inner:hover {
+      background: #E1F7FE; }
+    section#section-reviews > div.inner ul.list3 li > .inner p {
+      font-size: 16px;
+      line-height: 22px;
+      margin: 0 0 10px 0; }
+    section#section-reviews > div.inner ul.list3 li > .inner a {
+      display: block;
+      margin: 0 0 10px 0;
+      font-size: 14px;
+      line-height: 19px; }
+    section#section-reviews > div.inner ul.list3 li > .inner em {
+      color: #596062;
+      font-size: 14px;
+      line-height: 19px;
+      font-style: normal; }
+section#section-news {
+  background-color: #fff; }
+  section#section-news > div.inner h2 {
+    margin: 0 0 20px 0; }
+  section#section-news > div.inner ul.list3 li > .inner {
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s; }
+    section#section-news > div.inner ul.list3 li > .inner:hover {
+      background: #E1F7FE; }
+    section#section-news > div.inner ul.list3 li > .inner h3 {
+      color: #2C2A28;
+      font-size: 16px;
+      line-height: 22px;
+      margin: 0 0 15px;
+      font-weight: 700; }
+    section#section-news > div.inner ul.list3 li > .inner p {
+      color: #596062;
+      margin: 0 0 15px 0;
+      font-size: 14px;
+      line-height: 19px; }
+    section#section-news > div.inner ul.list3 li > .inner em {
+      color: #C1C1C1;
+      font-size: 12px;
+      line-height: 16px;
+      font-style: normal; }
 section.inner {
   padding: 30px 20px; }
   @media (min-width: 1110px) {
@@ -799,6 +912,15 @@ ul.list6 {
         line-height: 19px;
         margin: 0; }
 
+div.ulbox {
+  margin: 0 -15px; }
+  @media (max-width: 767px) {
+    div.ulbox {
+      margin: 0 -12px; } }
+  @media (max-width: 479px) {
+    div.ulbox {
+      margin: 0; } }
+
 ul.list4 {
   list-style: none;
   margin: 0 0 20px 0;
@@ -818,7 +940,7 @@ ul.list4 {
     @media (min-width: 768px) {
       ul.list4 li {
         width: 25%;
-        flex: 0 0 33.33333%; } }
+        flex: 0 0 25%; } }
     @media (max-width: 767px) {
       ul.list4 li {
         width: 50%;
@@ -878,20 +1000,20 @@ ul.list3 {
         width: 100%;
         flex: 0 0 100%;
         padding: 10px 0; } }
-    ul.list3 li > div.inner {
+    ul.list3 li > .inner {
       border: 1px solid #F2F2F2;
       border-radius: 4px;
       padding: 22px 20px;
       width: 100%; }
       @media (max-width: 767px) {
-        ul.list3 li > div.inner {
+        ul.list3 li > .inner {
           padding: 18px 15px; } }
-      ul.list3 li > div.inner h3 {
+      ul.list3 li > .inner h3 {
         font-size: 20px;
         line-height: 30px;
         font-weight: 400;
         margin: 0 0 20px 0; }
-      ul.list3 li > div.inner p {
+      ul.list3 li > .inner p {
         color: #848484;
         font-size: 14px;
         line-height: 19px;
@@ -1033,6 +1155,8 @@ body > footer {
       body > footer nav ul.social li a, body > footer nav ul.community li a {
         padding: 0 0 0 27px;
         transition: background 0.3s; }
+      body > footer nav ul.social li.yt a, body > footer nav ul.community li.yt a {
+        padding-bottom: 1px; }
       body > footer nav ul.social li.sl a, body > footer nav ul.community li.sl a {
         background: url(../imgs/icons/sl.svg) no-repeat 0 0; }
         body > footer nav ul.social li.sl a:hover, body > footer nav ul.community li.sl a:hover {

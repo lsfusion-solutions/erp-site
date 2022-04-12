@@ -583,6 +583,9 @@ section#section-header {
       transition: background 0.3s;
       padding: 100px 0 30px;
       min-height: 425px; } }
+  @media (max-width: 1109px) {
+    section#section-header > div.inner {
+      background-image: none !important; } }
   section#section-header > div.inner h1 {
     color: #fff;
     font-size: 35px;
@@ -606,15 +609,32 @@ section#section-header {
     margin: 0 0 30px 0; }
     section#section-header > div.inner table tr:nth-child(1) td {
       color: #7DE2FF;
+      font-weight: 700;
       font-size: 35px;
       line-height: 42px;
-      font-weight: 700;
-      padding: 0 70px 6px 0; }
+      padding: 0 70px 6px 0;
+      white-space: nowrap; }
+      @media (max-width: 767px) {
+        section#section-header > div.inner table tr:nth-child(1) td {
+          font-size: 32px;
+          line-height: 36px;
+          padding: 0 50px 6px 0; } }
+      @media (max-width: 479px) {
+        section#section-header > div.inner table tr:nth-child(1) td {
+          font-size: 28px;
+          line-height: 32px;
+          padding: 0 20px 6px 0; } }
     section#section-header > div.inner table tr:nth-child(2) td {
       color: #fff;
       font-size: 14px;
       line-height: 19px;
       padding: 0 70px 0 0; }
+      @media (max-width: 767px) {
+        section#section-header > div.inner table tr:nth-child(2) td {
+          padding: 0 50px 0 0; } }
+      @media (max-width: 479px) {
+        section#section-header > div.inner table tr:nth-child(2) td {
+          padding: 0 20px 0 0; } }
   section#section-header > div.inner nav:after {
     content: "";
     display: table;
@@ -634,6 +654,11 @@ section#section-companies {
     section#section-companies > div.noinner h2 {
       text-align: center;
       margin: 0 0 30px 0; }
+      @media (max-width: 1109px) {
+        section#section-companies > div.noinner h2 {
+          padding: 0 20px; }
+          section#section-companies > div.noinner h2 br {
+            display: none; } }
     section#section-companies > div.noinner nav {
       text-align: center;
       margin: 0 0 30px 0; }
@@ -692,7 +717,8 @@ section#section-why > div.inner ul.list3 li > div.inner {
   section#section-why > div.inner ul.list3 li > div.inner h3 {
     font-size: 16px;
     line-height: 21px;
-    margin: 0 0 5px 0; }
+    margin: 0 0 5px 0;
+    font-weight: 700; }
   section#section-why > div.inner ul.list3 li > div.inner p {
     font-size: 14px;
     line-height: 19px;
@@ -710,6 +736,79 @@ section#section-why > div.inner ul.list3 li > div.inner {
 section#section-modules > div.inner h2 {
   text-align: center;
   margin: 0 0 20px 0; }
+  @media (max-width: 1109px) {
+    section#section-modules > div.inner h2 {
+      padding: 0 20px; }
+      section#section-modules > div.inner h2 br {
+        display: none; } }
+section#section-modules > div.inner ul.list2 li > .inner {
+  background: #F7FBFC;
+  transition: background-color 0.3s;
+  position: relative; }
+  section#section-modules > div.inner ul.list2 li > .inner:hover {
+    background: #E1F7FE; }
+  section#section-modules > div.inner ul.list2 li > .inner h3 {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    margin: 0 0 5px 0; }
+  section#section-modules > div.inner ul.list2 li > .inner p {
+    margin: 0 0 25px 0; }
+  section#section-modules > div.inner ul.list2 li > .inner > a {
+    font-size: 14px;
+    position: absolute;
+    bottom: 15px;
+    left: 20px; }
+    section#section-modules > div.inner ul.list2 li > .inner > a:after {
+      content: " >";
+      position: absolute;
+      right: -12px;
+      top: 1px; }
+section#section-modules > div.inner ul.list4 li > .inner {
+  color: #2C2A28;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 600;
+  background-repeat: no-repeat;
+  background-position: 15px 15px;
+  padding-left: 62px; }
+  section#section-modules > div.inner ul.list4 li > .inner:hover {
+    background-color: #E1F7FE; }
+section#section-modules > div.inner ul.list4 li:nth-child(1) > .inner {
+  background-image: url(../imgs/modules/1.svg); }
+section#section-modules > div.inner ul.list4 li:nth-child(2) > .inner {
+  background-image: url(../imgs/modules/2.svg); }
+section#section-modules > div.inner ul.list4 li:nth-child(3) > .inner {
+  background-image: url(../imgs/modules/3.svg); }
+section#section-modules > div.inner ul.list4 li:nth-child(4) > .inner {
+  background-image: url(../imgs/modules/4.svg); }
+section#section-modules > div.inner ul.list4 li:nth-child(5) > .inner {
+  background-image: url(../imgs/modules/5.svg); }
+section#section-modules > div.inner ul.list4 li:nth-child(6) > .inner {
+  background-image: url(../imgs/modules/6.svg); }
+section#section-modules > div.inner ul.list4 li:nth-child(7) > .inner {
+  background-image: url(../imgs/modules/7.svg); }
+section#section-modules > div.inner ul.list4 li:nth-child(8) > .inner {
+  background-image: url(../imgs/modules/8.svg); }
+section#section-modules > div.inner ul.list4 li:nth-child(9) > .inner {
+  background-image: url(../imgs/modules/9.svg); }
+section#section-modules > div.inner ul.list4 li:nth-child(10) > .inner {
+  background-image: url(../imgs/modules/10.svg); }
+section#section-modules > div.inner ul.list4 li:nth-child(11) > .inner {
+  background-image: url(../imgs/modules/11.svg); }
+section#section-modules > div.inner ul.list4 li:nth-child(12) > .inner {
+  background-image: url(../imgs/modules/12.svg); }
+section#section-modules > div.inner > a {
+  position: relative;
+  left: 50%;
+  margin-left: -75px; }
+  section#section-modules > div.inner > a:after {
+    content: " >";
+    position: absolute;
+    right: -12px;
+    top: 1px; }
 section#section-cases {
   background-color: #EFF6F8; }
   section#section-cases > div.inner h2 {
@@ -966,10 +1065,14 @@ ul.list4 {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: flex; }
-    @media (min-width: 768px) {
+    @media (min-width: 1110px) {
       ul.list4 li {
         width: 25%;
         flex: 0 0 25%; } }
+    @media (max-width: 1109px) {
+      ul.list4 li {
+        width: 33.33333%;
+        flex: 0 0 33.33333%; } }
     @media (max-width: 767px) {
       ul.list4 li {
         width: 50%;

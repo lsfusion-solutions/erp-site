@@ -664,20 +664,38 @@ section{
             }
             color: #fff;
             h3{
-
+              font-size: 20px;
+              line-height: 24px;
             }
             dl{
               @include clearfix;
+              margin: 0 0 25px 0;
               dt{
                 float: left;
                 clear: both;
+                font-size: 14px;
+                line-height: 22px;
               }
               dd{
                 float: right;
+                font-size: 16px;
+                line-height: 22px;
               }
             }
+            position: relative;
             & > a{
+              font-size: 14px;
+              position: absolute;
+              bottom: 15px;
+              left: 20px;
               color: #fff;
+              text-decoration: none;
+              &:after{
+                content: " >";
+                position: absolute;
+                right: -12px;
+                top: 1px;
+              }
             }
           }
         }

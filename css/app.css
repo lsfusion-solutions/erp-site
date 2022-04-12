@@ -816,20 +816,40 @@ section#section-cases {
   section#section-cases > div.inner ul.list4 li > .inner {
     background: #26C4F7;
     transition: background-color 0.3s;
-    color: #fff; }
+    color: #fff;
+    position: relative; }
     section#section-cases > div.inner ul.list4 li > .inner:hover {
       background: #1ba7e6; }
-    section#section-cases > div.inner ul.list4 li > .inner dl:after {
-      content: "";
-      display: table;
-      clear: both; }
-    section#section-cases > div.inner ul.list4 li > .inner dl dt {
-      float: left;
-      clear: both; }
-    section#section-cases > div.inner ul.list4 li > .inner dl dd {
-      float: right; }
+    section#section-cases > div.inner ul.list4 li > .inner h3 {
+      font-size: 20px;
+      line-height: 24px; }
+    section#section-cases > div.inner ul.list4 li > .inner dl {
+      margin: 0 0 25px 0; }
+      section#section-cases > div.inner ul.list4 li > .inner dl:after {
+        content: "";
+        display: table;
+        clear: both; }
+      section#section-cases > div.inner ul.list4 li > .inner dl dt {
+        float: left;
+        clear: both;
+        font-size: 14px;
+        line-height: 22px; }
+      section#section-cases > div.inner ul.list4 li > .inner dl dd {
+        float: right;
+        font-size: 16px;
+        line-height: 22px; }
     section#section-cases > div.inner ul.list4 li > .inner > a {
-      color: #fff; }
+      font-size: 14px;
+      position: absolute;
+      bottom: 15px;
+      left: 20px;
+      color: #fff;
+      text-decoration: none; }
+      section#section-cases > div.inner ul.list4 li > .inner > a:after {
+        content: " >";
+        position: absolute;
+        right: -12px;
+        top: 1px; }
   section#section-cases > div.inner > h3 {
     font-size: 20px;
     line-height: 24px;

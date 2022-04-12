@@ -579,7 +579,8 @@ section#section-header {
   background: #0062BD; }
   @media (min-width: 1110px) {
     section#section-header > div.inner {
-      background: url(../imgs/header.svg) no-repeat right top;
+      background: url(../imgs/header-1.svg) no-repeat right top;
+      transition: background 0.3s;
       padding: 100px 0 30px;
       min-height: 425px; } }
   section#section-header > div.inner h1 {

@@ -11,4 +11,15 @@ $(document).ready(function() {
     })
     $(".menu-link").click(function(e){$(this).toggleClass("active");e.preventDefault()})
 
+    setInterval(function(){
+        let currImg = $("#section-header > .inner").css("backgroundImage");
+        let oldIndex = parseInt( currImg.match(/\d+/)[0] );
+
+        let newIndex = oldIndex % 12 + 1;
+
+        currImg = currImg.replace("-" + oldIndex, "-" + newIndex);
+
+        $("#section-header > .inner").css("backgroundImage", currImg);
+
+    }, 1000);
 })

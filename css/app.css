@@ -640,9 +640,15 @@ section#section-header {
     display: table;
     clear: both; }
   section#section-header > div.inner nav a {
-    float: left; }
+    float: left;
+    width: 155px; }
     section#section-header > div.inner nav a:first-child {
       margin-right: 30px; }
+    @media (max-width: 479px) {
+      section#section-header > div.inner nav a {
+        width: 100%;
+        margin: 0 0 10px 0;
+        text-align: center; } }
 section#section-companies {
   background: #EFF6F8; }
   section#section-companies > div.noinner {
@@ -741,29 +747,6 @@ section#section-modules > div.inner h2 {
       padding: 0 20px; }
       section#section-modules > div.inner h2 br {
         display: none; } }
-section#section-modules > div.inner ul.list2 li > .inner {
-  background: #F7FBFC;
-  transition: background-color 0.3s;
-  position: relative; }
-  section#section-modules > div.inner ul.list2 li > .inner:hover {
-    background: #E1F7FE; }
-  section#section-modules > div.inner ul.list2 li > .inner h3 {
-    font-size: 16px;
-    line-height: 22px;
-    font-weight: 700;
-    margin: 0 0 5px 0; }
-  section#section-modules > div.inner ul.list2 li > .inner p {
-    margin: 0 0 25px 0; }
-  section#section-modules > div.inner ul.list2 li > .inner > a {
-    font-size: 14px;
-    position: absolute;
-    bottom: 15px;
-    left: 20px; }
-    section#section-modules > div.inner ul.list2 li > .inner > a:after {
-      content: " >";
-      position: absolute;
-      right: -12px;
-      top: 1px; }
 section#section-modules > div.inner ul.list4 li > .inner {
   color: #2C2A28;
   text-decoration: none;
@@ -1308,7 +1291,11 @@ body > footer {
         padding: 0 0 0 27px;
         transition: background 0.3s; }
       body > footer nav ul.social li.yt a, body > footer nav ul.community li.yt a {
-        padding-bottom: 1px; }
+        background-size: 16px !important;
+        background-position: 3px 0 !important; }
+      body > footer nav ul.social li.ln a, body > footer nav ul.community li.ln a {
+        background-size: 16px !important;
+        background-position: 3px 2px !important; }
       body > footer nav ul.social li.sl a, body > footer nav ul.community li.sl a {
         background: url(../imgs/icons/sl.svg) no-repeat 0 0; }
         body > footer nav ul.social li.sl a:hover, body > footer nav ul.community li.sl a:hover {

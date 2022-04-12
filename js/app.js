@@ -22,4 +22,9 @@ $(document).ready(function() {
         $("#section-header > .inner").css("backgroundImage", currImg);
 
     }, 1000);
+    $(".contactus").click(function(e){
+        alert("TODO: Contact Form will appear")
+        e.preventDefault()
+        return false;
+    })
 })

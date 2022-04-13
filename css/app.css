@@ -671,13 +671,14 @@ section#section-header {
     content: "";
     display: table;
     clear: both; }
-  section#section-header > div.inner nav a {
+  section#section-header > div.inner nav a, section#section-header > div.inner nav span {
     float: left;
-    width: 155px; }
-    section#section-header > div.inner nav a:first-child {
+    width: 155px;
+    cursor: pointer; }
+    section#section-header > div.inner nav a:first-child, section#section-header > div.inner nav span:first-child {
       margin-right: 30px; }
     @media (max-width: 479px) {
-      section#section-header > div.inner nav a {
+      section#section-header > div.inner nav a, section#section-header > div.inner nav span {
         width: 100%;
         margin: 0 0 10px 0;
         text-align: center; } }

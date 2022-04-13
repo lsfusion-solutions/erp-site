@@ -443,9 +443,10 @@ section{
       }
       nav{
         @include clearfix;
-        a{
+        a, span{
           float: left;
           width: 155px;
+          cursor: pointer;
           &:first-child{
             margin-right: 30px;
           }

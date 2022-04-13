@@ -10,9 +10,10 @@ $(document).ready(function() {
         }
     })
     $(".menu-link").click(function(e){$(this).toggleClass("active");e.preventDefault()})
-
-
+    
     let currentSlide = 1;
+    let images = new Image();
+    images.src = "imgs/header-2.svg";
     setInterval(function(){
         let nextSlide = currentSlide % 12 + 1;
         $("#section-header > .inner").addClass("bg" + nextSlide).removeClass("bg" + currentSlide);

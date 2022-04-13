@@ -17,6 +17,11 @@ $(document).ready(function() {
         let nextSlide = currentSlide % 12 + 1;
         $("#section-header > .inner").addClass("bg" + nextSlide).removeClass("bg" + currentSlide);
         currentSlide = nextSlide;
+
+        let nextPreloadSlide = nextSlide % 12 + 1;
+        let images = new Image();
+        images.src = "imgs/header-" + nextPreloadSlide + ".svg";
+
     }, 5000);
 
     $(".contactus").click(function(e){

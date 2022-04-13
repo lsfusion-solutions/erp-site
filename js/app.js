@@ -20,8 +20,9 @@ $(document).ready(function() {
     }, 5000);
 
     $(".contactus").click(function(e){
-        alert("TODO: Contact Form will appear")
+        $("#contactuspopup").popup({closeelement:".close"}).popup("show");
         e.preventDefault()
         return false;
     })
+    $("#contactuspopup form").validate();
 })

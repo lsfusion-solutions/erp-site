@@ -254,7 +254,7 @@ em {
   /* Non-prefixed version, currently
                supported by Chrome, Edge, Opera and Firefox */ }
 
-.btn-default, .btn, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, .btn-empty, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner div.info ul li, section#section-reviews > div.inner h2 a {
+.btn-default, .btn, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, div.popup > div.inner input[type="submit"], .btn-empty, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner div.info ul li, section#section-reviews > div.inner h2 a {
   position: relative;
   text-decoration: none;
   transition: background-color .3s, border-color 0.3s, color 0.3s;
@@ -268,17 +268,17 @@ em {
   white-space: nowrap;
   display: inline-block; }
   @media (max-width: 479px) {
-    .btn-default, .btn, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, .btn-empty, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner div.info ul li, section#section-reviews > div.inner h2 a {
+    .btn-default, .btn, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, div.popup > div.inner input[type="submit"], .btn-empty, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner div.info ul li, section#section-reviews > div.inner h2 a {
       padding: 10px 18px; } }
-  .btn-default:active, .btn:active, section#section-companies > div.noinner nav span.active:active, section#section-best > div.inner > nav span.active:active, .btn-empty:active, .btn-invert:active, .btn-empty-invert:active, section#section-companies > div.noinner nav span:active:not(.active), section#section-best > div.inner > nav span:active:not(.active), section#section-best > div.inner div.info ul li:active, section#section-reviews > div.inner h2 a:active {
+  .btn-default:active, .btn:active, section#section-companies > div.noinner nav span.active:active, section#section-best > div.inner > nav span.active:active, div.popup > div.inner input[type="submit"]:active, .btn-empty:active, .btn-invert:active, .btn-empty-invert:active, section#section-companies > div.noinner nav span:active:not(.active), section#section-best > div.inner > nav span:active:not(.active), section#section-best > div.inner div.info ul li:active, section#section-reviews > div.inner h2 a:active {
     top: 1px; }
 
-.btn, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active {
+.btn, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, div.popup > div.inner input[type="submit"] {
   background: #26C4F7;
   color: #fff !important; }
-  .btn:hover, section#section-companies > div.noinner nav span.active:hover, section#section-best > div.inner > nav span.active:hover {
+  .btn:hover, section#section-companies > div.noinner nav span.active:hover, section#section-best > div.inner > nav span.active:hover, div.popup > div.inner input[type="submit"]:hover {
     background-color: #0295FF; }
-  .btn:active, section#section-companies > div.noinner nav span.active:active, section#section-best > div.inner > nav span.active:active {
+  .btn:active, section#section-companies > div.noinner nav span.active:active, section#section-best > div.inner > nav span.active:active, div.popup > div.inner input[type="submit"]:active {
     background-color: #0B85DE; }
 
 .btn-empty {
@@ -1460,5 +1460,98 @@ body > footer {
             color: #F1F8FA; }
           body > footer #absfooter ul li a:active {
             color: #848484; }
+
+div.popup {
+  background: #FFFFFF;
+  border-radius: 8px;
+  position: relative;
+  max-width: 95%;
+  width: 550px;
+  display: none; }
+  div.popup > span.close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #F1F8FA;
+    border-radius: 4px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E84BC;
+    transition: color 0.3s, border-color 0.3s; }
+    div.popup > span.close:hover {
+      border: 1px solid #0E84BC; }
+  div.popup > div.inner {
+    padding: 50px 60px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    @media (max-width: 767px) {
+      div.popup > div.inner {
+        padding: 50px 40px; } }
+    @media (max-width: 479px) {
+      div.popup > div.inner {
+        padding: 30px 20px; } }
+    div.popup > div.inner h3 {
+      color: #2C2A28;
+      font-size: 30px;
+      line-height: 36px;
+      margin: 0 0 10px 0; }
+    div.popup > div.inner p {
+      font-size: 16px;
+      line-height: 22px;
+      margin: 0 0 20px 0; }
+    div.popup > div.inner input[type="text"],
+    div.popup > div.inner input[type="email"],
+    div.popup > div.inner textarea {
+      display: block;
+      border: 1px solid #F2F2F2;
+      border-radius: 4px;
+      padding: 8px 15px;
+      font-size: 14px;
+      line-height: 20px;
+      font-family: Poppins, Montserrat, "Open Sans";
+      width: 100%;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      margin: 0 0 15px 0;
+      outline: none;
+      transition: color 0.3s, border-color 0.3s; }
+      div.popup > div.inner input[type="text"]:active,
+      div.popup > div.inner input[type="email"]:active,
+      div.popup > div.inner textarea:active {
+        border-color: #bfbfbf; }
+      div.popup > div.inner input[type="text"]:focus,
+      div.popup > div.inner input[type="email"]:focus,
+      div.popup > div.inner textarea:focus {
+        border-color: #d9d9d9; }
+      div.popup > div.inner input[type="text"].error,
+      div.popup > div.inner input[type="email"].error,
+      div.popup > div.inner textarea.error {
+        border-color: #ff0000; }
+      div.popup > div.inner input[type="text"]::placeholder,
+      div.popup > div.inner input[type="email"]::placeholder,
+      div.popup > div.inner textarea::placeholder {
+        color: #C1C1C1; }
+    div.popup > div.inner textarea {
+      height: 150px; }
+    div.popup > div.inner label.error {
+      font-size: 12px;
+      padding: 3px 0;
+      color: #ff0000;
+      display: block;
+      margin: -15px 0 15px 0; }
+    div.popup > div.inner div.buttons {
+      text-align: center;
+      padding: 30px 0 0 0; }
+    div.popup > div.inner input[type="submit"] {
+      margin: 0 auto;
+      text-align: center;
+      border: 0; }
 
 /*# sourceMappingURL=app.css.map */

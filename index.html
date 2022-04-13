@@ -583,11 +583,33 @@
     </div>
 </footer>
 
+<div id="contactuspopup" class="popup">
+    <span class="close">x</span>
+    <div class="inner">
+        <h3>Contact Us</h3>
+        <p>Any text can be there</p>
+        <form method="post" action="TODO">
+            <fieldset>
+                <input type="text" name="first_name" value="" placeholder="First name" />
+                <input type="text" name="last_name" value="" placeholder="Last name" />
+                <input type="email" name="email" value="" placeholder="Email*" required />
+                <input type="text" name="phone" value="" placeholder="Phone" />
+                <textarea name="comment" placeholder="Your comment goes here" rows="10" cols="6"></textarea>
+            </fieldset>
+            <div class="buttons">
+                <input type="submit" value="Submit" />
+            </div>
+        </form>
+    </div>
+</div>
+
 <script
         src="https://code.jquery.com/jquery-2.2.4.min.js"
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
         crossorigin="anonymous"></script>
 <script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
+<script src="js/jquery.popupoverlay.js"></script>
+<script src="js/jquery.validate.min.js"></script>
 <script src="js/app.js"></script>
 
 <script src="js/swiper-bundle.min.js"></script>

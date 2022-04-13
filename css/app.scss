@@ -1440,3 +1440,109 @@ body > footer{
     }
   }
 }
+div.popup{
+  background: #FFFFFF;
+  border-radius: 8px;
+  position: relative;
+  max-width: 95%;
+  width: 550px;
+  display: none;
+
+  & > span.close{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #F1F8FA;
+    border-radius: 4px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E84BC;
+    transition: color 0.3s, border-color 0.3s;
+    &:hover{
+      border: 1px solid #0E84BC;
+    }
+  }
+  & > div.inner{
+    padding: 50px 60px;
+    @media (max-width: 767px){
+      padding: 50px 40px;
+    }
+    @media (max-width: 479px){
+      padding: 30px 20px;
+    }
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    h3{
+      color: #2C2A28;
+      font-size: 30px;
+      line-height: 36px;
+      margin: 0 0 10px 0;
+    }
+    p{
+      font-size: 16px;
+      line-height: 22px;
+      margin: 0 0 20px 0;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea{
+      display: block;
+      border: 1px solid #F2F2F2;
+      border-radius: 4px;
+      padding: 8px 15px;
+      font-size: 14px;
+      line-height: 20px;
+      font-family: Poppins, Montserrat, "Open Sans";
+      width: 100%;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      margin: 0 0 15px 0;
+
+      outline: none;
+      transition: color 0.3s, border-color 0.3s;
+      &:active{
+        border-color: darken(#F2F2F2, 20);
+      }
+      &:focus{
+        border-color: darken(#F2F2F2, 10);
+      }
+      &.error{
+        border-color: #ff0000;
+      }
+      &[disabled]{
+
+      }
+      &::placeholder{
+        color: #C1C1C1;
+      }
+    }
+    textarea{
+      height: 150px;
+    }
+    label.error{
+      font-size: 12px;
+      padding: 3px 0;
+      color: #ff0000;
+      display: block;
+      margin: -15px 0 15px 0;
+    }
+    div.buttons{
+      text-align: center;
+      padding: 30px 0 0 0;
+    }
+    input[type="submit"]{
+      @extend .btn;
+      margin: 0 auto;
+      text-align: center;
+      border: 0;
+    }
+
+  }
+}

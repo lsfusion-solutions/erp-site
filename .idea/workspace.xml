@@ -6,7 +6,19 @@
       <change beforePath="$PROJECT_DIR$/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/header-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/header-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/header-10.svg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/header-10.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/header-11.svg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/header-11.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/header-12.svg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/header-12.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/header-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/header-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/header-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/header-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/header-4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/header-4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/header-5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/header-5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/header-6.svg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/header-6.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/header-7.svg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/header-7.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/header-8.svg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/header-8.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/header-9.svg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/header-9.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="app.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="757" column="26" selection-start-line="757" selection-start-column="26" selection-end-line="757" selection-end-column="26" />
+            <state relative-caret-position="213">
+              <caret line="342" column="38" selection-start-line="342" selection-start-column="38" selection-end-line="342" selection-end-column="38" />
               <folding>
                 <element signature="e#451#1678#0" />
                 <element signature="e#1719#6953#0" />
@@ -37,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            <state relative-caret-position="323">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -49,7 +61,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
+            <state relative-caret-position="-1795">
               <caret line="400" selection-start-line="400" selection-end-line="400" />
               <folding>
                 <element signature="n#ul#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -159,9 +171,9 @@
         <option value="$PROJECT_DIR$/404.html" />
         <option value="C:/Projects/Custom Commerce/Regency International/HTML Files/admin/functions.php" />
         <option value="$PROJECT_DIR$/css/swiper-bundle.min.css" />
-        <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/app.scss" />
+        <option value="$PROJECT_DIR$/js/app.js" />
       </list>
     </option>
   </component>
@@ -257,7 +269,7 @@
       <workItem from="1649074801068" duration="2711000" />
       <workItem from="1649162906011" duration="598000" />
       <workItem from="1649255976714" duration="596000" />
-      <workItem from="1649403865002" duration="19676000" />
+      <workItem from="1649403865002" duration="22232000" />
     </task>
     <task id="LOCAL-00001" summary="Added ingores files">
       <created>1644154751643</created>
@@ -406,11 +418,18 @@
       <option name="project" value="LOCAL" />
       <updated>1649767396577</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Header and footer">
+      <created>1649768905579</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1649768905579</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37949000" />
+    <option name="totallyTimeSpent" value="40505000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="654" y="3" width="1937" height="1047" extended-state="0" />
@@ -792,16 +811,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
+        <state relative-caret-position="-1795">
           <caret line="400" selection-start-line="400" selection-end-line="400" />
           <folding>
             <element signature="n#ul#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -816,8 +828,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="757" column="26" selection-start-line="757" selection-start-column="26" selection-end-line="757" selection-end-column="26" />
+        <state relative-caret-position="213">
+          <caret line="342" column="38" selection-start-line="342" selection-start-column="38" selection-end-line="342" selection-end-column="38" />
           <folding>
             <element signature="e#451#1678#0" />
             <element signature="e#1719#6953#0" />
@@ -829,6 +841,13 @@
             <element signature="e#12470#13337#0" />
             <element signature="e#12174#12945#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
         </state>
       </provider>
     </entry>

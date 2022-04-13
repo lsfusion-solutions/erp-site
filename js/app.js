@@ -11,17 +11,14 @@ $(document).ready(function() {
     })
     $(".menu-link").click(function(e){$(this).toggleClass("active");e.preventDefault()})
 
+
+    let currentSlide = 1;
     setInterval(function(){
-        let currImg = $("#section-header > .inner").css("backgroundImage");
-        let oldIndex = parseInt( currImg.match(/\d+/)[0] );
+        let nextSlide = currentSlide % 12 + 1;
+        $("#section-header > .inner").addClass("bg" + nextSlide).removeClass("bg" + currentSlide);
+        currentSlide = nextSlide;
+    }, 5000);
 
-        let newIndex = oldIndex % 12 + 1;
-
-        currImg = currImg.replace("-" + oldIndex, "-" + newIndex);
-
-        $("#section-header > .inner").css("backgroundImage", currImg);
-
-    }, 1000);
     $(".contactus").click(function(e){
         alert("TODO: Contact Form will appear")
         e.preventDefault()

@@ -579,10 +579,42 @@ section#section-header {
   background: #0062BD; }
   @media (min-width: 1110px) {
     section#section-header > div.inner {
-      background: url(../imgs/header-1.svg) no-repeat right top;
+      background: url(../imgs/header.svg) no-repeat right top;
       transition: background 0.3s;
       padding: 100px 0 30px;
-      min-height: 425px; } }
+      min-height: 425px;
+      position: relative; }
+      section#section-header > div.inner:after {
+        content: "";
+        width: 337px;
+        height: 337px;
+        position: absolute;
+        top: 29px;
+        left: 680px;
+        background: url(../imgs/header-1.svg);
+        transition: background 0.3s; }
+      section#section-header > div.inner.bg2:after {
+        background: url(../imgs/header-2.svg); }
+      section#section-header > div.inner.bg3:after {
+        background: url(../imgs/header-3.svg); }
+      section#section-header > div.inner.bg4:after {
+        background: url(../imgs/header-4.svg); }
+      section#section-header > div.inner.bg5:after {
+        background: url(../imgs/header-5.svg); }
+      section#section-header > div.inner.bg6:after {
+        background: url(../imgs/header-6.svg); }
+      section#section-header > div.inner.bg7:after {
+        background: url(../imgs/header-7.svg); }
+      section#section-header > div.inner.bg8:after {
+        background: url(../imgs/header-8.svg); }
+      section#section-header > div.inner.bg9:after {
+        background: url(../imgs/header-9.svg); }
+      section#section-header > div.inner.bg10:after {
+        background: url(../imgs/header-10.svg); }
+      section#section-header > div.inner.bg11:after {
+        background: url(../imgs/header-11.svg); }
+      section#section-header > div.inner.bg12:after {
+        background: url(../imgs/header-12.svg); } }
   @media (max-width: 1109px) {
     section#section-header > div.inner {
       background-image: none !important; } }
@@ -920,7 +952,8 @@ section#section-best > div.inner div.videos {
           background-image: url(../imgs/icons/play.svg);
           opacity: 0.75; }
         section#section-best > div.inner div.videos ul li a img {
-          max-width: 100%; }
+          max-width: 100%;
+          border-radius: 4px; }
 section#section-best > div.inner div.info {
   float: left;
   width: 50%;

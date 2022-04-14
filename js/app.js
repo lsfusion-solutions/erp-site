@@ -47,4 +47,30 @@ $(document).ready(function() {
             $("#section-companies ul").removeClass("fashion").removeClass("fmcg").addClass("farma");
         }
     })
+
+    $("#section-best nav span").click(function(){
+        if( $(this).hasClass("active") ){
+            return;
+        }
+        $("#section-best nav span.active").removeClass("active")
+        $(this).addClass("active")
+        $("#section-best .videos .swiper").hide().eq( $(this).index() ).show()
+    })
+
+    function getYouTubeCode(url){
+        return "0mAzlQwIPQI"
+    }
+    $("#section-best .videos a").click(function(e){
+        if( $("#videopopup").length == 0 ){
+            $("body").append(
+                '<div id="videopopup" class="popup"><span class="close">x</span><div class="inner"></div></div>'
+            )
+            $("#videopopup").popup({closeelement: ".close"});
+        }
+        $("#videopopup .inner").html( '<iframe src="https://www.youtube.com/embed/' + getYouTubeCode($(this).attr("href")) + '" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' )
+        $("#videopopup").popup("show");
+
+        e.preventDefault()
+        return false;
+    })
 })

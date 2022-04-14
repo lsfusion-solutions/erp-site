@@ -813,11 +813,14 @@ section{
       }
       div.videos{
         margin: 0 -10px 20px;
+        div.swiper {
+          padding: 0 0 30px 0;
+        }
         ul{
           list-style: none;
           display: flex;
           flex-direction: row;
-          flex-wrap: wrap;
+          flex-wrap: nowrap;
           margin: 0 0 20px 0;
           li{
             flex: 0 0 25%;
@@ -873,7 +876,7 @@ section{
           list-style: none;
           li{
             @extend .btn-empty-invert;
-
+            margin: 0 10px 10px 0;
           }
         }
       }
@@ -1455,6 +1458,25 @@ div.popup{
   position: relative;
   max-width: 95%;
   width: 550px;
+  &#videopopup{
+    width: 1024px;
+    & > .inner{
+      position: relative;
+      height: 0;
+      padding: 0 0 66.6666%;
+    }
+    iframe{
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+  }
+
   display: none;
 
   & > span.close{
@@ -1472,21 +1494,26 @@ div.popup{
     font-weight: 600;
     color: #0E84BC;
     transition: color 0.3s, border-color 0.3s;
+    z-index: 2;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
     &:hover{
       border: 1px solid #0E84BC;
     }
   }
+  padding: 50px 60px;
+  @media (max-width: 767px){
+    padding: 50px 40px;
+  }
+  @media (max-width: 479px){
+    padding: 30px 20px;
+  }
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
   & > div.inner{
-    padding: 50px 60px;
-    @media (max-width: 767px){
-      padding: 50px 40px;
-    }
-    @media (max-width: 479px){
-      padding: 30px 20px;
-    }
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
     h3{
       color: #2C2A28;
       font-size: 30px;

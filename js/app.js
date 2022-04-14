@@ -30,7 +30,9 @@ $(document).ready(function() {
         e.preventDefault()
         return false;
     })
-    $("#contactuspopup form").validate();
+    if( $("#contactuspopup").length > 0) {
+        $("#contactuspopup form").validate();
+    }
 
 
     $("#section-companies nav span").click(function(){

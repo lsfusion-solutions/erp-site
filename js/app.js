@@ -31,4 +31,20 @@ $(document).ready(function() {
         return false;
     })
     $("#contactuspopup form").validate();
+
+
+    $("#section-companies nav span").click(function(){
+        if( $(this).hasClass("active") ){
+            return;
+        }
+        $("#section-companies nav span.active").removeClass("active")
+        $(this).addClass("active")
+        if($(this).index() == 0){//fmcg
+            $("#section-companies ul").removeClass("farma").removeClass("fashion").addClass("fmcg");
+        }else if($(this).index() == 1){//fashion
+            $("#section-companies ul").removeClass("farma").removeClass("fmcg").addClass("fashion");
+        }else if($(this).index() == 2){//farma
+            $("#section-companies ul").removeClass("fashion").removeClass("fmcg").addClass("farma");
+        }
+    })
 })

@@ -727,16 +727,19 @@ section#section-companies {
       list-style: none;
       display: flex;
       flex-direction: row; }
+      section#section-companies > div.noinner ul.fmcg li.fmcg > .inner, section#section-companies > div.noinner ul.fashion li.fashion > .inner, section#section-companies > div.noinner ul.farma li.farma > .inner {
+        border-color: #26C4F7; }
       section#section-companies > div.noinner ul li {
         padding: 0 5px;
         flex: 0 0 174px; }
         section#section-companies > div.noinner ul li div.inner {
           background: #fff;
           padding: 10px 20px;
-          border-radius: 4px; }
+          border-radius: 4px;
+          border: 3px solid transparent; }
           section#section-companies > div.noinner ul li div.inner img {
             filter: grayscale(100%);
-            transition: filter 0.3s; }
+            transition: filter 0.3s, border-color 0.3s; }
           section#section-companies > div.noinner ul li div.inner:hover img {
             filter: none; }
           section#section-companies > div.noinner ul li div.inner p {

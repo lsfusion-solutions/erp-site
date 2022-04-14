@@ -254,7 +254,7 @@ em {
   /* Non-prefixed version, currently
                supported by Chrome, Edge, Opera and Firefox */ }
 
-.btn-default, .btn, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, div.popup > div.inner input[type="submit"], .btn-empty, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner div.info ul li, section#section-reviews > div.inner h2 a {
+.btn-default, .btn, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-faq > .inner nav span.active, div.popup > div.inner input[type="submit"], .btn-empty, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner div.info ul li, section#section-reviews > div.inner h2 a, section#section-faq > .inner nav span:not(.active) {
   position: relative;
   text-decoration: none;
   transition: background-color .3s, border-color 0.3s, color 0.3s;
@@ -268,17 +268,17 @@ em {
   white-space: nowrap;
   display: inline-block; }
   @media (max-width: 479px) {
-    .btn-default, .btn, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, div.popup > div.inner input[type="submit"], .btn-empty, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner div.info ul li, section#section-reviews > div.inner h2 a {
+    .btn-default, .btn, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-faq > .inner nav span.active, div.popup > div.inner input[type="submit"], .btn-empty, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner div.info ul li, section#section-reviews > div.inner h2 a, section#section-faq > .inner nav span:not(.active) {
       padding: 10px 18px; } }
-  .btn-default:active, .btn:active, section#section-companies > div.noinner nav span.active:active, section#section-best > div.inner > nav span.active:active, div.popup > div.inner input[type="submit"]:active, .btn-empty:active, .btn-invert:active, .btn-empty-invert:active, section#section-companies > div.noinner nav span:active:not(.active), section#section-best > div.inner > nav span:active:not(.active), section#section-best > div.inner div.info ul li:active, section#section-reviews > div.inner h2 a:active {
+  .btn-default:active, .btn:active, section#section-companies > div.noinner nav span.active:active, section#section-best > div.inner > nav span.active:active, section#section-faq > .inner nav span.active:active, div.popup > div.inner input[type="submit"]:active, .btn-empty:active, .btn-invert:active, .btn-empty-invert:active, section#section-companies > div.noinner nav span:active:not(.active), section#section-best > div.inner > nav span:active:not(.active), section#section-best > div.inner div.info ul li:active, section#section-reviews > div.inner h2 a:active, section#section-faq > .inner nav span:active:not(.active) {
     top: 1px; }
 
-.btn, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, div.popup > div.inner input[type="submit"] {
+.btn, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-faq > .inner nav span.active, div.popup > div.inner input[type="submit"] {
   background: #26C4F7;
   color: #fff !important; }
-  .btn:hover, section#section-companies > div.noinner nav span.active:hover, section#section-best > div.inner > nav span.active:hover, div.popup > div.inner input[type="submit"]:hover {
+  .btn:hover, section#section-companies > div.noinner nav span.active:hover, section#section-best > div.inner > nav span.active:hover, section#section-faq > .inner nav span.active:hover, div.popup > div.inner input[type="submit"]:hover {
     background-color: #0295FF; }
-  .btn:active, section#section-companies > div.noinner nav span.active:active, section#section-best > div.inner > nav span.active:active, div.popup > div.inner input[type="submit"]:active {
+  .btn:active, section#section-companies > div.noinner nav span.active:active, section#section-best > div.inner > nav span.active:active, section#section-faq > .inner nav span.active:active, div.popup > div.inner input[type="submit"]:active {
     background-color: #0B85DE; }
 
 .btn-empty {
@@ -303,13 +303,13 @@ em {
     background-color: #F1F8FA;
     color: #26C4F7; }
 
-.btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner div.info ul li, section#section-reviews > div.inner h2 a {
+.btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner div.info ul li, section#section-reviews > div.inner h2 a, section#section-faq > .inner nav span:not(.active) {
   background: transparent !important;
   border: 1px solid rgba(132, 132, 132, 0.2);
   color: #0E84BC !important; }
-  .btn-empty-invert:hover, section#section-companies > div.noinner nav span:hover:not(.active), section#section-best > div.inner > nav span:hover:not(.active), section#section-best > div.inner div.info ul li:hover, section#section-reviews > div.inner h2 a:hover {
+  .btn-empty-invert:hover, section#section-companies > div.noinner nav span:hover:not(.active), section#section-best > div.inner > nav span:hover:not(.active), section#section-best > div.inner div.info ul li:hover, section#section-reviews > div.inner h2 a:hover, section#section-faq > .inner nav span:hover:not(.active) {
     border-color: #848484; }
-  .btn-empty-invert:active, section#section-companies > div.noinner nav span:active:not(.active), section#section-best > div.inner > nav span:active:not(.active), section#section-best > div.inner div.info ul li:active, section#section-reviews > div.inner h2 a:active {
+  .btn-empty-invert:active, section#section-companies > div.noinner nav span:active:not(.active), section#section-best > div.inner > nav span:active:not(.active), section#section-best > div.inner div.info ul li:active, section#section-reviews > div.inner h2 a:active, section#section-faq > .inner nav span:active:not(.active) {
     border-color: #848484; }
 
 html, body {
@@ -1070,6 +1070,43 @@ section#section-news {
       font-size: 12px;
       line-height: 16px;
       font-style: normal; }
+section#section-faq > .inner h2 {
+  margin: 0 0 40px; }
+section#section-faq > .inner nav {
+  margin: 0 0 20px 0; }
+  section#section-faq > .inner nav span {
+    cursor: pointer; }
+section#section-faq > .inner > ul.faq {
+  list-style: none; }
+  section#section-faq > .inner > ul.faq > li {
+    border: 1px solid #F2F2F2;
+    border-radius: 4px;
+    margin: 0 0 10px 0;
+    padding: 12px 20px;
+    transition: background-color 0.3s, border-color 0.3s; }
+    section#section-faq > .inner > ul.faq > li:hover {
+      border-color: #cccccc; }
+    section#section-faq > .inner > ul.faq > li.active {
+      background: #F2F2F2; }
+      section#section-faq > .inner > ul.faq > li.active h3 {
+        color: #0E84BC; }
+      section#section-faq > .inner > ul.faq > li.active > div {
+        display: block; }
+    section#section-faq > .inner > ul.faq > li h3 {
+      cursor: pointer;
+      transition: color 0.3s; }
+    section#section-faq > .inner > ul.faq > li > div {
+      display: none;
+      padding: 20px 0 0 0;
+      color: #596062;
+      font-size: 14px;
+      line-height: 19px; }
+      section#section-faq > .inner > ul.faq > li > div ul {
+        padding: 20px 0 10px 35px;
+        margin: 0 0 0 0;
+        list-style: disc; }
+        section#section-faq > .inner > ul.faq > li > div ul li {
+          margin: 0 0 10px 0; }
 section.inner {
   padding: 30px 20px; }
   @media (min-width: 1110px) {

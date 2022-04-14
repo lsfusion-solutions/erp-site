@@ -1014,6 +1014,68 @@ section{
     }
   }
 
+
+  &#section-faq{
+    & > .inner{
+      h2{
+        margin: 0 0 40px;
+      }
+      nav{
+        margin: 0 0 20px 0;
+        span{
+          cursor: pointer;
+        }
+        span:not(.active){
+          @extend .btn-empty-invert;
+        }
+        span.active{
+          @extend .btn;
+        }
+      }
+      & > ul.faq{
+        list-style: none;
+        & > li{
+          border: 1px solid #F2F2F2;
+          &:hover{
+            border-color: darken(#F2F2F2, 15);
+          }
+          border-radius: 4px;
+          margin: 0 0 10px 0;
+          padding: 12px 20px;
+          transition: background-color 0.3s, border-color 0.3s;
+          &.active{
+            background: #F2F2F2;
+            h3{
+              color: #0E84BC;
+            }
+            & > div{
+              display: block;
+            }
+          }
+          h3{
+            cursor: pointer;
+            transition: color 0.3s;
+          }
+          & > div{
+            display: none;
+            padding: 20px 0 0 0;
+            color: #596062;
+            font-size: 14px;
+            line-height: 19px;
+            ul{
+              padding: 20px 0 10px 35px;
+              margin: 0 0 0 0;
+              list-style: disc;
+              li{
+                margin: 0 0 10px 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
   &.inner{
     padding: 30px 20px;
     @media (min-width: $siteWidth) {

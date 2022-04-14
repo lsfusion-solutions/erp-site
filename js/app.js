@@ -75,4 +75,18 @@ $(document).ready(function() {
         e.preventDefault()
         return false;
     })
+
+    //FAQ page
+    $("#section-faq nav span").click(function(){
+        if( $(this).hasClass("active") ){
+            return;
+        }
+        $(this).closest("nav").find("span.active").removeClass("active")
+        $(this).addClass("active")
+        $(this).closest("section").find("ul.faq").hide().eq( $(this).index() ).show()
+    })
+    $("#section-faq ul.faq > li").click(function(){
+        $(this).toggleClass("active")
+    })
+
 })

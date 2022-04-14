@@ -1047,6 +1047,7 @@ section{
             background: #F2F2F2;
             h3{
               color: #0E84BC;
+              background: url(../imgs/icons/less.svg) no-repeat right 10px top 10px;
             }
             & > div{
               display: block;
@@ -1054,7 +1055,8 @@ section{
           }
           h3{
             cursor: pointer;
-            transition: color 0.3s;
+            transition: background 0.3s, color 0.3s;
+            background: url(../imgs/icons/more.svg) no-repeat right 10px top 10px;
           }
           & > div{
             display: none;

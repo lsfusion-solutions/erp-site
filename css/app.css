@@ -1089,12 +1089,14 @@ section#section-faq > .inner > ul.faq {
     section#section-faq > .inner > ul.faq > li.active {
       background: #F2F2F2; }
       section#section-faq > .inner > ul.faq > li.active h3 {
-        color: #0E84BC; }
+        color: #0E84BC;
+        background: url(../imgs/icons/less.svg) no-repeat right 10px top 10px; }
       section#section-faq > .inner > ul.faq > li.active > div {
         display: block; }
     section#section-faq > .inner > ul.faq > li h3 {
       cursor: pointer;
-      transition: color 0.3s; }
+      transition: background 0.3s, color 0.3s;
+      background: url(../imgs/icons/more.svg) no-repeat right 10px top 10px; }
     section#section-faq > .inner > ul.faq > li > div {
       display: none;
       padding: 20px 0 0 0;

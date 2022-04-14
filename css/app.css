@@ -1096,7 +1096,8 @@ section#section-faq > .inner > ul.faq {
     section#section-faq > .inner > ul.faq > li h3 {
       cursor: pointer;
       transition: background 0.3s, color 0.3s;
-      background: url(../imgs/icons/more.svg) no-repeat right 10px top 10px; }
+      background: url(../imgs/icons/more.svg) no-repeat right 10px top 10px;
+      padding: 0 30px 0 0; }
     section#section-faq > .inner > ul.faq > li > div {
       display: none;
       padding: 20px 0 0 0;

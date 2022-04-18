@@ -1059,7 +1059,51 @@ section{
       }
     }
   }
-
+  &#section-single-news{
+    & > .inner{
+      h1{
+        margin: 0 0 20px 0;
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 600;
+      }
+      div.news {
+        display: flex;
+        flex-direction: row;
+        div.img {
+          flex: 0 0 445px;
+        }
+        div.info{
+          padding: 0 0 0 30px;
+          h2{
+            color: #848484;
+            font-size: 12px;
+            line-height: 16px;
+            margin: 0 0 10px 0;
+          }
+          p{
+            font-size: 16px;
+            line-height: 22px;
+            margin: 0 0 40px 0;
+          }
+          a{
+            @extend .btn-empty-invert;
+            position: relative;
+            color: #848484 !important;
+            &:before{
+              content: '';
+              width: 6px;
+              height: 10px;
+              position: absolute;
+              left: 20px;
+              top: 15px;
+              background-image: url(../imgs/icons/back.svg);
+            }
+          }
+        }
+      }
+    }
+  }
 
   &#section-faq{
     & > .inner{

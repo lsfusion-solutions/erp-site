@@ -105,6 +105,31 @@
     </div>
 </footer>
 
+<div id="contactuspopup" class="popup">
+    <span class="close">x</span>
+    <div class="inner">
+        <h3>Contact Us</h3>
+        <p>Any text can be there</p>
+        <form method="post" action="TODO">
+            <nav>
+                <p>Please choose an office:</p>
+                <input type="radio" checked name="office" value="Moscow" id="contact-moscow" required /><label class="label" for="contact-moscow">Moscow</label>
+                <input type="radio" name="office" value="Minsk" id="contact-minsk" required /><label class="label" for="contact-minsk">Minsk</label>
+            </nav>
+            <fieldset>
+                <input type="text" name="first_name" value="" placeholder="First name" />
+                <input type="text" name="last_name" value="" placeholder="Last name" />
+                <input type="email" name="email" value="" placeholder="Email*" required />
+                <input type="text" name="phone" value="" placeholder="Phone" />
+                <textarea name="comment" placeholder="Your comment goes here" rows="10" cols="6"></textarea>
+            </fieldset>
+            <div class="buttons">
+                <input type="submit" value="Submit" />
+            </div>
+        </form>
+    </div>
+</div>
+
 <div id="reportpopup" class="popup">
     <span class="close">x</span>
     <div class="inner">
@@ -129,6 +154,8 @@
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
         crossorigin="anonymous"></script>
 <script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
+<script src="js/jquery.popupoverlay.js"></script>
+<script src="js/jquery.validate.min.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>

@@ -59,63 +59,36 @@
 <main class="inner">
     <section id="section-reviews">
         <div class="inner">
-            <h2>
-                Отзывы наших клиентов
-                <a href="reviews">Читать все отзывы</a>
-            </h2>
-            <ul class="list3">
-                <li>
-                    <a href="" class="inner">
-                        <p>При выборе программного обеспечения мы руководствовались многими факторами: немаловажным было то, что продукт использует современные открытые технологии. Трехзвенная архитектура система, разработанная на бесплатных Java-технологиях и обеспечивает хранение всей информации в рамках единой базы данных...</p>
-                        <span>Читать отзыв полностью</span>
-                        <em>Булыгина А.А. Начальник отдела IT в сети супермаркетов “Виталюр”</em>
-                    </a>
-                </li>
-                <li>
-                    <a href="" class="inner">
-                        <p>При выборе программного обеспечения мы руководствовались многими факторами: немаловажным было то, что продукт использует современные открытые технологии. Трехзвенная архитектура система, разработанная на бесплатных Java-технологиях и обеспечивает хранение всей информации в рамках единой базы данных...</p>
-                        <span>Читать отзыв полностью</span>
-                        <em>Булыгина А.А. Начальник отдела IT в сети супермаркетов “Виталюр”</em>
-                    </a>
-                </li>
-                <li>
-                    <a href="" class="inner">
-                        <p>При выборе программного обеспечения мы руководствовались многими факторами: немаловажным было то, что продукт использует современные открытые технологии. Трехзвенная архитектура система, разработанная на бесплатных Java-технологиях и обеспечивает хранение всей информации в рамках единой базы данных...</p>
-                        <span>Читать отзыв полностью</span>
-                        <em>Булыгина А.А. Начальник отдела IT в сети супермаркетов “Виталюр”</em>
-                    </a>
-                </li>
-            </ul>
+            <h2>Отзывы наших клиентов</h2>
+
+            <div class="ulbox">
+                <ul class="list3">
+                    <li>
+                        <div class="inner">
+                            <p>При выборе программного обеспечения мы руководствовались многими факторами: немаловажным было то, что продукт использует современные открытые технологии. Трехзвенная архитектура система, разработанная на бесплатных Java-технологиях и обеспечивает хранение всей информации в рамках единой базы данных...</p>
+                            <a href="review-1.html">Читать отзыв полностью</a>
+                            <em>Булыгина А.А. Начальник отдела IT в сети супермаркетов “Виталюр”</em>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="inner">
+                            <p>При выборе программного обеспечения мы руководствовались многими факторами: немаловажным было то, что продукт использует современные открытые технологии. Трехзвенная архитектура система, разработанная на бесплатных Java-технологиях и обеспечивает хранение всей информации в рамках единой базы данных...</p>
+                            <a href="review-2.html">Читать отзыв полностью</a>
+                            <em>Булыгина А.А. Начальник отдела IT в сети супермаркетов “Виталюр”</em>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="inner">
+                            <p>При выборе программного обеспечения мы руководствовались многими факторами: немаловажным было то, что продукт использует современные открытые технологии. Трехзвенная архитектура система, разработанная на бесплатных Java-технологиях и обеспечивает хранение всей информации в рамках единой базы данных...</p>
+                            <a href="review-3.html">Читать отзыв полностью</a>
+                            <em>Булыгина А.А. Начальник отдела IT в сети супермаркетов “Виталюр”</em>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <a href="./" class="lnk">На главную</a>
         </div>
-    </section>
-    <section id="section-news">
-        <div class="inner">
-            <h2>Новости</h2>
-            <ul class="list3">
-                <li>
-                    <div class="inner">
-                        <h3>Автоматизация торговой сети «Baraka market»</h3>
-                        <p>Первый проект по внедрению lsFusion ERP в Республике Узбекистан</p>
-                        <em>3 декабря 2020</em>
-                    </div>
-                </li>
-                <li>
-                    <div class="inner">
-                        <h3>Первый гипермаркет «Копилка» переведен на lsFusion ERP</h3>
-                        <p>Второй этап проекта по автоматизации торговых сетей «Бигзз»</p>
-                        <em>3 декабря 2020</em>
-                    </div>
-                </li>
-                <li>
-                    <div class="inner">
-                        <h3>Все супермаркеты Санты переведены на lsFusion ERP</h3>
-                        <p>190 супермаркетов сети были переведены с Gestori и Формуляра на lsFusion ERP.</p>
-                        <em>3 декабря 2020</em>
-                    </div>
-                </li>
-            </ul>
-            <a href="news">Все новости</a>
-        </div>
+
     </section>
 </main>
 
@@ -154,6 +127,31 @@
     </div>
 </footer>
 
+<div id="contactuspopup" class="popup">
+    <span class="close">x</span>
+    <div class="inner">
+        <h3>Contact Us</h3>
+        <p>Any text can be there</p>
+        <form method="post" action="TODO">
+            <nav>
+                <p>Please choose an office:</p>
+                <input type="radio" checked name="office" value="Moscow" id="contact-moscow" required /><label class="label" for="contact-moscow">Moscow</label>
+                <input type="radio" name="office" value="Minsk" id="contact-minsk" required /><label class="label" for="contact-minsk">Minsk</label>
+            </nav>
+            <fieldset>
+                <input type="text" name="first_name" value="" placeholder="First name" />
+                <input type="text" name="last_name" value="" placeholder="Last name" />
+                <input type="email" name="email" value="" placeholder="Email*" required />
+                <input type="text" name="phone" value="" placeholder="Phone" />
+                <textarea name="comment" placeholder="Your comment goes here" rows="10" cols="6"></textarea>
+            </fieldset>
+            <div class="buttons">
+                <input type="submit" value="Submit" />
+            </div>
+        </form>
+    </div>
+</div>
+
 <div id="reportpopup" class="popup">
     <span class="close">x</span>
     <div class="inner">
@@ -178,6 +176,8 @@
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
         crossorigin="anonymous"></script>
 <script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
+<script src="js/jquery.popupoverlay.js"></script>
+<script src="js/jquery.validate.min.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>

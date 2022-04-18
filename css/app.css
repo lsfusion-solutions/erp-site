@@ -1670,4 +1670,20 @@ a.lnk {
     right: -12px;
     top: 1px; }
 
+body > .contactus {
+  position: fixed;
+  right: 0;
+  top: 500px;
+  width: 40px;
+  height: 40px;
+  text-indent: -3000px;
+  background: #26C4F7 url(../imgs/icons/contactus.svg) no-repeat 50% 50%;
+  transition: background-color 0.3s;
+  cursor: pointer; }
+  body > .contactus:hover {
+    background-color: #0B85DE; }
+  @media (max-width: 1109px) {
+    body > .contactus {
+      display: none; } }
+
 /*# sourceMappingURL=app.css.map */

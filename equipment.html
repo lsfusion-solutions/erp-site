@@ -91,12 +91,31 @@
             <p id="copyright">&copy; <script>document.write((new Date()).getFullYear())</script> lsFusion Foundation</p>
 
             <ul>
-                <li><a href="mailto:info@lsfusion.org">Report an error</a></li>
+                <li><a href="mailto:info@lsfusion.org" id="report">Report an error</a></li>
             </ul>
 
         </div>
     </div>
 </footer>
+
+<div id="reportpopup" class="popup">
+    <span class="close">x</span>
+    <div class="inner">
+        <h3>Report and error</h3>
+        <p>Any text can be there</p>
+        <form method="post" action="TODO">
+            <fieldset>
+                <input type="text" name="name" value="" placeholder="Your name" />
+                <input type="email" name="email" value="" placeholder="Email" />
+                <input type="text" name="phone" value="" placeholder="Phone" />
+                <textarea name="comment" placeholder="Your comment goes here*" rows="10" cols="6" required></textarea>
+            </fieldset>
+            <div class="buttons">
+                <input type="submit" value="Submit" />
+            </div>
+        </form>
+    </div>
+</div>
 
 <script
         src="https://code.jquery.com/jquery-2.2.4.min.js"

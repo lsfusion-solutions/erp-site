@@ -254,7 +254,7 @@ em {
   /* Non-prefixed version, currently
                supported by Chrome, Edge, Opera and Firefox */ }
 
-.btn-default, .btn, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-faq > .inner nav span.active, div.popup > div.inner nav input[type="radio"]:checked + label.label, div.popup > div.inner input[type="submit"], .btn-empty, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner div.info ul li, section#section-reviews > div.inner h2 a, section#section-single-news > .inner div.news div.info a, section#section-faq > .inner nav span:not(.active), div.popup > div.inner nav input[type="radio"]:not(:checked) + label.label {
+.btn-default, .btn, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-faq > .inner nav span.active, div.popup > div.inner nav input[type="radio"]:checked + label.label, div.popup > div.inner input[type="submit"], .btn-empty, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner div.info ul li, section#section-reviews > div.inner h2 a, section#section-single-news > .inner div.news div.info a, section#section-case > .inner div.news div.info a, section#section-faq > .inner nav span:not(.active), div.popup > div.inner nav input[type="radio"]:not(:checked) + label.label {
   position: relative;
   text-decoration: none;
   transition: background-color .3s, border-color 0.3s, color 0.3s;
@@ -268,9 +268,9 @@ em {
   white-space: nowrap;
   display: inline-block; }
   @media (max-width: 479px) {
-    .btn-default, .btn, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-faq > .inner nav span.active, div.popup > div.inner nav input[type="radio"]:checked + label.label, div.popup > div.inner input[type="submit"], .btn-empty, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner div.info ul li, section#section-reviews > div.inner h2 a, section#section-single-news > .inner div.news div.info a, section#section-faq > .inner nav span:not(.active), div.popup > div.inner nav input[type="radio"]:not(:checked) + label.label {
+    .btn-default, .btn, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-faq > .inner nav span.active, div.popup > div.inner nav input[type="radio"]:checked + label.label, div.popup > div.inner input[type="submit"], .btn-empty, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner div.info ul li, section#section-reviews > div.inner h2 a, section#section-single-news > .inner div.news div.info a, section#section-case > .inner div.news div.info a, section#section-faq > .inner nav span:not(.active), div.popup > div.inner nav input[type="radio"]:not(:checked) + label.label {
       padding: 10px 18px; } }
-  .btn-default:active, .btn:active, section#section-companies > div.noinner nav span.active:active, section#section-best > div.inner > nav span.active:active, section#section-faq > .inner nav span.active:active, div.popup > div.inner nav input[type="radio"]:checked + label.label:active, div.popup > div.inner input[type="submit"]:active, .btn-empty:active, .btn-invert:active, .btn-empty-invert:active, section#section-companies > div.noinner nav span:active:not(.active), section#section-best > div.inner > nav span:active:not(.active), section#section-best > div.inner div.info ul li:active, section#section-reviews > div.inner h2 a:active, section#section-single-news > .inner div.news div.info a:active, section#section-faq > .inner nav span:active:not(.active), div.popup > div.inner nav input[type="radio"]:not(:checked) + label.label:active {
+  .btn-default:active, .btn:active, section#section-companies > div.noinner nav span.active:active, section#section-best > div.inner > nav span.active:active, section#section-faq > .inner nav span.active:active, div.popup > div.inner nav input[type="radio"]:checked + label.label:active, div.popup > div.inner input[type="submit"]:active, .btn-empty:active, .btn-invert:active, .btn-empty-invert:active, section#section-companies > div.noinner nav span:active:not(.active), section#section-best > div.inner > nav span:active:not(.active), section#section-best > div.inner div.info ul li:active, section#section-reviews > div.inner h2 a:active, section#section-single-news > .inner div.news div.info a:active, section#section-case > .inner div.news div.info a:active, section#section-faq > .inner nav span:active:not(.active), div.popup > div.inner nav input[type="radio"]:not(:checked) + label.label:active {
     top: 1px; }
 
 .btn, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-faq > .inner nav span.active, div.popup > div.inner nav input[type="radio"]:checked + label.label, div.popup > div.inner input[type="submit"] {
@@ -303,13 +303,13 @@ em {
     background-color: #F1F8FA;
     color: #26C4F7; }
 
-.btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner div.info ul li, section#section-reviews > div.inner h2 a, section#section-single-news > .inner div.news div.info a, section#section-faq > .inner nav span:not(.active), div.popup > div.inner nav input[type="radio"]:not(:checked) + label.label {
+.btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner div.info ul li, section#section-reviews > div.inner h2 a, section#section-single-news > .inner div.news div.info a, section#section-case > .inner div.news div.info a, section#section-faq > .inner nav span:not(.active), div.popup > div.inner nav input[type="radio"]:not(:checked) + label.label {
   background: transparent !important;
   border: 1px solid rgba(132, 132, 132, 0.2);
   color: #0E84BC !important; }
-  .btn-empty-invert:hover, section#section-companies > div.noinner nav span:hover:not(.active), section#section-best > div.inner > nav span:hover:not(.active), section#section-best > div.inner div.info ul li:hover, section#section-reviews > div.inner h2 a:hover, section#section-single-news > .inner div.news div.info a:hover, section#section-faq > .inner nav span:hover:not(.active), div.popup > div.inner nav input[type="radio"]:not(:checked) + label.label:hover {
+  .btn-empty-invert:hover, section#section-companies > div.noinner nav span:hover:not(.active), section#section-best > div.inner > nav span:hover:not(.active), section#section-best > div.inner div.info ul li:hover, section#section-reviews > div.inner h2 a:hover, section#section-single-news > .inner div.news div.info a:hover, section#section-case > .inner div.news div.info a:hover, section#section-faq > .inner nav span:hover:not(.active), div.popup > div.inner nav input[type="radio"]:not(:checked) + label.label:hover {
     border-color: #848484; }
-  .btn-empty-invert:active, section#section-companies > div.noinner nav span:active:not(.active), section#section-best > div.inner > nav span:active:not(.active), section#section-best > div.inner div.info ul li:active, section#section-reviews > div.inner h2 a:active, section#section-single-news > .inner div.news div.info a:active, section#section-faq > .inner nav span:active:not(.active), div.popup > div.inner nav input[type="radio"]:not(:checked) + label.label:active {
+  .btn-empty-invert:active, section#section-companies > div.noinner nav span:active:not(.active), section#section-best > div.inner > nav span:active:not(.active), section#section-best > div.inner div.info ul li:active, section#section-reviews > div.inner h2 a:active, section#section-single-news > .inner div.news div.info a:active, section#section-case > .inner div.news div.info a:active, section#section-faq > .inner nav span:active:not(.active), div.popup > div.inner nav input[type="radio"]:not(:checked) + label.label:active {
     border-color: #848484; }
 
 html, body {
@@ -1103,31 +1103,33 @@ section#section-news {
       font-size: 12px;
       position: absolute;
       bottom: 0; }
-section#section-single-news > .inner h1 {
+section#section-single-news > .inner h1, section#section-case > .inner h1 {
   margin: 0 0 20px 0;
   font-size: 30px;
   line-height: 36px;
   font-weight: 600; }
-section#section-single-news > .inner div.news {
+section#section-single-news > .inner div.news, section#section-case > .inner div.news {
   display: flex;
   flex-direction: row; }
-  section#section-single-news > .inner div.news div.img {
+  section#section-single-news > .inner div.news div.img, section#section-case > .inner div.news div.img {
     flex: 0 0 445px; }
-  section#section-single-news > .inner div.news div.info {
+    section#section-single-news > .inner div.news div.img img, section#section-case > .inner div.news div.img img {
+      margin: 0 0 30px 0; }
+  section#section-single-news > .inner div.news div.info, section#section-case > .inner div.news div.info {
     padding: 0 0 0 30px; }
-    section#section-single-news > .inner div.news div.info h2 {
+    section#section-single-news > .inner div.news div.info h2, section#section-case > .inner div.news div.info h2 {
       color: #848484;
       font-size: 12px;
       line-height: 16px;
       margin: 0 0 10px 0; }
-    section#section-single-news > .inner div.news div.info p {
+    section#section-single-news > .inner div.news div.info p, section#section-case > .inner div.news div.info p {
       font-size: 16px;
       line-height: 22px;
       margin: 0 0 40px 0; }
-    section#section-single-news > .inner div.news div.info a {
+    section#section-single-news > .inner div.news div.info a, section#section-case > .inner div.news div.info a {
       position: relative;
       color: #848484 !important; }
-      section#section-single-news > .inner div.news div.info a:before {
+      section#section-single-news > .inner div.news div.info a:before, section#section-case > .inner div.news div.info a:before {
         content: '';
         width: 6px;
         height: 10px;

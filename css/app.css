@@ -1071,6 +1071,38 @@ section#section-news {
       font-size: 12px;
       line-height: 16px;
       font-style: normal; }
+  section#section-news > div.inner ul.list4 > li > .inner {
+    padding: 0 0 20px 0;
+    margin: 0 0 30px 0;
+    position: relative;
+    border: 0;
+    text-decoration: none; }
+    section#section-news > div.inner ul.list4 > li > .inner div.img {
+      margin: 0 0 20px 0; }
+      section#section-news > div.inner ul.list4 > li > .inner div.img img {
+        display: block;
+        max-width: 100%;
+        border-radius: 4px; }
+    section#section-news > div.inner ul.list4 > li > .inner h3 {
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: 700;
+      margin: 0 0 5px 0;
+      color: #000;
+      transition: color 0.3s; }
+    section#section-news > div.inner ul.list4 > li > .inner:hover h3 {
+      color: #0E84BC; }
+    section#section-news > div.inner ul.list4 > li > .inner p {
+      font-size: 14px;
+      line-height: 19px;
+      color: #596062;
+      margin: 0 0 10px 0; }
+    section#section-news > div.inner ul.list4 > li > .inner em {
+      color: #848484;
+      font-style: normal;
+      font-size: 12px;
+      position: absolute;
+      bottom: 0; }
 section#section-faq > .inner h2 {
   margin: 0 0 40px; }
 section#section-faq > .inner nav {
@@ -1576,7 +1608,7 @@ div.popup {
     padding: 0 0 21px 0; }
     div.popup > div.inner nav p {
       font-size: 14px;
-      margin: 0 0; }
+      margin: 0 0 5px 0; }
     div.popup > div.inner nav input[type="radio"] {
       position: absolute;
       visibility: hidden; }
@@ -1628,5 +1660,14 @@ div.popup {
     margin: 0 auto;
     text-align: center;
     border: 0; }
+
+a.lnk {
+  font-size: 14px;
+  position: relative; }
+  a.lnk:after {
+    content: " >";
+    position: absolute;
+    right: -12px;
+    top: 1px; }
 
 /*# sourceMappingURL=app.css.map */

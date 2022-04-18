@@ -60,7 +60,9 @@ $(document).ready(function() {
     })
 
     function getYouTubeCode(url){
-        return "0mAzlQwIPQI"
+        var regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/;
+        var match = url.match(regExp);
+        return (match&&match[7].length==11)? match[7] : false;
     }
     $("#section-best .videos a").click(function(e){
         if( $("#videopopup").length == 0 ){

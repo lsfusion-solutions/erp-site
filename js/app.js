@@ -94,6 +94,8 @@ $(document).ready(function() {
         $("#reportpopup").popup({closeelement: ".close"}).popup("show");
         return false;
     })
-    $("#reportpopup form").validate();
+    if( $("#reportpopup form").length > 0) {
+        $("#reportpopup form").validate();
+    }
 
 })

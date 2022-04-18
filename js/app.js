@@ -23,7 +23,7 @@ $(document).ready(function() {
         let images = new Image();
         images.src = "imgs/header-" + nextPreloadSlide + ".svg";
 
-    }, 5000);
+    }, 4000);
 
     $(".contactus").click(function(e){
         $("#contactuspopup").popup({closeelement:".close"}).popup("show");

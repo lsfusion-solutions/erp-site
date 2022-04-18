@@ -88,7 +88,7 @@
                 <span>Fashion</span>
                 <span>Farma</span>
             </nav>
-            <div class="swiper">
+            <div class="swiper" data-swiper-autoplay="true" data-swiper-loop="true">
                 <ul class="swiper-wrapper fmcg">
                     <!-- FMCG -->
                     <li class="swiper-slide">
@@ -829,15 +829,35 @@
 
 <script src="js/swiper-bundle.min.js"></script>
 <script>
-    var companiesSwiper = new Swiper(".swiper", {
-        slidesPerView: "auto",
-        spaceBetween: 0,
-        //loop: true,
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-    });
+    $(".swiper").each(function(){
+        let loop = false;
+        if( $(this).attr("data-swiper-loop") == "true"){
+            loop = true;
+        }
+        let autoplay = "";
+        if( $(this).attr("data-swiper-autoplay") == "true"){
+            autoplay = {
+                delay: 5000,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true,
+            };
+        }
+
+
+        var companiesSwiper = new Swiper(this, {
+            slidesPerView: "auto",
+            spaceBetween: 0,
+            loop: loop,
+
+            autoplay: autoplay,
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+
+    })
 </script>
 
 </body>

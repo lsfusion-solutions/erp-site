@@ -89,4 +89,11 @@ $(document).ready(function() {
         $(this).toggleClass("active")
     })
 
+    $("a#report").click(function(e){
+        e.preventDefault()
+        $("#reportpopup").popup({closeelement: ".close"}).popup("show");
+        return false;
+    })
+    $("#reportpopup form").validate();
+
 })

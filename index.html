@@ -377,7 +377,7 @@
                     </li>
                 </ul>
             </div>
-            <a href="modules.html">See all modules.html</a>
+            <a href="modules.html">See all modules</a>
         </div>
     </section>
     <section id="section-cases">
@@ -617,57 +617,57 @@
             <div class="ulbox">
                 <ul class="list4">
                     <li>
-                        <div class="inner">
+                        <a href="" class="inner">
                             <p>
                                 Мобильное
                                 приложение ТСД
                             </p>
                             <strong>lsTradeCompany</strong>
-                        </div>
+                        </a>
                     </li>
                     <li>
-                        <div class="inner">
+                        <a href="" class="inner">
                             <p>
                                 Сервер торгового
                                 оборудования
                             </p>
                             <strong>EQS</strong>
-                        </div>
+                        </a>
                     </li>
                     <li>
-                        <div class="inner">
+                        <a href="" class="inner">
                             <p>
                                 Фронт-офис для
                                 общепита
                             </p>
                             <strong>lsFood</strong>
-                        </div>
+                        </a>
                     </li>
                     <li>
-                        <div class="inner">
+                        <a href="" class="inner">
                             <p>
                                 Конструктор ERP для малого бизнеса
                             </p>
                             <strong>MyCompany</strong>
-                        </div>
+                        </a>
                     </li>
                     <li>
-                        <div class="inner">
+                        <a href="" class="inner">
                             <p>
                                 Конструктор промышленного
                             </p>
                             <strong>IoT Mite</strong>
-                        </div>
+                        </a>
                     </li>
                     <li>
-                        <div class="inner">
+                        <a href="" class="inner">
                             <p>
                                 Учетная система
                                 для общепита
                                 barSettings
                             </p>
                             <strong></strong>
-                        </div>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -749,6 +749,7 @@
             <ul class="links">
                 <li><a href="equipment.html">Equipment</a></li>
                 <li><a href="https://mycompany-docs.lsfusion.org/en/" target="_blank">Documentation</a></li>
+                <li><a href="faq.html">FAQ</a></li>
             </ul>
             <ul class="social">
                 <li class="blog"><a href="https://habr.com/en/company/lsfusion/blog/" target="_blank" title="Click to open in a new tab">Read our blog on Habr</a></li>
@@ -766,7 +767,7 @@
             <p id="copyright">&copy; <script>document.write((new Date()).getFullYear())</script> lsFusion Foundation</p>
 
             <ul>
-                <li><a href="mailto:info@lsfusion.org">Report an error</a></li>
+                <li><a href="mailto:info@lsfusion.org" id="report">Report an error</a></li>
             </ul>
 
         </div>
@@ -779,12 +780,36 @@
         <h3>Contact Us</h3>
         <p>Any text can be there</p>
         <form method="post" action="TODO">
+            <nav>
+                <p>Please choose an office:</p>
+                <input type="radio" checked name="office" value="Moscow" id="contact-moscow" required /><label class="label" for="contact-moscow">Moscow</label>
+                <input type="radio" name="office" value="Minsk" id="contact-minsk" required /><label class="label" for="contact-minsk">Minsk</label>
+            </nav>
             <fieldset>
                 <input type="text" name="first_name" value="" placeholder="First name" />
                 <input type="text" name="last_name" value="" placeholder="Last name" />
                 <input type="email" name="email" value="" placeholder="Email*" required />
                 <input type="text" name="phone" value="" placeholder="Phone" />
                 <textarea name="comment" placeholder="Your comment goes here" rows="10" cols="6"></textarea>
+            </fieldset>
+            <div class="buttons">
+                <input type="submit" value="Submit" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div id="reportpopup" class="popup">
+    <span class="close">x</span>
+    <div class="inner">
+        <h3>Report and error</h3>
+        <p>Any text can be there</p>
+        <form method="post" action="TODO">
+            <fieldset>
+                <input type="text" name="name" value="" placeholder="Your name" />
+                <input type="email" name="email" value="" placeholder="Email" />
+                <input type="text" name="phone" value="" placeholder="Phone" />
+                <textarea name="comment" placeholder="Your comment goes here*" rows="10" cols="6" required></textarea>
             </fieldset>
             <div class="buttons">
                 <input type="submit" value="Submit" />

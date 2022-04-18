@@ -913,6 +913,7 @@ section{
           & > .inner{
             background: transparent url(../imgs/icons/other.svg) no-repeat right 15px top 15px;
             transition: background-color 0.3s;
+            text-decoration: none;
             &:hover{
               background-color: #046cc3;
             }
@@ -1586,9 +1587,26 @@ div.popup{
       margin: 0 0 10px 0;
     }
     p{
-      font-size: 16px;
+      font-size: 18px;
       line-height: 22px;
       margin: 0 0 20px 0;
+    }
+    nav{
+      padding: 0 0 21px 0;
+      p {
+        font-size: 14px;
+        margin: 0 0 5px 0;
+      }
+      input[type="radio"]{
+        position: absolute;
+        visibility: hidden;
+      }
+      input[type="radio"]:not(:checked) + label.label{
+        @extend .btn-empty-invert;
+      }
+      input[type="radio"]:checked + label.label{
+        @extend .btn;
+      }
     }
     input[type="text"],
     input[type="email"],

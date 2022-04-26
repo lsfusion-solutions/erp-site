@@ -694,7 +694,40 @@ section#section-why-header {
         transition: background 0.3s;
         padding: 42px 20px 30px;
         min-height: 425px;
-        position: relative; } }
+        position: relative; }
+        section#section-why-header > div.inner:after {
+          content: "";
+          width: 60px;
+          height: 60px;
+          position: absolute;
+          top: 83px;
+          right: 95px;
+          transition: top 0.3s, right 0.3s;
+          background: url(../imgs/why-header-erp.svg) no-repeat 0px 0px; }
+        section#section-why-header > div.inner.bg2:after {
+          top: 83px;
+          right: 165px; }
+        section#section-why-header > div.inner.bg3:after {
+          top: 83px;
+          right: 235px; }
+        section#section-why-header > div.inner.bg4:after {
+          top: 154px;
+          right: 235px; }
+        section#section-why-header > div.inner.bg5:after {
+          top: 154px;
+          right: 165px; }
+        section#section-why-header > div.inner.bg6:after {
+          top: 154px;
+          right: 95px; }
+        section#section-why-header > div.inner.bg7:after {
+          top: 223px;
+          right: 95px; }
+        section#section-why-header > div.inner.bg8:after {
+          top: 223px;
+          right: 165px; }
+        section#section-why-header > div.inner.bg9:after {
+          top: 223px;
+          right: 235px; } }
     @media (max-width: 1109px) {
       section#section-why-header > div.inner {
         background-image: none !important; } }

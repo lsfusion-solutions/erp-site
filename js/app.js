@@ -23,7 +23,19 @@ $(document).ready(function() {
         let images = new Image();
         images.src = "imgs/header-" + nextPreloadSlide + ".svg";
 
+    }, 1000);
+
+    function getRandomInt(max) {
+        return Math.floor(Math.random() * max);
+    }
+    let currentSlideWhy = 1;
+    setInterval(function(){
+        let nextSlide = getRandomInt(8) + 1;
+        $("#section-why-header > .inner").addClass("bg" + nextSlide).removeClass("bg" + currentSlideWhy);
+        currentSlideWhy = nextSlide;
     }, 4000);
+
+
 
     $(".contactus").click(function(e){
         $("#contactuspopup").popup({closeelement:".close"}).popup("show");

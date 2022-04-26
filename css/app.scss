@@ -473,6 +473,51 @@ section{
         min-height: 425px;
         position: relative;
 
+
+        &:after{
+          content: "";
+          width: 60px;
+          height: 60px;
+          position: absolute;
+          top: 83px;
+          right: 95px;
+          transition: top 0.3s, right 0.3s;
+          background: url(../imgs/why-header-erp.svg) no-repeat 0px 0px;
+        }
+        &.bg2:after{
+          top: 83px;
+          right: 165px;
+        }
+        &.bg3:after{
+          top: 83px;
+          right: 235px;
+        }
+        &.bg4:after{
+          top: 154px;
+          right: 235px;
+        }
+        &.bg5:after{
+          top: 154px;
+          right: 165px;
+        }
+        &.bg6:after{
+          top: 154px;
+          right: 95px;
+        }
+        &.bg7:after{
+          top: 223px;
+          right: 95px;
+        }
+        &.bg8:after{
+          top: 223px;
+          right: 165px;
+        }
+        &.bg9:after{
+          top: 223px;
+          right: 235px;
+
+        }
+
       }
       @media (max-width: $siteWidth - 1) {
         background-image: none !important;

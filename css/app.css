@@ -254,7 +254,7 @@ em {
   /* Non-prefixed version, currently
                supported by Chrome, Edge, Opera and Firefox */ }
 
-.btn-default, .btn, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-faq > .inner nav span.active, div.popup > div.inner nav input[type="radio"]:checked + label.label, div.popup > div.inner input[type="submit"], .btn-empty, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner div.info ul li, section#section-reviews > div.inner h2 a, section#section-single-news > .inner div.news div.info a, section#section-case > .inner div.news div.info a, section#section-faq > .inner nav span:not(.active), div.popup > div.inner nav input[type="radio"]:not(:checked) + label.label {
+.btn-default, .btn, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-faq > .inner nav span.active, div.popup > div.inner nav input[type="radio"]:checked + label.label, div.popup > div.inner input[type="submit"], .btn-empty, section#section-why-header > div.inner ul li a, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner div.info ul li, section#section-reviews > div.inner h2 a, section#section-single-news > .inner div.news div.info a, section#section-case > .inner div.news div.info a, section#section-faq > .inner nav span:not(.active), div.popup > div.inner nav input[type="radio"]:not(:checked) + label.label {
   position: relative;
   text-decoration: none;
   transition: background-color .3s, border-color 0.3s, color 0.3s;
@@ -268,9 +268,9 @@ em {
   white-space: nowrap;
   display: inline-block; }
   @media (max-width: 479px) {
-    .btn-default, .btn, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-faq > .inner nav span.active, div.popup > div.inner nav input[type="radio"]:checked + label.label, div.popup > div.inner input[type="submit"], .btn-empty, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner div.info ul li, section#section-reviews > div.inner h2 a, section#section-single-news > .inner div.news div.info a, section#section-case > .inner div.news div.info a, section#section-faq > .inner nav span:not(.active), div.popup > div.inner nav input[type="radio"]:not(:checked) + label.label {
+    .btn-default, .btn, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-faq > .inner nav span.active, div.popup > div.inner nav input[type="radio"]:checked + label.label, div.popup > div.inner input[type="submit"], .btn-empty, section#section-why-header > div.inner ul li a, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner div.info ul li, section#section-reviews > div.inner h2 a, section#section-single-news > .inner div.news div.info a, section#section-case > .inner div.news div.info a, section#section-faq > .inner nav span:not(.active), div.popup > div.inner nav input[type="radio"]:not(:checked) + label.label {
       padding: 10px 18px; } }
-  .btn-default:active, .btn:active, section#section-companies > div.noinner nav span.active:active, section#section-best > div.inner > nav span.active:active, section#section-faq > .inner nav span.active:active, div.popup > div.inner nav input[type="radio"]:checked + label.label:active, div.popup > div.inner input[type="submit"]:active, .btn-empty:active, .btn-invert:active, .btn-empty-invert:active, section#section-companies > div.noinner nav span:active:not(.active), section#section-best > div.inner > nav span:active:not(.active), section#section-best > div.inner div.info ul li:active, section#section-reviews > div.inner h2 a:active, section#section-single-news > .inner div.news div.info a:active, section#section-case > .inner div.news div.info a:active, section#section-faq > .inner nav span:active:not(.active), div.popup > div.inner nav input[type="radio"]:not(:checked) + label.label:active {
+  .btn-default:active, .btn:active, section#section-companies > div.noinner nav span.active:active, section#section-best > div.inner > nav span.active:active, section#section-faq > .inner nav span.active:active, div.popup > div.inner nav input[type="radio"]:checked + label.label:active, div.popup > div.inner input[type="submit"]:active, .btn-empty:active, section#section-why-header > div.inner ul li a:active, .btn-invert:active, .btn-empty-invert:active, section#section-companies > div.noinner nav span:active:not(.active), section#section-best > div.inner > nav span:active:not(.active), section#section-best > div.inner div.info ul li:active, section#section-reviews > div.inner h2 a:active, section#section-single-news > .inner div.news div.info a:active, section#section-case > .inner div.news div.info a:active, section#section-faq > .inner nav span:active:not(.active), div.popup > div.inner nav input[type="radio"]:not(:checked) + label.label:active {
     top: 1px; }
 
 .btn, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-faq > .inner nav span.active, div.popup > div.inner nav input[type="radio"]:checked + label.label, div.popup > div.inner input[type="submit"] {
@@ -281,14 +281,14 @@ em {
   .btn:active, section#section-companies > div.noinner nav span.active:active, section#section-best > div.inner > nav span.active:active, section#section-faq > .inner nav span.active:active, div.popup > div.inner nav input[type="radio"]:checked + label.label:active, div.popup > div.inner input[type="submit"]:active {
     background-color: #0B85DE; }
 
-.btn-empty {
+.btn-empty, section#section-why-header > div.inner ul li a {
   background: transparent;
   border: 1px solid #fff;
   color: #fff !important; }
-  .btn-empty:hover {
+  .btn-empty:hover, section#section-why-header > div.inner ul li a:hover {
     background-color: #FFFFFF;
     color: #26C4F7 !important; }
-  .btn-empty:active {
+  .btn-empty:active, section#section-why-header > div.inner ul li a:active {
     background-color: #F1F8FA;
     color: #26C4F7; }
 
@@ -682,6 +682,136 @@ section#section-header {
         width: 100%;
         margin: 0 0 10px 0;
         text-align: center; } }
+section#section-why-header {
+  background: #0062BD; }
+  section#section-why-header > div.inner {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    @media (min-width: 1110px) {
+      section#section-why-header > div.inner {
+        background: url(../imgs/why-header.svg) no-repeat right top;
+        transition: background 0.3s;
+        padding: 42px 20px 30px;
+        min-height: 425px;
+        position: relative; } }
+    @media (max-width: 1109px) {
+      section#section-why-header > div.inner {
+        background-image: none !important; } }
+    section#section-why-header > div.inner h1 {
+      color: #fff;
+      font-size: 35px;
+      line-height: 42px;
+      margin: 0 0 20px 0;
+      font-weight: 600; }
+      @media (min-width: 1110px) {
+        section#section-why-header > div.inner h1 {
+          max-width: 550px; } }
+      @media (max-width: 1109px) {
+        section#section-why-header > div.inner h1 br {
+          display: none; } }
+    section#section-why-header > div.inner p {
+      max-width: 550px;
+      color: #fff;
+      margin: 0 0 20px 0; }
+      @media (max-width: 1109px) {
+        section#section-why-header > div.inner p br {
+          display: none; } }
+    section#section-why-header > div.inner ul {
+      list-style: none; }
+      @media (min-width: 1110px) {
+        section#section-why-header > div.inner ul {
+          max-width: 550px; } }
+      section#section-why-header > div.inner ul li {
+        display: inline; }
+        section#section-why-header > div.inner ul li a {
+          padding: 8px 10px;
+          margin-bottom: 10px;
+          margin-right: 12px; }
+section#section-why-logic > div.inner h2 {
+  text-align: center;
+  margin: 0 0 10px 0; }
+section#section-why-logic > div.inner > p {
+  text-align: center;
+  margin: 0 auto 10px;
+  max-width: 730px; }
+section#section-why-logic > div.inner ul.list3 > li > .inner div.img {
+  margin: 0 0 10px 0;
+  height: 50px; }
+  section#section-why-logic > div.inner ul.list3 > li > .inner div.img img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%; }
+section#section-why-logic > div.inner ul.list3 > li > .inner p {
+  color: #2C2A28;
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  line-height: 19px; }
+section#section-why-logic > div.inner ul.list3 > li > .inner em {
+  color: #848484;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px; }
+section#section-why-nofees {
+  background: #EFF6F8; }
+  section#section-why-nofees > .inner h2 {
+    text-align: center;
+    margin: 0 0 10px 0; }
+  section#section-why-nofees > .inner > p {
+    text-align: center;
+    margin: 0 0 10px 0; }
+  section#section-why-nofees > .inner ul.list3 li > .inner p {
+    padding-left: 50px;
+    background-repeat: no-repeat; }
+  section#section-why-nofees > .inner ul.list3 li:nth-child(1) > .inner p {
+    background-image: url(../imgs/icons/nofee-1.svg); }
+  section#section-why-nofees > .inner ul.list3 li:nth-child(2) > .inner p {
+    background-image: url(../imgs/icons/nofee-2.svg); }
+  section#section-why-nofees > .inner ul.list3 li:nth-child(3) > .inner p {
+    background-image: url(../imgs/icons/nofee-3.svg); }
+section#section-why-nostop > .inner h2 {
+  max-width: 450px;
+  margin: 0 auto 10px;
+  text-align: center; }
+section#section-why-nostop > .inner p {
+  max-width: 750px;
+  margin: 0 auto 10px; }
+section#section-why-nostop > .inner ul.list3 li > .inner {
+  border: 0; }
+  section#section-why-nostop > .inner ul.list3 li > .inner p {
+    padding-left: 100px;
+    background-repeat: no-repeat;
+    min-height: 81px; }
+section#section-why-nostop > .inner ul.list3 li:nth-child(1) > .inner p {
+  background-image: url(../imgs/icons/step-1.svg); }
+section#section-why-nostop > .inner ul.list3 li:nth-child(2) > .inner p {
+  background-image: url(../imgs/icons/step-2.svg); }
+section#section-why-nostop > .inner ul.list3 li:nth-child(3) > .inner p {
+  background-image: url(../imgs/icons/step-3.svg); }
+section#section-why-instant {
+  background: #26C4F7; }
+  section#section-why-instant > .inner {
+    position: relative;
+    min-height: 235px; }
+    section#section-why-instant > .inner h2 {
+      color: #FFFFFF;
+      max-width: 450px;
+      margin: 0 0 10px 0; }
+    section#section-why-instant > .inner p {
+      color: #FFFFFF;
+      max-width: 700px; }
+    section#section-why-instant > .inner strong {
+      color: #FFFFFF;
+      position: absolute;
+      background: url(../imgs/icons/instant.svg) no-repeat 0 0;
+      top: 46px;
+      right: 0;
+      font-weight: 400;
+      padding: 67px 0 0 150px;
+      height: 157px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
 section#section-companies {
   background: #EFF6F8; }
   section#section-companies > div.noinner {

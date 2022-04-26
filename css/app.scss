@@ -1596,6 +1596,46 @@ section{
     }
   }
 
+
+  &#section-equipment{
+    & > .inner{
+      h1{
+        font-size: 30px;
+        margin: 0 0 20px 0;
+        color: #2C2A28;
+        font-weight: 600;
+      }
+      & > h2{
+        margin: 0 0 20px 0;
+        color: #2C2A28;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      & > p{
+        margin: 0 0 20px 0;
+      }
+      ul.list2{
+        li{
+          & > .inner{
+            background: #F7FBFC;
+            transition: background-color 0.3s;
+            &:hover{
+              background: #E1F7FE;
+            }
+            p{
+              margin: 0 0 20px 0;
+              color: #2C2A28;
+              font-size: 16px;
+              line-height: 22px;
+              &:last-child{
+                margin: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
   &.inner{
     padding: 30px 20px;
     @media (min-width: $siteWidth) {

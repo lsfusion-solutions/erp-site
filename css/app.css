@@ -812,6 +812,33 @@ section#section-why-instant {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box; }
+section#section-why-integration {
+  background: #EFF6F8; }
+section#section-why-support {
+  background: #0062BD; }
+  section#section-why-support > .inner:after {
+    content: "";
+    display: table;
+    clear: both; }
+  section#section-why-support > .inner h2 {
+    color: #fff;
+    margin: 0 0 10px; }
+  section#section-why-support > .inner p {
+    color: #fff; }
+  section#section-why-support > .inner .col1 {
+    float: left;
+    width: 45%; }
+  section#section-why-support > .inner .col2 {
+    float: right;
+    width: 45%;
+    color: #fff;
+    position: relative;
+    padding: 27px 0 0 60px; }
+    section#section-why-support > .inner .col2 strong {
+      position: absolute;
+      left: 0;
+      font-size: 35px;
+      line-height: 42px; }
 section#section-companies {
   background: #EFF6F8; }
   section#section-companies > div.noinner {

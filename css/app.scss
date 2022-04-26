@@ -667,6 +667,58 @@ section{
       }
     }
   }
+  &#section-why-rus{
+    & > .inner{
+      h2{
+
+      }
+      p{
+
+      }
+    }
+  }
+  &#section-why-integration{
+    background: #EFF6F8;
+    & > .inner{
+      h2{
+
+      }
+      p{
+
+      }
+    }
+  }
+  &#section-why-support{
+    background: #0062BD;
+    & > .inner{
+      @include clearfix;
+      h2{
+        color: #fff;
+        margin: 0 0 10px;
+      }
+      p{
+        color: #fff;
+      }
+      .col1{
+        float: left;
+        width: 45%;
+      }
+      .col2{
+        float: right;
+        width: 45%;
+        color: #fff;
+        position: relative;
+        padding: 27px 0 0 60px;
+        strong{
+          position: absolute;
+          left: 0;
+          font-size: 35px;
+          line-height: 42px;
+        }
+      }
+    }
+  }
+
   &#section-companies{
     background: #EFF6F8;
     & > div.noinner{

@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;600&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
 
     <link href="css/app.css" rel="stylesheet" type="text/css" />
+    <link href="css/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="imgs/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon/favicon_32x32.png">
@@ -164,19 +165,28 @@
     <section id="section-why-rus">
         <div class="inner">
             <h2>Поддерживает российское законодательство</h2>
-            <ul>
+            <ul class="list3">
                 <li>
                     <div class="inner">
+                        <div class="img">
+                            <img src="imgs/low/1.png" alt="" title="" />
+                        </div>
                         <p>Универсальный передаточный документ (УПД), товарные накладные ТОРГ-12, поштучный учет товара</p>
                     </div>
                 </li>
                 <li>
                     <div class="inner">
+                        <div class="img">
+                            <img src="imgs/low/2.png" alt="" title="" />
+                        </div>
                         <p>Интеграция с онлайн-кассами Атол</p>
                     </div>
                 </li>
                 <li>
                     <div class="inner">
+                        <div class="img">
+                            <img src="imgs/low/3.png" alt="" title="" />
+                        </div>
                         <p>Интеграция с национальной системой цифровой маркировки Честный знак</p>
                     </div>
                 </li>
@@ -188,7 +198,7 @@
             <div class="info">
                 <h2>Интеграция с торговым оборудованием</h2>
                 <p>Автоматическая интеграция, без ручного обмена данными, ‎с системами бухгалтерии, интернет-магазинами, WMS, CRM, EDI, BI, управлением полочным пространством, оборудованием Artix, Set Retail, УКМ, Маркет+ и др.</p>
-                <a href="#">Узнать больше</a>
+                <a href="more.html" class="lnk">Узнать больше</a>
             </div>
 
             <ul>
@@ -199,42 +209,42 @@
                 </li>
                 <li>
                     <div class="inner">
-                        <img src="imgs/equipment/1.png" alt="" title="" />
+                        <img src="imgs/equipment/2.png" alt="" title="" />
                     </div>
                 </li>
                 <li>
                     <div class="inner">
-                        <img src="imgs/equipment/1.png" alt="" title="" />
+                        <img src="imgs/equipment/3.png" alt="" title="" />
                     </div>
                 </li>
                 <li>
                     <div class="inner">
-                        <img src="imgs/equipment/1.png" alt="" title="" />
+                        <img src="imgs/equipment/4.png" alt="" title="" />
                     </div>
                 </li>
                 <li>
                     <div class="inner">
-                        <img src="imgs/equipment/1.png" alt="" title="" />
+                        <img src="imgs/equipment/5.png" alt="" title="" />
                     </div>
                 </li>
                 <li>
                     <div class="inner">
-                        <img src="imgs/equipment/1.png" alt="" title="" />
+                        <img src="imgs/equipment/6.png" alt="" title="" />
                     </div>
                 </li>
                 <li>
                     <div class="inner">
-                        <img src="imgs/equipment/1.png" alt="" title="" />
+                        <img src="imgs/equipment/7.png" alt="" title="" />
                     </div>
                 </li>
                 <li>
                     <div class="inner">
-                        <img src="imgs/equipment/1.png" alt="" title="" />
+                        <img src="imgs/equipment/8.png" alt="" title="" />
                     </div>
                 </li>
                 <li>
                     <div class="inner">
-                        <img src="imgs/equipment/1.png" alt="" title="" />
+                        <img src="imgs/equipment/9.png" alt="" title="" />
                     </div>
                 </li>
             </ul>
@@ -289,6 +299,33 @@
     </div>
 </footer>
 
+<span class="contactus" title="Click to Contact Us">Contact Us</span>
+
+<div id="contactuspopup" class="popup">
+    <span class="close">x</span>
+    <div class="inner">
+        <h3>Contact Us</h3>
+        <p>Any text can be there</p>
+        <form method="post" action="TODO">
+            <nav>
+                <p>Please choose an office:</p>
+                <input type="radio" checked name="office" value="Moscow" id="contact-moscow" required /><label class="label" for="contact-moscow">Moscow</label>
+                <input type="radio" name="office" value="Minsk" id="contact-minsk" required /><label class="label" for="contact-minsk">Minsk</label>
+            </nav>
+            <fieldset>
+                <input type="text" name="first_name" value="" placeholder="First name" />
+                <input type="text" name="last_name" value="" placeholder="Last name" />
+                <input type="email" name="email" value="" placeholder="Email*" required />
+                <input type="text" name="phone" value="" placeholder="Phone" />
+                <textarea name="comment" placeholder="Your comment goes here" rows="10" cols="6"></textarea>
+            </fieldset>
+            <div class="buttons">
+                <input type="submit" value="Submit" />
+            </div>
+        </form>
+    </div>
+</div>
+
 <div id="reportpopup" class="popup">
     <span class="close">x</span>
     <div class="inner">
@@ -313,6 +350,8 @@
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
         crossorigin="anonymous"></script>
 <script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
+<script src="js/jquery.popupoverlay.js"></script>
+<script src="js/jquery.validate.min.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>

@@ -30,7 +30,8 @@ $(document).ready(function() {
     }
     let currentSlideWhy = 1;
     setInterval(function(){
-        let nextSlide = getRandomInt(8) + 1;
+        let nextSlide;
+        while( (nextSlide = getRandomInt(8) + 1) == 5){}
         $("#section-why-header > .inner").addClass("bg" + nextSlide).removeClass("bg" + currentSlideWhy);
         currentSlideWhy = nextSlide;
     }, 5000);

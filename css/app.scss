@@ -512,8 +512,6 @@ section{
         padding: 42px 20px 30px;
         min-height: 425px;
         position: relative;
-
-
         &:after{
           content: "";
           width: 60px;
@@ -599,6 +597,36 @@ section{
             padding: 8px 10px;
             margin-bottom: 10px;
             margin-right: 12px;
+          }
+        }
+      }
+      a.video{
+        @media (min-width: $siteWidth){
+          position: absolute;
+          width: 60px;
+          height: 60px;
+          background: url(../imgs/icons/play-white.svg) no-repeat 50% 50%;
+          z-index: 1;
+          text-indent: -3000px;
+          overflow: hidden;
+          top: 154px;
+          right: 165px;
+          &:hover{
+
+          }
+        }
+        @media (max-width: $siteWidth - 1){
+          color: #fff;
+          font-size: 18px;
+          line-height: 30px;
+          font-weight: 600;
+          display: inline-block;
+          margin: 20px 0 0 0;
+          padding: 0 40px 0 0;
+          background: url(../imgs/icons/play-white.svg) no-repeat 100% 50%;
+          text-decoration: none;
+          &:hover{
+            text-decoration: underline;
           }
         }
       }

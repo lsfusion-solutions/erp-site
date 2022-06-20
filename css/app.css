@@ -1479,40 +1479,6 @@ section#section-faq > .inner nav {
   margin: 0 0 20px 0; }
   section#section-faq > .inner nav span {
     cursor: pointer; }
-section#section-faq > .inner > ul.faq {
-  list-style: none; }
-  section#section-faq > .inner > ul.faq > li {
-    border: 1px solid #F2F2F2;
-    border-radius: 4px;
-    margin: 0 0 10px 0;
-    padding: 12px 20px;
-    transition: background-color 0.3s, border-color 0.3s; }
-    section#section-faq > .inner > ul.faq > li:hover {
-      border-color: #cccccc; }
-    section#section-faq > .inner > ul.faq > li.active {
-      background: #F2F2F2; }
-      section#section-faq > .inner > ul.faq > li.active h3 {
-        color: #0E84BC;
-        background: url(../imgs/icons/less.svg) no-repeat right 10px top 10px; }
-      section#section-faq > .inner > ul.faq > li.active > div {
-        display: block; }
-    section#section-faq > .inner > ul.faq > li h3 {
-      cursor: pointer;
-      transition: background 0.3s, color 0.3s;
-      background: url(../imgs/icons/more.svg) no-repeat right 10px top 10px;
-      padding: 0 30px 0 0; }
-    section#section-faq > .inner > ul.faq > li > div {
-      display: none;
-      padding: 20px 0 0 0;
-      color: #596062;
-      font-size: 14px;
-      line-height: 19px; }
-      section#section-faq > .inner > ul.faq > li > div ul {
-        padding: 20px 0 10px 35px;
-        margin: 0 0 0 0;
-        list-style: disc; }
-        section#section-faq > .inner > ul.faq > li > div ul li {
-          margin: 0 0 10px 0; }
 section#section-equipment > .inner h1 {
   font-size: 30px;
   margin: 0 0 20px 0;

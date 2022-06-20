@@ -99,9 +99,9 @@ $(document).ready(function() {
         }
         $(this).closest("nav").find("span.active").removeClass("active")
         $(this).addClass("active")
-        $(this).closest("section").find("ul.faq").hide().eq( $(this).index() ).show()
+        $(this).closest("section").find("ul.dd-list").hide().eq( $(this).index() ).show()
     })
-    $("#section-faq ul.faq > li, ul.dd-list > li").click(function(){
+    $("ul.dd-list > li").click(function(){
         $(this).toggleClass("active")
     })
 

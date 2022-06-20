@@ -1623,6 +1623,13 @@ section{
         color: #2C2A28;
         font-size: 20px;
         font-weight: 600;
+        &#equipment-switcher{
+          cursor: pointer;
+          transition: color 0.3s;
+          &.active{
+            color: #26C4F7;
+          }
+        }
       }
       & > p{
         margin: 0 0 20px 0;
@@ -1658,6 +1665,42 @@ section{
               font-size: 16px;
               line-height: 22px;
               &:last-child{
+                margin: 0;
+              }
+            }
+          }
+        }
+      }
+      ul.equipment{
+        & > li{
+          & > .inner {
+            background: #EFF6F8;
+            border: 0;
+            padding: 0;
+            h2 {
+              color: #fff;
+              text-align: center;
+              font-size: 14px;
+              line-height: 19px;
+              padding: 8px 9px;
+              background: #26C4F7;
+              border-top-left-radius: 4px;
+              border-top-right-radius: 4px;
+              margin: 0 0 20px 0;
+            }
+            h3{
+              color: #2C2A28;
+              font-size: 14px;
+              line-height: 19px;
+              padding: 0 10px;
+              font-weight: 600;
+              margin: 0 0 10px 0;
+            }
+            ul.list{
+              font-size: 14px;
+              line-height: 19px;
+              margin: 0 0 20px 10px;
+              li{
                 margin: 0;
               }
             }
@@ -1725,8 +1768,6 @@ section{
 ul.dd-list{
   list-style: none;
   margin: 0 0 20px 0;
-
-
   & > li{
     border: 1px solid #F2F2F2;
     &:hover{
@@ -1769,6 +1810,16 @@ ul.dd-list{
     }
   }
 }
+
+ul.list{
+  padding: 20px 0 10px 35px;
+  margin: 0 0 0 0;
+  list-style: disc;
+  li{
+    margin: 0 0 10px 0;
+  }
+}
+
 
 ul.list6{
   list-style: none;
@@ -1835,7 +1886,7 @@ ul.list4{
   margin: 0 0 20px 0;
   display: flex;
   flex-wrap: wrap;
-  li {
+  & > li {
     float: left;
     padding: 10px 15px;
     @media (min-width: $siteWidth) {
@@ -1889,7 +1940,7 @@ ul.list3{
   margin: 0 0 20px 0;
   display: flex;
   flex-wrap: wrap;
-  li{
+  & > li{
     float: left;
     padding: 10px 15px;
     @media (min-width: 768px) {
@@ -1939,7 +1990,7 @@ ul.list2{
   margin: 0 0 20px 0;
   display: flex;
   flex-wrap: wrap;
-  li{
+  & > li{
     float: left;
     width: 50%;
     flex: 0 0 50%;

@@ -1489,6 +1489,11 @@ section#section-equipment > .inner > h2 {
   color: #2C2A28;
   font-size: 20px;
   font-weight: 600; }
+  section#section-equipment > .inner > h2#equipment-switcher {
+    cursor: pointer;
+    transition: color 0.3s; }
+    section#section-equipment > .inner > h2#equipment-switcher.active {
+      color: #26C4F7; }
 section#section-equipment > .inner > p {
   margin: 0 0 20px 0; }
 section#section-equipment > .inner ul.list2 li:nth-child(1) > .inner {
@@ -1509,6 +1514,33 @@ section#section-equipment > .inner ul.list2 li > .inner {
     font-size: 16px;
     line-height: 22px; }
     section#section-equipment > .inner ul.list2 li > .inner p:last-child {
+      margin: 0; }
+section#section-equipment > .inner ul.equipment > li > .inner {
+  background: #EFF6F8;
+  border: 0;
+  padding: 0; }
+  section#section-equipment > .inner ul.equipment > li > .inner h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 8px 9px;
+    background: #26C4F7;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    margin: 0 0 20px 0; }
+  section#section-equipment > .inner ul.equipment > li > .inner h3 {
+    color: #2C2A28;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 0 10px;
+    font-weight: 600;
+    margin: 0 0 10px 0; }
+  section#section-equipment > .inner ul.equipment > li > .inner ul.list {
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0 0 20px 10px; }
+    section#section-equipment > .inner ul.equipment > li > .inner ul.list li {
       margin: 0; }
 section#section-equipment > .inner em {
   font-style: normal;
@@ -1590,6 +1622,13 @@ ul.dd-list {
         ul.dd-list > li > div ul li {
           margin: 0 0 10px 0; }
 
+ul.list {
+  padding: 20px 0 10px 35px;
+  margin: 0 0 0 0;
+  list-style: disc; }
+  ul.list li {
+    margin: 0 0 10px 0; }
+
 ul.list6 {
   list-style: none;
   margin: 0 0 20px 0;
@@ -1657,7 +1696,7 @@ ul.list4 {
     content: "";
     display: table;
     clear: both; }
-  ul.list4 li {
+  ul.list4 > li {
     float: left;
     padding: 10px 15px;
     -webkit-box-sizing: border-box;
@@ -1665,37 +1704,37 @@ ul.list4 {
     box-sizing: border-box;
     display: flex; }
     @media (min-width: 1110px) {
-      ul.list4 li {
+      ul.list4 > li {
         width: 25%;
         flex: 0 0 25%; } }
     @media (max-width: 1109px) {
-      ul.list4 li {
+      ul.list4 > li {
         width: 33.33333%;
         flex: 0 0 33.33333%; } }
     @media (max-width: 767px) {
-      ul.list4 li {
+      ul.list4 > li {
         width: 50%;
         flex: 0 0 50%;
         padding: 8px 12px; } }
     @media (max-width: 479px) {
-      ul.list4 li {
+      ul.list4 > li {
         width: 100%;
         flex: 0 0 100%;
         padding: 10px 0; } }
-    ul.list4 li > .inner {
+    ul.list4 > li > .inner {
       border: 1px solid #F2F2F2;
       border-radius: 4px;
       padding: 22px 20px;
       width: 100%; }
       @media (max-width: 767px) {
-        ul.list4 li > .inner {
+        ul.list4 > li > .inner {
           padding: 18px 15px; } }
-      ul.list4 li > .inner h3 {
+      ul.list4 > li > .inner h3 {
         font-size: 20px;
         line-height: 30px;
         font-weight: 400;
         margin: 0 0 20px 0; }
-      ul.list4 li > .inner p {
+      ul.list4 > li > .inner p {
         color: #848484;
         font-size: 14px;
         line-height: 19px;
@@ -1710,7 +1749,7 @@ ul.list3 {
     content: "";
     display: table;
     clear: both; }
-  ul.list3 li {
+  ul.list3 > li {
     float: left;
     padding: 10px 15px;
     -webkit-box-sizing: border-box;
@@ -1718,33 +1757,33 @@ ul.list3 {
     box-sizing: border-box;
     display: flex; }
     @media (min-width: 768px) {
-      ul.list3 li {
+      ul.list3 > li {
         width: 33.33%;
         flex: 0 0 33.33333%; } }
     @media (max-width: 767px) {
-      ul.list3 li {
+      ul.list3 > li {
         width: 50%;
         flex: 0 0 50%;
         padding: 8px 12px; } }
     @media (max-width: 479px) {
-      ul.list3 li {
+      ul.list3 > li {
         width: 100%;
         flex: 0 0 100%;
         padding: 10px 0; } }
-    ul.list3 li > .inner {
+    ul.list3 > li > .inner {
       border: 1px solid #F2F2F2;
       border-radius: 4px;
       padding: 22px 20px;
       width: 100%; }
       @media (max-width: 767px) {
-        ul.list3 li > .inner {
+        ul.list3 > li > .inner {
           padding: 18px 15px; } }
-      ul.list3 li > .inner h3 {
+      ul.list3 > li > .inner h3 {
         font-size: 20px;
         line-height: 30px;
         font-weight: 400;
         margin: 0 0 20px 0; }
-      ul.list3 li > .inner p {
+      ul.list3 > li > .inner p {
         color: #848484;
         font-size: 14px;
         line-height: 19px;
@@ -1759,7 +1798,7 @@ ul.list2 {
     content: "";
     display: table;
     clear: both; }
-  ul.list2 li {
+  ul.list2 > li {
     float: left;
     width: 50%;
     flex: 0 0 50%;
@@ -1769,21 +1808,21 @@ ul.list2 {
     box-sizing: border-box;
     display: flex; }
     @media (max-width: 767px) {
-      ul.list2 li {
+      ul.list2 > li {
         width: 100%;
         flex: 0 0 100%;
         padding: 10px 0; } }
-    ul.list2 li > div.inner {
+    ul.list2 > li > div.inner {
       border: 1px solid #F2F2F2;
       border-radius: 4px;
       padding: 22px 20px;
       width: 100%; }
-      ul.list2 li > div.inner h3 {
+      ul.list2 > li > div.inner h3 {
         font-size: 20px;
         line-height: 30px;
         font-weight: 400;
         margin: 0 0 20px 0; }
-      ul.list2 li > div.inner p {
+      ul.list2 > li > div.inner p {
         color: #848484;
         font-size: 14px;
         line-height: 19px;

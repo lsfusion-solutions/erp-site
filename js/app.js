@@ -114,4 +114,15 @@ $(document).ready(function() {
         $("#reportpopup form").validate();
     }
 
+    $("#equipment-switcher").click(function(){
+        $(this).toggleClass("active");
+        if( $(this).hasClass("active") ){
+            $("#equipment-switcher-1").show();
+            $("#equipment-switcher-2").hide();
+        }else{
+            $("#equipment-switcher-1").hide();
+            $("#equipment-switcher-2").show();
+        }
+    })
+
 })

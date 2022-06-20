@@ -1533,20 +1533,41 @@ section{
       & > ul{
         list-style: none;
         & > li{
-
-          &.active {
-            background: #F2F2F2;
-            h2 {
-              color: #0E84BC;
-              background: url(../imgs/icons/less.svg) no-repeat right 10px top 10px;
+          $modules: manage;
+          @each $module in $modules {
+            &.module-#{$module}{
+              h2{
+                background-image: url(../imgs/modules/module-#{$module}.svg);
+              }
+            }
+            &.active.module-#{$module}{
+              h2{
+                background-image: url(../imgs/modules/module-#{$module}-active.svg);
+              }
             }
           }
 
+          &.active {
+            h2 {
+              color: #fff;
+              &:after {
+                background-image: url(../imgs/icons/less-white.svg);
+              }
+              background-color: #26C4F7 !important;
+            }
+            & > ul{
+              display: block;
+            }
+          }
           & > h2{
             border: 1px solid #F2F2F2;
             &:hover{
               border-color: darken(#F2F2F2, 15);
+              background-color: #E1F7FE;
             }
+            background-position: 20px 13px;
+            background-repeat: no-repeat;
+
             border-radius: 4px;
             font-weight: 600;
             color: #2C2A28;
@@ -1554,39 +1575,24 @@ section{
             line-height: 22px;
             cursor: pointer;
             margin: 0 0 20px 0;
-            cursor: pointer;
 
             transition: background 0.3s, color 0.3s;
-            background: url(../imgs/icons/more.svg) no-repeat right 20px top 30px;
-            padding: 20px 30px 20px 20px;
+            position: relative;
+            &:after {
+              content: '';
+              position: absolute;
+              top: 30px;
+              right: 20px;
+              width: 10px;
+              height: 10px;
+              background: url(../imgs/icons/more.svg) no-repeat right top;
+            }
+            padding: 20px 30px 20px 72px;
           }
           & > ul{
             display: none;
-            list-style: none;
-            & > li{
-              border: 1px solid #F2F2F2;
-              border-radius: 4px;
-              padding: 10px 12px;
-              h3{
-                font-size: 14px;
-                line-height: 19px;
-                font-weight: 600;
-                margin: 0 0 10px 0;
-                cursor: pointer;
-              }
-              div.info{
-                padding: 10px 0 0 0;
-                font-size: 14px;
-                line-height: 19px;
-                font-weight: 600;
-                ul{
-                  list-style: disc;
-                  margin: 0 0 30px 30px;
-                  font-weight: 400;
-                }
-              }
-            }
           }
+
         }
       }
     }
@@ -1781,7 +1787,7 @@ ul.dd-list{
       background: #F2F2F2;
       h3{
         color: #0E84BC;
-        background: url(../imgs/icons/less.svg) no-repeat right 10px top 10px;
+        background: url(../imgs/icons/less.svg) no-repeat right 0px top 10px;
       }
       & > div{
         display: block;
@@ -1790,7 +1796,7 @@ ul.dd-list{
     h3{
       cursor: pointer;
       transition: background 0.3s, color 0.3s;
-      background: url(../imgs/icons/more.svg) no-repeat right 10px top 10px;
+      background: url(../imgs/icons/more.svg) no-repeat right 0px top 10px;
       padding: 0 30px 0 0;
     }
     & > div{

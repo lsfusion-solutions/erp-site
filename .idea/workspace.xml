@@ -6,8 +6,8 @@
       <change beforePath="$PROJECT_DIR$/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/equipment.html" beforeDir="false" afterPath="$PROJECT_DIR$/equipment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="1631" column="9" selection-start-line="1631" selection-start-column="9" selection-end-line="1631" selection-end-column="9" />
+            <state relative-caret-position="477">
+              <caret line="1567" column="40" selection-start-line="1567" selection-start-column="40" selection-end-line="1567" selection-end-column="40" />
               <folding>
                 <element signature="e#7234#8578#0" />
                 <element signature="e#9212#10159#0" />
@@ -58,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="668">
-              <caret line="124" selection-start-line="124" selection-end-line="124" />
+            <state relative-caret-position="582">
+              <caret line="127" column="9" lean-forward="true" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -125,8 +125,8 @@
       <file leaf-file-name="modules.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1394">
-              <caret line="82" column="52" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
+            <state relative-caret-position="244">
+              <caret line="64" column="34" lean-forward="true" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -152,8 +152,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>reviews</find>
-      <find>FMCG</find>
       <find>section-companies</find>
       <find>бучающие вид</find>
       <find>-best</find>
@@ -177,11 +175,13 @@
       <find>repo</find>
       <find>section-equipment</find>
       <find>https://mycompany-docs.lsfusion.org/</find>
-      <find>faq</find>
       <find>list4</find>
       <find>equipment</find>
       <find>Выбор фронтального решен</find>
+      <find>ection-allmodul</find>
+      <find>faq</find>
       <find>equp</find>
+      <find>for</find>
     </findStrings>
     <replaceStrings>
       <replace>modules#</replace>
@@ -205,7 +205,6 @@
         <option value="$PROJECT_DIR$/reviews.html" />
         <option value="$PROJECT_DIR$/news03.01.2022.html" />
         <option value="$PROJECT_DIR$/case_gippo.html" />
-        <option value="$PROJECT_DIR$/modules.html" />
         <option value="$PROJECT_DIR$/ru/index.html" />
         <option value="$PROJECT_DIR$/news.html" />
         <option value="$PROJECT_DIR$/why.html" />
@@ -213,8 +212,9 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/faq.html" />
         <option value="$PROJECT_DIR$/equipment.html" />
-        <option value="$PROJECT_DIR$/css/app.scss" />
         <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/modules.html" />
+        <option value="$PROJECT_DIR$/css/app.scss" />
       </list>
     </option>
   </component>
@@ -321,14 +321,7 @@
       <workItem from="1654450772775" duration="2637000" />
       <workItem from="1655196992597" duration="1198000" />
       <workItem from="1655287949372" duration="593000" />
-      <workItem from="1655445566259" duration="10283000" />
-    </task>
-    <task id="LOCAL-00013" summary="Header and footer">
-      <created>1649752258300</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1649752258300</updated>
+      <workItem from="1655445566259" duration="13213000" />
     </task>
     <task id="LOCAL-00014" summary="Header and footer">
       <created>1649755042250</created>
@@ -666,11 +659,18 @@
       <option name="project" value="LOCAL" />
       <updated>1655728308735</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Updated equipment page">
+      <created>1655729496587</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1655729496587</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110632000" />
+    <option name="totallyTimeSpent" value="113562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="490" y="0" width="2317" height="959" extended-state="0" />
@@ -713,7 +713,8 @@
     <MESSAGE value="Added video link to why page" />
     <MESSAGE value="Fixed layout for equipment page" />
     <MESSAGE value="Remove unncecessary styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove unncecessary styles" />
+    <MESSAGE value="Updated equipment page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated equipment page" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/404.html">
@@ -996,13 +997,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="82" column="52" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ru/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
@@ -1099,10 +1093,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="127" column="9" lean-forward="true" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="64" column="34" lean-forward="true" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="1631" column="9" selection-start-line="1631" selection-start-column="9" selection-end-line="1631" selection-end-column="9" />
+        <state relative-caret-position="477">
+          <caret line="1567" column="40" selection-start-line="1567" selection-start-column="40" selection-end-line="1567" selection-end-column="40" />
           <folding>
             <element signature="e#7234#8578#0" />
             <element signature="e#9212#10159#0" />
@@ -1113,13 +1121,6 @@
             <element signature="e#39955#41042#0" />
             <element signature="e#41051#42039#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
         </state>
       </provider>
     </entry>

@@ -101,8 +101,8 @@ $(document).ready(function() {
         $(this).addClass("active")
         $(this).closest("section").find("ul.dd-list").hide().eq( $(this).index() ).show()
     })
-    $("ul.dd-list > li").click(function(){
-        $(this).toggleClass("active")
+    $("ul.dd-list > li > h3").click(function(){
+        $(this).closest("li").toggleClass("active")
     })
 
     $("a#report").click(function(e){
@@ -123,6 +123,10 @@ $(document).ready(function() {
             $("#equipment-switcher-1").hide();
             $("#equipment-switcher-2").show();
         }
+    })
+
+    $("ul#modules > li > h2").click(function(){
+        $(this).closest("li").toggleClass("active");
     })
 
 })

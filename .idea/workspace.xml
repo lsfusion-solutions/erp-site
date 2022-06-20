@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05863a48-de35-460d-8137-65aeb02ed490" name="Default" comment="Fix of ru version">
+    <list default="true" id="05863a48-de35-460d-8137-65aeb02ed490" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -47,8 +47,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="385" column="31" selection-start-line="385" selection-start-column="31" selection-end-line="385" selection-end-column="31" />
+            <state relative-caret-position="770">
+              <caret line="756" column="166" selection-start-line="756" selection-start-column="166" selection-end-line="756" selection-end-column="166" />
               <folding>
                 <element signature="e#3318#3322#0" expanded="true" />
                 <element signature="e#3354#3358#0" expanded="true" />
@@ -205,8 +205,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="724" />
-    <option name="y" value="91" />
+    <option name="x" value="539" />
     <option name="width" value="2317" />
     <option name="height" value="1220" />
   </component>
@@ -296,14 +295,7 @@
       <workItem from="1654450772775" duration="2637000" />
       <workItem from="1655196992597" duration="1198000" />
       <workItem from="1655287949372" duration="593000" />
-      <workItem from="1655445566259" duration="4046000" />
-    </task>
-    <task id="LOCAL-00006" summary="Header and footer">
-      <created>1649010338492</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1649010338492</updated>
+      <workItem from="1655445566259" duration="4193000" />
     </task>
     <task id="LOCAL-00007" summary="Header and footer">
       <created>1649010657172</created>
@@ -641,14 +633,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655720389495</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Fix of ru version">
+      <created>1655720959557</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1655720959557</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104395000" />
+    <option name="totallyTimeSpent" value="104542000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="724" y="91" width="2317" height="1220" extended-state="0" />
+    <frame x="539" y="0" width="2317" height="1220" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2403303" />
@@ -1062,8 +1061,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="385" column="31" selection-start-line="385" selection-start-column="31" selection-end-line="385" selection-end-column="31" />
+        <state relative-caret-position="770">
+          <caret line="756" column="166" selection-start-line="756" selection-start-column="166" selection-end-line="756" selection-end-column="166" />
           <folding>
             <element signature="e#3318#3322#0" expanded="true" />
             <element signature="e#3354#3358#0" expanded="true" />

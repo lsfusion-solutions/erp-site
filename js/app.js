@@ -13,7 +13,7 @@ $(document).ready(function() {
 
     let currentSlide = 1;
     let images = new Image();
-    images.src = "imgs/header-2.svg";
+    images.src = "/imgs/header-2.svg";
     setInterval(function(){
         let nextSlide = currentSlide % 12 + 1;
         $("#section-header > .inner").addClass("bg" + nextSlide).removeClass("bg" + currentSlide);
@@ -21,9 +21,9 @@ $(document).ready(function() {
 
         let nextPreloadSlide = nextSlide % 12 + 1;
         let images = new Image();
-        images.src = "imgs/header-" + nextPreloadSlide + ".svg";
+        images.src = "/imgs/header-" + nextPreloadSlide + ".svg";
 
-    }, 1000);
+    }, 5000);
 
     function getRandomInt(max) {
         return Math.floor(Math.random() * max);
@@ -33,7 +33,7 @@ $(document).ready(function() {
         let nextSlide = getRandomInt(8) + 1;
         $("#section-why-header > .inner").addClass("bg" + nextSlide).removeClass("bg" + currentSlideWhy);
         currentSlideWhy = nextSlide;
-    }, 4000);
+    }, 5000);
 
 
 

@@ -950,84 +950,84 @@ section{
     }
   }
   &#section-modules{
-    & > div.inner{
-      h2{
-        text-align: center;
-        margin: 0 0 20px 0;
-        @media (max-width: $siteWidth - 1){
-          padding: 0 20px;
-          br{
-            display: none;
-          }
-        }
-      }
-      ul.list4{
-        li{
-          & > .inner {
-            color: #2C2A28;
-            text-decoration: none;
-            transition: background-color 0.3s;
-            font-size: 16px;
-            line-height: 19px;
-            font-weight: 600;
-            &:hover {
-              background-color: #E1F7FE;
-            }
-            background-repeat: no-repeat;
-            background-position: 15px 15px;
-            padding-left: 62px;
-          }
-          &:nth-child(1) > .inner{
-            background-image: url(../imgs/modules/1.svg);
-          }
-          &:nth-child(2) > .inner{
-            background-image: url(../imgs/modules/2.svg);
-          }
-          &:nth-child(3) > .inner{
-            background-image: url(../imgs/modules/3.svg);
-          }
-          &:nth-child(4) > .inner{
-            background-image: url(../imgs/modules/4.svg);
-          }
-          &:nth-child(5) > .inner{
-            background-image: url(../imgs/modules/5.svg);
-          }
-          &:nth-child(6) > .inner{
-            background-image: url(../imgs/modules/6.svg);
-          }
-          &:nth-child(7) > .inner{
-            background-image: url(../imgs/modules/7.svg);
-          }
-          &:nth-child(8) > .inner{
-            background-image: url(../imgs/modules/8.svg);
-          }
-          &:nth-child(9) > .inner{
-            background-image: url(../imgs/modules/9.svg);
-          }
-          &:nth-child(10) > .inner{
-            background-image: url(../imgs/modules/10.svg);
-          }
-          &:nth-child(11) > .inner{
-            background-image: url(../imgs/modules/11.svg);
-          }
-          &:nth-child(12) > .inner{
-            background-image: url(../imgs/modules/12.svg);
-          }
-        }
-      }
-      & > a{
-        position: relative;
-        left: 50%;
-        margin-left: -75px;
-        &:after{
-          content: " >";
-          position: absolute;
-          right: -12px;
-          top: 1px;
-        }
-      }
-    }
-  }
+     & > div.inner{
+       h2{
+         text-align: center;
+         margin: 0 0 20px 0;
+         @media (max-width: $siteWidth - 1){
+           padding: 0 20px;
+           br{
+             display: none;
+           }
+         }
+       }
+       ul.list4{
+         li{
+           & > .inner {
+             color: #2C2A28;
+             text-decoration: none;
+             transition: background-color 0.3s;
+             font-size: 16px;
+             line-height: 19px;
+             font-weight: 600;
+             &:hover {
+               background-color: #E1F7FE;
+             }
+             background-repeat: no-repeat;
+             background-position: 15px 15px;
+             padding-left: 62px;
+           }
+           &:nth-child(1) > .inner{
+             background-image: url(../imgs/modules/1.svg);
+           }
+           &:nth-child(2) > .inner{
+             background-image: url(../imgs/modules/2.svg);
+           }
+           &:nth-child(3) > .inner{
+             background-image: url(../imgs/modules/3.svg);
+           }
+           &:nth-child(4) > .inner{
+             background-image: url(../imgs/modules/4.svg);
+           }
+           &:nth-child(5) > .inner{
+             background-image: url(../imgs/modules/5.svg);
+           }
+           &:nth-child(6) > .inner{
+             background-image: url(../imgs/modules/6.svg);
+           }
+           &:nth-child(7) > .inner{
+             background-image: url(../imgs/modules/7.svg);
+           }
+           &:nth-child(8) > .inner{
+             background-image: url(../imgs/modules/8.svg);
+           }
+           &:nth-child(9) > .inner{
+             background-image: url(../imgs/modules/9.svg);
+           }
+           &:nth-child(10) > .inner{
+             background-image: url(../imgs/modules/10.svg);
+           }
+           &:nth-child(11) > .inner{
+             background-image: url(../imgs/modules/11.svg);
+           }
+           &:nth-child(12) > .inner{
+             background-image: url(../imgs/modules/12.svg);
+           }
+         }
+       }
+       & > a{
+         position: relative;
+         left: 50%;
+         margin-left: -75px;
+         &:after{
+           content: " >";
+           position: absolute;
+           right: -12px;
+           top: 1px;
+         }
+       }
+     }
+   }
   &#section-cases{
     background-color: #EFF6F8;
     overflow: hidden;

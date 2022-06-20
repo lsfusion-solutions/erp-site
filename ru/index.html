@@ -12,14 +12,15 @@
     <title>LSFusion ERP</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;600&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
 
-    <link href="css/app.css" rel="stylesheet" type="text/css" />
+    <link href="/css/app.css" rel="stylesheet" type="text/css" />
+    <link href="/css/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="imgs/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon/favicon_32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon/favicon_16x16.png">
-    <link rel="icon" type="image/x-icon" href="imgs/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/imgs/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/imgs/favicon/favicon_32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/imgs/favicon/favicon_16x16.png">
+    <link rel="icon" type="image/x-icon" href="/imgs/favicon/favicon.ico">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38678623-1"></script>
     <script>
@@ -36,9 +37,10 @@
         <h2><a href="./#top" title="Go to home page">LSFusion ERP</a></h2>
         <a class="menu-link" href="#menu">Navigation</a>
         <ul class="nav">
-            <li><a href="#">Why lsFuison ERP</a></li>
-            <li><a href="#">Implemented cases</a></li>
-            <li><a href="#">About platform</a></li>
+            <li><a href="why.html">Why lsFuison ERP</a></li>
+            <li><a href="cases.html">Implemented cases</a></li>
+            <li><a href="modules.html">Modules</a></li>
+            <li><a href="about.html">About platform</a></li>
             <li><a href="https://demo.lsfusion.org/erp/" target="_blank" class="special">Try demo</a></li>
             <li id="languages">
                 <div class="language">
@@ -74,195 +76,314 @@
             </table>
             <nav>
                 <a href="https://demo.lsfusion.org/erp/" target="_blank" class="btn">Try demo</a>
-                <a href="https://mycompany-docs.lsfusion.org/en/Installation/" target="_blank" title=" Click to open in new tab" class="btn btn-empty">Install</a>
+                <span title="Click to contact us" class="btn btn-empty contactus">Contact Us</span>
             </nav>
         </div>
     </section>
     <section id="section-companies">
-        <div class="inner">
-            <h2><em>70%</em> Major retail chains in Belarus have implemented lsFusion ERP since 2014</h2>
+        <div class="noinner">
+            <h2><em>70%</em> Major retail chains in Belarus have implemented<br /> lsFusion ERP since 2014</h2>
             <nav>
-                <span class="fmcg">FMCG</span>
-                <span class="fashion">Fashion</span>
+                <span class="active">FMCG</span>
+                <span>Fashion</span>
                 <span>Farma</span>
             </nav>
-            <ul class="list6">
-                <li>
+            <div class="swiper" data-swiper-autoplay="true" data-swiper-loop="true">
+                <ul class="swiper-wrapper fmcg">
+                    <!-- FMCG -->
+                    <li class="swiper-slide">
+                        <div class="inner">
+                            <img src="/imgs/companies/fmcg/барака.png" alt="барака" title="" />
+                            <p>19 hypermarkets</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide fmcg">
+                        <div class="inner">
+                            <img src="/imgs/companies/fmcg/Белмаркет.png" alt="Белмаркет" title="" />
+                            <p>19 hypermarkets</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide fmcg">
+                        <div class="inner">
+                            <img src="/imgs/companies/fmcg/БКС.png" alt="БКС" title="" />
+                            <p>19 hypermarkets</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide fmcg">
+                        <div class="inner">
+                            <img src="/imgs/companies/fmcg/веста.png" alt="веста" title="" />
+                            <p>19 hypermarkets</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide fmcg">
+                        <div class="inner">
+                            <img src="/imgs/companies/fmcg/виталюр.png" alt="виталюр" title="" />
+                            <p>19 hypermarkets</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide fmcg">
+                        <div class="inner">
+                            <img src="/imgs/companies/fmcg/витебские_продукты.png" alt="витебские продукты" title="" />
+                            <p>19 hypermarkets</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide fmcg">
+                        <div class="inner">
+                            <img src="/imgs/companies/fmcg/Дипмаркет.png" alt="Дипмаркет" title="" />
+                            <p>19 hypermarkets</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide fmcg">
+                        <div class="inner">
+                            <img src="/imgs/companies/fmcg/Дорорс.png" alt="Дорорс" title="" />
+                            <p>19 hypermarkets</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide fmcg">
+                        <div class="inner">
+                            <img src="/imgs/companies/fmcg/кристал.png" alt="кристал" title="" />
+                            <p>19 hypermarkets</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide fmcg">
+                        <div class="inner">
+                            <img src="/imgs/companies/fmcg/пуховичиторг.png" alt="пуховичиторг" title="" />
+                            <p>19 hypermarkets</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide fmcg">
+                        <div class="inner">
+                            <img src="/imgs/companies/fmcg/родная_сторона.png" alt="родная сторона" title="" />
+                            <p>19 hypermarkets</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide fmcg">
+                        <div class="inner">
+                            <img src="/imgs/companies/fmcg/Энергооил.png" alt="Энергооил" title="" />
+                            <p>19 hypermarkets</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide fmcg">
+                        <div class="inner">
+                            <img src="/imgs/companies/fmcg/барака.png" alt="барака" title="" />
+                            <p>19 hypermarkets</p>
+                        </div>
+                    </li>
+
+                    <!-- Fashion -->
+                    <li class="swiper-slide fashion">
+                        <div class="inner">
+                            <img src="/imgs/companies/fashion/belbimbo.png" alt="belbimbo" title="" />
+                            <p>19 hypermarkets</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide fashion">
+                        <div class="inner">
+                            <img src="/imgs/companies/fashion/caprice.png" alt="caprice" title="" />
+                            <p>19 hypermarkets</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide fashion">
+                        <div class="inner">
+                            <img src="/imgs/companies/fashion/Elema.png" alt="Elema" title="" />
+                            <p>19 hypermarkets</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide fashion">
+                        <div class="inner">
+                            <img src="/imgs/companies/fashion/gum.png" alt="gum" title="" />
+                            <p>19 hypermarkets</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide fashion">
+                        <div class="inner">
+                            <img src="/imgs/companies/fashion/kupalinka.png" alt="kupalinka" title="" />
+                            <p>19 hypermarkets</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide fashion">
+                        <div class="inner">
+                            <img src="/imgs/companies/fashion/miniso.png" alt="miniso" title="" />
+                            <p>19 hypermarkets</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide fashion">
+                        <div class="inner">
+                            <img src="/imgs/companies/fashion/mothecare.png" alt="mothecare" title="" />
+                            <p>19 hypermarkets</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide fashion">
+                        <div class="inner">
+                            <img src="/imgs/companies/fashion/next.png" alt="next" title="" />
+                            <p>19 hypermarkets</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide fashion">
                     <div class="inner">
-                        <img src="imgs/companies/1.png" alt="" title="" />
+                            <img src="/imgs/companies/fashion/svitanak.png" alt="svitanak" title="" />
                         <p>19 hypermarkets</p>
                     </div>
                 </li>
-                <li>
+                    <li class="swiper-slide fashion">
                     <div class="inner">
-                        <img src="imgs/companies/2.png" alt="" title="" />
-                        <p>140 supermarkets</p>
+                            <img src="/imgs/companies/fashion/terranova.png" alt="terranova" title="" />
+                            <p>19 hypermarkets</p>
                     </div>
                 </li>
-                <li>
+
+                    <!-- Farma -->
+                    <li class="swiper-slide farma">
                     <div class="inner">
-                        <img src="imgs/companies/3.png" alt="" title="" />
-                        <p>126 супермаркетов</p>
+                            <img src="/imgs/companies/farma/Лекоцентр.png" alt="Лекоцентр" title="" />
+                            <p>19 hypermarkets</p>
                     </div>
                 </li>
-                <li>
+                    <li class="swiper-slide farma">
                     <div class="inner">
-                        <img src="imgs/companies/4.png" alt="" title="" />
-                        <p>582 супермаркетов</p>
+                            <img src="/imgs/companies/farma/МедВай.png" alt="МедВай" title="" />
+                            <p>19 hypermarkets</p>
                     </div>
                 </li>
-                <li>
+                    <li class="swiper-slide farma">
                     <div class="inner">
-                        <img src="imgs/companies/5.png" alt="" title="" />
-                        <p>69 супермаркетов</p>
+                            <img src="/imgs/companies/farma/остров_здоровья.png" alt="остров здоровья" title="" />
+                            <p>19 hypermarkets</p>
                     </div>
                 </li>
-                <li>
+                    <li class="swiper-slide farma">
                     <div class="inner">
-                        <img src="imgs/companies/6.png" alt="" title="" />
-                        <p>75 супермаркетов</p>
+                            <img src="/imgs/companies/farma/Тишас.png" alt="Тишас" title="" />
+                            <p>19 hypermarkets</p>
                     </div>
                 </li>
             </ul>
+                <p class="swiper-pagination"></p>
+            </div>
         </div>
     </section>
     <section id="section-why">
         <div class="inner">
             <h2>Why lsFusion ERP?</h2>
+            <div class="ulbox">
             <ul class="list3">
                 <li>
                     <div class="inner">
                         <h3>Responsive business logic</h3>
                         <p>Can be customized to meet business requirements, not visa versa. Ability to quickly implement any algorithm.</p>
-                        <a href="#">Learn more &gt;</a>
+                            <a href="why.html#responsive_business_logic">Learn more</a>
                     </div>
                 </li>
                 <li>
                     <div class="inner">
                         <h3>Unlimited performance and scalability</h3>
                         <p>Any number of users and retail stores. Minimum requirements for communication channels</p>
-                        <a href="#">Learn more &gt;</a>
+                            <a href="why.html#unlimited_performance_and_scalability">Learn more</a>
                     </div>
                 </li>
                 <li>
                     <div class="inner">
                         <h3>Step-by-step implementation with no business downtime</h3>
                         <p>No risk of financial loss</p>
-                        <a href="#">Learn more &gt;</a>
+                            <a href="why.html#step_by_step_implementation">Learn more</a>
                     </div>
                 </li>
                 <li>
                     <div class="inner">
                         <h3>Transparent cost of ownership</h3>
                         <p>No hidden fees, no requirements for OS licenses, DBMS, etc.</p>
-                        <a href="#">Learn more &gt;</a>
+                            <a href="why.html#transparent_cost">Learn more</a>
                     </div>
                 </li>
                 <li>
                     <div class="inner">
                         <h3>Support different legislation</h3>
                         <p>Russian, Belarusian, Uzbek, etc.</p>
-                        <a href="#">Learn more &gt;</a>
+                            <a href="why.html#different_legislation">Learn more</a>
                     </div>
                 </li>
                 <li>
                     <div class="inner">
                         <h3>Integration with common commercial equipment</h3>
                         <p>Accounting systems, online shops, WMS and etc.</p>
-                        <a href="#">Learn more &gt;</a>
+                            <a href="why.html#integration_with_common_equipment">Learn more</a>
+                    </div>
+                </li>
+                    <li>
+                        <div class="inner">
+                            <h3>All in one</h3>
+                            <p>All data in one system. Immediate acutualization. Web-based.</p>
+                            <a href="why.html#all_in_one">Learn more</a>
+        </div>
+                    </li>
+                <li>
+                    <div class="inner">
+                            <h3>Only what you need</h3>
+                            <p>Flexible customisation of the system to the business needs. Pay only for what you use. Add modules as your business grows.</p>
+                            <a href="why.html#only_what_you_need">Learn more</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="inner">
+                            <h3>Отсутствие vendor-lock</h3>
+                            <p>Благодаря уникальной открытой платформе кастомизировать систему может любой человек, как с ИТ-образованием, так и без такового.</p>
+                            <a href="why.html#no_vendor_lock">Learn more</a>
                     </div>
                 </li>
             </ul>
+            </div>
         </div>
     </section>
     <section id="section-modules">
         <div class="inner">
-            <h2>Modular solution for retail and wholesale</h2>
-            <ul class="list2">
-                <li>
-                    <div class="inner">
-                        <strong>All in one</strong>
-                        <p>All data in one system. Immediate acutualization.
-Web-based</p>
-                        <a href="#">Learn more &gt;</a>
-                    </div>
-                </li>
-                <li>
-                    <div class="inner">
-                        <strong>Only what you need</strong>
-                        <p>Flexible customisation of the system to the business needs. Pay only for what you use. Add modules as your business grows</p>
-                        <a href="#">Learn more &gt;</a>
-                    </div>
-                </li>
-            </ul>
+            <h2>Modular solution<br /> for retail and wholesale</h2>
+            <div class="ulbox">
             <ul class="list4">
                 <li>
-                    <a href="modules#" class="inner">
-                        Management of commercial property
-                    </a>
+                        <a href="modules.html#management_of_commercial_property" class="inner">Management of commercial property</a>
                 </li>
                 <li>
-                    <a href="modules#" class="inner">
-                        Management of commercial equipment
-                    </a>
+                        <a href="modules.html#management_of_commercial_equipment" class="inner">Management of commercial equipment</a>
                 </li>
                 <li>
-                    <a href="modules#" class="inner">
-                        Shaping and accounting orders
-                    </a>
+                        <a href="modules.html#shaping_and_accounting_orders" class="inner">Shaping and accounting orders</a>
                 </li>
                 <li>
-                    <a href="modules#" class="inner">
-                        Procurement management
-                    </a>
+                        <a href="modules.html#procurement_management" class="inner">Procurement management</a>
                 </li>
                 <li>
-                    <a href="modules#" class="inner">
-                        Billing and Settlement Management
-                    </a>
+                        <a href="modules.html#billing_and_settlement_management" class="inner">Billing and Settlement Management</a>
                 </li>
                 <li>
-                    <a href="modules#" class="inner">
-                        Calculating marketing fees
-                    </a>
+                        <a href="modules.html#calculating_marketing_fees" class="inner">Calculating marketing fees</a>
                 </li>
                 <li>
-                    <a href="modules#" class="inner">
-                        In-house production
-                    </a>
+                        <a href="modules.html#in_house_production" class="inner">In-house production</a>
                 </li>
                 <li>
-                    <a href="modules#" class="inner">
-                        Foreign trade activities
-                    </a>
+                        <a href="modules.html#foreign_trade_activities" class="inner">Foreign trade activities</a>
                 </li>
                 <li>
-                    <a href="modules#" class="inner">
-                        Order bundling
-                    </a>
+                        <a href="modules.html#order_bundling" class="inner">Order bundling</a>
                 </li>
                 <li>
-                    <a href="modules#" class="inner">
-                        Transportation management
-                    </a>
+                        <a href="modules.html#transportation_management" class="inner">Transportation management</a>
                 </li>
                 <li>
-                    <a href="modules#" class="inner">
-                        Analytics reports
-                    </a>
+                        <a href="modules.html#analytics_reports" class="inner">Analytics reports</a>
                 </li>
                 <li>
-                    <a href="modules#" class="inner">
-                        Business analytics
-                    </a>
+                        <a href="modules.html#business_analytics" class="inner">Business analytics</a>
                 </li>
             </ul>
-            <a href="modules">See all modules &gt;</a>
+            </div>
+            <a href="modules.html">See all modules</a>
         </div>
     </section>
-    <section id="section-">
+    <section id="section-cases">
         <div class="inner">
             <h2>Cases of major implementations</h2>
+            <div class="ulbox">
             <ul class="list4">
                 <li>
                     <div class="inner">
@@ -275,7 +396,7 @@ Web-based</p>
                             <dt>Users</dt>
                             <dd>&gt; 7</dd>
                         </dl>
-                        <a href="#">Learn more</a>
+                        <a href="case_gippo.html">Learn more</a>
                     </div>
                 </li>
                 <li>
@@ -289,7 +410,7 @@ Web-based</p>
                             <dt>Users</dt>
                             <dd>≈ 1000</dd>
                         </dl>
-                        <a href="#">Learn more</a>
+                        <a href="case_ostrov_chistory.html">Learn more</a>
                     </div>
                 </li>
                 <li>
@@ -303,7 +424,7 @@ Web-based</p>
                             <dt>Users</dt>
                             <dd>≈ 1000</dd>
                         </dl>
-                        <a href="#">Learn more</a>
+                        <a href="case_santa.html">Learn more</a>
                     </div>
                 </li>
                 <li>
@@ -313,15 +434,17 @@ Web-based</p>
                             <dt>Small retail stores all over Belarus</dt>
                             <dd>8 500</dd>
                         </dl>
-                        <a href="#">Learn more</a>
+                        <a href="case_belcoopsoyuz.html">Learn more</a>
                     </div>
                 </li>
             </ul>
+            </div>
             <h3>Our customers have migrated to lsFusion from different systems</h3>
-            <ul class="list6">
-                <li>
+            <div class="swiper">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
                     <div class="inner">
-                        <img src="imgs/brands/1.png" alt="" title="" />
+                            <img src="/imgs/brands/1С.png" alt="1С" title="" />
                         <p>Causes of migration</p>
                         <ul>
                             <li>Outdated system.</li>
@@ -330,9 +453,9 @@ Web-based</p>
                         </ul>
                     </div>
                 </li>
-                <li>
+                    <li class="swiper-slide">
                     <div class="inner">
-                        <img src="imgs/brands/2.png" alt="" title="" />
+                            <img src="/imgs/brands/AX.png" alt="AX" title="" />
                         <p>Причины перехода</p>
                         <ul>
                             <li>Устаревшая система.</li>
@@ -341,9 +464,9 @@ Web-based</p>
                         </ul>
                     </div>
                 </li>
-                <li>
+                    <li class="swiper-slide">
                     <div class="inner">
-                        <img src="imgs/brands/3.png" alt="" title="" />
+                            <img src="/imgs/brands/gestori.png" alt="gestori" title="" />
                         <p>Причины перехода</p>
                         <ul>
                             <li>Устаревшая система.</li>
@@ -352,9 +475,9 @@ Web-based</p>
                         </ul>
                     </div>
                 </li>
-                <li>
+                    <li class="swiper-slide">
                     <div class="inner">
-                        <img src="imgs/brands/4.png" alt="" title="" />
+                            <img src="/imgs/brands/sap.png" alt="sap" title="" />
                         <p>Причины перехода</p>
                         <ul>
                             <li>Устаревшая система.</li>
@@ -363,9 +486,9 @@ Web-based</p>
                         </ul>
                     </div>
                 </li>
-                <li>
+                    <li class="swiper-slide">
                     <div class="inner">
-                        <img src="imgs/brands/5.png" alt="" title="" />
+                            <img src="/imgs/brands/SuperMag.png" alt="SuperMag" title="" />
                         <p>Причины перехода</p>
                         <ul>
                             <li>Устаревшая система.</li>
@@ -374,25 +497,107 @@ Web-based</p>
                         </ul>
                     </div>
                 </li>
-                <li>
-                    <div class="inner">
-                        <img src="imgs/brands/6.png" alt="" title="" />
-                        <p>Причины перехода</p>
-                        <ul>
-                            <li>Устаревшая система.</li>
-                            <li>Множество скрытых платежей.</li>
-                            <li>Невозможность вносить доработки.</li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
+                </ul>
+                <p class="swiper-pagination"></p>
+            </div>
         </div>
     </section>
-    <section id="section-">
-        <div class="inner">
+    <section id="section-best">
+                    <div class="inner">
+            <nav>
+                <span class="active">LS Trade ТСД</span>
+                <span>Обучающие видео lsFusion ERP</span>
+                <span>Семинары lsFusion ERP</span>
+                <span>Презентации lsFusion ERP</span>
+            </nav>
+            <div class="videos">
+                <div class="swiper">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href="https://www.youtube.com/watch?v=0mAzlQwIPQI&ab_channel=AimToHeadOfficial" target="_blank" title="Click to view"><img src="https://img.youtube.com/vi/0mAzlQwIPQI/hqdefault.jpg" alt="" title="" /> </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.youtube.com/watch?v=0mAzlQwIPQI&ab_channel=AimToHeadOfficial" target="_blank" title="Click to view"><img src="https://img.youtube.com/vi/0mAzlQwIPQI/hqdefault.jpg" alt="" title="" /> </a>
+                        </li>
+                    </ul>
+                    <p class="swiper-pagination"></p>
+                </div>
+                <div class="swiper" style="display: none;">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href="https://www.youtube.com/watch?v=0mAzlQwIPQI&ab_channel=AimToHeadOfficial" target="_blank" title="Click to view"><img src="https://img.youtube.com/vi/0mAzlQwIPQI/hqdefault.jpg" alt="" title="" /> </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.youtube.com/watch?v=0mAzlQwIPQI&ab_channel=AimToHeadOfficial" target="_blank" title="Click to view"><img src="https://img.youtube.com/vi/0mAzlQwIPQI/hqdefault.jpg" alt="" title="" /> </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.youtube.com/watch?v=0mAzlQwIPQI&ab_channel=AimToHeadOfficial" target="_blank" title="Click to view"><img src="https://img.youtube.com/vi/0mAzlQwIPQI/hqdefault.jpg" alt="" title="" /> </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.youtube.com/watch?v=0mAzlQwIPQI&ab_channel=AimToHeadOfficial" target="_blank" title="Click to view"><img src="https://img.youtube.com/vi/0mAzlQwIPQI/hqdefault.jpg" alt="" title="" /> </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.youtube.com/watch?v=0mAzlQwIPQI&ab_channel=AimToHeadOfficial" target="_blank" title="Click to view"><img src="https://img.youtube.com/vi/0mAzlQwIPQI/hqdefault.jpg" alt="" title="" /> </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.youtube.com/watch?v=0mAzlQwIPQI&ab_channel=AimToHeadOfficial" target="_blank" title="Click to view"><img src="https://img.youtube.com/vi/0mAzlQwIPQI/hqdefault.jpg" alt="" title="" /> </a>
+                        </li>
+                    </ul>
+                    <p class="swiper-pagination"></p>
+                </div>
+                <div class="swiper" style="display: none;">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href="https://www.youtube.com/watch?v=0mAzlQwIPQI&ab_channel=AimToHeadOfficial" target="_blank" title="Click to view"><img src="https://img.youtube.com/vi/0mAzlQwIPQI/hqdefault.jpg" alt="" title="" /> </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.youtube.com/watch?v=0mAzlQwIPQI&ab_channel=AimToHeadOfficial" target="_blank" title="Click to view"><img src="https://img.youtube.com/vi/0mAzlQwIPQI/hqdefault.jpg" alt="" title="" /> </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.youtube.com/watch?v=0mAzlQwIPQI&ab_channel=AimToHeadOfficial" target="_blank" title="Click to view"><img src="https://img.youtube.com/vi/0mAzlQwIPQI/hqdefault.jpg" alt="" title="" /> </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.youtube.com/watch?v=0mAzlQwIPQI&ab_channel=AimToHeadOfficial" target="_blank" title="Click to view"><img src="https://img.youtube.com/vi/0mAzlQwIPQI/hqdefault.jpg" alt="" title="" /> </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.youtube.com/watch?v=0mAzlQwIPQI&ab_channel=AimToHeadOfficial" target="_blank" title="Click to view"><img src="https://img.youtube.com/vi/0mAzlQwIPQI/hqdefault.jpg" alt="" title="" /> </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.youtube.com/watch?v=0mAzlQwIPQI&ab_channel=AimToHeadOfficial" target="_blank" title="Click to view"><img src="https://img.youtube.com/vi/0mAzlQwIPQI/hqdefault.jpg" alt="" title="" /> </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.youtube.com/watch?v=0mAzlQwIPQI&ab_channel=AimToHeadOfficial" target="_blank" title="Click to view"><img src="https://img.youtube.com/vi/0mAzlQwIPQI/hqdefault.jpg" alt="" title="" /> </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.youtube.com/watch?v=0mAzlQwIPQI&ab_channel=AimToHeadOfficial" target="_blank" title="Click to view"><img src="https://img.youtube.com/vi/0mAzlQwIPQI/hqdefault.jpg" alt="" title="" /> </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.youtube.com/watch?v=0mAzlQwIPQI&ab_channel=AimToHeadOfficial" target="_blank" title="Click to view"><img src="https://img.youtube.com/vi/0mAzlQwIPQI/hqdefault.jpg" alt="" title="" /> </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.youtube.com/watch?v=0mAzlQwIPQI&ab_channel=AimToHeadOfficial" target="_blank" title="Click to view"><img src="https://img.youtube.com/vi/0mAzlQwIPQI/hqdefault.jpg" alt="" title="" /> </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.youtube.com/watch?v=0mAzlQwIPQI&ab_channel=AimToHeadOfficial" target="_blank" title="Click to view"><img src="https://img.youtube.com/vi/0mAzlQwIPQI/hqdefault.jpg" alt="" title="" /> </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.youtube.com/watch?v=0mAzlQwIPQI&ab_channel=AimToHeadOfficial" target="_blank" title="Click to view"><img src="https://img.youtube.com/vi/0mAzlQwIPQI/hqdefault.jpg" alt="" title="" /> </a>
+                        </li>
+                        </ul>
+                    <p class="swiper-pagination"></p>
+                    </div>
+                <div class="swiper" style="display: none;">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href="https://www.youtube.com/watch?v=0mAzlQwIPQI&ab_channel=AimToHeadOfficial" target="_blank" title="Click to view"><img src="https://img.youtube.com/vi/0mAzlQwIPQI/hqdefault.jpg" alt="" title="" /> </a>
+                </li>
+            </ul>
+                    <p class="swiper-pagination"></p>
+                </div>
+        </div>
             <div class="info">
-                <h2>Самая высокодекларативная платформа и язык для разработки когда либо созданная</h2>
-                <p>lsFusion использует инновационные парадигмы программирования, позволяющие конкурировать с мировыми лидерами. Обладает высоким уровнем декларативности: логику, структуру данных и интерфейс может делать бизнес-аналитик/любой продвинутый пользователь Excel.</p>
+                <h2>Самая <em>высокодекларативная платформа</em> и язык для разработки когда либо созданная</h2>
+                <p><em>lsFusion</em> использует инновационные парадигмы программирования, позволяющие конкурировать с мировыми лидерами. Обладает высоким уровнем декларативности: логику, структуру данных и интерфейс может делать бизнес-аналитик/любой продвинутый пользователь Excel.</p>
                 <ul>
                     <li>гибкость</li>
                     <li>масштабируемость</li>
@@ -402,128 +607,134 @@ Web-based</p>
                 </ul>
             </div>
             <div class="img">
-                <img src="imgs/platform.png" alt="" title="" />
+                <img src="/imgs/platform.png" alt="" title="" />
             </div>
         </div>
     </section>
-    <section id="section-">
+    <section id="section-others">
         <div class="inner">
             <h2>Другие продукты на базе платформы lsFusion</h2>
+            <div class="ulbox">
             <ul class="list4">
                 <li>
-                    <div class="inner">
+                        <a href="" class="inner">
                         <p>
                             Мобильное
                             приложение ТСД
                         </p>
                         <strong>lsTradeCompany</strong>
-                    </div>
+                        </a>
                 </li>
                 <li>
-                    <div class="inner">
+                        <a href="" class="inner">
                         <p>
                             Сервер торгового
                             оборудования
                         </p>
                         <strong>EQS</strong>
-                    </div>
+                        </a>
                 </li>
                 <li>
-                    <div class="inner">
+                        <a href="" class="inner">
                         <p>
                             Фронт-офис для
                             общепита
                         </p>
                         <strong>lsFood</strong>
-                    </div>
+                        </a>
                 </li>
                 <li>
-                    <div class="inner">
+                        <a href="" class="inner">
                         <p>
                             Конструктор ERP для малого бизнеса
                         </p>
                         <strong>MyCompany</strong>
-                    </div>
+                        </a>
                 </li>
                 <li>
-                    <div class="inner">
+                        <a href="" class="inner">
                         <p>
                             Конструктор промышленного
                         </p>
                         <strong>IoT Mite</strong>
-                    </div>
+                        </a>
                 </li>
                 <li>
-                    <div class="inner">
+                        <a href="" class="inner">
                         <p>
                             Учетная система
                             для общепита
                             barSettings
                         </p>
                         <strong></strong>
-                    </div>
+                        </a>
                 </li>
             </ul>
+        </div>
         </div>
     </section>
     <section id="section-reviews">
         <div class="inner">
             <h2>
                 Отзывы наших клиентов
-                <a href="reviews">Читать все отзывы</a>
+                <a href="reviews.html">Читать все отзывы</a>
             </h2>
+            <div class="ulbox">
             <ul class="list3">
                 <li>
-                    <a href="" class="inner">
+                        <div class="inner">
                         <p>При выборе программного обеспечения мы руководствовались многими факторами: немаловажным было то, что продукт использует современные открытые технологии. Трехзвенная архитектура система, разработанная на бесплатных Java-технологиях и обеспечивает хранение всей информации в рамках единой базы данных...</p>
-                        <span>Читать отзыв полностью</span>
+                            <a href="review-1.html">Читать отзыв полностью</a>
                         <em>Булыгина А.А. Начальник отдела IT в сети супермаркетов “Виталюр”</em>
-                    </a>
+                        </div>
                 </li>
                 <li>
-                    <a href="" class="inner">
+                        <div class="inner">
                         <p>При выборе программного обеспечения мы руководствовались многими факторами: немаловажным было то, что продукт использует современные открытые технологии. Трехзвенная архитектура система, разработанная на бесплатных Java-технологиях и обеспечивает хранение всей информации в рамках единой базы данных...</p>
-                        <span>Читать отзыв полностью</span>
+                            <a href="review-2.html">Читать отзыв полностью</a>
                         <em>Булыгина А.А. Начальник отдела IT в сети супермаркетов “Виталюр”</em>
-                    </a>
+                        </div>
                 </li>
                 <li>
-                    <a href="" class="inner">
+                        <div class="inner">
                         <p>При выборе программного обеспечения мы руководствовались многими факторами: немаловажным было то, что продукт использует современные открытые технологии. Трехзвенная архитектура система, разработанная на бесплатных Java-технологиях и обеспечивает хранение всей информации в рамках единой базы данных...</p>
-                        <span>Читать отзыв полностью</span>
+                            <a href="review-3.html">Читать отзыв полностью</a>
                         <em>Булыгина А.А. Начальник отдела IT в сети супермаркетов “Виталюр”</em>
-                    </a>
+                        </div>
                 </li>
             </ul>
+        </div>
         </div>
     </section>
     <section id="section-news">
         <div class="inner">
             <h2>Новости</h2>
+            <div class="ulbox">
             <ul class="list3">
                 <li>
-                    <div class="inner">
+                        <a href="news03.01.2022.html" class="inner" title="Click to view full news">
                         <h3>Автоматизация торговой сети «Baraka market»</h3>
                         <p>Первый проект по внедрению lsFusion ERP в Республике Узбекистан</p>
                         <em>3 декабря 2020</em>
-                    </div>
+                        </a>
                 </li>
                 <li>
-                    <div class="inner">
+                        <a href="news03.01.2022.html" class="inner" title="Click to view full news">
                         <h3>Первый гипермаркет «Копилка» переведен на lsFusion ERP</h3>
                         <p>Второй этап проекта по автоматизации торговых сетей «Бигзз»</p>
                         <em>3 декабря 2020</em>
-                    </div>
+                        </a>
                 </li>
                 <li>
-                    <div class="inner">
+                        <a href="news03.01.2022.html" class="inner" title="Click to view full news">
                         <h3>Все супермаркеты Санты переведены на lsFusion ERP</h3>
                         <p>190 супермаркетов сети были переведены с Gestori и Формуляра на lsFusion ERP.</p>
                         <em>3 декабря 2020</em>
-                    </div>
+                        </a>
                 </li>
             </ul>
-            <a href="news">Все новости</a>
+            </div>
+            <a href="news.html">Все новости</a>
         </div>
     </section>
 </main>
@@ -536,12 +747,15 @@ Web-based</p>
                 <p>Developed on free open source platform<br /> <a href="https://lsfusion.org/" target="_blank">lsFusion</a></p>
             </div>
             <ul class="links">
-                <li><a href="#">Equipment</a></li>
+                <li><a href="equipment.html">Equipment</a></li>
                 <li><a href="https://mycompany-docs.lsfusion.org/en/" target="_blank">Documentation</a></li>
+                <li><a href="faq.html">FAQ</a></li>
             </ul>
             <ul class="social">
                 <li class="blog"><a href="https://habr.com/en/company/lsfusion/blog/" target="_blank" title="Click to open in a new tab">Read our blog on Habr</a></li>
                 <li class="sl"><a href="https://slack.lsfusion.org/" target="_blank" title="Click to open in a new tab">Join our Slack-chat</a></li>
+                <li class="yt"><a href="https://www.youtube.com/channel/UCvIrMhozcl2psh2HbsieR4g" target="_blank" title="Click to open in a new tab">Watch the video on YouTube</a></li>
+                <li class="ln"><a href="https://www.linkedin.com/company/lsfusion" target="_blank" title="Click to open in a new tab">Read our news on LinkedIn</a></li>
             </ul>
             <ul class="community">
                 <li class="em"><a href="mailto:info@lsfusion.org" target="_blank" title="Click to open in a new tab">hello@luxsoft.by</a></li>
@@ -553,18 +767,98 @@ Web-based</p>
             <p id="copyright">&copy; <script>document.write((new Date()).getFullYear())</script> lsFusion Foundation</p>
 
             <ul>
-                <li><a href="mailto:info@lsfusion.org">Report an error</a></li>
+                <li><a href="mailto:info@lsfusion.org" id="report">Report an error</a></li>
             </ul>
 
         </div>
     </div>
 </footer>
 
+<span class="contactus" title="Click to Contact Us">Contact Us</span>
+
+<div id="contactuspopup" class="popup">
+    <span class="close">x</span>
+    <div class="inner">
+        <h3>Contact Us</h3>
+        <p>Any text can be there</p>
+        <form method="post" action="TODO">
+            <nav>
+                <p>Please choose an office:</p>
+                <input type="radio" checked name="office" value="Moscow" id="contact-moscow" required /><label class="label" for="contact-moscow">Moscow</label>
+                <input type="radio" name="office" value="Minsk" id="contact-minsk" required /><label class="label" for="contact-minsk">Minsk</label>
+            </nav>
+            <fieldset>
+                <input type="text" name="first_name" value="" placeholder="First name" />
+                <input type="text" name="last_name" value="" placeholder="Last name" />
+                <input type="email" name="email" value="" placeholder="Email*" required />
+                <input type="text" name="phone" value="" placeholder="Phone" />
+                <textarea name="comment" placeholder="Your comment goes here" rows="10" cols="6"></textarea>
+            </fieldset>
+            <div class="buttons">
+                <input type="submit" value="Submit" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div id="reportpopup" class="popup">
+    <span class="close">x</span>
+    <div class="inner">
+        <h3>Report and error</h3>
+        <p>Any text can be there</p>
+        <form method="post" action="TODO">
+            <fieldset>
+                <input type="text" name="name" value="" placeholder="Your name" />
+                <input type="email" name="email" value="" placeholder="Email" />
+                <input type="text" name="phone" value="" placeholder="Phone" />
+                <textarea name="comment" placeholder="Your comment goes here*" rows="10" cols="6" required></textarea>
+            </fieldset>
+            <div class="buttons">
+                <input type="submit" value="Submit" />
+            </div>
+        </form>
+    </div>
+</div>
+
 <script
         src="https://code.jquery.com/jquery-2.2.4.min.js"
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
         crossorigin="anonymous"></script>
 <script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
-<script src="js/app.js"></script>
+<script src="/js/jquery.popupoverlay.js"></script>
+<script src="/js/jquery.validate.min.js"></script>
+<script src="/js/app.js"></script>
+
+<script src="/js/swiper-bundle.min.js"></script>
+<script>
+    $(".swiper").each(function(){
+        let loop = false;
+        if( $(this).attr("data-swiper-loop") == "true"){
+            loop = true;
+        }
+        let autoplay = "";
+        if( $(this).attr("data-swiper-autoplay") == "true"){
+            autoplay = {
+                delay: 5000,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true,
+            };
+        }
+        var companiesSwiper = new Swiper(this, {
+            slidesPerView: "auto",
+            spaceBetween: 0,
+            loop: loop,
+
+            autoplay: autoplay,
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+
+    })
+</script>
+
 </body>
 </html>

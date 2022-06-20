@@ -89,7 +89,7 @@ $(document).ready(function() {
         e.preventDefault()
         return false;
     })
-    
+
 
     //FAQ page
     $("#section-faq nav span").click(function(){

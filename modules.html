@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;600&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
 
     <link href="css/app.css" rel="stylesheet" type="text/css" />
+    <link href="css/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="imgs/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon/favicon_32x32.png">
@@ -36,12 +37,12 @@
         <h2><a href="./#top" title="Go to home page">LSFusion ERP</a></h2>
         <a class="menu-link" href="#menu">Navigation</a>
         <ul class="nav">
-            <li><a href="why.html">Why lsFuison ERP</a></li>
-            <li><a href="cases.html">Implemented cases</a></li>
-            <li><a href="modules.html" class="active">Modules</a></li>
-            <li><a href="about.html">About platform</a></li>
-            <li><a href="https://demo.lsfusion.org/erp/" target="_blank" class="special">Try demo</a></li>
-            <li id="languages">
+            <li><a href="why.html">Почему lsFuison ERP</a></li>
+            <li><a href="cases.html">Кейсы внедрения</a></li>
+            <li><a href="modules.html">Модули</a></li>
+            <li><a href="about.html">О платформе</a></li>
+            <li><a href="https://demo.lsfusion.org/erp/" target="_blank" class="special">Попробовать демо</a></li>
+            <!--li id="languages">
                 <div class="language">
                     <strong>En</strong>
                     <ul>
@@ -51,7 +52,7 @@
                         <li><span class="current">En</span></li>
                     </ul>
                 </div>
-            </li>
+            </li-->
         </ul>
     </div>
 </nav>
@@ -175,5 +176,37 @@
 <script src="js/jquery.popupoverlay.js"></script>
 <script src="js/jquery.validate.min.js"></script>
 <script src="js/app.js"></script>
+
+<script src="js/swiper-bundle.min.js"></script>
+<script>
+    $(".swiper").each(function(){
+        let loop = false;
+        if( $(this).attr("data-swiper-loop") == "true"){
+            loop = true;
+        }
+        let autoplay = "";
+        if( $(this).attr("data-swiper-autoplay") == "true"){
+            autoplay = {
+                delay: 5000,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true,
+            };
+        }
+        var companiesSwiper = new Swiper(this, {
+            slidesPerView: "auto",
+            spaceBetween: 0,
+            loop: loop,
+
+            autoplay: autoplay,
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+
+    })
+</script>
+
 </body>
 </html>

@@ -441,12 +441,43 @@ section{
           }
         }
       }
+      a.video{
+        @media (min-width: $siteWidth){
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          background: url(../imgs/icons/play-white.svg) no-repeat 50% 50%;
+          z-index: 1;
+          text-indent: -3000px;
+          overflow: hidden;
+          top: 205px;
+          right: 237px;
+          &:hover{
+
+          }
+        }
+        @media (max-width: $siteWidth - 1){
+          color: #fff;
+          font-size: 18px;
+          line-height: 30px;
+          font-weight: 600;
+          display: inline-block;
+          margin: 0 0 20px 0;
+          padding: 0 40px 0 0;
+          background: url(../imgs/icons/play-white.svg) no-repeat 100% 50%;
+          text-decoration: none;
+          &:hover{
+            text-decoration: underline;
+          }
+        }
+      }
       nav{
         @include clearfix;
         a, span{
           float: left;
-          width: 155px;
+          min-width: 155px;
           cursor: pointer;
+          text-align: center;
           &:first-child{
             margin-right: 30px;
           }

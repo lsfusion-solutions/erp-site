@@ -76,7 +76,7 @@ $(document).ready(function() {
         var match = url.match(regExp);
         return (match&&match[7].length==11)? match[7] : false;
     }
-    $("#section-best .videos a").click(function(e){
+    $("#section-best .videos a, a.video").click(function(e){
         if( $("#videopopup").length == 0 ){
             $("body").append(
                 '<div id="videopopup" class="popup"><span class="close">x</span><div class="inner"></div></div>'
@@ -89,6 +89,7 @@ $(document).ready(function() {
         e.preventDefault()
         return false;
     })
+    
 
     //FAQ page
     $("#section-faq nav span").click(function(){

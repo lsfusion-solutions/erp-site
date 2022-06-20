@@ -667,14 +667,39 @@ section#section-header {
       @media (max-width: 479px) {
         section#section-header > div.inner table tr:nth-child(2) td {
           padding: 0 20px 0 0; } }
+  @media (min-width: 1110px) {
+    section#section-header > div.inner a.video {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background: url(../imgs/icons/play-white.svg) no-repeat 50% 50%;
+      z-index: 1;
+      text-indent: -3000px;
+      overflow: hidden;
+      top: 205px;
+      right: 237px; } }
+  @media (max-width: 1109px) {
+    section#section-header > div.inner a.video {
+      color: #fff;
+      font-size: 18px;
+      line-height: 30px;
+      font-weight: 600;
+      display: inline-block;
+      margin: 0 0 20px 0;
+      padding: 0 40px 0 0;
+      background: url(../imgs/icons/play-white.svg) no-repeat 100% 50%;
+      text-decoration: none; }
+      section#section-header > div.inner a.video:hover {
+        text-decoration: underline; } }
   section#section-header > div.inner nav:after {
     content: "";
     display: table;
     clear: both; }
   section#section-header > div.inner nav a, section#section-header > div.inner nav span {
     float: left;
-    width: 155px;
-    cursor: pointer; }
+    min-width: 155px;
+    cursor: pointer;
+    text-align: center; }
     section#section-header > div.inner nav a:first-child, section#section-header > div.inner nav span:first-child {
       margin-right: 30px; }
     @media (max-width: 479px) {

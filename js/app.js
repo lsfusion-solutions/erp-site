@@ -101,7 +101,7 @@ $(document).ready(function() {
         $(this).addClass("active")
         $(this).closest("section").find("ul.faq").hide().eq( $(this).index() ).show()
     })
-    $("#section-faq ul.faq > li").click(function(){
+    $("#section-faq ul.faq > li, ul.dd-list > li").click(function(){
         $(this).toggleClass("active")
     })
 

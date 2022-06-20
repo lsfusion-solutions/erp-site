@@ -1654,8 +1654,6 @@ section{
       }
     }
   }
-
-
   &#section-equipment{
     & > .inner{
       h1{
@@ -1675,11 +1673,28 @@ section{
       }
       ul.list2{
         li{
+          &:nth-child(1){
+            & > .inner{
+              background: url(../imgs/icons/equipment-1.svg) no-repeat 22px 20px;
+            }
+          }
+          &:nth-child(2){
+            & > .inner{
+              background: url(../imgs/icons/equipment-2.svg) no-repeat 22px 20px;
+            }
+          }
+          &:nth-child(3){
+            & > .inner{
+              background: url(../imgs/icons/equipment-3.svg) no-repeat 22px 20px;
+            }
+          }
+
           & > .inner{
             background: #F7FBFC;
             transition: background-color 0.3s;
+            padding-left: 72px;
             &:hover{
-              background: #E1F7FE;
+              background-color: #E1F7FE;
             }
             p{
               margin: 0 0 20px 0;
@@ -1693,8 +1708,14 @@ section{
           }
         }
       }
+      em{
+        font-style: normal;
+        color: #848484;
+        font-size: 12px;
+      }
     }
   }
+
   &.inner{
     padding: 30px 20px;
     @media (min-width: $siteWidth) {
@@ -1744,6 +1765,55 @@ section{
     }
   }
 }
+
+ul.dd-list{
+  list-style: none;
+  margin: 0 0 20px 0;
+
+
+  & > li{
+    border: 1px solid #F2F2F2;
+    &:hover{
+      border-color: darken(#F2F2F2, 15);
+    }
+    border-radius: 4px;
+    margin: 0 0 10px 0;
+    padding: 12px 20px;
+    transition: background-color 0.3s, border-color 0.3s;
+    &.active{
+      background: #F2F2F2;
+      h3{
+        color: #0E84BC;
+        background: url(../imgs/icons/less.svg) no-repeat right 10px top 10px;
+      }
+      & > div{
+        display: block;
+      }
+    }
+    h3{
+      cursor: pointer;
+      transition: background 0.3s, color 0.3s;
+      background: url(../imgs/icons/more.svg) no-repeat right 10px top 10px;
+      padding: 0 30px 0 0;
+    }
+    & > div{
+      display: none;
+      padding: 20px 0 0 0;
+      color: #596062;
+      font-size: 14px;
+      line-height: 19px;
+      ul{
+        padding: 20px 0 10px 35px;
+        margin: 0 0 0 0;
+        list-style: disc;
+        li{
+          margin: 0 0 10px 0;
+        }
+      }
+    }
+  }
+}
+
 ul.list6{
   list-style: none;
   @include clearfix;
@@ -2293,6 +2363,7 @@ a.lnk{
 }
 body > .contactus{
   position: fixed;
+  z-index: 99;
   right: 0;
   top: 500px;
   width: 40px;

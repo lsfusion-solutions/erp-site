@@ -1525,11 +1525,18 @@ section#section-equipment > .inner > h2 {
   font-weight: 600; }
 section#section-equipment > .inner > p {
   margin: 0 0 20px 0; }
+section#section-equipment > .inner ul.list2 li:nth-child(1) > .inner {
+  background: url(../imgs/icons/equipment-1.svg) no-repeat 22px 20px; }
+section#section-equipment > .inner ul.list2 li:nth-child(2) > .inner {
+  background: url(../imgs/icons/equipment-2.svg) no-repeat 22px 20px; }
+section#section-equipment > .inner ul.list2 li:nth-child(3) > .inner {
+  background: url(../imgs/icons/equipment-3.svg) no-repeat 22px 20px; }
 section#section-equipment > .inner ul.list2 li > .inner {
   background: #F7FBFC;
-  transition: background-color 0.3s; }
+  transition: background-color 0.3s;
+  padding-left: 72px; }
   section#section-equipment > .inner ul.list2 li > .inner:hover {
-    background: #E1F7FE; }
+    background-color: #E1F7FE; }
   section#section-equipment > .inner ul.list2 li > .inner p {
     margin: 0 0 20px 0;
     color: #2C2A28;
@@ -1537,6 +1544,10 @@ section#section-equipment > .inner ul.list2 li > .inner {
     line-height: 22px; }
     section#section-equipment > .inner ul.list2 li > .inner p:last-child {
       margin: 0; }
+section#section-equipment > .inner em {
+  font-style: normal;
+  color: #848484;
+  font-size: 12px; }
 section.inner {
   padding: 30px 20px; }
   @media (min-width: 1110px) {
@@ -1576,6 +1587,42 @@ section a {
     color: #26C4F7; }
   section a:active {
     color: #0E84BC; }
+
+ul.dd-list {
+  list-style: none;
+  margin: 0 0 20px 0; }
+  ul.dd-list > li {
+    border: 1px solid #F2F2F2;
+    border-radius: 4px;
+    margin: 0 0 10px 0;
+    padding: 12px 20px;
+    transition: background-color 0.3s, border-color 0.3s; }
+    ul.dd-list > li:hover {
+      border-color: #cccccc; }
+    ul.dd-list > li.active {
+      background: #F2F2F2; }
+      ul.dd-list > li.active h3 {
+        color: #0E84BC;
+        background: url(../imgs/icons/less.svg) no-repeat right 10px top 10px; }
+      ul.dd-list > li.active > div {
+        display: block; }
+    ul.dd-list > li h3 {
+      cursor: pointer;
+      transition: background 0.3s, color 0.3s;
+      background: url(../imgs/icons/more.svg) no-repeat right 10px top 10px;
+      padding: 0 30px 0 0; }
+    ul.dd-list > li > div {
+      display: none;
+      padding: 20px 0 0 0;
+      color: #596062;
+      font-size: 14px;
+      line-height: 19px; }
+      ul.dd-list > li > div ul {
+        padding: 20px 0 10px 35px;
+        margin: 0 0 0 0;
+        list-style: disc; }
+        ul.dd-list > li > div ul li {
+          margin: 0 0 10px 0; }
 
 ul.list6 {
   list-style: none;
@@ -2066,6 +2113,7 @@ a.lnk {
 
 body > .contactus {
   position: fixed;
+  z-index: 99;
   right: 0;
   top: 500px;
   width: 40px;

@@ -1533,7 +1533,8 @@ section{
       & > ul{
         list-style: none;
         & > li{
-          $modules: manage;
+          $modules: purchases,store,equipment,form,calc,gift,sales,settlements,internet,farm,delivery,production,foreign,order,transport,cash,report,anal,services,custom;
+
           @each $module in $modules {
             &.module-#{$module}{
               h2{
@@ -1592,7 +1593,6 @@ section{
           & > ul{
             display: none;
           }
-
         }
       }
     }

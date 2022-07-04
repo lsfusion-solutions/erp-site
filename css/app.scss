@@ -410,14 +410,14 @@ section{
           td{
             color: #7DE2FF;
             font-weight: 700;
-            font-size: 35px;
-            line-height: 42px;
-            padding: 0 70px 6px 0;
+            font-size: 32px;
+            line-height: 36px;
+            padding: 0 25px 6px 0;
             white-space: nowrap;
             @media (max-width: 767px){
-              font-size: 32px;
-              line-height: 36px;
-              padding: 0 50px 6px 0;
+              font-size: 30px;
+              line-height: 30px;
+              padding: 0 20px 6px 0;
             }
             @media (max-width: 479px){
               font-size: 28px;

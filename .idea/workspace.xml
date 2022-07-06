@@ -196,13 +196,6 @@
       <workItem from="1656331126931" duration="5629000" />
       <workItem from="1656843501151" duration="703000" />
     </task>
-    <task id="LOCAL-00025" summary="Header and footer">
-      <created>1649829021623</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1649829021623</updated>
-    </task>
     <task id="LOCAL-00026" summary="Header and footer">
       <created>1649829220801</created>
       <option name="number" value="00026" />
@@ -539,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657042850357</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="content of Modules">
+      <created>1657055194623</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1657055194624</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -602,7 +602,8 @@
     <MESSAGE value="added links to clients and cases" />
     <MESSAGE value="доработка страниц" />
     <MESSAGE value="content of FAQ and minor fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="content of FAQ and minor fixes" />
+    <MESSAGE value="content of Modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="content of Modules" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/404.html">

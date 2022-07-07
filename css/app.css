@@ -1511,12 +1511,16 @@ section#section-allmodules > .inner > ul {
     background-image: url(../imgs/modules/module-custom.svg); }
   section#section-allmodules > .inner > ul > li.active.module-custom h2 {
     background-image: url(../imgs/modules/module-custom-active.svg); }
+  section#section-allmodules > .inner > ul > li > div {
+    background: #F2F2F2;
+    padding: 12px 20px;
+    margin-top: -20px; }
   section#section-allmodules > .inner > ul > li.active h2 {
     color: #fff;
     background-color: #26C4F7 !important; }
     section#section-allmodules > .inner > ul > li.active h2:after {
       background-image: url(../imgs/icons/less-white.svg); }
-  section#section-allmodules > .inner > ul > li.active > ul {
+  section#section-allmodules > .inner > ul > li.active > ul, section#section-allmodules > .inner > ul > li.active > div {
     display: block; }
   section#section-allmodules > .inner > ul > li > h2 {
     border: 1px solid #F2F2F2;
@@ -1543,7 +1547,7 @@ section#section-allmodules > .inner > ul {
       width: 10px;
       height: 10px;
       background: url(../imgs/icons/more.svg) no-repeat right top; }
-  section#section-allmodules > .inner > ul > li > ul {
+  section#section-allmodules > .inner > ul > li > ul, section#section-allmodules > .inner > ul > li > div {
     display: none; }
 section#section-faq > .inner h2 {
   margin: 0 0 40px; }
@@ -1986,6 +1990,9 @@ body > footer {
           width: 33.3333%; } }
       body > footer nav ul li {
         margin: 0 0 9px 0; }
+        body > footer nav ul li h3 {
+          color: #fff;
+          padding: 0 0 0 27px; }
         body > footer nav ul li a {
           color: #F1F8FA;
           transition: color 0.3s; }

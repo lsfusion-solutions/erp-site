@@ -1547,6 +1547,11 @@ section{
               }
             }
           }
+          & > div{
+            background: #F2F2F2;
+            padding: 12px 20px;
+            margin-top: -20px;
+          }
 
           &.active {
             h2 {
@@ -1556,7 +1561,8 @@ section{
               }
               background-color: #26C4F7 !important;
             }
-            & > ul{
+            & > ul,
+            & > div{
               display: block;
             }
           }
@@ -1590,7 +1596,8 @@ section{
             }
             padding: 20px 30px 20px 72px;
           }
-          & > ul{
+          & > ul,
+          & > div{
             display: none;
           }
         }
@@ -2135,6 +2142,10 @@ body > footer{
       }
 
       li {
+        h3{
+          color: #fff;
+          padding: 0 0 0 27px;
+        }
         margin: 0 0 9px 0;
         a {
           color: #F1F8FA;

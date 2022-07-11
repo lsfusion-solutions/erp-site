@@ -1514,7 +1514,16 @@ section#section-allmodules > .inner > ul {
   section#section-allmodules > .inner > ul > li > div {
     background: #F2F2F2;
     padding: 12px 20px;
-    margin-top: -20px; }
+    margin: -20px 0 20px 0;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px; }
+    section#section-allmodules > .inner > ul > li > div h2, section#section-allmodules > .inner > ul > li > div h3 {
+      margin: 0 0 20px 0; }
+    section#section-allmodules > .inner > ul > li > div p + p {
+      margin: 20px 0 0 0; }
+    section#section-allmodules > .inner > ul > li > div ul {
+      font-size: 14px;
+      line-height: 19px; }
   section#section-allmodules > .inner > ul > li.active h2 {
     color: #fff;
     background-color: #26C4F7 !important; }
@@ -1522,6 +1531,9 @@ section#section-allmodules > .inner > ul {
       background-image: url(../imgs/icons/less-white.svg); }
   section#section-allmodules > .inner > ul > li.active > ul, section#section-allmodules > .inner > ul > li.active > div {
     display: block; }
+  section#section-allmodules > .inner > ul > li.simple > h2 {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px; }
   section#section-allmodules > .inner > ul > li > h2 {
     border: 1px solid #F2F2F2;
     background-position: 20px 13px;
@@ -1612,11 +1624,11 @@ section#section-equipment > .inner ul.equipment > li > .inner {
     padding: 0 10px;
     font-weight: 600;
     margin: 0 0 10px 0; }
-  section#section-equipment > .inner ul.equipment > li > .inner ul.list {
+  section#section-equipment > .inner ul.equipment > li > .inner ul.list, section#section-equipment > .inner ul.equipment > li > .inner section#section-allmodules > .inner > ul > li > div ul, section#section-allmodules > .inner > ul > li > div section#section-equipment > .inner ul.equipment > li > .inner ul {
     font-size: 14px;
     line-height: 19px;
     margin: 0 0 20px 10px; }
-    section#section-equipment > .inner ul.equipment > li > .inner ul.list li {
+    section#section-equipment > .inner ul.equipment > li > .inner ul.list li, section#section-equipment > .inner ul.equipment > li > .inner section#section-allmodules > .inner > ul > li > div ul li, section#section-allmodules > .inner > ul > li > div section#section-equipment > .inner ul.equipment > li > .inner ul li {
       margin: 0; }
 section#section-equipment > .inner em {
   font-style: normal;
@@ -1698,11 +1710,11 @@ ul.dd-list {
         ul.dd-list > li > div ul li {
           margin: 0 0 10px 0; }
 
-ul.list {
+ul.list, section#section-allmodules > .inner > ul > li > div ul {
   padding: 20px 0 10px 35px;
   margin: 0 0 0 0;
   list-style: disc; }
-  ul.list li {
+  ul.list li, section#section-allmodules > .inner > ul > li > div ul li {
     margin: 0 0 10px 0; }
 
 ul.list6 {

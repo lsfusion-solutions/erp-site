@@ -1305,6 +1305,33 @@ section#section-others {
         color: #fff;
         font-size: 16px;
         line-height: 22px; }
+section#section-about-others {
+  background: #0062BD url(../imgs/other-bg1.svg) no-repeat left 0 top 100%; }
+  section#section-about-others > div.inner {
+    background: transparent url(../imgs/other-bg2.svg) no-repeat left 800px top 198px; }
+    section#section-about-others > div.inner h2 {
+      color: #fff;
+      font-size: 20px;
+      line-height: 24px;
+      margin: 0 0 20px 0; }
+    section#section-about-others > div.inner ul.list2 li > .inner {
+      transition: background-color 0.3s;
+      text-decoration: none;
+      border: 1px solid #F2F2F2;
+      border-radius: 4px;
+      padding: 22px 20px; }
+      section#section-about-others > div.inner ul.list2 li > .inner:hover {
+        background-color: #046cc3; }
+      section#section-about-others > div.inner ul.list2 li > .inner p {
+        color: #fff;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 0 30px 0 0;
+        margin: 0 0 10px 0; }
+      section#section-about-others > div.inner ul.list2 li > .inner strong {
+        color: #fff;
+        font-size: 16px;
+        line-height: 22px; }
 section#section-reviews {
   background-color: #EFF6F8; }
   section#section-reviews > div.inner h2 {

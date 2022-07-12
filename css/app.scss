@@ -1347,6 +1347,46 @@ section{
       }
     }
   }
+  &#section-about-others{
+    background: #0062BD url(../imgs/other-bg1.svg) no-repeat left 0 top 100%;
+    & > div.inner{
+      background: transparent url(../imgs/other-bg2.svg) no-repeat left 800px top 198px;
+      h2{
+        color: #fff;
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0 0 20px 0;
+      }
+
+      ul.list2{
+        li{
+          & > .inner{
+            //background: transparent url(../imgs/icons/other.svg) no-repeat right 15px top 15px;
+            transition: background-color 0.3s;
+            text-decoration: none;
+            border: 1px solid #F2F2F2;
+            border-radius: 4px;
+            padding: 22px 20px;
+            &:hover{
+              background-color: #046cc3;
+            }
+            p{
+              color: #fff;
+              font-size: 16px;
+              line-height: 22px;
+              padding: 0 30px 0 0;
+              margin: 0 0 10px 0;
+            }
+            strong{
+              color: #fff;
+              font-size: 16px;
+              line-height: 22px;
+            }
+          }
+        }
+      }
+    }
+  }
   &#section-reviews{
     background-color: #EFF6F8;
     & > div.inner{

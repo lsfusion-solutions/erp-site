@@ -875,7 +875,7 @@ section#section-why-scalability > .inner ul {
       -moz-box-sizing: border-box;
       box-sizing: border-box; } }
   section#section-why-scalability > .inner ul li {
-    padding: 15px 0 20px 50px; }
+    padding: 20px 0 20px 50px; }
     section#section-why-scalability > .inner ul li:nth-child(1) {
       background: url(../imgs/why/1.svg) no-repeat 0 50%; }
     section#section-why-scalability > .inner ul li:nth-child(2) {
@@ -1054,7 +1054,7 @@ section#section-companies {
       list-style: none;
       display: flex;
       flex-direction: row; }
-      section#section-companies > div.noinner ul.fmcg li.fmcg > .inner, section#section-companies > div.noinner ul.fashion li.fashion > .inner, section#section-companies > div.noinner ul.farma li.farma > .inner {
+      section#section-companies > div.noinner ul.fmcg li.fmcg > .inner, section#section-companies > div.noinner ul.fashion li.fashion > .inner, section#section-companies > div.noinner ul.farma li.farma > .inner, section#section-companies > div.noinner ul.other li.other > .inner {
         border-color: #26C4F7; }
       section#section-companies > div.noinner ul li {
         padding: 0 5px;

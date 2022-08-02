@@ -55,11 +55,13 @@ $(document).ready(function() {
         $("#section-companies nav span.active").removeClass("active")
         $(this).addClass("active")
         if($(this).index() == 0){//fmcg
-            $("#section-companies ul").removeClass("farma").removeClass("fashion").addClass("fmcg");
+            $("#section-companies ul").removeClass("farma").removeClass("fashion").addClass("fmcg").removeClass("other");
         }else if($(this).index() == 1){//fashion
-            $("#section-companies ul").removeClass("farma").removeClass("fmcg").addClass("fashion");
+            $("#section-companies ul").removeClass("farma").removeClass("fmcg").addClass("fashion").removeClass("other");
         }else if($(this).index() == 2){//farma
-            $("#section-companies ul").removeClass("fashion").removeClass("fmcg").addClass("farma");
+            $("#section-companies ul").removeClass("fashion").removeClass("fmcg").addClass("farma").removeClass("other");
+        }else if($(this).index() == 3){//other
+            $("#section-companies ul").removeClass("fashion").removeClass("fmcg").removeClass("farma").addClass("other");
         }
     })
 

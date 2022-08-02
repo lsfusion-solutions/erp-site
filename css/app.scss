@@ -980,7 +980,8 @@ section{
         flex-direction: row;
         &.fmcg li.fmcg,
         &.fashion li.fashion,
-        &.farma li.farma
+        &.farma li.farma,
+        &.other li.other
         {
           & > .inner {
             border-color:#26C4F7;

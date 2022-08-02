@@ -1542,6 +1542,10 @@ section#section-allmodules > .inner > ul {
     background-image: url(../imgs/modules/module-delivery.svg); }
   section#section-allmodules > .inner > ul > li.active.module-delivery h2 {
     background-image: url(../imgs/modules/module-delivery-active.svg); }
+  section#section-allmodules > .inner > ul > li.module-minibi h2 {
+    background-image: url(../imgs/modules/module-minibi.svg); }
+  section#section-allmodules > .inner > ul > li.active.module-minibi h2 {
+    background-image: url(../imgs/modules/module-minibi-active.svg); }
   section#section-allmodules > .inner > ul > li.module-production h2 {
     background-image: url(../imgs/modules/module-production.svg); }
   section#section-allmodules > .inner > ul > li.active.module-production h2 {

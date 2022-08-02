@@ -1624,7 +1624,8 @@ section{
       & > ul{
         list-style: none;
         & > li{
-          $modules: purchases,store,equipment,form,calc,gift,sales,settlements,internet,farm,delivery,production,foreign,order,transport,cash,report,anal,services,custom;
+          $modules: purchases,store,equipment,form,calc,gift,sales,settlements,internet,farm,delivery,minibi,
+          production,foreign,order,transport,cash,report,anal,services,custom;
 
           @each $module in $modules {
             &.module-#{$module}{

@@ -1496,6 +1496,10 @@ section#section-allmodules > .inner h1 {
   line-height: 36px;
   margin: 0 0 20px;
   font-weight: 600; }
+section#section-allmodules > .inner .dd-list + div {
+  margin-top: 20px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px; }
 section#section-allmodules > .inner > ul {
   list-style: none; }
   section#section-allmodules > .inner > ul > li.module-purchases h2 {

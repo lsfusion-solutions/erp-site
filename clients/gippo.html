@@ -14,12 +14,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;600&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
 
-    <link href="css/app.css" rel="stylesheet" type="text/css" />
+    <link href="/css/app.css" rel="stylesheet" type="text/css" />
+    <link href="/css/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="imgs/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon/favicon_32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon/favicon_16x16.png">
-    <link rel="icon" type="image/x-icon" href="imgs/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/imgs/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/imgs/favicon/favicon_32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/imgs/favicon/favicon_16x16.png">
+    <link rel="icon" type="image/x-icon" href="/imgs/favicon/favicon.ico">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38678623-1"></script>
     <script>
@@ -33,15 +34,17 @@
 <body>
 <nav>
     <div class="inner">
-        <h2><a href="./#top" title="Go to home page">LSFusion ERP</a></h2>
+        <h2><a href="/#top" title="Go to home page">LSFusion ERP</a></h2>
         <a class="menu-link" href="#menu">Navigation</a>
         <ul class="nav">
-            <li><a href="why.html">Why lsFuison ERP</a></li>
-            <li><a href="cases.html">Implemented cases</a></li>
-            <li><a href="modules.html">Modules</a></li>
-            <li><a href="about.html">About platform</a></li>
-            <li><a href="https://demo.lsfusion.org/erp/" target="_blank" class="special">Try demo</a></li>
-            <li id="languages">
+            <li><a href="/why.html">Почему lsFuison ERP</a></li>
+            <li><a href="https://luxsoft.by/klienty/" target="_blank">Клиенты</a></li>
+            <li><a href="/modules.html">Модули</a></li>
+            <li><a href="/faq.html">FAQ</a></li>
+            <li><a href="https://lsfusion.org/ru/" target="_blank">О платформе</a></li>
+            <li><a href="/about.html">О нас</a></li>
+            <li><a href="https://demo.lsfusion.org/erp/" target="_blank" class="special" title="Попробовать демо">Демо</a></li>
+            <!--li id="languages">
                 <div class="language">
                     <strong>En</strong>
                     <ul>
@@ -51,7 +54,7 @@
                         <li><span class="current">En</span></li>
                     </ul>
                 </div>
-            </li>
+            </li-->
         </ul>
     </div>
 </nav>
@@ -62,8 +65,8 @@
             <h1>Автоматизация торговой сети «Baraka market»</h1>
             <div class="news">
                 <div class="img">
-                    <img src="imgs/cases/1_big.jpg" alt="" title="" />
-                    <img src="imgs/cases/1_2_big.jpg" alt="" title="" />
+                    <img src="/imgs/cases/1_big.jpg" alt="" title="" />
+                    <img src="/imgs/cases/1_2_big.jpg" alt="" title="" />
                 </div>
                 <div class="info">
                     <p>
@@ -79,7 +82,7 @@
                         <br /><br />
                         В решении широко используется модуль LS Trade ТСД, работающий в режиме on-line через сокет с торговой системой. В частности, это позволяет оперировать самой актуальной информацией по товарам и избегать загрузки в ТСД внушительного справочника товаров. Подробнее об этом механизме — здесь.
                     </p>
-                    <a href="./">Назад на главную</a>
+                    <a href="/">Назад на главную</a>
                 </div>
             </div>
 
@@ -92,22 +95,29 @@
         <nav>
             <div>
                 <h3><a href="#top">LSFusion ERP</a></h3>
-                <p>Developed on free open source platform<br /> <a href="https://lsfusion.org/" target="_blank">lsFusion</a></p>
+                <p>Разработано на бесплатной открытой платформе<br /> <a href="https://lsfusion.org/" target="_blank">lsFusion</a></p>
             </div>
             <ul class="links">
-                <li><a href="equipment.html">Equipment</a></li>
-                <li><a href="https://mycompany-docs.lsfusion.org/en/" target="_blank">Documentation</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="equipment.html">Оборудование</a></li>
+                <li><a href="">Технические требования</a></li>
+                <li><a href="https://documentation.luxsoft.by/pages/viewpage.action?pageId=27525121" target="_blank">Документация</a></li>
                 <li><a href="faq.html">FAQ</a></li>
             </ul>
             <ul class="social">
-                <li class="blog"><a href="https://habr.com/en/company/lsfusion/blog/" target="_blank" title="Click to open in a new tab">Read our blog on Habr</a></li>
-                <li class="sl"><a href="https://slack.lsfusion.org/" target="_blank" title="Click to open in a new tab">Join our Slack-chat</a></li>
-                <li class="yt"><a href="https://www.youtube.com/channel/UCvIrMhozcl2psh2HbsieR4g" target="_blank" title="Click to open in a new tab">Watch the video on YouTube</a></li>
-                <li class="ln"><a href="https://www.linkedin.com/company/lsfusion" target="_blank" title="Click to open in a new tab">Read our news on LinkedIn</a></li>
+                <li class="blog"><a href="https://habr.com/en/company/lsfusion/blog/" target="_blank" title="Откроется в новом окне">Читайте наш блог на Habr</a></li>
+                <li class="sl"><a href="https://slack.lsfusion.org/" target="_blank" title="Откроется в новом окне">Добавляйтесь в наш Slack-чат</a></li>
+                <li class="yt"><a href="https://www.youtube.com/channel/UCvIrMhozcl2psh2HbsieR4g" target="_blank" title="Откроется в новом окне">Подписывайтесь на Youtube канал</a></li>
+                <li class="ln"><a href="https://www.linkedin.com/company/lsfusion" target="_blank" title="Откроется в новом окне">Следите за новостями в LinkedIn</a></li>
+                <li class="tel"><a href="https://t.me/lsfusion_official " target="_blank" title="Откроется в новом окне">Присоединяйтесь к @lsfusion_official</a></li>
             </ul>
             <ul class="community">
-                <li class="em"><a href="mailto:info@lsfusion.org" target="_blank" title="Click to open in a new tab">hello@luxsoft.by</a></li>
-                <li class="phone"><a href="tel:375291112233" target="_blank" title="Click to open in a new tab">+375291112233</a></li>
+                <li><h3>Беларусь</h3></li>
+                <li class="em"><a href="mailto:info@lsfusion.org" target="_blank" title="Написать нам">office@luxsoft.by</a></li>
+                <li class="phone"><a href="tel:375291112233" target="_blank" title="Откроется в новом окне">+375(29)642-11-87</a></li>
+                <li><br /><h3>Россия</h3></li>
+                <li class="em"><a href="mailto:info@lsfusion.org" target="_blank" title="Написать нам">info@fit.ru</a></li>
+                <li class="phone"><a href="tel:" target="_blank" title="Откроется в новом окне">+7(495)369-49-40</a></li>
             </ul>
         </nav>
 
@@ -122,20 +132,47 @@
     </div>
 </footer>
 
+<span class="contactus" title="Click to Contact Us">Contact Us</span>
+
+<div id="contactuspopup" class="popup">
+    <span class="close">x</span>
+    <div class="inner">
+        <h3>Напишите нам</h3>
+        <p></p>
+        <form method="post" action="TODO">
+            <!--nav>
+                <p>Please choose an office:</p>
+                <input type="radio" checked name="office" value="Moscow" id="contact-moscow" required /><label class="label" for="contact-moscow">Moscow</label>
+                <input type="radio" name="office" value="Minsk" id="contact-minsk" required /><label class="label" for="contact-minsk">Minsk</label>
+            </nav-->
+            <fieldset>
+                <input type="text" name="first_name" value="" placeholder="Ваше имя" />
+                <input type="text" name="organisation" value="" placeholder="Организация" />
+                <input type="email" name="email" value="" placeholder="Email*" required />
+                <input type="text" name="phone" value="" placeholder="Телефон" />
+                <textarea name="comment" placeholder="Сообщение*" rows="10" cols="6" required></textarea>
+            </fieldset>
+            <div class="buttons">
+                <input type="submit" value="Отправить" />
+            </div>
+        </form>
+    </div>
+</div>
+
 <div id="reportpopup" class="popup">
     <span class="close">x</span>
     <div class="inner">
-        <h3>Report and error</h3>
-        <p>Any text can be there</p>
+        <h3>Сообщите об ошибке</h3>
+        <p>Помогите нам стать лучше! Если Вы заметили ошибку, сообщите нам об этом.</p>
         <form method="post" action="TODO">
             <fieldset>
-                <input type="text" name="name" value="" placeholder="Your name" />
+                <input type="text" name="name" value="" placeholder="Ваше имя" />
                 <input type="email" name="email" value="" placeholder="Email" />
-                <input type="text" name="phone" value="" placeholder="Phone" />
-                <textarea name="comment" placeholder="Your comment goes here*" rows="10" cols="6" required></textarea>
+                <input type="text" name="phone" value="" placeholder="Телефон" />
+                <textarea name="comment" placeholder="Ваш комментарий*" rows="10" cols="6" required></textarea>
             </fieldset>
             <div class="buttons">
-                <input type="submit" value="Submit" />
+                <input type="submit" value="Отправить" />
             </div>
         </form>
     </div>
@@ -146,8 +183,8 @@
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
         crossorigin="anonymous"></script>
 <script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
-<script src="js/jquery.popupoverlay.js"></script>
-<script src="js/jquery.validate.min.js"></script>
-<script src="js/app.js"></script>
+<script src="/js/jquery.popupoverlay.js"></script>
+<script src="/js/jquery.validate.min.js"></script>
+<script src="/js/app.js"></script>
 </body>
 </html>

@@ -634,6 +634,7 @@ section{
   }
 
   &#section-why-logic{
+    background: #EFF6F8;
     & > div.inner{
       h2{
         text-align: center;
@@ -647,6 +648,7 @@ section{
       ul.list3{
         & > li{
           & > .inner{
+            background: #fff;
             div.img{
               margin: 0 0 10px 0;
               height: 50px;
@@ -668,6 +670,54 @@ section{
               font-size: 12px;
               line-height: 16px;
             }
+          }
+        }
+      }
+    }
+  }
+  &#section-why-scalability{
+    & > .inner{
+      @include clearfix;
+      .info{
+        @media (min-width: $mobileWidth) {
+          float: left;
+          width: 50%;
+          padding: 0 20px 0 0;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+        }
+        @media (max-width: $mobileWidth - 1) {
+          margin: 0 0 20px 0;
+        }
+        h2{
+          margin: 0 0 10px 0;
+        }
+        p{
+
+        }
+      }
+      ul{
+        @media (min-width: $mobileWidth) {
+          float: left;
+          width: 50%;
+          padding: 0 0 0 20px;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+        }
+        list-style: none;
+        font-weight: 700;
+        li{
+          padding: 20px 0 20px 50px;
+          &:nth-child(1){
+            background: url(../imgs/why/1.svg) no-repeat 0 50%;
+          }
+          &:nth-child(2){
+            background: url(../imgs/why/2.svg) no-repeat 0 50%;
+          }
+          &:nth-child(3){
+            background: url(../imgs/why/3.svg) no-repeat 0 50%;
           }
         }
       }

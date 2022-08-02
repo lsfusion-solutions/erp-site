@@ -1122,30 +1122,38 @@ section#section-modules > div.inner ul.list4 li > .inner {
   padding-left: 62px; }
   section#section-modules > div.inner ul.list4 li > .inner:hover {
     background-color: #E1F7FE; }
-section#section-modules > div.inner ul.list4 li:nth-child(1) > .inner {
+section#section-modules > div.inner ul.list4 li .inner.module-management_of_commercial_property {
   background-image: url(../imgs/modules/1.svg); }
-section#section-modules > div.inner ul.list4 li:nth-child(2) > .inner {
+section#section-modules > div.inner ul.list4 li .inner.module-management_of_commercial_equipment {
   background-image: url(../imgs/modules/2.svg); }
-section#section-modules > div.inner ul.list4 li:nth-child(3) > .inner {
+section#section-modules > div.inner ul.list4 li .inner.module-shaping_and_accounting_orders {
   background-image: url(../imgs/modules/3.svg); }
-section#section-modules > div.inner ul.list4 li:nth-child(4) > .inner {
+section#section-modules > div.inner ul.list4 li .inner.module-procurement_management {
   background-image: url(../imgs/modules/4.svg); }
-section#section-modules > div.inner ul.list4 li:nth-child(5) > .inner {
+section#section-modules > div.inner ul.list4 li .inner.module-billing_and_settlement_management {
   background-image: url(../imgs/modules/5.svg); }
-section#section-modules > div.inner ul.list4 li:nth-child(6) > .inner {
+section#section-modules > div.inner ul.list4 li .inner.module-calculating_marketing_fees {
   background-image: url(../imgs/modules/6.svg); }
-section#section-modules > div.inner ul.list4 li:nth-child(7) > .inner {
+section#section-modules > div.inner ul.list4 li .inner.module-in_house_production {
   background-image: url(../imgs/modules/7.svg); }
-section#section-modules > div.inner ul.list4 li:nth-child(8) > .inner {
+section#section-modules > div.inner ul.list4 li .inner.module-foreign_trade_activities {
   background-image: url(../imgs/modules/8.svg); }
-section#section-modules > div.inner ul.list4 li:nth-child(9) > .inner {
+section#section-modules > div.inner ul.list4 li .inner.module-order_bundling {
   background-image: url(../imgs/modules/9.svg); }
-section#section-modules > div.inner ul.list4 li:nth-child(10) > .inner {
+section#section-modules > div.inner ul.list4 li .inner.module-transportation_management {
   background-image: url(../imgs/modules/10.svg); }
-section#section-modules > div.inner ul.list4 li:nth-child(11) > .inner {
+section#section-modules > div.inner ul.list4 li .inner.module-analytics_reports {
   background-image: url(../imgs/modules/11.svg); }
-section#section-modules > div.inner ul.list4 li:nth-child(12) > .inner {
+section#section-modules > div.inner ul.list4 li .inner.module-business_analytics {
   background-image: url(../imgs/modules/12.svg); }
+section#section-modules > div.inner ul.list4 li .inner.module-sales_management {
+  background-image: url(../imgs/modules/module-sales.svg); }
+section#section-modules > div.inner ul.list4 li .inner.module-internet_shop {
+  background-image: url(../imgs/modules/module-internet.svg); }
+section#section-modules > div.inner ul.list4 li .inner.module-farm_settings {
+  background-image: url(../imgs/modules/module-farm.svg); }
+section#section-modules > div.inner ul.list4 li .inner.module-integration_services {
+  background-image: url(../imgs/modules/module-services.svg); }
 section#section-modules > div.inner > a {
   position: relative;
   left: 50%;

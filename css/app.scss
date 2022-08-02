@@ -1087,42 +1087,58 @@ section{
              background-position: 15px 15px;
              padding-left: 62px;
            }
-           &:nth-child(1) > .inner{
+           .inner.module-management_of_commercial_property{
              background-image: url(../imgs/modules/1.svg);
            }
-           &:nth-child(2) > .inner{
+           .inner.module-management_of_commercial_equipment{
              background-image: url(../imgs/modules/2.svg);
            }
-           &:nth-child(3) > .inner{
+           .inner.module-shaping_and_accounting_orders{
              background-image: url(../imgs/modules/3.svg);
            }
-           &:nth-child(4) > .inner{
+           .inner.module-procurement_management{
              background-image: url(../imgs/modules/4.svg);
            }
-           &:nth-child(5) > .inner{
+           .inner.module-billing_and_settlement_management{
              background-image: url(../imgs/modules/5.svg);
            }
-           &:nth-child(6) > .inner{
+           .inner.module-calculating_marketing_fees{
              background-image: url(../imgs/modules/6.svg);
            }
-           &:nth-child(7) > .inner{
+           .inner.module-in_house_production{
              background-image: url(../imgs/modules/7.svg);
            }
-           &:nth-child(8) > .inner{
+           .inner.module-foreign_trade_activities{
              background-image: url(../imgs/modules/8.svg);
            }
-           &:nth-child(9) > .inner{
+           .inner.module-order_bundling{
              background-image: url(../imgs/modules/9.svg);
            }
-           &:nth-child(10) > .inner{
+           .inner.module-transportation_management{
              background-image: url(../imgs/modules/10.svg);
            }
-           &:nth-child(11) > .inner{
+           .inner.module-analytics_reports{
              background-image: url(../imgs/modules/11.svg);
            }
-           &:nth-child(12) > .inner{
+           .inner.module-business_analytics{
              background-image: url(../imgs/modules/12.svg);
            }
+
+           .inner.module-sales_management{
+             background-image: url(../imgs/modules/module-sales.svg);
+           }
+           .inner.module-internet_shop{
+             background-image: url(../imgs/modules/module-internet.svg);
+           }
+           .inner.module-farm_settings{
+             background-image: url(../imgs/modules/module-farm.svg);
+           }
+           .inner.module-integration_services{
+             background-image: url(../imgs/modules/module-services.svg);
+           }
+
+
+
          }
        }
        & > a{

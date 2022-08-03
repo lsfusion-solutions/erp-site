@@ -1677,8 +1677,6 @@ section{
               padding: 10px 0 0 0;
               & > li{
                 background: #fff;
-                &.active{
-                }
                 & > h3{
                   margin: 0;
                 }
@@ -1930,6 +1928,7 @@ ul.dd-list{
     transition: background-color 0.3s, border-color 0.3s;
     &.active{
       background: #F2F2F2;
+      background: #F7FBFC;
       h3{
         color: #0E84BC;
         background: url(../imgs/icons/less.svg) no-repeat right 0px top 10px;

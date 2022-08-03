@@ -1772,7 +1772,8 @@ ul.dd-list {
     ul.dd-list > li:hover {
       border-color: #cccccc; }
     ul.dd-list > li.active {
-      background: #F2F2F2; }
+      background: #F2F2F2;
+      background: #F7FBFC; }
       ul.dd-list > li.active h3 {
         color: #0E84BC;
         background: url(../imgs/icons/less.svg) no-repeat right 0px top 10px; }

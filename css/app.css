@@ -1608,8 +1608,6 @@ section#section-allmodules > .inner > ul {
       padding: 10px 0 0 0; }
       section#section-allmodules > .inner > ul > li > div > ul.dd-list > li {
         background: #fff; }
-        section#section-allmodules > .inner > ul > li > div > ul.dd-list > li.active {
-          background: #F2F2F2; }
         section#section-allmodules > .inner > ul > li > div > ul.dd-list > li > h3 {
           margin: 0; }
   section#section-allmodules > .inner > ul > li.active h2 {

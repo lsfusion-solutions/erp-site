@@ -995,6 +995,8 @@ section#section-why-support {
     margin: 0 0 10px; }
   section#section-why-support > .inner p {
     color: #fff; }
+  section#section-why-support > .inner a {
+    color: #fff; }
   section#section-why-support > .inner .col1 {
     float: left;
     width: 45%; }

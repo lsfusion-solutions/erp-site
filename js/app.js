@@ -93,8 +93,10 @@ $(document).ready(function() {
         return false;
     })
 
-
     //FAQ page
+    if( document.location.href.indexOf("faq") > 0 && document.location.hash.length > 0){
+        $("#" + document.location.hash.substring(1)).addClass("active")
+    }
     $("#section-faq nav span").click(function(){
         if( $(this).hasClass("active") ){
             return;

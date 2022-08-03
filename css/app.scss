@@ -1756,6 +1756,18 @@ section{
         span.active{
           @extend .btn;
         }
+        @media (max-width: 479px){
+          span{
+            display: block !important;
+            text-align: center;
+            margin: 0 0 15px 0;
+          }
+        }
+      }
+      ul.dd-list{
+        li{
+          scroll-margin-top: 90px;
+        }
       }
     }
   }
@@ -2459,6 +2471,17 @@ div.popup{
       }
       input[type="radio"]:checked + label.label{
         @extend .btn;
+      }
+    }
+
+    label[for=agree]{
+      color: #596062;
+      position: relative;
+      font-size: 14px;
+      label.error{
+        position: absolute;
+        bottom: -35px;
+
       }
     }
     input[type="text"],

@@ -1653,6 +1653,13 @@ section#section-faq > .inner nav {
   margin: 0 0 20px 0; }
   section#section-faq > .inner nav span {
     cursor: pointer; }
+  @media (max-width: 479px) {
+    section#section-faq > .inner nav span {
+      display: block !important;
+      text-align: center;
+      margin: 0 0 15px 0; } }
+section#section-faq > .inner ul.dd-list li {
+  scroll-margin-top: 90px; }
 section#section-equipment > .inner h1 {
   font-size: 30px;
   margin: 0 0 20px 0;
@@ -2247,6 +2254,13 @@ div.popup {
     div.popup > div.inner nav input[type="radio"] {
       position: absolute;
       visibility: hidden; }
+  div.popup > div.inner label[for=agree] {
+    color: #596062;
+    position: relative;
+    font-size: 14px; }
+    div.popup > div.inner label[for=agree] label.error {
+      position: absolute;
+      bottom: -35px; }
   div.popup > div.inner input[type="text"],
   div.popup > div.inner input[type="email"],
   div.popup > div.inner textarea {

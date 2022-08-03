@@ -1790,6 +1790,11 @@ ul.dd-list {
       color: #596062;
       font-size: 14px;
       line-height: 19px; }
+      ul.dd-list > li > div ol {
+        padding: 20px 0 10px 35px;
+        margin: 0 0 0 0; }
+        ul.dd-list > li > div ol li {
+          margin: 0 0 10px 0; }
       ul.dd-list > li > div ul {
         padding: 20px 0 10px 35px;
         margin: 0 0 0 0;

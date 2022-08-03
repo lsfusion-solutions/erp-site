@@ -8,5 +8,5 @@ Options Indexes FollowSymLinks Includes
 AddHandler server-parsed .html .htm
 
 Redirect 302 /reviews /reviews.html
-Redirect 302 /news /news.html
+#Redirect 302 /news/ /news.html
 Redirect 302 /modules /modules.html

@@ -81,7 +81,7 @@
             <ul class="links">
                 <li><a href="news.html">Новости</a></li>
                 <li><a href="equipment.html">Оборудование</a></li>
-                <li><a href="">Технические требования</a></li>
+                <li><a href="faq.html#technical_requirements">Технические требования</a></li>
                 <li><a href="https://documentation.luxsoft.by/pages/viewpage.action?pageId=27525121" target="_blank">Документация</a></li>
                 <li><a href="faq.html">FAQ</a></li>
             </ul>
@@ -106,7 +106,7 @@
             <p id="copyright">&copy; <script>document.write((new Date()).getFullYear())</script> lsFusion Foundation</p>
 
             <ul>
-                <li><a href="mailto:info@lsfusion.org" id="report">Report an error</a></li>
+                <li><a href="mailto:info@lsfusion.org" id="report">Сообщить об ошибке</a></li>
             </ul>
 
         </div>
@@ -120,7 +120,11 @@
     <div class="inner">
         <h3>Напишите нам</h3>
         <p></p>
-        <form method="post" action="TODO">
+        <form method="post" action="https://luxsoft.by/brended_sites/unstatic.php">
+
+            <input type="hidden" name="subject" value="ERP: напишите нам" />
+            <input type="hidden" name="to" value="sasha.romanenko#gmail.com" />
+            <input type="hidden" name="thankyou" value="https://sasharomanenko.github.io/erp/thank-you.html" />
             <!--nav>
                 <p>Please choose an office:</p>
                 <input type="radio" checked name="office" value="Moscow" id="contact-moscow" required /><label class="label" for="contact-moscow">Moscow</label>
@@ -132,6 +136,9 @@
                 <input type="email" name="email" value="" placeholder="Email*" required />
                 <input type="text" name="phone" value="" placeholder="Телефон" />
                 <textarea name="comment" placeholder="Сообщение*" rows="10" cols="6" required></textarea>
+
+                <label for="agree"><input type="checkbox" name="agree" value="yes" id="agree" required /> Я согласен на обработку персональных данных</label>
+
             </fieldset>
             <div class="buttons">
                 <input type="submit" value="Отправить" />
@@ -145,7 +152,12 @@
     <div class="inner">
         <h3>Сообщите об ошибке</h3>
         <p>Помогите нам стать лучше! Если Вы заметили ошибку, сообщите нам об этом.</p>
-        <form method="post" action="TODO">
+        <form method="post" action="https://luxsoft.by/brended_sites/unstatic.php">
+
+            <input type="hidden" name="subject" value="ERP: баг репорт" />
+            <input type="hidden" name="to" value="sasha.romanenko#gmail.com" />
+            <input type="hidden" name="thankyou" value="https://sasharomanenko.github.io/erp/thank-you.html" />
+
             <fieldset>
                 <input type="text" name="name" value="" placeholder="Ваше имя" />
                 <input type="email" name="email" value="" placeholder="Email" />
@@ -166,6 +178,7 @@
 <script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
 <script src="js/jquery.popupoverlay.js"></script>
 <script src="js/jquery.validate.min.js"></script>
+<script src="js/localization/messages_ru.js"></script>
 <script src="js/app.js"></script>
 
 <script src="js/swiper-bundle.min.js"></script>

@@ -1596,6 +1596,7 @@ section#section-allmodules > .inner > ul {
     background-image: url(../imgs/modules/module-custom-active.svg); }
   section#section-allmodules > .inner > ul > li > div {
     background: #F2F2F2;
+    background: #F7FBFC;
     padding: 12px 20px;
     margin: -20px 0 20px 0;
     border-bottom-left-radius: 4px;

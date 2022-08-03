@@ -1637,11 +1637,6 @@ section{
         margin: 0 0 20px;
         font-weight: 600;
       }
-      .dd-list + div{
-        margin-top: 20px;
-        border-top-left-radius: 4px;
-        border-top-right-radius: 4px;
-      }
       & > ul{
         list-style: none;
         & > li{
@@ -1661,7 +1656,6 @@ section{
             }
           }
           & > div{
-            background: #F2F2F2;
             background: #F7FBFC;
             padding: 12px 20px;
             margin: -20px 0 20px 0;
@@ -1677,6 +1671,19 @@ section{
               font-size: 14px;
               line-height: 19px;
               @extend .list;
+            }
+            & > ul.dd-list{
+              list-style: none;
+              padding: 10px 0 0 0;
+              & > li{
+                background: #fff;
+                &.active{
+                  background: #F2F2F2;
+                }
+                & > h3{
+                  margin: 0;
+                }
+              }
             }
           }
 
@@ -1694,8 +1701,8 @@ section{
             }
           }
           &.simple > h2{
-            border-bottom-left-radius: 0px;
-            border-bottom-right-radius: 0px;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
 
           }
           & > h2{

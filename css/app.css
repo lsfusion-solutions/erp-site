@@ -1504,10 +1504,6 @@ section#section-allmodules > .inner h1 {
   line-height: 36px;
   margin: 0 0 20px;
   font-weight: 600; }
-section#section-allmodules > .inner .dd-list + div {
-  margin-top: 20px;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px; }
 section#section-allmodules > .inner > ul {
   list-style: none; }
   section#section-allmodules > .inner > ul > li.module-purchases h2 {
@@ -1595,7 +1591,6 @@ section#section-allmodules > .inner > ul {
   section#section-allmodules > .inner > ul > li.active.module-custom h2 {
     background-image: url(../imgs/modules/module-custom-active.svg); }
   section#section-allmodules > .inner > ul > li > div {
-    background: #F2F2F2;
     background: #F7FBFC;
     padding: 12px 20px;
     margin: -20px 0 20px 0;
@@ -1608,6 +1603,15 @@ section#section-allmodules > .inner > ul {
     section#section-allmodules > .inner > ul > li > div ul {
       font-size: 14px;
       line-height: 19px; }
+    section#section-allmodules > .inner > ul > li > div > ul.dd-list {
+      list-style: none;
+      padding: 10px 0 0 0; }
+      section#section-allmodules > .inner > ul > li > div > ul.dd-list > li {
+        background: #fff; }
+        section#section-allmodules > .inner > ul > li > div > ul.dd-list > li.active {
+          background: #F2F2F2; }
+        section#section-allmodules > .inner > ul > li > div > ul.dd-list > li > h3 {
+          margin: 0; }
   section#section-allmodules > .inner > ul > li.active h2 {
     color: #fff;
     background-color: #26C4F7 !important; }
@@ -1616,8 +1620,8 @@ section#section-allmodules > .inner > ul {
   section#section-allmodules > .inner > ul > li.active > ul, section#section-allmodules > .inner > ul > li.active > div {
     display: block; }
   section#section-allmodules > .inner > ul > li.simple > h2 {
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px; }
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0; }
   section#section-allmodules > .inner > ul > li > h2 {
     border: 1px solid #F2F2F2;
     background-position: 20px 13px;

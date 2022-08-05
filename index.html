@@ -866,11 +866,12 @@
     <span class="close">x</span>
     <div class="inner">
         <h3>Напишите нам</h3>
-        <p></p>
+        <!--p></p-->
         <form method="post" action="https://luxsoft.by/brended_sites/unstatic.php">
 
             <input type="hidden" name="subject" value="ERP: напишите нам" />
-            <input type="hidden" name="to" value="sasha.romanenko#gmail.com" />
+            <input type="hidden" name="to[]" value="office#luxsoft.by" />
+            <input type="hidden" name="to[]" value="info#fit.ru" />
             <input type="hidden" name="thankyou" value="https://sasharomanenko.github.io/erp/thank-you.html" />
             <!--nav>
                 <p>Please choose an office:</p>
@@ -902,7 +903,8 @@
         <form method="post" action="https://luxsoft.by/brended_sites/unstatic.php">
 
             <input type="hidden" name="subject" value="ERP: баг репорт" />
-            <input type="hidden" name="to" value="sasha.romanenko#gmail.com" />
+            <input type="hidden" name="to[]" value="office#luxsoft.by" />
+            <input type="hidden" name="to[]" value="info#fit.ru" />
             <input type="hidden" name="thankyou" value="https://sasharomanenko.github.io/erp/thank-you.html" />
 
             <fieldset>

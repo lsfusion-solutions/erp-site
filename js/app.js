@@ -4,7 +4,7 @@ $(document).ready(function() {
             $(this).addClass('active');
         }
     });
-    
+
     $(document).click(function(e){
 
         let target = e.target;

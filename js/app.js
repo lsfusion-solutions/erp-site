@@ -1,4 +1,10 @@
 $(document).ready(function() {
+    $("a").each(function () {
+        if (this.href == document.location.href) {
+            $(this).addClass('active');
+        }
+    });
+    
     $(document).click(function(e){
 
         let target = e.target;

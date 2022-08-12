@@ -47,17 +47,29 @@ function getNewsFilename($news, $index){
 
 
 //adding last 3 images to home page
-$indexHTML = implode("", file("../index.html"));
-strpos($indexHTML, "")
 
+$newsHTML = "";
 foreach($allNews as $_index => $news){
-    if($_index > 3){
+    if($_index >= 3){
         break;
     }
+
+    $filename = getNewsFilename($news, $_index);
+    $newsHTML .= '<li>
+                        <a href="/news/' . $filename . '" class="inner">
+                            <h3>' . nl2br($news[1]) . '</h3>
+                            <p>' . nl2br($news[2]) . '</p>
+                            <em>' . nl2br($news[0]) . '</em>
+                        </a>
+                    </li>';
+
 }
 
+$indexHTML = implode("", file("../index.html"));
+$header = substr($indexHTML, 0, strpos($indexHTML, "<!-- start news -->") + strlen('<!-- start news -->'));
+$footer = substr($indexHTML, strpos($indexHTML, "<!-- end news -->"));
 $f = fopen("../index.html", "w");
-fwrite($f, $indexHTML);
+fwrite($f, $header . $newsHTML . $footer);
 fclose($f);
 
 

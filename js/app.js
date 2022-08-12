@@ -50,8 +50,27 @@ $(document).ready(function() {
         return false;
     })
     if( $("#contactuspopup").length > 0) {
-        $("#contactuspopup form").validate();
+        $("#contactuspopup form").validate({
+            submitHandler: function( form ){
+                form.submit();
+                return;
+                $("#contactuspopup form").addClass("loading");
+
+                $.ajax({
+                    url: $(form).attr("action"),
+                    data: $(form).serialize(),
+                    type: $(form).attr("method"),
+                    success: function() {
+                        $("#contactuspopup").popup("hide");
+                        $("#contactuspopup form").removeClass("loading").get(0).reset();
+                        alert("Спасибо! \nВаше сообщение отправлено. ")
+                    }
+                });
+                return;
+            }
+        });
     }
+
 
 
     $("#section-companies nav span").click(function(){

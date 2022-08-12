@@ -2356,6 +2356,18 @@ body > .contactus {
     body > .contactus {
       display: none; } }
 
+.loading {
+  position: relative; }
+  .loading:before {
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3) url(../imgs/spinner.gif) no-repeat 50% 50%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1; }
+
 nav.pagination {
   display: flex;
   flex-direction: row;

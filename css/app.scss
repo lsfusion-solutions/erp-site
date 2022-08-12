@@ -1615,6 +1615,10 @@ section{
             line-height: 22px;
             margin: 0 0 40px 0;
           }
+          div.buttons{
+            padding: 15px 0 0 0;
+            @include clearfix;
+          }
           a{
             @extend .btn-empty-invert;
             position: relative;
@@ -1627,6 +1631,19 @@ section{
               left: 20px;
               top: 15px;
               background-image: url(../imgs/icons/back.svg);
+            }
+            &.forward{
+              float: right;
+              &:before{
+                content: '';
+                width: 6px;
+                height: 10px;
+                position: absolute;
+                left: auto;
+                right: 20px;
+                top: 15px;
+                background-image: url(../imgs/icons/forward.svg);
+              }
             }
           }
         }

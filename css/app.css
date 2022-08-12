@@ -1491,6 +1491,12 @@ section#section-single-news > .inner div.news, section#section-case > .inner div
       font-size: 16px;
       line-height: 22px;
       margin: 0 0 40px 0; }
+    section#section-single-news > .inner div.news div.info div.buttons, section#section-case > .inner div.news div.info div.buttons {
+      padding: 15px 0 0 0; }
+      section#section-single-news > .inner div.news div.info div.buttons:after, section#section-case > .inner div.news div.info div.buttons:after {
+        content: "";
+        display: table;
+        clear: both; }
     section#section-single-news > .inner div.news div.info a, section#section-case > .inner div.news div.info a {
       position: relative;
       color: #848484 !important; }
@@ -1502,6 +1508,17 @@ section#section-single-news > .inner div.news, section#section-case > .inner div
         left: 20px;
         top: 15px;
         background-image: url(../imgs/icons/back.svg); }
+      section#section-single-news > .inner div.news div.info a.forward, section#section-case > .inner div.news div.info a.forward {
+        float: right; }
+        section#section-single-news > .inner div.news div.info a.forward:before, section#section-case > .inner div.news div.info a.forward:before {
+          content: '';
+          width: 6px;
+          height: 10px;
+          position: absolute;
+          left: auto;
+          right: 20px;
+          top: 15px;
+          background-image: url(../imgs/icons/forward.svg); }
 section#section-allmodules > .inner h1 {
   font-size: 30px;
   line-height: 36px;

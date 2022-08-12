@@ -18,6 +18,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/imgs/favicon/favicon_32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/imgs/favicon/favicon_16x16.png">
     <link rel="icon" type="image/x-icon" href="/imgs/favicon/favicon.ico">
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38678623-1"></script>
     <script>
@@ -32,7 +33,7 @@
 <nav>
     <div class="inner">
         <h2><a href="/#top" title="Go to home page">LSFusion ERP</a></h2>
-        <a class="menu-link" href="#menu">Navigation</a>
+        <a class="menu-link" href="#menu">Навигация по сайту</a>
         <ul class="nav">
             <li><a href="/why.html">Почему lsFuison ERP</a></li>
             <li><a href="https://luxsoft.by/klienty/" target="_blank">Клиенты</a></li>
@@ -138,19 +139,21 @@
     <span class="close">x</span>
     <div class="inner">
         <h3>Напишите нам</h3>
-        <p></p>
-        <form method="post" action="TODO">
-            <!--nav>
-                <p>Please choose an office:</p>
-                <input type="radio" checked name="office" value="Moscow" id="contact-moscow" required /><label class="label" for="contact-moscow">Moscow</label>
-                <input type="radio" name="office" value="Minsk" id="contact-minsk" required /><label class="label" for="contact-minsk">Minsk</label>
-            </nav-->
+        <form method="post" action="https://luxsoft.by/brended_sites/unstatic.php">
+
+            <input type="hidden" name="subject" value="ERP: напишите нам" />
+            <input type="hidden" name="to[]" value="office#luxsoft.by" />
+            <input type="hidden" name="to[]" value="info#fit.ru" />
+            <input type="hidden" name="thankyou" value=https://lsfusion-erp.com/thank-you.html" />
             <fieldset>
                 <input type="text" name="first_name" value="" placeholder="Ваше имя" />
                 <input type="text" name="organisation" value="" placeholder="Организация" />
                 <input type="email" name="email" value="" placeholder="Email*" required />
                 <input type="text" name="phone" value="" placeholder="Телефон" />
                 <textarea name="comment" placeholder="Сообщение*" rows="10" cols="6" required></textarea>
+
+                <label for="agree"><input type="checkbox" name="agree" value="yes" id="agree" required /> Я согласен на обработку персональных данных</label>
+
             </fieldset>
             <div class="buttons">
                 <input type="submit" value="Отправить" />
@@ -164,7 +167,13 @@
     <div class="inner">
         <h3>Сообщите об ошибке</h3>
         <p>Помогите нам стать лучше! Если Вы заметили ошибку, сообщите нам об этом.</p>
-        <form method="post" action="TODO">
+        <form method="post" action="https://luxsoft.by/brended_sites/unstatic.php">
+
+            <input type="hidden" name="subject" value="ERP: баг репорт" />
+            <input type="hidden" name="to[]" value="office#luxsoft.by" />
+            <input type="hidden" name="to[]" value="info#fit.ru" />
+            <input type="hidden" name="thankyou" value="https://lsfusion-erp.com/thank-you.html" />
+
             <fieldset>
                 <input type="text" name="name" value="" placeholder="Ваше имя" />
                 <input type="email" name="email" value="" placeholder="Email" />
@@ -185,6 +194,39 @@
 <script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
 <script src="/js/jquery.popupoverlay.js"></script>
 <script src="/js/jquery.validate.min.js"></script>
+<script src="/js/localization/messages_ru.js"></script>
 <script src="/js/app.js"></script>
+
+<script src="/js/swiper-bundle.min.js"></script>
+<script>
+    $(".swiper").each(function(){
+        let loop = false;
+        if( $(this).attr("data-swiper-loop") == "true"){
+            loop = true;
+        }
+        let autoplay = "";
+        if( $(this).attr("data-swiper-autoplay") == "true"){
+            autoplay = {
+                delay: 5000,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true,
+            };
+        }
+        var companiesSwiper = new Swiper(this, {
+            slidesPerView: "auto",
+            spaceBetween: 0,
+            loop: loop,
+
+            autoplay: autoplay,
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+
+    })
+</script>
+
 </body>
 </html>

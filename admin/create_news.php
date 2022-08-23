@@ -18,7 +18,7 @@ if (($f = fopen("all.csv", "r")) !== FALSE) {
             $news = mb_convert_encoding($data, "UTF-8", "Windows-1251");
 
         }else{
-            $news[3] .= "\n" . $data[3];
+            $news[3] .= "\n" . mb_convert_encoding($data[3], "UTF-8", "Windows-1251");
         }
     }
     if(isset($news)){

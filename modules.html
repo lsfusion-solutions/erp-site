@@ -64,7 +64,7 @@
             <div class="inner">Для функционирования торговой системы lsFusion ERP обязательно подключается основной модуль "Управление торговым объектом". Остальные модули подключаются по необходимости, в зависимости от требуемого набора функциональных возможностей товароучетной системы.</div>
             <br/>
             <ul id="modules">
-                <li class="module-store simple">
+                <li class="module-store simple" id="management_of_commercial_property">
                     <h2>Управление торговым объектом</h2>
                     <div class="info">
                         <strong>Управление справочниками товаров и товарных групп</strong>
@@ -361,7 +361,7 @@
                         </li-->
                     </div>
                 </li>
-                <li class="module-purchases">
+                <li class="module-purchases" id="procurement_management">
                     <h2>Управление закупками</h2>
                     <div class="info">
                         <ul class="dd-list">
@@ -492,7 +492,7 @@
                     </ul>
                     </div>
                 </li>
-                <li class="module-equipment simple">
+                <li class="module-equipment simple" id="management_of_commercial_equipment">
                     <h2>Управление торговым оборудованием</h2>
                     <div class="info">
                         <strong>Управление справочником групп касс</strong>
@@ -776,7 +776,7 @@
                         <strong>Механизм выгрузки подарочных сертификатов в кассовую систему УКМ 4</strong>
                     </div>
                 </li>
-                <li class="module-sales simple">
+                <li class="module-sales simple" id="sales_management">
                     <h2>Управление продажами</h2>
                     <div class="info">
                         <p>Модуль управления продажами используется в случае наличия специальных требований к рабочему месту кассира (аптеки, Fashion и др.).  Как правило, на крупных торговых объектах (супермаркеты и гипермаркеты)  работают  внешние фронтальные решения (Artix, EQS, SET Retail 10, Маркет+, УКМ-4), которые обеспечивают максимально быстрое обслуживание покупателей.</p>
@@ -849,7 +849,7 @@
                         </ul>
                     </div>
                 </li>
-                <li class="module-settlements simple">
+                <li class="module-settlements simple" id="billing_and_settlement_management">
                     <h2>Управление взаиморасчетами с поставщиками и покупателями</h2>
                     <div class="info">
                         <strong>Учет безналичных и наличных платежей</strong>
@@ -869,7 +869,7 @@
                                     <ul><li>Возможность автоматической отправки акта реализации на электронную почту поставщика</li></ul>
                     </div>
                 </li>
-                <li class="module-internet simple">
+                <li class="module-internet simple" id="internet_shop">
                     <h2>Обработка заказов интернет-магазина</h2>
                     <div class="info">
                         <p>Реализация модуля интернет-магазин в высокой степени индивидуальна в связи с тем, что может быть сопряжена с использованием большого числа сторонних сервисов и необходимостью настройки и разработки соответствующих интеграций.</p>
@@ -927,7 +927,7 @@
                         </ul>
                     </div>
                 </li>
-                <li class="module-farm simple">
+                <li class="module-farm simple" id="farm_settings">
                     <h2>Фарм-настройка (расширение базовых модулей)</h2>
                     <div class="info">
                         <p>Специализированный модуль для автоматизации учета в аптечных сетях обеспечивает специфические отраслевые функции системы, а также вносит изменения в стандартную работу некоторых модулей.</p><br/>
@@ -975,7 +975,7 @@
                         </ul>
                     </div>
                 </li>
-                <li class="module-production simple">
+                <li class="module-production simple" id="in_house_production">
                     <h2>Собственное производство</h2>
                     <div class="info">
                         <strong>Управление списком спецификаций (рецептов)</strong>
@@ -1006,7 +1006,7 @@
                         <strong>Механизм печати ценников на готовые изделия</strong>
                     </div>
                 </li>
-                <li class="module-foreign simple">
+                <li class="module-foreign simple" id="foreign_trade_activities">
                     <h2>Внешнеэкономическая деятельность</h2>
                     <div class="info">
                         <a class="video" href="https://www.youtube.com/watch?v=-_7wlUQJOK8&list=PL8FG-RmfUn1Nr-a1j5Vg6GCnSdT9oHjTR&index=17" target="_blank">Смотреть видео</a><br/><br/>
@@ -1047,7 +1047,7 @@
                         </ul>
                     </div>
                 </li>
-                <li class="module-transport simple">
+                <li class="module-transport simple" id="transportation_management">
                     <h2>Управление транспортом</h2>
                     <div class="info">
                         <strong>Механизм управления рейсами</strong>
@@ -1118,7 +1118,7 @@
                         </ul>
                     </div>
                 </li>
-                <li class="module-anal">
+                <li class="module-anal" id="business_analytics">
                     <h2>Бизнес-аналитика (BI) на базе OLAP DRUID</h2>
                     <div class="info">
                         <strong>Механизм выгрузки данных и формирования отчетов на базе OLAP DRUID</strong>
@@ -1145,7 +1145,7 @@
                     </div>
                 </li>
                 </li>
-                <li class="module-services">
+                <li class="module-services" id="integration_services">
                     <h2>Интеграционные сервисы</h2>
                     <div class="info">
                     <ul class="dd-list">

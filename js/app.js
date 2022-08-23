@@ -157,5 +157,8 @@ $(document).ready(function() {
     $("ul#modules > li > h2").click(function(){
         $(this).closest("li").toggleClass("active");
     })
+    if( $("ul#modules > li#" + document.location.hash.substring(1)).length > 0){
+        $("ul#modules > li#" + document.location.hash.substring(1)).addClass("active");
+    }
 
 })

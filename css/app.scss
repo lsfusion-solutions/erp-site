@@ -1670,6 +1670,7 @@ section{
       & > ul{
         list-style: none;
         & > li{
+          scroll-margin-top: 80px;
           $modules: purchases,store,equipment,form,calc,gift,sales,settlements,internet,farm,delivery,minibi,
           production,foreign,order,transport,cash,report,anal,services,custom;
 

@@ -12,13 +12,10 @@ if (($f = fopen("all.csv", "r")) !== FALSE) {
     $news = null;
     while (($data = fgetcsv($f, 1000, ",")) !== FALSE) {
         if( strlen($data[0]) > 0 ){//new news
-
             if( isset($news) ){
                 $allNews[] = $news;
-                $news = $data;
-            }else{
-                $news = $data;
             }
+            $news = mb_convert_encoding($data, "UTF-8", "Windows-1251");
 
         }else{
             $news[3] .= "\n" . $data[3];
@@ -30,21 +27,14 @@ if (($f = fopen("all.csv", "r")) !== FALSE) {
     fclose($f);
 }
 function getNewsFilename($news, $index){
-
-    $textcyr="Тествам с кирилица";
-    $textlat="I pone dotuk raboti!";
-    $cyr = [" ", 'а','б','в','г','д','е','ё','ж','з','и','й','к','л','м','н','о','п', 'р','с','т','у','ф','х','ц','ч','ш','щ','ъ','ы','ь','э','ю','я', 'А','Б','В','Г','Д','Е','Ё','Ж','З','И','Й','К','Л','М','Н','О','П', 'Р','С','Т','У','Ф','Х','Ц','Ч','Ш','Щ','Ъ','Ы','Ь','Э','Ю','Я'
-    ];
-    $lat = ["_", 'a','b','v','g','d','e','io','zh','z','i','y','k','l','m','n','o','p', 'r','s','t','u','f','h','ts','ch','sh','sht','a','i','y','e','yu','ya', 'A','B','V','G','D','E','Io','Zh','Z','I','Y','K','L','M','N','O','P', 'R','S','T','U','F','H','Ts','Ch','Sh','Sht','A','I','Y','e','Yu','Ya'
-    ];
+    $cyr = [" ", 'а','б','в','г','д','е','ё','ж','з','и','й','к','л','м','н','о','п', 'р','с','т','у','ф','х','ц','ч','ш','щ','ъ','ы','ь','э','ю','я', 'А','Б','В','Г','Д','Е','Ё','Ж','З','И','Й','К','Л','М','Н','О','П', 'Р','С','Т','У','Ф','Х','Ц','Ч','Ш','Щ','Ъ','Ы','Ь','Э','Ю','Я'];
+    $lat = ["_", 'a','b','v','g','d','e','io','zh','z','i','y','k','l','m','n','o','p', 'r','s','t','u','f','h','ts','ch','sh','sht','a','i','y','e','yu','ya', 'A','B','V','G','D','E','Io','Zh','Z','I','Y','K','L','M','N','O','P', 'R','S','T','U','F','H','Ts','Ch','Sh','Sht','A','I','Y','e','Yu','Ya'];
 
     $filename = str_replace(["«", "»", "?", ":"], ["", "", "", ""], $news[1]);
-
 
     $filename = strtolower(str_replace($cyr, $lat, strtolower($filename))) . ".html";
     return $filename;
 }
-
 
 //adding last 3 images to home page
 
@@ -95,9 +85,14 @@ fwrite($f, '<section id="section-news">
 
 foreach($allNews as $_index => $news){
     $filename = getNewsFilename($news, $_index);
+    $graphic = "/imgs/news/default.png";
+    if( isset($news[4]) && strlen($news[4]) > 0 && strpos($news[4], "youtu.be") === false){
+        $graphic = $news[4];
+    }
+
     $html = '<li>
                         <a href="/news/' . $filename . '" class="inner">
-                            <div class="img"><img src="/imgs/news/1.jpg" alt="" title="" /></div>
+                            <div class="img"><img src="' . $graphic . '" alt="' .htmlspecialchars( $news[1] ). '" title="" /></div>
                             <h3>' . nl2br($news[1]) . '</h3>
                             <p>' . nl2br($news[2]) . '</p>
                             <em>' . nl2br($news[0]) . '</em>
@@ -115,6 +110,10 @@ foreach($allNews as $_index => $news){
     $headerHTML = str_replace(["{title}", "{description}", "{keywords}"], [$news[1], "", ""], $headerHTML);
     $f = fopen($filename, "w");
     fwrite($f, $headerHTML);
+    $graphic = "/imgs/news/default.png";
+    if( isset($news[4]) && strlen($news[4]) > 0 && strpos($news[4], "youtu.be") === false){
+        $graphic = $news[4];
+    }
 
 
     $html = '<section id="section-single-news">
@@ -122,7 +121,7 @@ foreach($allNews as $_index => $news){
             <h1>' . nl2br($news[1]) . '</h1>
             <div class="news">
                 <div class="img">
-                    <img src="/imgs/news/1_big.jpg" alt="" title="" />
+                    <img src="' . $graphic . '" alt="' .htmlspecialchars( $news[1] ). '" title="" />
                 </div>
                 <div class="info">
                     <h2>' . nl2br($news[0]) . '</h2>

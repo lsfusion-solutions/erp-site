@@ -1605,6 +1605,7 @@ section{
           flex: 0 0 445px;
           display: flex;
           justify-content: center;
+          flex-direction: column;
           img{
             margin: 0 0 30px 0;
             max-width: 100%;

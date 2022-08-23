@@ -1484,7 +1484,8 @@ section#section-single-news > .inner div.news, section#section-case > .inner div
   section#section-single-news > .inner div.news div.img, section#section-case > .inner div.news div.img {
     flex: 0 0 445px;
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    flex-direction: column; }
     section#section-single-news > .inner div.news div.img img, section#section-case > .inner div.news div.img img {
       margin: 0 0 30px 0;
       max-width: 100%; }

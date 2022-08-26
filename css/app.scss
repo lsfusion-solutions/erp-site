@@ -1337,7 +1337,12 @@ section{
           }
         }
       }
-      div.info{
+      .info{
+        text-decoration: none;
+
+        & *{
+          text-decoration: none;
+        }
         float: left;
         width: 50%;
         -webkit-box-sizing: border-box;
@@ -1365,7 +1370,7 @@ section{
           }
         }
       }
-      div.img{
+      .img{
         float: right;
         width: 50%;
         -webkit-box-sizing: border-box;

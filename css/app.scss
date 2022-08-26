@@ -1637,31 +1637,32 @@ section{
           div.buttons{
             padding: 15px 0 0 0;
             @include clearfix;
-          }
-          a{
-            @extend .btn-empty-invert;
-            position: relative;
-            color: #848484 !important;
-            &:before{
-              content: '';
-              width: 6px;
-              height: 10px;
-              position: absolute;
-              left: 20px;
-              top: 15px;
-              background-image: url(../imgs/icons/back.svg);
-            }
-            &.forward{
-              float: right;
-              &:before{
+
+            a {
+              @extend .btn-empty-invert;
+              position: relative;
+              color: #848484 !important;
+              &:before {
                 content: '';
                 width: 6px;
                 height: 10px;
                 position: absolute;
-                left: auto;
-                right: 20px;
+                left: 20px;
                 top: 15px;
-                background-image: url(../imgs/icons/forward.svg);
+                background-image: url(../imgs/icons/back.svg);
+              }
+              &.forward {
+                float: right;
+                &:before {
+                  content: '';
+                  width: 6px;
+                  height: 10px;
+                  position: absolute;
+                  left: auto;
+                  right: 20px;
+                  top: 15px;
+                  background-image: url(../imgs/icons/forward.svg);
+                }
               }
             }
           }

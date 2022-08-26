@@ -1356,6 +1356,11 @@ section#section-others {
         color: #fff;
         font-size: 16px;
         line-height: 22px; }
+section#section-about > .inner h1 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  color: #2C2A28; }
 section#section-about-others {
   background: #0062BD url(../imgs/other-bg1.svg) no-repeat left 0 top 100%; }
   section#section-about-others > div.inner {
@@ -1678,8 +1683,12 @@ section#section-allmodules > .inner > ul {
         background: url(../imgs/icons/more.svg) no-repeat right top; }
     section#section-allmodules > .inner > ul > li > ul, section#section-allmodules > .inner > ul > li > div {
       display: none; }
-section#section-faq > .inner h2 {
-  margin: 0 0 40px; }
+section#section-faq > .inner h1 {
+  margin: 0 0 40px;
+  font-size: 30px;
+  line-height: 36px;
+  color: #2C2A28;
+  font-weight: 500; }
 section#section-faq > .inner nav {
   margin: 0 0 20px 0; }
   section#section-faq > .inner nav span {

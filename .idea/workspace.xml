@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05863a48-de35-460d-8137-65aeb02ed490" name="Default" comment="">
+    <list default="true" id="05863a48-de35-460d-8137-65aeb02ed490" name="Default" comment="icon experiment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/gippo.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/gippo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,10 +137,10 @@
     <property name="META_SYNC_MODE" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="C:/Projects/Custom Commerce/Art Plates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../platform" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -195,48 +195,6 @@
       <workItem from="1655895172611" duration="6859000" />
       <workItem from="1656331126931" duration="5629000" />
       <workItem from="1656843501151" duration="703000" />
-    </task>
-    <task id="LOCAL-00026" summary="Header and footer">
-      <created>1649829220801</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1649829220801</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Header and footer">
-      <created>1649834560686</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1649834560686</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Header and footer">
-      <created>1649967872995</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1649967872995</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Header and footer">
-      <created>1649968572786</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1649968572786</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Header and footer">
-      <created>1649970362344</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1649970362344</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Header and footer">
-      <created>1649971220379</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1649971220379</updated>
     </task>
     <task id="LOCAL-00032" summary="Header and footer">
       <created>1649971462013</created>
@@ -539,7 +497,49 @@
       <option name="project" value="LOCAL" />
       <updated>1657055194624</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="wording and title changes">
+      <created>1660592161929</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1660592161930</updated>
+    </task>
+    <task id="LOCAL-00076" summary="icon experiment">
+      <created>1660634984817</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1660634984818</updated>
+    </task>
+    <task id="LOCAL-00077" summary="spacing">
+      <created>1660637489915</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1660637489915</updated>
+    </task>
+    <task id="LOCAL-00078" summary="wording fixes">
+      <created>1661521619692</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1661521619692</updated>
+    </task>
+    <task id="LOCAL-00079" summary="update">
+      <created>1661522781180</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1661522781180</updated>
+    </task>
+    <task id="LOCAL-00080" summary="info update">
+      <created>1661523143996</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1661523143996</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -603,7 +603,13 @@
     <MESSAGE value="доработка страниц" />
     <MESSAGE value="content of FAQ and minor fixes" />
     <MESSAGE value="content of Modules" />
-    <option name="LAST_COMMIT_MESSAGE" value="content of Modules" />
+    <MESSAGE value="wording and title changes" />
+    <MESSAGE value="icon experiment" />
+    <MESSAGE value="spacing" />
+    <MESSAGE value="wording fixes" />
+    <MESSAGE value="update" />
+    <MESSAGE value="info update" />
+    <option name="LAST_COMMIT_MESSAGE" value="info update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/404.html">

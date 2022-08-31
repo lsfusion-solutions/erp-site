@@ -1614,8 +1614,10 @@ section{
         font-weight: 600;
       }
       div.news {
-        display: flex;
-        flex-direction: row;
+        @media (min-width: $mobileWidth) {
+          display: flex;
+          flex-direction: row;
+        }
         div.img {
           flex: 0 0 445px;
           display: flex;

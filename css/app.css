@@ -1508,6 +1508,8 @@ section#section-single-news > .inner div.news, section#section-case > .inner div
       font-size: 16px;
       line-height: 22px;
       margin: 0 0 40px 0; }
+    section#section-single-news > .inner div.news div.info ul, section#section-case > .inner div.news div.info ul {
+      color: #596062; }
     section#section-single-news > .inner div.news div.info div.buttons, section#section-case > .inner div.news div.info div.buttons {
       padding: 15px 0 0 0; }
       section#section-single-news > .inner div.news div.info div.buttons:after, section#section-case > .inner div.news div.info div.buttons:after {
@@ -1760,11 +1762,11 @@ section#section-equipment > .inner ul.equipment > li > .inner {
     padding: 0 10px;
     font-weight: 600;
     margin: 0 0 10px 0; }
-  section#section-equipment > .inner ul.equipment > li > .inner ul.list, section#section-equipment > .inner ul.equipment > li > .inner section#section-allmodules > .inner > ul > li > div ul, section#section-allmodules > .inner > ul > li > div section#section-equipment > .inner ul.equipment > li > .inner ul {
+  section#section-equipment > .inner ul.equipment > li > .inner ul.list, section#section-equipment > .inner ul.equipment > li > .inner section#section-single-news > .inner div.news div.info ul, section#section-single-news > .inner div.news div.info section#section-equipment > .inner ul.equipment > li > .inner ul, section#section-equipment > .inner ul.equipment > li > .inner section#section-case > .inner div.news div.info ul, section#section-case > .inner div.news div.info section#section-equipment > .inner ul.equipment > li > .inner ul, section#section-equipment > .inner ul.equipment > li > .inner section#section-allmodules > .inner > ul > li > div ul, section#section-allmodules > .inner > ul > li > div section#section-equipment > .inner ul.equipment > li > .inner ul {
     font-size: 14px;
     line-height: 19px;
     margin: 0 0 20px 10px; }
-    section#section-equipment > .inner ul.equipment > li > .inner ul.list li, section#section-equipment > .inner ul.equipment > li > .inner section#section-allmodules > .inner > ul > li > div ul li, section#section-allmodules > .inner > ul > li > div section#section-equipment > .inner ul.equipment > li > .inner ul li {
+    section#section-equipment > .inner ul.equipment > li > .inner ul.list li, section#section-equipment > .inner ul.equipment > li > .inner section#section-single-news > .inner div.news div.info ul li, section#section-single-news > .inner div.news div.info section#section-equipment > .inner ul.equipment > li > .inner ul li, section#section-equipment > .inner ul.equipment > li > .inner section#section-case > .inner div.news div.info ul li, section#section-case > .inner div.news div.info section#section-equipment > .inner ul.equipment > li > .inner ul li, section#section-equipment > .inner ul.equipment > li > .inner section#section-allmodules > .inner > ul > li > div ul li, section#section-allmodules > .inner > ul > li > div section#section-equipment > .inner ul.equipment > li > .inner ul li {
       margin: 0; }
 section#section-equipment > .inner em {
   font-style: normal;
@@ -1852,11 +1854,11 @@ ul.dd-list {
         ul.dd-list > li > div ul li {
           margin: 0 0 10px 0; }
 
-ul.list, section#section-allmodules > .inner > ul > li > div ul {
+ul.list, section#section-single-news > .inner div.news div.info ul, section#section-case > .inner div.news div.info ul, section#section-allmodules > .inner > ul > li > div ul {
   padding: 20px 0 10px 35px;
   margin: 0 0 0 0;
   list-style: disc; }
-  ul.list li, section#section-allmodules > .inner > ul > li > div ul li {
+  ul.list li, section#section-single-news > .inner div.news div.info ul li, section#section-case > .inner div.news div.info ul li, section#section-allmodules > .inner > ul > li > div ul li {
     margin: 0 0 10px 0; }
 
 ul.list6 {

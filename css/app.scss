@@ -1639,6 +1639,10 @@ section{
             line-height: 22px;
             margin: 0 0 40px 0;
           }
+          ul{
+            color: #596062;
+            @extend .list;
+          }
           div.buttons{
             padding: 15px 0 0 0;
             @include clearfix;

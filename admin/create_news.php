@@ -84,7 +84,7 @@ fwrite($f, '<section id="section-news">
 
 foreach($allNews as $_index => $news){
     $filename = getNewsFilename($news, $_index);
-    $graphic = "/imgs/news/default.png";
+    $graphic = "/imgs/news/default_small.gif";
     if( isset($news[4]) && strlen($news[4]) > 0 && strpos($news[4], "youtu.be") === false){
         $graphic = $news[4];
     }
@@ -109,7 +109,7 @@ foreach($allNews as $_index => $news){
     $headerHTML = str_replace(["{title}", "{description}", "{keywords}"], [$news[1], "", ""], $headerHTML);
     $f = fopen($filename, "w");
     fwrite($f, $headerHTML);
-    $graphic = "/imgs/news/default.png";
+    $graphic = "/imgs/news/default_big.gif";
     if( isset($news[4]) && strlen($news[4]) > 0 && strpos($news[4], "youtu.be") === false){
         $graphic = $news[4];
     }

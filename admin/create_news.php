@@ -48,7 +48,7 @@ foreach($allNews as $_index => $news){
                         <a href="/news/' . $filename . '" class="inner">
                             <h3>' . nl2br($news[1]) . '</h3>
                             <p>' . nl2br($news[2]) . '</p>
-                            <em>' . nl2br($news[0]) . '</em>
+                            <em>' . nl2br (str_replace('/', '.', $news[0]) ) . '</em>
                         </a>
                     </li>';
 

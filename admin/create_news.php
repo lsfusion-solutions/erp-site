@@ -3,7 +3,6 @@
 
     $f = fopen("all.csv", "r");
 
-
     $allNews = [];
 
 if (($f = fopen("all.csv", "r")) !== FALSE) {
@@ -95,7 +94,7 @@ foreach($allNews as $_index => $news){
                             <div class="img"><img src="' . $graphic . '" alt="' .htmlspecialchars( $news[1] ). '" title="" /></div>
                             <h3>' . nl2br($news[1]) . '</h3>
                             <p>' . nl2br($news[2]) . '</p>
-                            <em>' . nl2br($news[0]) . '</em>
+                            <em>' . nl2br( str_replace('/', '.', $news[0]) ) . '</em>
                         </a>
                     </li>';
     fwrite($f, $html);
@@ -124,7 +123,7 @@ foreach($allNews as $_index => $news){
                     <img src="' . $graphic . '" alt="' .htmlspecialchars( $news[1] ). '" title="" />
                 </div>
                 <div class="info">
-                    <h2>' . nl2br($news[0]) . '</h2>
+                    <h2>' . nl2br( str_replace('/', '.', $news[0]) ) . '</h2>
                     <p>' . nl2br($news[3]) . '</p>
                     <a href="/news.html">Все новости</a>
                 </div>
@@ -138,8 +137,6 @@ foreach($allNews as $_index => $news){
     fwrite($f, $footerHTML);
     fclose($f);
 }
-
-
 
 
     echo "\ndone";

@@ -518,7 +518,7 @@
                 <span>Другие</span>
             </nav>
             <div class="videos">
-                <div class="swiper" data-swiper-loop="true" data-swiper-autoplay="true">
+                <div class="swiper" data-swiper-loop="true" data-swiper-autoplay="true" data-swiper-delay="2500">
                     <ul class="swiper-wrapper">
                         <li class="swiper-slide">
                             <a href="https://www.youtube.com/watch?v=I1eUZU4cSFo&list=PL8FG-RmfUn1Nmql-bOggw-wKVpt4H-24U&index=1" target="_blank" title="Click to view"><img src="imgs/videos/comp_advantages.png" alt="" title="" /> </a>
@@ -538,7 +538,7 @@
                     </ul>
                     <p class="swiper-pagination"></p>
                 </div>
-                <div class="swiper" data-swiper-loop="true" data-swiper-autoplay="true" style="display: none;">
+                <div class="swiper" data-swiper-loop="true" data-swiper-autoplay="true" data-swiper-delay="2500" style="display: none;">
                     <ul class="swiper-wrapper">
 
                         <li class="swiper-slide">
@@ -583,7 +583,7 @@
                     </ul>
                     <p class="swiper-pagination"></p>
                 </div>
-                <div class="swiper" data-swiper-loop="true" data-swiper-autoplay="true" style="display: none;">
+                <div class="swiper" data-swiper-loop="true" data-swiper-autoplay="true" data-swiper-delay="2500" style="display: none;">
                     <ul class="swiper-wrapper">
                         <li class="swiper-slide">
                             <a href="https://www.youtube.com/watch?v=Rvji14evgGI&list=PL8FG-RmfUn1Nr-a1j5Vg6GCnSdT9oHjTR&index=1" target="_blank" title="Click to view"><img src="imgs/videos/ui.png" alt="" title="" /> </a>
@@ -639,7 +639,7 @@
                     </ul>
                     <p class="swiper-pagination"></p>
                 </div>
-                <div class="swiper" data-swiper-loop="true" data-swiper-autoplay="true" style="display: none;">
+                <div class="swiper" data-swiper-loop="true" data-swiper-autoplay="true" data-swiper-delay="2500" style="display: none;">
                     <ul class="swiper-wrapper">
                         <li class="swiper-slide">
                             <a href="https://www.youtube.com/watch?v=aP_dLEQGyRk&list=PL8FG-RmfUn1O3ZoNSv8obQAbZA0vW9dKW&index=1" target="_blank" title="Click to view"><img src="imgs/videos/ERP4R.png" alt="" title="" /> </a>
@@ -927,9 +927,13 @@
             loop = true;
         }
         let autoplay = "";
-        if( $(this).attr("data-swiper-autoplay") == "true"){
+        if( $(this).attr("data-swiper-autoplay") == "true" ){
+            let _delay = 5000;
+            if( $(this).attr("data-swiper-delay") ){
+                _delay = parseInt( $(this).attr("data-swiper-delay") );
+            }
             autoplay = {
-                delay: 5000,
+                delay: _delay,
                 disableOnInteraction: false,
                 pauseOnMouseEnter: true,
             };

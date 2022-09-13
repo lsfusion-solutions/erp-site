@@ -1294,6 +1294,9 @@ section{
         }
         span{
           cursor: pointer;
+          @media (max-width: $mobileWidth - 1) {
+            margin-bottom: 10px;
+          }
         }
       }
       div.videos{
@@ -1343,8 +1346,10 @@ section{
         & *{
           text-decoration: none;
         }
-        float: left;
-        width: 50%;
+        @media (min-width: $mobileWidth) {
+          float: left;
+          width: 50%;
+        }
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
@@ -1371,8 +1376,10 @@ section{
         }
       }
       .img{
-        float: right;
-        width: 50%;
+        @media (min-width: $mobileWidth) {
+          float: right;
+          width: 50%;
+        }
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;

@@ -1265,7 +1265,8 @@ section#section-best > div.inner > nav {
   text-align: center;
   margin: 0 0 20px 0; }
   section#section-best > div.inner > nav span {
-    cursor: pointer; }
+    cursor: pointer;
+    margin-bottom: 10px; }
 section#section-best > div.inner div.videos {
   margin: 0 -10px 20px; }
   section#section-best > div.inner div.videos div.swiper {
@@ -1300,13 +1301,15 @@ section#section-best > div.inner div.videos {
           border-radius: 4px; }
 section#section-best > div.inner .info {
   text-decoration: none;
-  float: left;
-  width: 50%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
   section#section-best > div.inner .info * {
     text-decoration: none; }
+  @media (min-width: 768px) {
+    section#section-best > div.inner .info {
+      float: left;
+      width: 50%; } }
   section#section-best > div.inner .info h2 {
     font-size: 30px;
     line-height: 36px;
@@ -1323,14 +1326,16 @@ section#section-best > div.inner .info {
     section#section-best > div.inner .info ul li {
       margin: 0 10px 10px 0; }
 section#section-best > div.inner .img {
-  float: right;
-  width: 50%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background: #F7FBFC;
   border-radius: 4px;
   padding: 12px; }
+  @media (min-width: 768px) {
+    section#section-best > div.inner .img {
+      float: right;
+      width: 50%; } }
   section#section-best > div.inner .img img {
     max-width: 100%;
     display: block;

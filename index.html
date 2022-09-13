@@ -91,7 +91,7 @@
                 <span data-class="farma">Аптеки</span>
                 <span data-class="other">Другое</span>
             </nav>
-            <div class="swiper" data-swiper-autoplay="true" data-swiper-loop="true">
+            <div class="swiper companies" data-swiper-autoplay="true" data-swiper-loop="true">
                 <ul class="swiper-wrapper fmcg">
                     <!-- FMCG -->
                     <li class="swiper-slide">
@@ -921,7 +921,28 @@
 
 <script src="js/swiper-bundle.min.js"></script>
 <script>
-    $(".swiper").each(function(){
+
+if( $(".swiper.companies").length > 0 ) {
+    var companiesSlider = new Swiper(".swiper.companies", {
+        slidesPerView: "auto",
+        spaceBetween: 0,
+        loop: true,
+
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true,
+        },
+
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+}
+
+
+    $(".swiper:not(.companies)").each(function(){
         let loop = false;
         if( $(this).attr("data-swiper-loop") == "true"){
             loop = true;
@@ -938,7 +959,7 @@
                 pauseOnMouseEnter: true,
             };
         }
-        var companiesSwiper = new Swiper(this, {
+        new Swiper(this, {
             slidesPerView: "auto",
             spaceBetween: 0,
             loop: loop,

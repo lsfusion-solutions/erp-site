@@ -79,14 +79,27 @@ $(document).ready(function() {
         }
         $("#section-companies nav span.active").removeClass("active")
         $(this).addClass("active")
+
+
         if($(this).index() == 0){//fmcg
             $("#section-companies ul").removeClass("farma").removeClass("fashion").addClass("fmcg").removeClass("other");
+
+            companiesSlider.slideTo($("#section-companies ul li.fmcg").index() - 2, 250);
+
         }else if($(this).index() == 1){//fashion
             $("#section-companies ul").removeClass("farma").removeClass("fmcg").addClass("fashion").removeClass("other");
+
+            companiesSlider.slideTo($("#section-companies ul li.fashion").index() - 2, 250);
+
         }else if($(this).index() == 2){//farma
             $("#section-companies ul").removeClass("fashion").removeClass("fmcg").addClass("farma").removeClass("other");
+
+            companiesSlider.slideTo($("#section-companies ul li.farma").index() - 2, 250);
+
         }else if($(this).index() == 3){//other
             $("#section-companies ul").removeClass("fashion").removeClass("fmcg").removeClass("farma").addClass("other");
+
+            companiesSlider.slideTo($("#section-companies ul li.other").index() - 2, 250);
         }
     })
 

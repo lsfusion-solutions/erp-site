@@ -109,7 +109,8 @@ $(document).ready(function() {
         }
         $("#section-best nav span.active").removeClass("active")
         $(this).addClass("active")
-        $("#section-best .videos .swiper").hide().eq( $(this).index() ).show()
+        $("#section-best .videos .swiper:visible").removeClass("active");
+        $("#section-best .videos .swiper").eq( $(this).index() ).addClass("active");
     })
 
     function getYouTubeCode(url){

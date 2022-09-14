@@ -1033,6 +1033,9 @@ section#section-companies {
       margin: 0 0 30px 0; }
       section#section-companies > div.noinner nav span {
         cursor: pointer; }
+        @media (max-width: 767px) {
+          section#section-companies > div.noinner nav span {
+            margin-bottom: 10px; } }
     section#section-companies > div.noinner div.swiper {
       padding: 0 0 50px 0; }
       section#section-companies > div.noinner div.swiper:before {

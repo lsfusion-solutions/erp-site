@@ -1312,6 +1312,18 @@ section{
           margin: 0 0 20px 0;
           li{
             flex: 0 0 25%;
+            @media (max-width: $siteWidth - 1){
+              flex: 0 0 25%;
+            }
+            @media (max-width: 767px){
+              flex: 0 0 33.3333%;
+            }
+            @media (max-width: 600px){
+              flex: 0 0 50%;
+            }
+            @media (max-width: 479px) {
+              flex: 0 0 100%;
+            }
             padding: 0 10px 0;
             -webkit-box-sizing: border-box;
             -moz-box-sizing: border-box;
@@ -1333,6 +1345,8 @@ section{
               img {
                 max-width: 100%;
                 border-radius: 4px;
+                margin: 0 auto;
+                display: block;
               }
             }
 

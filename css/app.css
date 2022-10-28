@@ -1728,9 +1728,11 @@ section#section-faq > .inner h1 {
   color: #2C2A28;
   font-weight: 500; }
 section#section-faq > .inner nav {
-  margin: 0 0 20px 0; }
+  margin: 0 0 20px 0;
+  scroll-margin-top: 90px; }
   section#section-faq > .inner nav span {
-    cursor: pointer; }
+    cursor: pointer;
+    scroll-margin-top: 90px; }
   @media (max-width: 479px) {
     section#section-faq > .inner nav span {
       display: block !important;
@@ -1738,47 +1740,47 @@ section#section-faq > .inner nav {
       margin: 0 0 15px 0; } }
 section#section-faq > .inner ul.dd-list li {
   scroll-margin-top: 90px; }
-section#section-equipment > .inner h1 {
+section#section-equipment > .inner h1, section #tab-equipment h1 {
   font-size: 30px;
   margin: 0 0 20px 0;
   color: #2C2A28;
   font-weight: 600; }
-section#section-equipment > .inner > h2 {
+section#section-equipment > .inner > h2, section #tab-equipment > h2 {
   margin: 0 0 20px 0;
   color: #2C2A28;
   font-size: 20px;
   font-weight: 600; }
-  section#section-equipment > .inner > h2#equipment-switcher {
+  section#section-equipment > .inner > h2#equipment-switcher, section #tab-equipment > h2#equipment-switcher {
     cursor: pointer;
     transition: color 0.3s; }
-    section#section-equipment > .inner > h2#equipment-switcher.active {
+    section#section-equipment > .inner > h2#equipment-switcher.active, section #tab-equipment > h2#equipment-switcher.active {
       color: #26C4F7; }
-section#section-equipment > .inner > p {
+section#section-equipment > .inner > p, section #tab-equipment > p {
   margin: 0 0 20px 0; }
-section#section-equipment > .inner ul.list2 li:nth-child(1) > .inner {
+section#section-equipment > .inner ul.list2 li:nth-child(1) > .inner, section #tab-equipment ul.list2 li:nth-child(1) > .inner {
   background: url(../imgs/icons/equipment-1.svg) no-repeat 22px 20px; }
-section#section-equipment > .inner ul.list2 li:nth-child(2) > .inner {
+section#section-equipment > .inner ul.list2 li:nth-child(2) > .inner, section #tab-equipment ul.list2 li:nth-child(2) > .inner {
   background: url(../imgs/icons/equipment-2.svg) no-repeat 22px 20px; }
-section#section-equipment > .inner ul.list2 li:nth-child(3) > .inner {
+section#section-equipment > .inner ul.list2 li:nth-child(3) > .inner, section #tab-equipment ul.list2 li:nth-child(3) > .inner {
   background: url(../imgs/icons/equipment-3.svg) no-repeat 22px 20px; }
-section#section-equipment > .inner ul.list2 li > .inner {
+section#section-equipment > .inner ul.list2 li > .inner, section #tab-equipment ul.list2 li > .inner {
   background: #F7FBFC;
   transition: background-color 0.3s;
   padding-left: 72px; }
-  section#section-equipment > .inner ul.list2 li > .inner:hover {
+  section#section-equipment > .inner ul.list2 li > .inner:hover, section #tab-equipment ul.list2 li > .inner:hover {
     background-color: #E1F7FE; }
-  section#section-equipment > .inner ul.list2 li > .inner p {
+  section#section-equipment > .inner ul.list2 li > .inner p, section #tab-equipment ul.list2 li > .inner p {
     margin: 0 0 20px 0;
     color: #2C2A28;
     font-size: 16px;
     line-height: 22px; }
-    section#section-equipment > .inner ul.list2 li > .inner p:last-child {
+    section#section-equipment > .inner ul.list2 li > .inner p:last-child, section #tab-equipment ul.list2 li > .inner p:last-child {
       margin: 0; }
-section#section-equipment > .inner ul.equipment > li > .inner {
+section#section-equipment > .inner ul.equipment > li > .inner, section #tab-equipment ul.equipment > li > .inner {
   background: #EFF6F8;
   border: 0;
   padding: 0; }
-  section#section-equipment > .inner ul.equipment > li > .inner h2 {
+  section#section-equipment > .inner ul.equipment > li > .inner h2, section #tab-equipment ul.equipment > li > .inner h2 {
     color: #fff;
     text-align: center;
     font-size: 14px;
@@ -1788,20 +1790,20 @@ section#section-equipment > .inner ul.equipment > li > .inner {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     margin: 0 0 20px 0; }
-  section#section-equipment > .inner ul.equipment > li > .inner h3 {
+  section#section-equipment > .inner ul.equipment > li > .inner h3, section #tab-equipment ul.equipment > li > .inner h3 {
     color: #2C2A28;
     font-size: 14px;
     line-height: 19px;
     padding: 0 10px;
     font-weight: 600;
     margin: 0 0 10px 0; }
-  section#section-equipment > .inner ul.equipment > li > .inner ul.list, section#section-equipment > .inner ul.equipment > li > .inner section#section-single-news > .inner div.news div.info ul, section#section-single-news > .inner div.news div.info section#section-equipment > .inner ul.equipment > li > .inner ul, section#section-equipment > .inner ul.equipment > li > .inner section#section-case > .inner div.news div.info ul, section#section-case > .inner div.news div.info section#section-equipment > .inner ul.equipment > li > .inner ul, section#section-equipment > .inner ul.equipment > li > .inner section#section-allmodules > .inner > ul > li > div ul, section#section-allmodules > .inner > ul > li > div section#section-equipment > .inner ul.equipment > li > .inner ul {
+  section#section-equipment > .inner ul.equipment > li > .inner ul.list, section#section-equipment > .inner ul.equipment > li > .inner section#section-single-news > .inner div.news div.info ul, section#section-single-news > .inner div.news div.info section#section-equipment > .inner ul.equipment > li > .inner ul, section#section-equipment > .inner ul.equipment > li > .inner section#section-case > .inner div.news div.info ul, section#section-case > .inner div.news div.info section#section-equipment > .inner ul.equipment > li > .inner ul, section#section-equipment > .inner ul.equipment > li > .inner section#section-allmodules > .inner > ul > li > div ul, section#section-allmodules > .inner > ul > li > div section#section-equipment > .inner ul.equipment > li > .inner ul, section #tab-equipment ul.equipment > li > .inner ul.list, section#section-single-news > .inner #tab-equipment ul.equipment > li > .inner div.news div.info ul, section#section-single-news > .inner div.news div.info #tab-equipment ul.equipment > li > .inner ul, section#section-case > .inner #tab-equipment ul.equipment > li > .inner div.news div.info ul, section#section-case > .inner div.news div.info #tab-equipment ul.equipment > li > .inner ul, section#section-allmodules > .inner > ul > li > div #tab-equipment ul.equipment > li > .inner ul {
     font-size: 14px;
     line-height: 19px;
     margin: 0 0 20px 10px; }
-    section#section-equipment > .inner ul.equipment > li > .inner ul.list li, section#section-equipment > .inner ul.equipment > li > .inner section#section-single-news > .inner div.news div.info ul li, section#section-single-news > .inner div.news div.info section#section-equipment > .inner ul.equipment > li > .inner ul li, section#section-equipment > .inner ul.equipment > li > .inner section#section-case > .inner div.news div.info ul li, section#section-case > .inner div.news div.info section#section-equipment > .inner ul.equipment > li > .inner ul li, section#section-equipment > .inner ul.equipment > li > .inner section#section-allmodules > .inner > ul > li > div ul li, section#section-allmodules > .inner > ul > li > div section#section-equipment > .inner ul.equipment > li > .inner ul li {
+    section#section-equipment > .inner ul.equipment > li > .inner ul.list li, section#section-equipment > .inner ul.equipment > li > .inner section#section-single-news > .inner div.news div.info ul li, section#section-single-news > .inner div.news div.info section#section-equipment > .inner ul.equipment > li > .inner ul li, section#section-equipment > .inner ul.equipment > li > .inner section#section-case > .inner div.news div.info ul li, section#section-case > .inner div.news div.info section#section-equipment > .inner ul.equipment > li > .inner ul li, section#section-equipment > .inner ul.equipment > li > .inner section#section-allmodules > .inner > ul > li > div ul li, section#section-allmodules > .inner > ul > li > div section#section-equipment > .inner ul.equipment > li > .inner ul li, section #tab-equipment ul.equipment > li > .inner ul.list li, section#section-single-news > .inner #tab-equipment ul.equipment > li > .inner div.news div.info ul li, section#section-single-news > .inner div.news div.info #tab-equipment ul.equipment > li > .inner ul li, section#section-case > .inner #tab-equipment ul.equipment > li > .inner div.news div.info ul li, section#section-case > .inner div.news div.info #tab-equipment ul.equipment > li > .inner ul li, section#section-allmodules > .inner > ul > li > div #tab-equipment ul.equipment > li > .inner ul li {
       margin: 0; }
-section#section-equipment > .inner em {
+section#section-equipment > .inner em, section #tab-equipment em {
   font-style: normal;
   color: #848484;
   font-size: 12px; }

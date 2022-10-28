@@ -131,22 +131,41 @@ $(document).ready(function() {
         e.preventDefault()
         return false;
     })
+    $("ul.dd-list > li > h3").click(function(){
+        $(this).closest("li").toggleClass("active")
+    })
 
     //FAQ page
-    if( document.location.href.indexOf("faq") > 0 && document.location.hash.length > 0){
-        $("#" + document.location.hash.substring(1)).addClass("active")
-    }
     $("#section-faq nav span").click(function(){
         if( $(this).hasClass("active") ){
             return;
         }
         $(this).closest("nav").find("span.active").removeClass("active")
         $(this).addClass("active")
-        $(this).closest("section").find("ul.dd-list").hide().eq( $(this).index() ).show()
+        $(this).closest("section").find("div.tab").hide().eq( $(this).index() ).show()
     })
-    $("ul.dd-list > li > h3").click(function(){
-        $(this).closest("li").toggleClass("active")
-    })
+    if( document.location.href.indexOf("faq") > 0) {
+        if (document.location.hash.length > 0) {
+            $("#" + document.location.hash.substring(1)).trigger("click")
+            $("#" + document.location.hash.substring(1)).find("h3").eq(0).trigger("click")
+        }
+        $("a.relative").click(function(){
+            $("#" + document.location.hash.substring(1)).trigger("click")
+            //$("#" + document.location.hash.substring(1)).find("h3").eq(0).trigger("click")
+            if ($("#" + document.location.hash.substring(1)).is(":visible") == false) {
+                let _index = $("#" + document.location.hash.substring(1)).closest("div.tab").index("div.tab")
+                $("#section-faq nav span").eq(_index).trigger("click");
+            }
+        })
+        $(window).on('hashchange', (function () {
+            $("#" + document.location.hash.substring(1)).trigger("click")
+            $("#" + document.location.hash.substring(1)).find("h3").eq(0).trigger("click")
+            if ($("#" + document.location.hash.substring(1)).is(":visible") == false) {
+                let _index = $("#" + document.location.hash.substring(1)).closest("div.tab").index("div.tab")
+                $("#section-faq nav span").eq(_index).trigger("click");
+            }
+        }))
+    }
 
     $("a#report").click(function(e){
         e.preventDefault()

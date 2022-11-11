@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05863a48-de35-460d-8137-65aeb02ed490" name="Default" comment="FAQ updated">
+    <list default="true" id="05863a48-de35-460d-8137-65aeb02ed490" name="Default" comment="BCS apk added to FAQ">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/gippo.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/gippo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,9 +94,6 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="43" />
@@ -200,34 +196,6 @@
       <workItem from="1655895172611" duration="6859000" />
       <workItem from="1656331126931" duration="5629000" />
       <workItem from="1656843501151" duration="703000" />
-    </task>
-    <task id="LOCAL-00045" summary="Header and footer">
-      <created>1650313032650</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1650313032650</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Header and footer">
-      <created>1650313287811</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1650313287811</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Header and footer">
-      <created>1650316524448</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1650316524448</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Header and footer">
-      <created>1650981027602</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1650981027602</updated>
     </task>
     <task id="LOCAL-00049" summary="Header and footer">
       <created>1650983602274</created>
@@ -544,7 +512,35 @@
       <option name="project" value="LOCAL" />
       <updated>1667194479143</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="gippo updated">
+      <created>1667455376108</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1667455376108</updated>
+    </task>
+    <task id="LOCAL-00095" summary="modules and equipment updated">
+      <created>1667482317419</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1667482317419</updated>
+    </task>
+    <task id="LOCAL-00096" summary="BCS instruction updated">
+      <created>1667483687580</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1667483687580</updated>
+    </task>
+    <task id="LOCAL-00097" summary="BCS apk added to FAQ">
+      <created>1668084677749</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1668084677749</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -598,10 +594,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed contact us icon&#10;Reviews hide" />
-    <MESSAGE value="Install changed to Contact Us at home page" />
-    <MESSAGE value="added telegram link" />
-    <MESSAGE value="added links to clients and cases" />
     <MESSAGE value="доработка страниц" />
     <MESSAGE value="content of FAQ and minor fixes" />
     <MESSAGE value="content of Modules" />
@@ -623,7 +615,11 @@
     <MESSAGE value="docs links updated" />
     <MESSAGE value="EDI video added" />
     <MESSAGE value="FAQ updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="FAQ updated" />
+    <MESSAGE value="gippo updated" />
+    <MESSAGE value="modules and equipment updated" />
+    <MESSAGE value="BCS instruction updated" />
+    <MESSAGE value="BCS apk added to FAQ" />
+    <option name="LAST_COMMIT_MESSAGE" value="BCS apk added to FAQ" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/404.html">

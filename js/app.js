@@ -113,10 +113,25 @@ $(document).ready(function() {
         $("#section-best .videos .swiper").eq( $(this).index() ).addClass("active");
     })
 
+    function getUrlVars(url) {
+        var vars = {};
+        var parts = url.replace(/[?&]+([^=&]+)=([^&]*)/gi,
+            function(m,key,value) {
+                vars[key] = value;
+            });
+        return vars;
+    }
+
+
     function getYouTubeCode(url){
+        let t = getUrlVars(url)["t"];
+        let start = "";
+        if(t){
+            start = "?start=" + t
+        }
         var regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/;
         var match = url.match(regExp);
-        return (match&&match[7].length==11)? match[7] : false;
+        return (match&&match[7].length==11)? match[7] + start : false;
     }
     $("#section-best .videos a, a.video").click(function(e){
         if( $("#videopopup").length == 0 ){

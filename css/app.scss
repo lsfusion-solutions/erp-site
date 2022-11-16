@@ -990,11 +990,11 @@ section{
         &.fashion li.fashion,
         &.farma li.farma,
         &.other li.other
-       // {
-         // & > .inner {
-        //   border-color:#26C4F7;
-        //  }
-      //  }
+        {
+          & > .inner {
+           border-color:#26C4F7;
+          }
+        }
       border-color: grey;
         li{
           padding: 0 5px;

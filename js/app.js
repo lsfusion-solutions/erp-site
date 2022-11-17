@@ -138,7 +138,12 @@ $(document).ready(function() {
             $("body").append(
                 '<div id="videopopup" class="popup"><span class="close">x</span><div class="inner"></div></div>'
             )
-            $("#videopopup").popup({closeelement: ".close"});
+            $("#videopopup").popup({
+                closeelement: ".close",
+                onclose: function(){
+                    $("#videopopup .inner").html("");
+                }
+            });
         }
         $("#videopopup .inner").html( '<iframe src="https://www.youtube.com/embed/' + getYouTubeCode($(this).attr("href")) + '" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' )
         $("#videopopup").popup("show");

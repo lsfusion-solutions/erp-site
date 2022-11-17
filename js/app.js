@@ -127,7 +127,7 @@ $(document).ready(function() {
         let t = getUrlVars(url)["t"];
         let start = "";
         if(t){
-            start = "?start=" + t
+            start = "?start=" + parseInt( t )
         }
         var regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/;
         var match = url.match(regExp);

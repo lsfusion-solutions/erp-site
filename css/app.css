@@ -1059,7 +1059,8 @@ section#section-companies {
     section#section-companies > div.noinner ul {
       list-style: none;
       display: flex;
-      flex-direction: row; }
+      flex-direction: row;
+      border-color: grey; }
       section#section-companies > div.noinner ul.fmcg li.fmcg > .inner, section#section-companies > div.noinner ul.fashion li.fashion > .inner, section#section-companies > div.noinner ul.farma li.farma > .inner, section#section-companies > div.noinner ul.other li.other > .inner {
         border-color: #26C4F7; }
       section#section-companies > div.noinner ul li {
@@ -1525,7 +1526,7 @@ section#section-single-news > .inner h1, section#section-case > .inner h1 {
 section#section-single-news > .inner div.news div.img, section#section-case > .inner div.news div.img {
   flex: 0 0 445px;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   flex-direction: column; }
   section#section-single-news > .inner div.news div.img img, section#section-case > .inner div.news div.img img {
     margin: 0 0 30px 0;

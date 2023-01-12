@@ -1649,6 +1649,21 @@ section{
         line-height: 36px;
         font-weight: 600;
       }
+
+      ul.list4{
+        li{
+          & > .inner{
+            text-decoration: none;
+            div.img{
+              img{
+                display: block;
+                margin: 0 auto;
+              }
+            }
+          }
+        }
+      }
+
       div.news {
         @media (min-width: $mobileWidth) {
           display: flex;

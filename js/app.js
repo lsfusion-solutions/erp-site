@@ -213,6 +213,11 @@ $(document).ready(function() {
     if(document.location.hash.length > 0) {
         if ($("ul#modules > li#" + document.location.hash.substring(1)).length > 0) {
             $("ul#modules > li#" + document.location.hash.substring(1)).addClass("active");
+        }else{
+            if($("ul#modules > li ul.dd-list li#" + document.location.hash.substring(1)).length > 0){
+                $("ul#modules > li ul.dd-list li#" + document.location.hash.substring(1)).addClass("active");
+                $("ul#modules > li ul.dd-list li#" + document.location.hash.substring(1)).closest("ul").closest("li").addClass("active")
+            }
         }
     }
 

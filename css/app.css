@@ -1521,9 +1521,15 @@ section#section-single-news > .inner h1, section#section-case > .inner h1 {
   font-weight: 600; }
 section#section-single-news > .inner ul.list4 li > .inner, section#section-case > .inner ul.list4 li > .inner {
   text-decoration: none; }
+  section#section-single-news > .inner ul.list4 li > .inner:hover div.img img, section#section-case > .inner ul.list4 li > .inner:hover div.img img {
+    filter: none; }
   section#section-single-news > .inner ul.list4 li > .inner div.img img, section#section-case > .inner ul.list4 li > .inner div.img img {
     display: block;
-    margin: 0 auto; }
+    margin: 0 auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s, border-color 0.3s; }
+  section#section-single-news > .inner ul.list4 li > .inner p, section#section-case > .inner ul.list4 li > .inner p {
+    text-align: center; }
 @media (min-width: 768px) {
   section#section-single-news > .inner div.news, section#section-case > .inner div.news {
     display: flex;

@@ -934,12 +934,28 @@ section{
       padding: 30px 0;
       h2{
         text-align: center;
-        margin: 0 0 30px 0;
+        margin: 0 0 10px 0;
         @media (max-width: $siteWidth - 1){
           padding: 0 20px;
           br{
             display: none;
           }
+        }
+      }
+      h3{
+        text-align: center;
+        margin: 0 0 30px 0;
+        font-size: 22px;
+        @media (max-width: $siteWidth - 1){
+          padding: 0 20px;
+          font-size: 20px;
+          br{
+            display: none;
+          }
+        }
+        em{
+          font-style: normal;
+          color: #26C4F7;
         }
       }
       nav{

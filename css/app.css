@@ -1689,6 +1689,14 @@ section#section-allmodules > .inner > ul {
       background-image: url(../imgs/modules/module-custom.svg); }
     section#section-allmodules > .inner > ul > li.active.module-custom h2 {
       background-image: url(../imgs/modules/module-custom-active.svg); }
+    section#section-allmodules > .inner > ul > li.module-bcs h2 {
+      background-image: url(../imgs/modules/module-bcs.svg); }
+    section#section-allmodules > .inner > ul > li.active.module-bcs h2 {
+      background-image: url(../imgs/modules/module-bcs-active.svg); }
+    section#section-allmodules > .inner > ul > li.module-mobileorder h2 {
+      background-image: url(../imgs/modules/module-mobileorder.svg); }
+    section#section-allmodules > .inner > ul > li.active.module-mobileorder h2 {
+      background-image: url(../imgs/modules/module-mobileorder-active.svg); }
     section#section-allmodules > .inner > ul > li > div {
       background: #F7FBFC;
       padding: 12px 20px;

@@ -125,7 +125,7 @@ $(document).ready(function() {
             ul.find("li").remove();
             for(let i = 1; i <= li.length; i++){
                 for(let j = 0; j < li.length; j++) {
-                    let _index = li.eq(j).attr("order-" + className) || 1
+                    let _index = li.eq(j).attr("order-" + className) || li.length
                     if(_index == i){
                         ul.append( li.eq(j) )
                     }
@@ -133,7 +133,7 @@ $(document).ready(function() {
                 }
             }
             for(let j = 0; j < li.length; j++) {
-                let _index = li.eq(j).attr("order-" + className) || 1
+                let _index = li.eq(j).attr("order-" + className) || li.length
                 if(_index > li.length){
                     ul.append( li.eq(j) )
                 }

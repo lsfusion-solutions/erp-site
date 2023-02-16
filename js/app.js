@@ -101,7 +101,11 @@ $(document).ready(function() {
         }
     })
 
-
+/*
+1. Удалите знаки комментария - https://www.screencast.com/t/8yqEduqmO1
+2. Проставьте нужные класыы для все li элементов - https://www.screencast.com/t/n1LXBZmmUl возможные классы - fmcg, fashion, farma, other
+3. Если нужно поменять порядок, то нужно добавить соответсвующие аттрибуты - https://www.screencast.com/t/JMqIxqWw7B2 - начинается нумерация с "1". Если номер не проставлен, то элемент будет после всех номеров.
+*/
     $("#section-case nav span").click(function(){
         if( $(this).hasClass("active") ){
             return;

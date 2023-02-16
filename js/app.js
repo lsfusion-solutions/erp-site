@@ -71,8 +71,6 @@ $(document).ready(function() {
         });
     }
 
-
-
     $("#section-companies nav span").click(function(){
         if( $(this).hasClass("active") ){
             return;
@@ -102,6 +100,49 @@ $(document).ready(function() {
             companiesSlider.slideTo($("#section-companies ul li.other").index() - 2, 250);
         }
     })
+
+
+    $("#section-case nav span").click(function(){
+        if( $(this).hasClass("active") ){
+            return;
+        }
+        $("#section-case ul").removeClass($("#section-case nav span.active").attr("data-class"))
+        $("#section-case nav span.active").removeClass("active")
+        $(this).addClass("active")
+        $("#section-case ul").addClass( $("#section-case nav span.active").attr("data-class") )
+
+        //changing order of elements
+        let ul = $("#section-case ul");
+        if( ul.attr("data-all") == undefined ){
+            ul.attr("data-all", ul.html())
+        }
+
+        let className = $("#section-case nav span.active").attr("data-class");
+        if(className == "all" || className == ""){//need to restore
+            ul.html( ul.attr("data-all") )
+        }else{//need to reorder elements
+            let li = $("<ul>" + ul.attr("data-all") + "</ul>" ).find("." + className)
+            ul.find("li").remove();
+            for(let i = 1; i <= li.length; i++){
+                for(let j = 0; j < li.length; j++) {
+                    let _index = li.eq(j).attr("order-" + className) || 1
+                    if(_index == i){
+                        ul.append( li.eq(j) )
+                    }
+
+                }
+            }
+            for(let j = 0; j < li.length; j++) {
+                let _index = li.eq(j).attr("order-" + className) || 1
+                if(_index > li.length){
+                    ul.append( li.eq(j) )
+                }
+
+            }
+        }
+
+    })
+
 
     $("#section-best nav span").click(function(){
         if( $(this).hasClass("active") ){

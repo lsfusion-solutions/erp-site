@@ -1666,7 +1666,44 @@ section{
         font-weight: 600;
       }
 
+      nav{
+        text-align: center;
+        margin: 0 0 30px 0;
+        span{
+          cursor: pointer;
+          @media (max-width: $mobileWidth - 1){
+            margin-bottom: 10px;
+          }
+        }
+        span:not(.active){
+          @extend .btn-empty-invert;
+        }
+        span.active{
+          @extend .btn;
+        }
+      }
+
       ul.list4{
+        &.fmcg{
+          li:not(.fmcg){
+            display: none;
+          }
+        }
+        &.fashion{
+          li:not(.fashion){
+            display: none;
+          }
+        }
+        &.farma{
+          li:not(.farma){
+            display: none;
+          }
+        }
+        &.other{
+          li:not(.other){
+            display: none;
+          }
+        }
         li{
           & > .inner{
             text-decoration: none;

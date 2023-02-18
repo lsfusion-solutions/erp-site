@@ -254,7 +254,7 @@ em {
   /* Non-prefixed version, currently
                supported by Chrome, Edge, Opera and Firefox */ }
 
-.btn-default, .btn, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-single-news > .inner nav span.active, section#section-case > .inner nav span.active, section#section-faq > .inner nav span.active, div.popup > div.inner nav input[type="radio"]:checked + label.label, div.popup > div.inner input[type="submit"], .btn-empty, section#section-why-header > div.inner ul li a, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner .info ul li, section#section-reviews > div.inner h2 a, section#section-single-news > .inner nav span:not(.active), section#section-case > .inner nav span:not(.active), section#section-single-news > .inner div.news div.info div.buttons a, section#section-case > .inner div.news div.info div.buttons a, section#section-faq > .inner nav span:not(.active), div.popup > div.inner nav input[type="radio"]:not(:checked) + label.label {
+.btn-default, .btn, .btn-small, #acceptCookie span, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-single-news > .inner nav span.active, section#section-case > .inner nav span.active, section#section-faq > .inner nav span.active, div.popup > div.inner nav input[type="radio"]:checked + label.label, div.popup > div.inner input[type="submit"], .btn-empty, section#section-why-header > div.inner ul li a, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner .info ul li, section#section-reviews > div.inner h2 a, section#section-single-news > .inner nav span:not(.active), section#section-case > .inner nav span:not(.active), section#section-single-news > .inner div.news div.info div.buttons a, section#section-case > .inner div.news div.info div.buttons a, section#section-faq > .inner nav span:not(.active), div.popup > div.inner nav input[type="radio"]:not(:checked) + label.label {
   position: relative;
   text-decoration: none;
   transition: background-color .3s, border-color 0.3s, color 0.3s;
@@ -268,18 +268,21 @@ em {
   white-space: nowrap;
   display: inline-block; }
   @media (max-width: 479px) {
-    .btn-default, .btn, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-single-news > .inner nav span.active, section#section-case > .inner nav span.active, section#section-faq > .inner nav span.active, div.popup > div.inner nav input[type="radio"]:checked + label.label, div.popup > div.inner input[type="submit"], .btn-empty, section#section-why-header > div.inner ul li a, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner .info ul li, section#section-reviews > div.inner h2 a, section#section-single-news > .inner nav span:not(.active), section#section-case > .inner nav span:not(.active), section#section-single-news > .inner div.news div.info div.buttons a, section#section-case > .inner div.news div.info div.buttons a, section#section-faq > .inner nav span:not(.active), div.popup > div.inner nav input[type="radio"]:not(:checked) + label.label {
+    .btn-default, .btn, .btn-small, #acceptCookie span, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-single-news > .inner nav span.active, section#section-case > .inner nav span.active, section#section-faq > .inner nav span.active, div.popup > div.inner nav input[type="radio"]:checked + label.label, div.popup > div.inner input[type="submit"], .btn-empty, section#section-why-header > div.inner ul li a, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner .info ul li, section#section-reviews > div.inner h2 a, section#section-single-news > .inner nav span:not(.active), section#section-case > .inner nav span:not(.active), section#section-single-news > .inner div.news div.info div.buttons a, section#section-case > .inner div.news div.info div.buttons a, section#section-faq > .inner nav span:not(.active), div.popup > div.inner nav input[type="radio"]:not(:checked) + label.label {
       padding: 10px 18px; } }
-  .btn-default:active, .btn:active, section#section-companies > div.noinner nav span.active:active, section#section-best > div.inner > nav span.active:active, section#section-single-news > .inner nav span.active:active, section#section-case > .inner nav span.active:active, section#section-faq > .inner nav span.active:active, div.popup > div.inner nav input[type="radio"]:checked + label.label:active, div.popup > div.inner input[type="submit"]:active, .btn-empty:active, section#section-why-header > div.inner ul li a:active, .btn-invert:active, .btn-empty-invert:active, section#section-companies > div.noinner nav span:active:not(.active), section#section-best > div.inner > nav span:active:not(.active), section#section-best > div.inner .info ul li:active, section#section-reviews > div.inner h2 a:active, section#section-single-news > .inner nav span:active:not(.active), section#section-case > .inner nav span:active:not(.active), section#section-single-news > .inner div.news div.info div.buttons a:active, section#section-case > .inner div.news div.info div.buttons a:active, section#section-faq > .inner nav span:active:not(.active), div.popup > div.inner nav input[type="radio"]:not(:checked) + label.label:active {
+  .btn-default:active, .btn:active, .btn-small:active, #acceptCookie span:active, section#section-companies > div.noinner nav span.active:active, section#section-best > div.inner > nav span.active:active, section#section-single-news > .inner nav span.active:active, section#section-case > .inner nav span.active:active, section#section-faq > .inner nav span.active:active, div.popup > div.inner nav input[type="radio"]:checked + label.label:active, div.popup > div.inner input[type="submit"]:active, .btn-empty:active, section#section-why-header > div.inner ul li a:active, .btn-invert:active, .btn-empty-invert:active, section#section-companies > div.noinner nav span:active:not(.active), section#section-best > div.inner > nav span:active:not(.active), section#section-best > div.inner .info ul li:active, section#section-reviews > div.inner h2 a:active, section#section-single-news > .inner nav span:active:not(.active), section#section-case > .inner nav span:active:not(.active), section#section-single-news > .inner div.news div.info div.buttons a:active, section#section-case > .inner div.news div.info div.buttons a:active, section#section-faq > .inner nav span:active:not(.active), div.popup > div.inner nav input[type="radio"]:not(:checked) + label.label:active {
     top: 1px; }
 
-.btn, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-single-news > .inner nav span.active, section#section-case > .inner nav span.active, section#section-faq > .inner nav span.active, div.popup > div.inner nav input[type="radio"]:checked + label.label, div.popup > div.inner input[type="submit"] {
+.btn, .btn-small, #acceptCookie span, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-single-news > .inner nav span.active, section#section-case > .inner nav span.active, section#section-faq > .inner nav span.active, div.popup > div.inner nav input[type="radio"]:checked + label.label, div.popup > div.inner input[type="submit"] {
   background: #26C4F7;
   color: #fff !important; }
-  .btn:hover, section#section-companies > div.noinner nav span.active:hover, section#section-best > div.inner > nav span.active:hover, section#section-single-news > .inner nav span.active:hover, section#section-case > .inner nav span.active:hover, section#section-faq > .inner nav span.active:hover, div.popup > div.inner nav input[type="radio"]:checked + label.label:hover, div.popup > div.inner input[type="submit"]:hover {
+  .btn:hover, .btn-small:hover, #acceptCookie span:hover, section#section-companies > div.noinner nav span.active:hover, section#section-best > div.inner > nav span.active:hover, section#section-single-news > .inner nav span.active:hover, section#section-case > .inner nav span.active:hover, section#section-faq > .inner nav span.active:hover, div.popup > div.inner nav input[type="radio"]:checked + label.label:hover, div.popup > div.inner input[type="submit"]:hover {
     background-color: #0295FF; }
-  .btn:active, section#section-companies > div.noinner nav span.active:active, section#section-best > div.inner > nav span.active:active, section#section-single-news > .inner nav span.active:active, section#section-case > .inner nav span.active:active, section#section-faq > .inner nav span.active:active, div.popup > div.inner nav input[type="radio"]:checked + label.label:active, div.popup > div.inner input[type="submit"]:active {
+  .btn:active, .btn-small:active, #acceptCookie span:active, section#section-companies > div.noinner nav span.active:active, section#section-best > div.inner > nav span.active:active, section#section-single-news > .inner nav span.active:active, section#section-case > .inner nav span.active:active, section#section-faq > .inner nav span.active:active, div.popup > div.inner nav input[type="radio"]:checked + label.label:active, div.popup > div.inner input[type="submit"]:active {
     background-color: #0B85DE; }
+
+.btn-small, #acceptCookie span {
+  padding: 3px 12px !important; }
 
 .btn-empty, section#section-why-header > div.inner ul li a {
   background: transparent;
@@ -2540,5 +2543,34 @@ nav.pagination {
     nav.pagination .page:hover {
       background-color: #E1F7FE;
       color: #26C4F7; }
+
+#acceptCookie {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  padding: 9px 12px;
+  font-size: 14px;
+  line-height: 150%; }
+  @media (min-width: 1110px) {
+    #acceptCookie div.inner {
+      max-width: 1110px;
+      margin: 0 auto; } }
+  #acceptCookie a {
+    color: inherit;
+    position: relative;
+    transition: color 0.3s, opacity 0.3s, bottom 0.6s; }
+    #acceptCookie a:after {
+      content: " >";
+      position: absolute;
+      right: -12px;
+      top: 1px; }
+    #acceptCookie a:hover {
+      color: #cccccc; }
+  #acceptCookie span {
+    cursor: pointer; }
 
 /*# sourceMappingURL=app.css.map */

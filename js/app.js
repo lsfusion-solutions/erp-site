@@ -1,4 +1,40 @@
+function setCookie (name, value, expires, path, domain, secure) {
+    document.cookie = name + "=" + escape(value) +
+        ((expires) ? "; expires=" + expires : "") +
+        ((path) ? "; path=" + path : "") +
+        ((domain) ? "; domain=" + domain : "") +
+        ((secure) ? "; secure" : "");
+}
+function getCookie(name){
+    var cookie = " " + document.cookie;
+    var search = " " + name + "=";
+    var setStr = null;
+    var offset = 0;
+    var end = 0;
+    if (cookie.length > 0) {
+        offset = cookie.indexOf(search);
+        if (offset != -1) {
+            offset += search.length;
+            end = cookie.indexOf(";", offset)
+            if (end == -1) {
+                end = cookie.length;
+            }
+            setStr = unescape(cookie.substring(offset, end));
+        }
+    }
+    return(setStr);
+}
+
 $(document).ready(function() {
+
+    if(false && getCookie("acceptCookie") == null ){
+        $("body").append("<div id='acceptCookie'><div class='inner'>Мы используем файлы cookie, чтобы сделать наш сайт максимально удобным для вас. <a href='/policy.html' target='_blank'>Узнать больше</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class='ok'>OK</span></div></div>")
+        $("#acceptCookie span.ok").click(function(){
+            setCookie("acceptCookie", 1);
+            $("#acceptCookie").css("bottom", "-50px");
+        })
+    }
+
     $("a").each(function () {
         if (this.href == document.location.href) {
             $(this).addClass('active');

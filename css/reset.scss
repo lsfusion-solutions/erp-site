@@ -297,6 +297,10 @@ em{
     background-color: #0B85DE;
   }
 }
+.btn-small{
+  @extend .btn;
+  padding: 3px 12px !important;
+}
 .btn-empty{
   @extend .btn-default;
   background: transparent;

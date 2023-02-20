@@ -1,67 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05863a48-de35-460d-8137-65aeb02ed490" name="Default" comment="Yandex.Metrica added">
+    <list default="true" id="05863a48-de35-460d-8137-65aeb02ed490" name="Default" comment="Yandex.Metrica added to all pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cases.html" beforeDir="false" afterPath="$PROJECT_DIR$/cases.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/baraka.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/baraka.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/bks.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/bks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/bmk.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/bmk.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/caprice.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/caprice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/case_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/case_template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/dorors.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/dorors.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/elema.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/elema.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/gippo.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/gippo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/hodabbi.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/hodabbi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/komvak.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/komvak.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/kristal.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/kristal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/kupalinka.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/kupalinka.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/lekocentr.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/lekocentr.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/library.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/library.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/medway.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/medway.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/megahand.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/megahand.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/miniso.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/miniso.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/mothercare.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/mothercare.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/next.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/next.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/ostrov.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/ostrov.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/ostrov_pharm.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/ostrov_pharm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/pmoda.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/pmoda.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/puhovichi.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/puhovichi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/santa.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/santa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/sosedi.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/sosedi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/svitanak.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/svitanak.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/tabakerka.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/tabakerka.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/tishas.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/tishas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/vitalur.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/vitalur.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/vitebsk.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/vitebsk.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/3d_modelirovanie.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/3d_modelirovanie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/ABM_Cloud.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/ABM_Cloud.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/Cost_estimation_method.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/Cost_estimation_method.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/administrirovanie.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/administrirovanie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/alcohol_declaration.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/alcohol_declaration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/artix.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/artix.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/dokumenti_komplektatsii_i_razukomplektatsii.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/dokumenti_komplektatsii_i_razukomplektatsii.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/dorabotka_rascheta_estestvennoy_ubili_v_to.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/dorabotka_rascheta_estestvennoy_ubili_v_to.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/edi_cherez_api_diadok.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/edi_cherez_api_diadok.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/edi_proslezhivaemosty_dlya_rb.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/edi_proslezhivaemosty_dlya_rb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/integratsiya_merkuriy.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/integratsiya_merkuriy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/integratsiya_s_agregatorami_dostavki.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/integratsiya_s_agregatorami_dostavki.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/integratsiya_s_egais.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/integratsiya_s_egais.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/integratsiya_s_evotor.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/integratsiya_s_evotor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/integratsiya_s_sms_traffic.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/integratsiya_s_sms_traffic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/integratsiya_s_solvo.wms.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/integratsiya_s_solvo.wms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/kontroly_maksimalynih_roznichnih_tsen.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/kontroly_maksimalynih_roznichnih_tsen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/menyu_na_glavnom_ekrane_tsd.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/menyu_na_glavnom_ekrane_tsd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/mini_bi .html" beforeDir="false" afterPath="$PROJECT_DIR$/news/mini_bi .html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/nastraivaemiy_rabochiy_stol.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/nastraivaemiy_rabochiy_stol.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/politics.html" beforeDir="false" afterPath="$PROJECT_DIR$/politics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thank-you.html" beforeDir="false" afterPath="$PROJECT_DIR$/thank-you.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/why.html" beforeDir="false" afterPath="$PROJECT_DIR$/why.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,13 +210,6 @@
       <workItem from="1655895172611" duration="6859000" />
       <workItem from="1656331126931" duration="5629000" />
       <workItem from="1656843501151" duration="703000" />
-    </task>
-    <task id="LOCAL-00097" summary="BCS apk added to FAQ">
-      <created>1668084677749</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1668084677749</updated>
     </task>
     <task id="LOCAL-00098" summary="spell chech">
       <created>1668164961444</created>
@@ -612,7 +547,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675851065384</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="Yandex.Metrica added to all pages">
+      <created>1676022786200</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1676022786200</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -666,7 +608,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Mobile BI video added" />
     <MESSAGE value="FAQ button to link" />
     <MESSAGE value="Spelling" />
     <MESSAGE value="cash-registers faq update" />
@@ -691,7 +632,8 @@
     <MESSAGE value="GA-4 tag added" />
     <MESSAGE value="modules updated" />
     <MESSAGE value="Yandex.Metrica added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Yandex.Metrica added" />
+    <MESSAGE value="Yandex.Metrica added to all pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Yandex.Metrica added to all pages" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/404.html">

@@ -2387,11 +2387,14 @@ div.popup {
     div.popup > div.inner nav input[type="radio"] {
       position: absolute;
       visibility: hidden; }
-  div.popup > div.inner label[for=agree] {
+  div.popup > div.inner label[for=newsletter] {
+    margin: 0 0 1em 0; }
+  div.popup > div.inner label[for=agree], div.popup > div.inner label[for=newsletter] {
     color: #596062;
     position: relative;
-    font-size: 14px; }
-    div.popup > div.inner label[for=agree] label.error {
+    font-size: 14px;
+    display: block; }
+    div.popup > div.inner label[for=agree] label.error, div.popup > div.inner label[for=newsletter] label.error {
       position: absolute;
       bottom: -35px; }
   div.popup > div.inner input[type="text"],

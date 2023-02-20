@@ -35,8 +35,6 @@ $headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
 
 if( isset($_POST["to"]) ){
 
-    print_r($_POST);
-
     echo mb_detect_encoding($_POST["subject"]);
 
     if( is_array($_POST["to"]) ){
@@ -61,7 +59,85 @@ if( isset($_POST["to"]) ){
     }
 }
 
+if( isset($_REQUEST["email"]) && isset($_REQUEST["newsletter"]) &&  $_REQUEST["newsletter"] == "yes") {
+    ini_set("error_reporting", E_ALL);
+    ini_set("display_errors", true);
 
+    $email = str_replace(" ", "+", $_REQUEST["email"]);
+
+    $api_key = "5db56237a04758f3d1d4eb94efbedf1d-us21";//old key
+    $list_id = "b2924d27ea";//"lsFusion ERP" list
+
+    $url = "https://us21.api.mailchimp.com/3.0/lists/{$list_id}/members/" . md5($email);
+
+
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+        'Accept: application/vnd.api+json',
+        'Content-Type: application/vnd.api+json',
+        'Authorization: apikey ' . $api_key
+    ));
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_VERBOSE, true);
+    curl_setopt($ch, CURLOPT_HEADER, true);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+    //curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_1_0);
+    curl_setopt($ch, CURLOPT_ENCODING, '');
+    curl_setopt($ch, CURLINFO_HEADER_OUT, true);
+
+    $responseContent = curl_exec($ch);
+
+    curl_close($ch);
+
+    $returnObj = json_decode(substr($responseContent, strpos($responseContent, "{")));
+
+    if($returnObj->status == 404){//subscribe is not found
+
+        $url = "https://us21.api.mailchimp.com/3.0/lists/{$list_id}/members/";
+        $args = array(
+            'email_address' => $email,
+            'status'        => 'subscribed',
+
+            'merge_fields'  => array(
+                "FNAME"         => isset($_REQUEST["first_name"]) ? $_REQUEST["first_name"] : "Guest"
+            )
+
+        );
+
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+            'Accept: application/vnd.api+json',
+            'Content-Type: application/vnd.api+json',
+            'Authorization: apikey ' . $api_key
+        ));
+        curl_setopt($ch, CURLOPT_USERAGENT, 'DrewM/MailChimp-API/3.0 (github.com/drewm/mailchimp-api)');
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_VERBOSE, true);
+        curl_setopt($ch, CURLOPT_HEADER, true);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+        //curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($ch, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_1_0);
+        curl_setopt($ch, CURLOPT_ENCODING, '');
+        curl_setopt($ch, CURLINFO_HEADER_OUT, true);
+
+        curl_setopt($ch, CURLOPT_POST, true);
+
+        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($args));
+
+        $responseContent = curl_exec($ch);
+
+        curl_close($ch);
+        //var_dump($responseContent);
+        //var_dump($returnObj);
+    }
+    //var_dump($responseContent);
+    //var_dump($returnObj);
+}
 
 if( isset($_POST["thankyou"]) ) {
     header("Location: {$_POST["thankyou"]}");

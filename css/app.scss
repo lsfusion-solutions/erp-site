@@ -2646,11 +2646,14 @@ div.popup{
         @extend .btn;
       }
     }
-
-    label[for=agree]{
+    label[for=newsletter]{
+      margin: 0 0 1em 0;
+    }
+    label[for=agree], label[for=newsletter]{
       color: #596062;
       position: relative;
       font-size: 14px;
+      display: block;
       label.error{
         position: absolute;
         bottom: -35px;

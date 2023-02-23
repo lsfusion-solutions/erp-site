@@ -65,7 +65,7 @@ if( isset($_REQUEST["email"]) && isset($_REQUEST["newsletter"]) &&  $_REQUEST["n
 
     $email = str_replace(" ", "+", $_REQUEST["email"]);
 
-    $api_key = "5db56237a04758f3d1d4eb94efbedf1d-us21";//old key
+    $api_key = "";//mail chimp key! Important: it should NOT be stored here!
     $list_id = "b2924d27ea";//"lsFusion ERP" list
 
     $url = "https://us21.api.mailchimp.com/3.0/lists/{$list_id}/members/" . md5($email);

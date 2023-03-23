@@ -301,5 +301,28 @@ $(document).ready(function() {
             }
         }
     }
+    //adding popup form to the footer
 
+
+    let _html = '<form method="post" action="https://luxsoft.by/brended_sites/unstatic.php" id="newsletter-form" class="popup">' +
+        '<input type="hidden" name="to[]" value="office#luxsoft.by" />' +
+        '<input type="hidden" name="subject" value="ERP: новая подписка" />' +
+        '<input type="hidden" name="thankyou" value="https://lsfusion-erp.com/thank-you.html" />' +
+        '<span class="close">x</span><div class="inner"><fieldset><legend>Подписывайтесь на новости</legend><input type="email" required name="email" placeholder="Email*" /><label for="agree-newsletter"><input type="checkbox" name="agree" value="yes" required id="agree-newsletter" />Я согласен с <a href="/politics.html" target="_blank">политикой конфиденциальности</a> </label> <input type="submit" value="Подписаться" /></fieldset></div> </form>'
+    $("body").append( _html )
+    $("#newsletter-form").validate();
+    $("#newsletter-form .close").click(function(){
+        $("#newsletter-form").hide();
+    })
+    $("footer .social").append('<li class="newsletter"><a href="#">Подписаться на рассылку</a></li>')
+    $("footer .social .newsletter").click(function(e){
+        $("#newsletter-form").show();
+        $("#newsletter-form input[type='email']").focus();
+        e.preventDefault()
+        return;
+    })
+
+    setTimeout(function(){
+        $("#newsletter-form").addClass("active")
+    }, 5000)
 })

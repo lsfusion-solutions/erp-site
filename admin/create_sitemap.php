@@ -3,7 +3,7 @@
 
 //PUT https://www.googleapis.com/webmasters/v3/sites/https%3A%2F%2Flsfusion-erp.com%2F/sitemaps/https%3A%2F%2Flsfusion-erp.com%2Fsitemap.xml
 
-
+//https://www.google.com/ping?sitemap=https%3A%2F%2Flsfusion-erp.com%2Fsitemap.xml
     $f = fopen("../sitemap.xml", "w");
 function ob_file_callback($buffer){
     global $f;

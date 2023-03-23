@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05863a48-de35-460d-8137-65aeb02ed490" name="Default" comment="Yandex.Metrica added to all pages">
+    <list default="true" id="05863a48-de35-460d-8137-65aeb02ed490" name="Default" comment="news update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cases.html" beforeDir="false" afterPath="$PROJECT_DIR$/cases.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/why.html" beforeDir="false" afterPath="$PROJECT_DIR$/why.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,11 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -210,69 +215,6 @@
       <workItem from="1655895172611" duration="6859000" />
       <workItem from="1656331126931" duration="5629000" />
       <workItem from="1656843501151" duration="703000" />
-    </task>
-    <task id="LOCAL-00098" summary="spell chech">
-      <created>1668164961444</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1668164961444</updated>
-    </task>
-    <task id="LOCAL-00099" summary="demo link updated">
-      <created>1668503898653</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1668503898654</updated>
-    </task>
-    <task id="LOCAL-00100" summary="modules videos">
-      <created>1668521455636</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1668521455637</updated>
-    </task>
-    <task id="LOCAL-00101" summary="News update">
-      <created>1669359249031</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1669359249031</updated>
-    </task>
-    <task id="LOCAL-00102" summary="Mobile BI video added">
-      <created>1669361636547</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1669361636547</updated>
-    </task>
-    <task id="LOCAL-00103" summary="FAQ button to link">
-      <created>1669374641322</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1669374641322</updated>
-    </task>
-    <task id="LOCAL-00104" summary="Spelling">
-      <created>1669647777984</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1669647777984</updated>
-    </task>
-    <task id="LOCAL-00105" summary="cash-registers faq update">
-      <created>1669713005221</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1669713005221</updated>
-    </task>
-    <task id="LOCAL-00106" summary="news update">
-      <created>1669983187674</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1669983187675</updated>
     </task>
     <task id="LOCAL-00107" summary="news update">
       <created>1669984859130</created>
@@ -554,7 +496,70 @@
       <option name="project" value="LOCAL" />
       <updated>1676022786200</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="clients classified">
+      <created>1676886406580</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1676886406581</updated>
+    </task>
+    <task id="LOCAL-00148" summary="e-mail added">
+      <created>1677149410887</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1677149410887</updated>
+    </task>
+    <task id="LOCAL-00149" summary="e-mail and video added">
+      <created>1677500977581</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1677500977581</updated>
+    </task>
+    <task id="LOCAL-00150" summary="video added to modules">
+      <created>1677579416757</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1677579416757</updated>
+    </task>
+    <task id="LOCAL-00151" summary="video added to modules description">
+      <created>1678374660769</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1678374660770</updated>
+    </task>
+    <task id="LOCAL-00152" summary="spelling fix">
+      <created>1678446976591</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1678446976591</updated>
+    </task>
+    <task id="LOCAL-00153" summary="clients update">
+      <created>1678780829052</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1678780829052</updated>
+    </task>
+    <task id="LOCAL-00154" summary="bks update">
+      <created>1678957974045</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1678957974046</updated>
+    </task>
+    <task id="LOCAL-00155" summary="news update">
+      <created>1679409186646</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1679409186646</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -608,18 +613,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="FAQ button to link" />
-    <MESSAGE value="Spelling" />
-    <MESSAGE value="cash-registers faq update" />
-    <MESSAGE value="lsFusion BCS manual update" />
-    <MESSAGE value="minor code update" />
-    <MESSAGE value="faq Mobile order added" />
-    <MESSAGE value="personal data processing added" />
     <MESSAGE value="google" />
     <MESSAGE value="БКС" />
     <MESSAGE value="Cases Template" />
     <MESSAGE value="BKS  update" />
-    <MESSAGE value="clients update" />
     <MESSAGE value="clients added" />
     <MESSAGE value="minor corrections" />
     <MESSAGE value="cases update" />
@@ -627,13 +624,21 @@
     <MESSAGE value="ids" />
     <MESSAGE value="clients" />
     <MESSAGE value="redirect to cases.html" />
-    <MESSAGE value="news update" />
     <MESSAGE value="metatags" />
     <MESSAGE value="GA-4 tag added" />
     <MESSAGE value="modules updated" />
     <MESSAGE value="Yandex.Metrica added" />
     <MESSAGE value="Yandex.Metrica added to all pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Yandex.Metrica added to all pages" />
+    <MESSAGE value="clients classified" />
+    <MESSAGE value="e-mail added" />
+    <MESSAGE value="e-mail and video added" />
+    <MESSAGE value="video added to modules" />
+    <MESSAGE value="video added to modules description" />
+    <MESSAGE value="spelling fix" />
+    <MESSAGE value="clients update" />
+    <MESSAGE value="bks update" />
+    <MESSAGE value="news update" />
+    <option name="LAST_COMMIT_MESSAGE" value="news update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/404.html">

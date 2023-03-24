@@ -2256,9 +2256,8 @@ body > footer {
         background-size: 16px !important;
         background-position: 3px 2px !important; }
       body > footer nav ul.social li.newsletter a, body > footer nav ul.community li.newsletter a {
-        background: url(../imgs/icons/envelop_sm.svg) no-repeat 3px 2px;
-        background-size: 15px;
-        filter: grayscale(100%); }
+        background: url(../imgs/icons/envelope_white.svg) no-repeat 3px 2px;
+        background-size: 15px; }
       body > footer nav ul.social li.sl a, body > footer nav ul.community li.sl a {
         background: url(../imgs/icons/sl.svg) no-repeat 0 0; }
         body > footer nav ul.social li.sl a:hover, body > footer nav ul.community li.sl a:hover {

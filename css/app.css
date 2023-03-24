@@ -2238,6 +2238,7 @@ body > footer {
           color: #fff;
           padding: 0 0 0 27px; }
         body > footer nav ul li a {
+          display: block;
           color: #F1F8FA;
           transition: color 0.3s; }
           body > footer nav ul li a:hover {
@@ -2256,7 +2257,8 @@ body > footer {
         background-position: 3px 2px !important; }
       body > footer nav ul.social li.newsletter a, body > footer nav ul.community li.newsletter a {
         background: url(../imgs/icons/envelop_sm.svg) no-repeat 3px 2px;
-        background-size: 15px; }
+        background-size: 15px;
+        filter: grayscale(100%); }
       body > footer nav ul.social li.sl a, body > footer nav ul.community li.sl a {
         background: url(../imgs/icons/sl.svg) no-repeat 0 0; }
         body > footer nav ul.social li.sl a:hover, body > footer nav ul.community li.sl a:hover {
@@ -2596,6 +2598,15 @@ nav.pagination {
     @media (max-width: 767px) {
       #newsletter-form.active {
         display: none; } }
+  @media (max-width: 767px) {
+    #newsletter-form {
+      left: 0;
+      border-radius: 0;
+      width: 100%;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      max-width: 100%; } }
   #newsletter-form fieldset legend {
     font-size: 16px;
     line-height: 21px;
@@ -2603,9 +2614,11 @@ nav.pagination {
     font-weight: 700;
     background: #fff url(../imgs/icons/envelop.svg) no-repeat 0 0;
     background-size: 100px;
-    line-height: 100px;
-    padding: 0 0 0 107px;
-    white-space: nowrap; }
+    line-height: 20px;
+    padding: 40px 0 40px 107px; }
+    @media (min-width: 768px) {
+      #newsletter-form fieldset legend {
+        white-space: nowrap; } }
   #newsletter-form fieldset input[type="email"],
   #newsletter-form fieldset input[type="text"] {
     display: block; }

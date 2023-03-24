@@ -2477,6 +2477,7 @@ body > footer{
         }
         margin: 0 0 9px 0;
         a {
+          display: block;
           color: #F1F8FA;
           transition: color 0.3s;
           &:hover{
@@ -2510,7 +2511,9 @@ body > footer{
           &.newsletter{
             a{
               background: url(../imgs/icons/envelop_sm.svg) no-repeat 3px 2px;
+
               background-size: 15px;
+              filter: grayscale(100%);
             }
           }
           $classes: sl,em,blog,ln,yt,tel;
@@ -2899,6 +2902,17 @@ nav.pagination{
   z-index: 100;
   border: 1px solid rgba(132, 132, 132, 0.2);
 
+  @media (max-width: $mobileWidth - 1){
+    left: 0;
+    border-radius: 0;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+
+
   fieldset{
     legend{
       font-size: 16px;
@@ -2909,9 +2923,11 @@ nav.pagination{
       background: #fff url(../imgs/icons/envelop.svg) no-repeat 0 0;
       background-size: 100px;
 
-      line-height: 100px;
-      padding: 0 0 0 107px;
-      white-space: nowrap;
+      line-height: 20px;
+      padding: 40px 0 40px 107px;
+      @media (min-width: $mobileWidth) {
+        white-space: nowrap;
+      }
 
     }
     input[type="email"],

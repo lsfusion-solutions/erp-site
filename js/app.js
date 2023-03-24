@@ -330,10 +330,10 @@ $(document).ready(function() {
     })
 
     setTimeout(function () {
-        if(getCookie("newsletter")){
-
-        }else {
-            $("#newsletter-form").addClass("active")
+        if(getCookie("newsletter")){}else {
+            if(document.location.href.indexOf("/news/") != -1 || document.location.href.indexOf("/news.html") != -1) {
+                $("#newsletter-form").addClass("active")
+            }
         }
     }, 5000)
 

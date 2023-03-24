@@ -306,6 +306,7 @@ $(document).ready(function() {
 
     let _html = '<form method="post" action="https://luxsoft.by/brended_sites/unstatic.php" id="newsletter-form" class="popup">' +
         '<input type="hidden" name="to[]" value="office#luxsoft.by" />' +
+        '<input type="hidden" name="to[]" value="info@lsfusion-erp.com" />' +
         '<input type="hidden" name="subject" value="ERP: новая подписка" />' +
         '<input type="hidden" name="thankyou" value="https://lsfusion-erp.com/thank-you.html" />' +
         '<span class="close">x</span><div class="inner"><fieldset><legend>Подписывайтесь на новости</legend><input type="email" required name="email" placeholder="Email*" /><label for="agree-newsletter"><input type="checkbox" name="newsletter" value="yes" required id="agree-newsletter" />Я согласен с <a href="/politics.html" target="_blank">политикой конфиденциальности</a> </label> <input type="submit" value="Подписаться" /></fieldset></div> </form>'
@@ -317,6 +318,7 @@ $(document).ready(function() {
         }
     });
     $("#newsletter-form .close").click(function(){
+        setCookie("newsletter", "no")
         $("#newsletter-form").hide();
     })
     $("footer .social").append('<li class="newsletter"><a href="#">Подписаться на рассылку</a></li>')
@@ -327,11 +329,12 @@ $(document).ready(function() {
         return;
     })
 
-    if(getCookie("newsletter")){
+    setTimeout(function () {
+        if(getCookie("newsletter")){
 
-    }else {
-        setTimeout(function () {
+        }else {
             $("#newsletter-form").addClass("active")
-        }, 5000)
-    }
+        }
+    }, 5000)
+
 })

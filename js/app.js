@@ -25,6 +25,27 @@ function getCookie(name){
     return(setStr);
 }
 
+function showMessage(title, msg, options){
+
+    if( $("#popupmessage").size() == 0 ){
+        $("body").append( '<div class="popup" id="popupmessage"><span class="close">x</span><div class="inner"><h3></h3><p></p><span class="btn">Закрыть</span></div></div>' );
+        $("#popupmessage").popup({blur: false});
+        $("#popupmessage .close, #popupmessage .btn").click(function(){
+            $("#popupmessage").popup("hide");
+        })
+    }
+
+    if(!options){
+        options = {btn: "Закрыть", click: null}
+    }
+
+    $("#popupmessage span.btn").text(options.btn).click(options.click)
+
+    $("#popupmessage h3").text(title);
+    $("#popupmessage p").html(msg);
+    $("#popupmessage").popup("show");
+}
+
 $(document).ready(function() {
 
     if(getCookie("acceptCookie") == null ){
@@ -88,9 +109,9 @@ $(document).ready(function() {
     if( $("#contactuspopup").length > 0) {
         $("#contactuspopup form").validate({
             submitHandler: function( form ){
-                form.submit();
-                return;
-                $("#contactuspopup form").addClass("loading");
+                //form.submit();
+                //return;
+                $(form).addClass("loading");
 
                 $.ajax({
                     url: $(form).attr("action"),
@@ -99,7 +120,8 @@ $(document).ready(function() {
                     success: function() {
                         $("#contactuspopup").popup("hide");
                         $("#contactuspopup form").removeClass("loading").get(0).reset();
-                        alert("Спасибо! \nВаше сообщение отправлено. ")
+                        showMessage("Спасибо!", "Ваше сообщение отправлено.")
+                        //alert("Спасибо! \nВаше сообщение отправлено. ")
                     }
                 });
                 return;
@@ -314,7 +336,23 @@ $(document).ready(function() {
     $("#newsletter-form").validate({
         submitHandler: function(form){
             setCookie("newsletter", "yes")
-            form.submit()
+
+            $(form).addClass("loading");
+
+            $.ajax({
+                url: $(form).attr("action"),
+                data: $(form).serialize(),
+                type: $(form).attr("method"),
+                success: function() {
+                    $("#newsletter-form").popup("hide");
+                    $("#newsletter-form").removeClass("loading").hide().get(0).reset();
+                    showMessage("Спасибо!", "Вы подписались на нашу рассылку.")
+                    //alert("Спасибо! \nВаше сообщение отправлено. ")
+                }
+            });
+            return;
+
+
         }
     });
     $("#newsletter-form .close").click(function(){

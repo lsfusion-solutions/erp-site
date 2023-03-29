@@ -2451,6 +2451,8 @@ body > footer {
     margin: 0 auto;
     text-align: center;
     border: 0; }
+  .popup > div.inner span.btn, .popup > div.inner span.btn-small, .popup > div.inner #acceptCookie span, #acceptCookie .popup > div.inner span, .popup > div.inner section#section-companies > div.noinner nav span.active, section#section-companies > div.noinner nav .popup > div.inner span.active, .popup > div.inner section#section-best > div.inner > nav span.active, section#section-best > div.inner > nav .popup > div.inner span.active, .popup > div.inner section#section-single-news > .inner nav span.active, section#section-single-news > .inner nav .popup > div.inner span.active, .popup > div.inner section#section-case > .inner nav span.active, section#section-case > .inner nav .popup > div.inner span.active, .popup > div.inner section#section-faq > .inner nav span.active, section#section-faq > .inner nav .popup > div.inner span.active {
+    cursor: pointer; }
 
 a.lnk {
   font-size: 14px;

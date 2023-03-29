@@ -1,5 +1,7 @@
 <?php
 
+    header("Access-Control-Allow-Origin: *");
+
 $allowerEmails = array(
     "info@lsfusion.org", "elena@mite.club", // для MyCompany
     "sasha.romanenko@gmail.com", "office@luxsoft.by", "info@fit.ru",//для сайта ERP

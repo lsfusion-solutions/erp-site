@@ -2145,6 +2145,9 @@ ul.dd-list{
         padding: 20px 0 10px 35px;
         margin: 0 0 0 0;
         list-style: disc;
+        ul{
+          list-style: circle !important;
+        }
         li{
           margin: 0 0 10px 0;
         }

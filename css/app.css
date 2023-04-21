@@ -1939,6 +1939,8 @@ ul.dd-list {
         padding: 20px 0 10px 35px;
         margin: 0 0 0 0;
         list-style: disc; }
+        ul.dd-list > li > div ul ul {
+          list-style: circle !important; }
         ul.dd-list > li > div ul li {
           margin: 0 0 10px 0; }
 

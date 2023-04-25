@@ -2100,8 +2100,9 @@ section{
 }
 
 ul.dd-list{
-  list-style: none;
-  margin: 0 0 20px 0;
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin: 0 0 20px 0 !important;
   & > li{
     border: 1px solid #F2F2F2;
     &:hover{
@@ -2112,9 +2113,8 @@ ul.dd-list{
     padding: 12px 20px;
     transition: background-color 0.3s, border-color 0.3s;
     &.active{
-      background: #F2F2F2;
       background: #F7FBFC;
-      h3{
+      & > h3{
         color: #0E84BC;
         background: url(../imgs/icons/less.svg) no-repeat right 0px top 10px;
       }
@@ -2127,6 +2127,7 @@ ul.dd-list{
       transition: background 0.3s, color 0.3s;
       background: url(../imgs/icons/more.svg) no-repeat right 0px top 10px;
       padding: 0 30px 0 0;
+      margin: 0!important;
     }
     & > div{
       display: none;
@@ -2134,6 +2135,9 @@ ul.dd-list{
       color: #596062;
       font-size: 14px;
       line-height: 19px;
+      & > *:last-child{
+        margin-bottom: 0 !important;
+      }
       ol{
         padding: 20px 0 10px 35px;
         margin: 0 0 0 0;

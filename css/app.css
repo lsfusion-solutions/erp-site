@@ -1901,8 +1901,9 @@ section a {
     color: #0E84BC; }
 
 ul.dd-list {
-  list-style: none;
-  margin: 0 0 20px 0; }
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin: 0 0 20px 0 !important; }
   ul.dd-list > li {
     border: 1px solid #F2F2F2;
     border-radius: 4px;
@@ -1912,9 +1913,8 @@ ul.dd-list {
     ul.dd-list > li:hover {
       border-color: #cccccc; }
     ul.dd-list > li.active {
-      background: #F2F2F2;
       background: #F7FBFC; }
-      ul.dd-list > li.active h3 {
+      ul.dd-list > li.active > h3 {
         color: #0E84BC;
         background: url(../imgs/icons/less.svg) no-repeat right 0px top 10px; }
       ul.dd-list > li.active > div {
@@ -1923,13 +1923,16 @@ ul.dd-list {
       cursor: pointer;
       transition: background 0.3s, color 0.3s;
       background: url(../imgs/icons/more.svg) no-repeat right 0px top 10px;
-      padding: 0 30px 0 0; }
+      padding: 0 30px 0 0;
+      margin: 0 !important; }
     ul.dd-list > li > div {
       display: none;
       padding: 20px 0 0 0;
       color: #596062;
       font-size: 14px;
       line-height: 19px; }
+      ul.dd-list > li > div > *:last-child {
+        margin-bottom: 0 !important; }
       ul.dd-list > li > div ol {
         padding: 20px 0 10px 35px;
         margin: 0 0 0 0; }

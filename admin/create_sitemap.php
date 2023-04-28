@@ -10,7 +10,6 @@ function ob_file_callback($buffer){
     fwrite($f, $buffer);
 }
     ob_start('ob_file_callback');
-    //ob_start();
 
 
 echo "<?xml version='1.0' encoding='UTF-8'?>\n"; ?>
@@ -36,6 +35,11 @@ function processDir($path){
         }
 
         if(is_file($path . $file)) {
+            $pathinfo = pathinfo($path . $file);
+            if($pathinfo["extension"] != "html"){
+                continue;
+            }
+
             $lastmod = filemtime($path . $file);
             ?>
     <url>

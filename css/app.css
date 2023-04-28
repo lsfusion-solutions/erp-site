@@ -254,7 +254,7 @@ em {
   /* Non-prefixed version, currently
                supported by Chrome, Edge, Opera and Firefox */ }
 
-.btn-default, .btn, .btn-small, #acceptCookie span, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-single-news > .inner nav span.active, section#section-case > .inner nav span.active, section#section-faq > .inner nav span.active, .popup > div.inner nav input[type="radio"]:checked + label.label, .popup > div.inner input[type="submit"], #newsletter-form fieldset input[type="submit"], .btn-empty, section#section-why-header > div.inner ul li a, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner .info ul li, section#section-reviews > div.inner h2 a, section#section-single-news > .inner nav span:not(.active), section#section-case > .inner nav span:not(.active), section#section-single-news > .inner div.news div.info div.buttons a, section#section-case > .inner div.news div.info div.buttons a, section#section-faq > .inner nav span:not(.active), .popup > div.inner nav input[type="radio"]:not(:checked) + label.label {
+.btn-default, .btn, .btn-small, #acceptCookie span, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-single-news > .inner nav span.active, section#section-case > .inner nav span.active, section#section-faq > .inner nav span.active, .popup > div.inner nav input[type="radio"]:checked + label.label, .popup > div.inner input[type="submit"], #newsletter-form fieldset input[type="submit"], #demo-form div.buttons a.demo, .btn-empty, section#section-why-header > div.inner ul li a, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner .info ul li, section#section-reviews > div.inner h2 a, section#section-single-news > .inner nav span:not(.active), section#section-case > .inner nav span:not(.active), section#section-single-news > .inner div.news div.info div.buttons a, section#section-case > .inner div.news div.info div.buttons a, section#section-faq > .inner nav span:not(.active), .popup > div.inner nav input[type="radio"]:not(:checked) + label.label {
   position: relative;
   text-decoration: none;
   transition: background-color .3s, border-color 0.3s, color 0.3s;
@@ -268,17 +268,17 @@ em {
   white-space: nowrap;
   display: inline-block; }
   @media (max-width: 479px) {
-    .btn-default, .btn, .btn-small, #acceptCookie span, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-single-news > .inner nav span.active, section#section-case > .inner nav span.active, section#section-faq > .inner nav span.active, .popup > div.inner nav input[type="radio"]:checked + label.label, .popup > div.inner input[type="submit"], #newsletter-form fieldset input[type="submit"], .btn-empty, section#section-why-header > div.inner ul li a, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner .info ul li, section#section-reviews > div.inner h2 a, section#section-single-news > .inner nav span:not(.active), section#section-case > .inner nav span:not(.active), section#section-single-news > .inner div.news div.info div.buttons a, section#section-case > .inner div.news div.info div.buttons a, section#section-faq > .inner nav span:not(.active), .popup > div.inner nav input[type="radio"]:not(:checked) + label.label {
+    .btn-default, .btn, .btn-small, #acceptCookie span, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-single-news > .inner nav span.active, section#section-case > .inner nav span.active, section#section-faq > .inner nav span.active, .popup > div.inner nav input[type="radio"]:checked + label.label, .popup > div.inner input[type="submit"], #newsletter-form fieldset input[type="submit"], #demo-form div.buttons a.demo, .btn-empty, section#section-why-header > div.inner ul li a, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner .info ul li, section#section-reviews > div.inner h2 a, section#section-single-news > .inner nav span:not(.active), section#section-case > .inner nav span:not(.active), section#section-single-news > .inner div.news div.info div.buttons a, section#section-case > .inner div.news div.info div.buttons a, section#section-faq > .inner nav span:not(.active), .popup > div.inner nav input[type="radio"]:not(:checked) + label.label {
       padding: 10px 18px; } }
-  .btn-default:active, .btn:active, .btn-small:active, #acceptCookie span:active, section#section-companies > div.noinner nav span.active:active, section#section-best > div.inner > nav span.active:active, section#section-single-news > .inner nav span.active:active, section#section-case > .inner nav span.active:active, section#section-faq > .inner nav span.active:active, .popup > div.inner nav input[type="radio"]:checked + label.label:active, .popup > div.inner input[type="submit"]:active, #newsletter-form fieldset input[type="submit"]:active, .btn-empty:active, section#section-why-header > div.inner ul li a:active, .btn-invert:active, .btn-empty-invert:active, section#section-companies > div.noinner nav span:active:not(.active), section#section-best > div.inner > nav span:active:not(.active), section#section-best > div.inner .info ul li:active, section#section-reviews > div.inner h2 a:active, section#section-single-news > .inner nav span:active:not(.active), section#section-case > .inner nav span:active:not(.active), section#section-single-news > .inner div.news div.info div.buttons a:active, section#section-case > .inner div.news div.info div.buttons a:active, section#section-faq > .inner nav span:active:not(.active), .popup > div.inner nav input[type="radio"]:not(:checked) + label.label:active {
+  .btn-default:active, .btn:active, .btn-small:active, #acceptCookie span:active, section#section-companies > div.noinner nav span.active:active, section#section-best > div.inner > nav span.active:active, section#section-single-news > .inner nav span.active:active, section#section-case > .inner nav span.active:active, section#section-faq > .inner nav span.active:active, .popup > div.inner nav input[type="radio"]:checked + label.label:active, .popup > div.inner input[type="submit"]:active, #newsletter-form fieldset input[type="submit"]:active, #demo-form div.buttons a.demo:active, .btn-empty:active, section#section-why-header > div.inner ul li a:active, .btn-invert:active, .btn-empty-invert:active, section#section-companies > div.noinner nav span:active:not(.active), section#section-best > div.inner > nav span:active:not(.active), section#section-best > div.inner .info ul li:active, section#section-reviews > div.inner h2 a:active, section#section-single-news > .inner nav span:active:not(.active), section#section-case > .inner nav span:active:not(.active), section#section-single-news > .inner div.news div.info div.buttons a:active, section#section-case > .inner div.news div.info div.buttons a:active, section#section-faq > .inner nav span:active:not(.active), .popup > div.inner nav input[type="radio"]:not(:checked) + label.label:active {
     top: 1px; }
 
-.btn, .btn-small, #acceptCookie span, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-single-news > .inner nav span.active, section#section-case > .inner nav span.active, section#section-faq > .inner nav span.active, .popup > div.inner nav input[type="radio"]:checked + label.label, .popup > div.inner input[type="submit"], #newsletter-form fieldset input[type="submit"] {
+.btn, .btn-small, #acceptCookie span, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-single-news > .inner nav span.active, section#section-case > .inner nav span.active, section#section-faq > .inner nav span.active, .popup > div.inner nav input[type="radio"]:checked + label.label, .popup > div.inner input[type="submit"], #newsletter-form fieldset input[type="submit"], #demo-form div.buttons a.demo {
   background: #26C4F7;
   color: #fff !important; }
-  .btn:hover, .btn-small:hover, #acceptCookie span:hover, section#section-companies > div.noinner nav span.active:hover, section#section-best > div.inner > nav span.active:hover, section#section-single-news > .inner nav span.active:hover, section#section-case > .inner nav span.active:hover, section#section-faq > .inner nav span.active:hover, .popup > div.inner nav input[type="radio"]:checked + label.label:hover, .popup > div.inner input[type="submit"]:hover, #newsletter-form fieldset input[type="submit"]:hover {
+  .btn:hover, .btn-small:hover, #acceptCookie span:hover, section#section-companies > div.noinner nav span.active:hover, section#section-best > div.inner > nav span.active:hover, section#section-single-news > .inner nav span.active:hover, section#section-case > .inner nav span.active:hover, section#section-faq > .inner nav span.active:hover, .popup > div.inner nav input[type="radio"]:checked + label.label:hover, .popup > div.inner input[type="submit"]:hover, #newsletter-form fieldset input[type="submit"]:hover, #demo-form div.buttons a.demo:hover {
     background-color: #0295FF; }
-  .btn:active, .btn-small:active, #acceptCookie span:active, section#section-companies > div.noinner nav span.active:active, section#section-best > div.inner > nav span.active:active, section#section-single-news > .inner nav span.active:active, section#section-case > .inner nav span.active:active, section#section-faq > .inner nav span.active:active, .popup > div.inner nav input[type="radio"]:checked + label.label:active, .popup > div.inner input[type="submit"]:active, #newsletter-form fieldset input[type="submit"]:active {
+  .btn:active, .btn-small:active, #acceptCookie span:active, section#section-companies > div.noinner nav span.active:active, section#section-best > div.inner > nav span.active:active, section#section-single-news > .inner nav span.active:active, section#section-case > .inner nav span.active:active, section#section-faq > .inner nav span.active:active, .popup > div.inner nav input[type="radio"]:checked + label.label:active, .popup > div.inner input[type="submit"]:active, #newsletter-form fieldset input[type="submit"]:active, #demo-form div.buttons a.demo:active {
     background-color: #0B85DE; }
 
 .btn-small, #acceptCookie span {
@@ -2640,5 +2640,29 @@ nav.pagination {
   #newsletter-form fieldset input[type="submit"] {
     display: block;
     margin: 20px 0 0 auto; }
+
+#demo-form input[type="checkbox"] {
+  margin-right: 10px; }
+#demo-form label {
+  display: block;
+  font-size: 14px;
+  color: #596062; }
+  #demo-form label.error {
+    color: #ff0000; }
+#demo-form label[for=demo-agree] {
+  position: relative; }
+  #demo-form label[for=demo-agree] label.error {
+    position: absolute;
+    bottom: -35px; }
+#demo-form div.buttons {
+  padding: 20px 0 0 0; }
+  #demo-form div.buttons:after {
+    content: "";
+    display: table;
+    clear: both; }
+  #demo-form div.buttons a.demo {
+    float: left; }
+  #demo-form div.buttons input[type="submit"] {
+    float: right; }
 
 /*# sourceMappingURL=app.css.map */

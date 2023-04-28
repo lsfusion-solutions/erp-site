@@ -2953,13 +2953,44 @@ nav.pagination{
       label.error{
         position: absolute;
         bottom: -35px;
-
       }
     }
     input[type="submit"]{
       @extend .btn;
       display: block;
       margin: 20px 0 0 auto;
+    }
+  }
+}
+
+#demo-form{
+  input[type="checkbox"]{
+    margin-right: 10px;
+  }
+  label{
+    display: block;
+    font-size: 14px;
+    color: #596062;
+    &.error{
+      color: #ff0000;
+    }
+  }
+  label[for=demo-agree]{
+    position: relative;
+    label.error{
+      position: absolute;
+      bottom: -35px;
+    }
+  }
+  div.buttons {
+    @include clearfix;
+    padding: 20px 0 0 0;
+    a.demo {
+      @extend .btn;
+      float: left;
+    }
+    input[type="submit"] {
+      float: right;
     }
   }
 }

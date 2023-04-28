@@ -28,7 +28,7 @@ function getCookie(name){
 function showMessage(title, msg, options){
 
     if( $("#popupmessage").size() == 0 ){
-        $("body").append( '<div class="popup" id="popupmessage"><span class="close">x</span><div class="inner"><h3></h3><p></p><span class="btn">Закрыть</span></div></div>' );
+        $("body").append( '<div class="popup" id="popupmessage"><span class="close">x</span><div class="inner"><h3></h3><p></p><span class="btn">Закрыть</span><div id="popupmessage-special"></div> </div></div>' );
         $("#popupmessage").popup({blur: false});
         $("#popupmessage .close, #popupmessage .btn").click(function(){
             $("#popupmessage").popup("hide");
@@ -38,8 +38,13 @@ function showMessage(title, msg, options){
     if(!options){
         options = {btn: "Закрыть", click: null}
     }
-
-    $("#popupmessage span.btn").text(options.btn).click(options.click)
+    if(options.html){
+        $("#popupmessage span.btn").hide()
+        $("#popupmessage-special").html( options.html );
+    }else{
+        $("#popupmessage span.btn").text(options.btn).click(options.click).show();
+        $("#popupmessage-special").html("");
+    }
 
     $("#popupmessage h3").text(title);
     $("#popupmessage p").html(msg);
@@ -351,8 +356,6 @@ $(document).ready(function() {
                 }
             });
             return;
-
-
         }
     });
     $("#newsletter-form .close").click(function(){
@@ -374,5 +377,56 @@ $(document).ready(function() {
             }
         }
     }, 5000)
+
+
+
+
+
+
+    _html = '<form method="post" action="https://luxsoft.by/brended_sites/unstatic.php" id="demo-form" class="popup">' +
+        '<input type="hidden" name="to[]" value="office#luxsoft.by" />' +
+        '<input type="hidden" name="to[]" value="info@lsfusion-erp.com" />' +
+        '<input type="hidden" name="subject" value="ERP: переход на ДЕМО" />' +
+        '<input type="hidden" name="thankyou" value="https://lsfusion-erp.com/thank-you.html" />' +
+        '<span class="close">x</span><div class="inner">' +
+        '<p>Перед тем, как перейти к демо версии lsFusion ERP, оставьте свои контактные данные, если хотите получить консультацию по работе с нашим решением.</p>' +
+        '<fieldset>' +
+        '<input type="text" required name="name" placeholder="Имя*" />' +
+        '<input type="email" required name="email" placeholder="Email*" />' +
+        '<input type="text" name="phone" placeholder="Телефон" />' +
+        '<input type="text" name="organization" placeholder="Организация" />' +
+        '<label for="demo-need-help"><input type="checkbox" name="need-help" value="yes" id="demo-need-help" />Мне нужна консультация</label>' +
+        '<label for="demo-newsletter"><input type="checkbox" name="newsletter" value="yes" id="demo-newsletter" />Я согласен получать новостную рассылку (информация о новых возможностях программы lsFusion ERP, оповещения о мероприятиях, промо предложения)</label>' +
+        '<label for="demo-agree"><input type="checkbox" name="egree" value="yes" required id="demo-agree" />Я согласен на обработку персональных данных. <a href="/politics.html" target="_blank">Ознакомиться с политикой обработки персональных данных.</a> </label> ' +
+        '<div class="buttons">' +
+        '<a href="https://demo.lsfusion.org/erp/login?user=guest&password=guest" class="demo" target="_blank">Смотреть ДЕМО</a>' +
+        '<input type="submit" value="Отправить" />' +
+        '</div>' +
+        '</fieldset></div> </form>'
+    $("body").append( _html )
+    $("#demo-form").popup({closeelement: ".close"})
+    $("#demo-form").validate({
+        submitHandler: function(form){
+            $(form).addClass("loading");
+
+            $.ajax({
+                url: $(form).attr("action"),
+                data: $(form).serialize(),
+                type: $(form).attr("method"),
+                success: function() {
+                    $("#demo-form").popup("hide");
+                    $("#demo-form").removeClass("loading").hide().get(0).reset();
+                    showMessage("Спасибо!", "Мы свяжемся с вами в ближайшее время. ", {html: "<a href='https://demo.lsfusion.org/erp/login?user=guest&password=guest' target='_blank' class='btn'>Смотреть ДЕМО</a>"})
+                }
+            });
+            return;
+        }
+    });
+
+    $("body > nav a.special").click(function(){
+        $("#demo-form").popup("show");
+        return false;
+    })
+
 
 })

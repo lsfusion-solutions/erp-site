@@ -170,6 +170,7 @@ body > nav{
       overflow: hidden;
     }
     & > ul.nav{
+      position: relative;
       @media (min-width: 950px){
         float: right;
       }
@@ -195,13 +196,90 @@ body > nav{
         @media (min-width: 950px) {
           display: inline;
           padding: 0 23px 0 22px;
+          &:last-child{
+            padding-right: 0;
+          }
         }
         @media (min-width: 950px) and (max-width: $siteWidth - 1){
-          padding: 0 10px;
+          padding: 0 9px;
         }
         @media (max-width: 949px){
           display: block;
           text-align: center;
+        }
+        &#search{
+          padding: 0 12px;
+          @media (min-width: 950px) and (max-width: $siteWidth - 1){
+            padding: 0 2px;
+          }
+          a{
+            display: inline-block;
+            @media (max-width: 949px){
+              display: none;
+            }
+            width: 30px;
+            height: 35px;
+            background: url(../imgs/search.png) no-repeat 50% 50%;
+            overflow: hidden;
+            text-indent: -3000px;
+            position: relative;
+            top: 13px;
+            &.active{
+              background: url(../imgs/search-active.png) no-repeat 50% 50%;
+              & + form{
+                display: block;
+              }
+            }
+          }
+          form{
+            @media (min-width: 950px) {
+              display: none;
+              position: absolute;
+              top: 9px;
+              left: 0;
+            }
+            input[type="text"]{
+              @media (min-width: 950px) {
+                width: 695px;
+                display: block;
+              }
+              @media (max-width: 949px) {
+                width: calc(100% - 140px);
+                font-size: 16px;
+              }
+              padding: 10px 15px;
+              border: 1px solid #F2F2F2;
+              border-radius: 4px;
+              font-size: 14px;
+              line-height: 20px;
+              font-family: Poppins, Montserrat, "Open Sans";
+              -webkit-box-sizing: border-box;
+              -moz-box-sizing: border-box;
+              box-sizing: border-box;
+              margin: 0 0 15px 0;
+
+              outline: none;
+              transition: color 0.3s, border-color 0.3s;
+              &:active{
+                border-color: darken(#F2F2F2, 20);
+              }
+              &:focus{
+                border-color: darken(#F2F2F2, 10);
+              }
+              &.error{
+                border-color: #ff0000;
+              }
+
+            }
+            input[type="submit"]{
+              @media (min-width: 950px) {
+                display: none;
+              }
+              @extend .btn;
+              border: 0;
+              outline: none;
+            }
+          }
         }
         a{
           color: #000;

@@ -254,7 +254,7 @@ em {
   /* Non-prefixed version, currently
                supported by Chrome, Edge, Opera and Firefox */ }
 
-.btn-default, .btn, .btn-small, #acceptCookie span, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-single-news > .inner nav span.active, section#section-case > .inner nav span.active, section#section-faq > .inner nav span.active, .popup > div.inner nav input[type="radio"]:checked + label.label, .popup > div.inner input[type="submit"], #newsletter-form fieldset input[type="submit"], #demo-form div.buttons a.demo, .btn-empty, section#section-why-header > div.inner ul li a, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner .info ul li, section#section-reviews > div.inner h2 a, section#section-single-news > .inner nav span:not(.active), section#section-case > .inner nav span:not(.active), section#section-single-news > .inner div.news div.info div.buttons a, section#section-case > .inner div.news div.info div.buttons a, section#section-faq > .inner nav span:not(.active), .popup > div.inner nav input[type="radio"]:not(:checked) + label.label {
+.btn-default, .btn, .btn-small, #acceptCookie span, body > nav > div.inner > ul.nav > li#search form input[type="submit"], section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-single-news > .inner nav span.active, section#section-case > .inner nav span.active, section#section-faq > .inner nav span.active, .popup > div.inner nav input[type="radio"]:checked + label.label, .popup > div.inner input[type="submit"], #newsletter-form fieldset input[type="submit"], #demo-form div.buttons a.demo, .btn-empty, section#section-why-header > div.inner ul li a, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner .info ul li, section#section-reviews > div.inner h2 a, section#section-single-news > .inner nav span:not(.active), section#section-case > .inner nav span:not(.active), section#section-single-news > .inner div.news div.info div.buttons a, section#section-case > .inner div.news div.info div.buttons a, section#section-faq > .inner nav span:not(.active), .popup > div.inner nav input[type="radio"]:not(:checked) + label.label {
   position: relative;
   text-decoration: none;
   transition: background-color .3s, border-color 0.3s, color 0.3s;
@@ -268,17 +268,17 @@ em {
   white-space: nowrap;
   display: inline-block; }
   @media (max-width: 479px) {
-    .btn-default, .btn, .btn-small, #acceptCookie span, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-single-news > .inner nav span.active, section#section-case > .inner nav span.active, section#section-faq > .inner nav span.active, .popup > div.inner nav input[type="radio"]:checked + label.label, .popup > div.inner input[type="submit"], #newsletter-form fieldset input[type="submit"], #demo-form div.buttons a.demo, .btn-empty, section#section-why-header > div.inner ul li a, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner .info ul li, section#section-reviews > div.inner h2 a, section#section-single-news > .inner nav span:not(.active), section#section-case > .inner nav span:not(.active), section#section-single-news > .inner div.news div.info div.buttons a, section#section-case > .inner div.news div.info div.buttons a, section#section-faq > .inner nav span:not(.active), .popup > div.inner nav input[type="radio"]:not(:checked) + label.label {
+    .btn-default, .btn, .btn-small, #acceptCookie span, body > nav > div.inner > ul.nav > li#search form input[type="submit"], section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-single-news > .inner nav span.active, section#section-case > .inner nav span.active, section#section-faq > .inner nav span.active, .popup > div.inner nav input[type="radio"]:checked + label.label, .popup > div.inner input[type="submit"], #newsletter-form fieldset input[type="submit"], #demo-form div.buttons a.demo, .btn-empty, section#section-why-header > div.inner ul li a, .btn-invert, .btn-empty-invert, section#section-companies > div.noinner nav span:not(.active), section#section-best > div.inner > nav span:not(.active), section#section-best > div.inner .info ul li, section#section-reviews > div.inner h2 a, section#section-single-news > .inner nav span:not(.active), section#section-case > .inner nav span:not(.active), section#section-single-news > .inner div.news div.info div.buttons a, section#section-case > .inner div.news div.info div.buttons a, section#section-faq > .inner nav span:not(.active), .popup > div.inner nav input[type="radio"]:not(:checked) + label.label {
       padding: 10px 18px; } }
-  .btn-default:active, .btn:active, .btn-small:active, #acceptCookie span:active, section#section-companies > div.noinner nav span.active:active, section#section-best > div.inner > nav span.active:active, section#section-single-news > .inner nav span.active:active, section#section-case > .inner nav span.active:active, section#section-faq > .inner nav span.active:active, .popup > div.inner nav input[type="radio"]:checked + label.label:active, .popup > div.inner input[type="submit"]:active, #newsletter-form fieldset input[type="submit"]:active, #demo-form div.buttons a.demo:active, .btn-empty:active, section#section-why-header > div.inner ul li a:active, .btn-invert:active, .btn-empty-invert:active, section#section-companies > div.noinner nav span:active:not(.active), section#section-best > div.inner > nav span:active:not(.active), section#section-best > div.inner .info ul li:active, section#section-reviews > div.inner h2 a:active, section#section-single-news > .inner nav span:active:not(.active), section#section-case > .inner nav span:active:not(.active), section#section-single-news > .inner div.news div.info div.buttons a:active, section#section-case > .inner div.news div.info div.buttons a:active, section#section-faq > .inner nav span:active:not(.active), .popup > div.inner nav input[type="radio"]:not(:checked) + label.label:active {
+  .btn-default:active, .btn:active, .btn-small:active, #acceptCookie span:active, body > nav > div.inner > ul.nav > li#search form input[type="submit"]:active, section#section-companies > div.noinner nav span.active:active, section#section-best > div.inner > nav span.active:active, section#section-single-news > .inner nav span.active:active, section#section-case > .inner nav span.active:active, section#section-faq > .inner nav span.active:active, .popup > div.inner nav input[type="radio"]:checked + label.label:active, .popup > div.inner input[type="submit"]:active, #newsletter-form fieldset input[type="submit"]:active, #demo-form div.buttons a.demo:active, .btn-empty:active, section#section-why-header > div.inner ul li a:active, .btn-invert:active, .btn-empty-invert:active, section#section-companies > div.noinner nav span:active:not(.active), section#section-best > div.inner > nav span:active:not(.active), section#section-best > div.inner .info ul li:active, section#section-reviews > div.inner h2 a:active, section#section-single-news > .inner nav span:active:not(.active), section#section-case > .inner nav span:active:not(.active), section#section-single-news > .inner div.news div.info div.buttons a:active, section#section-case > .inner div.news div.info div.buttons a:active, section#section-faq > .inner nav span:active:not(.active), .popup > div.inner nav input[type="radio"]:not(:checked) + label.label:active {
     top: 1px; }
 
-.btn, .btn-small, #acceptCookie span, section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-single-news > .inner nav span.active, section#section-case > .inner nav span.active, section#section-faq > .inner nav span.active, .popup > div.inner nav input[type="radio"]:checked + label.label, .popup > div.inner input[type="submit"], #newsletter-form fieldset input[type="submit"], #demo-form div.buttons a.demo {
+.btn, .btn-small, #acceptCookie span, body > nav > div.inner > ul.nav > li#search form input[type="submit"], section#section-companies > div.noinner nav span.active, section#section-best > div.inner > nav span.active, section#section-single-news > .inner nav span.active, section#section-case > .inner nav span.active, section#section-faq > .inner nav span.active, .popup > div.inner nav input[type="radio"]:checked + label.label, .popup > div.inner input[type="submit"], #newsletter-form fieldset input[type="submit"], #demo-form div.buttons a.demo {
   background: #26C4F7;
   color: #fff !important; }
-  .btn:hover, .btn-small:hover, #acceptCookie span:hover, section#section-companies > div.noinner nav span.active:hover, section#section-best > div.inner > nav span.active:hover, section#section-single-news > .inner nav span.active:hover, section#section-case > .inner nav span.active:hover, section#section-faq > .inner nav span.active:hover, .popup > div.inner nav input[type="radio"]:checked + label.label:hover, .popup > div.inner input[type="submit"]:hover, #newsletter-form fieldset input[type="submit"]:hover, #demo-form div.buttons a.demo:hover {
+  .btn:hover, .btn-small:hover, #acceptCookie span:hover, body > nav > div.inner > ul.nav > li#search form input[type="submit"]:hover, section#section-companies > div.noinner nav span.active:hover, section#section-best > div.inner > nav span.active:hover, section#section-single-news > .inner nav span.active:hover, section#section-case > .inner nav span.active:hover, section#section-faq > .inner nav span.active:hover, .popup > div.inner nav input[type="radio"]:checked + label.label:hover, .popup > div.inner input[type="submit"]:hover, #newsletter-form fieldset input[type="submit"]:hover, #demo-form div.buttons a.demo:hover {
     background-color: #0295FF; }
-  .btn:active, .btn-small:active, #acceptCookie span:active, section#section-companies > div.noinner nav span.active:active, section#section-best > div.inner > nav span.active:active, section#section-single-news > .inner nav span.active:active, section#section-case > .inner nav span.active:active, section#section-faq > .inner nav span.active:active, .popup > div.inner nav input[type="radio"]:checked + label.label:active, .popup > div.inner input[type="submit"]:active, #newsletter-form fieldset input[type="submit"]:active, #demo-form div.buttons a.demo:active {
+  .btn:active, .btn-small:active, #acceptCookie span:active, body > nav > div.inner > ul.nav > li#search form input[type="submit"]:active, section#section-companies > div.noinner nav span.active:active, section#section-best > div.inner > nav span.active:active, section#section-single-news > .inner nav span.active:active, section#section-case > .inner nav span.active:active, section#section-faq > .inner nav span.active:active, .popup > div.inner nav input[type="radio"]:checked + label.label:active, .popup > div.inner input[type="submit"]:active, #newsletter-form fieldset input[type="submit"]:active, #demo-form div.buttons a.demo:active {
     background-color: #0B85DE; }
 
 .btn-small, #acceptCookie span {
@@ -458,6 +458,7 @@ body > nav {
         body > nav > div.inner .menu-link.active + ul.nav {
           display: block; }
     body > nav > div.inner > ul.nav {
+      position: relative;
       list-style: none; }
       @media (min-width: 950px) {
         body > nav > div.inner > ul.nav {
@@ -478,14 +479,76 @@ body > nav {
       @media (min-width: 950px) {
         body > nav > div.inner > ul.nav > li {
           display: inline;
-          padding: 0 23px 0 22px; } }
+          padding: 0 23px 0 22px; }
+          body > nav > div.inner > ul.nav > li:last-child {
+            padding-right: 0; } }
       @media (min-width: 950px) and (max-width: 1109px) {
         body > nav > div.inner > ul.nav > li {
-          padding: 0 10px; } }
+          padding: 0 9px; } }
       @media (max-width: 949px) {
         body > nav > div.inner > ul.nav > li {
           display: block;
           text-align: center; } }
+      body > nav > div.inner > ul.nav > li#search {
+        padding: 0 12px; }
+        @media (min-width: 950px) and (max-width: 1109px) {
+          body > nav > div.inner > ul.nav > li#search {
+            padding: 0 2px; } }
+        body > nav > div.inner > ul.nav > li#search a {
+          display: inline-block;
+          width: 30px;
+          height: 35px;
+          background: url(../imgs/search.png) no-repeat 50% 50%;
+          overflow: hidden;
+          text-indent: -3000px;
+          position: relative;
+          top: 13px; }
+          @media (max-width: 949px) {
+            body > nav > div.inner > ul.nav > li#search a {
+              display: none; } }
+          body > nav > div.inner > ul.nav > li#search a.active {
+            background: url(../imgs/search-active.png) no-repeat 50% 50%; }
+            body > nav > div.inner > ul.nav > li#search a.active + form {
+              display: block; }
+        @media (min-width: 950px) {
+          body > nav > div.inner > ul.nav > li#search form {
+            display: none;
+            position: absolute;
+            top: 9px;
+            left: 0; } }
+        body > nav > div.inner > ul.nav > li#search form input[type="text"] {
+          padding: 10px 15px;
+          border: 1px solid #F2F2F2;
+          border-radius: 4px;
+          font-size: 14px;
+          line-height: 20px;
+          font-family: Poppins, Montserrat, "Open Sans";
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          margin: 0 0 15px 0;
+          outline: none;
+          transition: color 0.3s, border-color 0.3s; }
+          @media (min-width: 950px) {
+            body > nav > div.inner > ul.nav > li#search form input[type="text"] {
+              width: 695px;
+              display: block; } }
+          @media (max-width: 949px) {
+            body > nav > div.inner > ul.nav > li#search form input[type="text"] {
+              width: calc(100% - 140px);
+              font-size: 16px; } }
+          body > nav > div.inner > ul.nav > li#search form input[type="text"]:active {
+            border-color: #bfbfbf; }
+          body > nav > div.inner > ul.nav > li#search form input[type="text"]:focus {
+            border-color: #d9d9d9; }
+          body > nav > div.inner > ul.nav > li#search form input[type="text"].error {
+            border-color: #ff0000; }
+        body > nav > div.inner > ul.nav > li#search form input[type="submit"] {
+          border: 0;
+          outline: none; }
+          @media (min-width: 950px) {
+            body > nav > div.inner > ul.nav > li#search form input[type="submit"] {
+              display: none; } }
       body > nav > div.inner > ul.nav > li a {
         color: #000;
         text-decoration: none;

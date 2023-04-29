@@ -429,4 +429,15 @@ $(document).ready(function() {
     })
 
 
+    $("#search a").click(function(){
+        $(this).toggleClass("active")
+        if( $(this).hasClass("active") ){
+            $("#term").val("").focus();
+        }
+        return false;
+    })
+    $("#search form").submit(function(){
+        $("#q").val( "site:lsfusion-erp.com " + $("#term").val() )
+    })
+
 })

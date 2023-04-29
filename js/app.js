@@ -389,14 +389,14 @@ $(document).ready(function() {
         '<input type="hidden" name="subject" value="ERP: переход на ДЕМО" />' +
         '<input type="hidden" name="thankyou" value="https://lsfusion-erp.com/thank-you.html" />' +
         '<span class="close">x</span><div class="inner">' +
-        '<p>Перед тем, как перейти к демо версии lsFusion ERP, оставьте свои контактные данные, если хотите получить консультацию по работе с нашим решением.</p>' +
+        '<p>Мы ответим на все Ваши вопросы.</p>' +
         '<fieldset>' +
         '<input type="text" required name="name" placeholder="Имя*" />' +
         '<input type="email" required name="email" placeholder="Email*" />' +
         '<input type="text" name="phone" placeholder="Телефон" />' +
         '<input type="text" name="organization" placeholder="Организация" />' +
-        '<label for="demo-need-help"><input type="checkbox" name="need-help" value="yes" id="demo-need-help" />Мне нужна консультация</label>' +
-        '<label for="demo-newsletter"><input type="checkbox" name="newsletter" value="yes" id="demo-newsletter" />Я согласен получать новостную рассылку (информация о новых возможностях программы lsFusion ERP, оповещения о мероприятиях, промо предложения)</label>' +
+        '<label for="demo-need-help"><input type="checkbox" name="need-help" value="yes" id="demo-need-help" />Мне нужна консультация (мы свяжемся с вами в ближайшее время)</label>' +
+        '<label for="demo-newsletter"><input type="checkbox" name="newsletter" value="yes" id="demo-newsletter" />Я хочу получать новостную рассылку (новые возможности, модули, анонсы, промо предложения)</label>' +
         '<label for="demo-agree"><input type="checkbox" name="egree" value="yes" required id="demo-agree" />Я согласен на обработку персональных данных. <a href="/politics.html" target="_blank">Ознакомиться с политикой обработки персональных данных.</a> </label> ' +
         '<div class="buttons">' +
         '<a href="https://demo.lsfusion.org/erp/login?user=guest&password=guest" class="demo" target="_blank">Смотреть ДЕМО</a>' +

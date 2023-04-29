@@ -173,6 +173,7 @@ body > nav{
       position: relative;
       @media (min-width: 950px){
         float: right;
+        top: -10px;
       }
       @media (max-width: 949px){
         display: none;

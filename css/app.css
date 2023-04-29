@@ -462,7 +462,8 @@ body > nav {
       list-style: none; }
       @media (min-width: 950px) {
         body > nav > div.inner > ul.nav {
-          float: right; } }
+          float: right;
+          top: -10px; } }
       @media (max-width: 949px) {
         body > nav > div.inner > ul.nav {
           display: none;

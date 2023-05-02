@@ -218,13 +218,14 @@ body > nav{
             @media (max-width: 949px){
               display: none;
             }
-            width: 30px;
-            height: 35px;
+            width: 15px;
+            height: 18px;
             background: url(../imgs/search.png) no-repeat 50% 50%;
+            background-size: 100% !important;
             overflow: hidden;
             text-indent: -3000px;
             position: relative;
-            top: 13px;
+            top: 5px;
             &.active{
               background: url(../imgs/search-active.png) no-repeat 50% 50%;
               & + form{
@@ -236,7 +237,7 @@ body > nav{
             @media (min-width: 950px) {
               display: none;
               position: absolute;
-              top: 9px;
+              top: 0;
               left: 0;
             }
             input[type="text"]{

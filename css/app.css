@@ -497,13 +497,14 @@ body > nav {
             padding: 0 2px; } }
         body > nav > div.inner > ul.nav > li#search a {
           display: inline-block;
-          width: 30px;
-          height: 35px;
+          width: 15px;
+          height: 18px;
           background: url(../imgs/search.png) no-repeat 50% 50%;
+          background-size: 100% !important;
           overflow: hidden;
           text-indent: -3000px;
           position: relative;
-          top: 13px; }
+          top: 5px; }
           @media (max-width: 949px) {
             body > nav > div.inner > ul.nav > li#search a {
               display: none; } }
@@ -515,7 +516,7 @@ body > nav {
           body > nav > div.inner > ul.nav > li#search form {
             display: none;
             position: absolute;
-            top: 9px;
+            top: 0;
             left: 0; } }
         body > nav > div.inner > ul.nav > li#search form input[type="text"] {
           padding: 10px 15px;

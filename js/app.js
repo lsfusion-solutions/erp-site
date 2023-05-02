@@ -423,11 +423,10 @@ $(document).ready(function() {
         }
     });
 
-    $("body > nav a.special").click(function(){
+    $("body > nav a.special, #section-header a:contains('Попробовать демо')").click(function(){
         $("#demo-form").popup("show");
         return false;
     })
-
 
     $("#search a").click(function(){
         $(this).toggleClass("active")

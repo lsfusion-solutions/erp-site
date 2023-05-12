@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05863a48-de35-460d-8137-65aeb02ed490" name="Default" comment="news update">
+    <list default="true" id="05863a48-de35-460d-8137-65aeb02ed490" name="Default" comment="noindex added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/why.html" beforeDir="false" afterPath="$PROJECT_DIR$/why.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/mini_bi .html" beforeDir="false" afterPath="$PROJECT_DIR$/news/mobile_bi.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +58,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="ERP-site_local" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -109,6 +111,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="43" />
     <option name="y" value="1" />
@@ -153,16 +158,16 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/news" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/clients" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/modules.html" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IDEA\ERP-site\news" />
       <recent name="D:\IDEA\ERP-site\clients" />
+      <recent name="D:\IDEA\ERP-site\news" />
       <recent name="D:\IDEA\ERP-site" />
       <recent name="D:\Dropbox\lsfusion\www_erp" />
     </key>
@@ -215,90 +220,6 @@
       <workItem from="1655895172611" duration="6859000" />
       <workItem from="1656331126931" duration="5629000" />
       <workItem from="1656843501151" duration="703000" />
-    </task>
-    <task id="LOCAL-00107" summary="news update">
-      <created>1669984859130</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1669984859130</updated>
-    </task>
-    <task id="LOCAL-00108" summary="lsFusion BCS manual update">
-      <created>1670499643920</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1670499643921</updated>
-    </task>
-    <task id="LOCAL-00109" summary="news update">
-      <created>1670583675027</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1670583675027</updated>
-    </task>
-    <task id="LOCAL-00110" summary="minor code update">
-      <created>1670583867829</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1670583867829</updated>
-    </task>
-    <task id="LOCAL-00111" summary="news update">
-      <created>1671197974307</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1671197974307</updated>
-    </task>
-    <task id="LOCAL-00112" summary="news update">
-      <created>1671785877462</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1671785877462</updated>
-    </task>
-    <task id="LOCAL-00113" summary="faq Mobile order added">
-      <created>1671790079501</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1671790079501</updated>
-    </task>
-    <task id="LOCAL-00114" summary="personal data processing added">
-      <created>1671794914964</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1671794914964</updated>
-    </task>
-    <task id="LOCAL-00115" summary="google">
-      <created>1672227191616</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1672227191616</updated>
-    </task>
-    <task id="LOCAL-00116" summary="БКС">
-      <created>1672239955163</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1672239955163</updated>
-    </task>
-    <task id="LOCAL-00117" summary="Cases Template">
-      <created>1672240093412</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1672240093413</updated>
-    </task>
-    <task id="LOCAL-00118" summary="BKS  update">
-      <created>1672292865903</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1672292865903</updated>
     </task>
     <task id="LOCAL-00119" summary="clients update">
       <created>1672298978244</created>
@@ -559,7 +480,91 @@
       <option name="project" value="LOCAL" />
       <updated>1679409186646</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="cookie info">
+      <created>1680182475056</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1680182475056</updated>
+    </task>
+    <task id="LOCAL-00157" summary="client Assorti added">
+      <created>1680602498158</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1680602498158</updated>
+    </task>
+    <task id="LOCAL-00158" summary="technical requirements updated">
+      <created>1680777294641</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1680777294641</updated>
+    </task>
+    <task id="LOCAL-00159" summary="GA UA tag deleted">
+      <created>1681109291865</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1681109291865</updated>
+    </task>
+    <task id="LOCAL-00160" summary="news update">
+      <created>1681284183264</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1681284183264</updated>
+    </task>
+    <task id="LOCAL-00161" summary="pharma modules added">
+      <created>1681311271833</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1681311271833</updated>
+    </task>
+    <task id="LOCAL-00162" summary="cases added">
+      <created>1681900637058</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1681900637058</updated>
+    </task>
+    <task id="LOCAL-00163" summary="terminal model  added">
+      <created>1682085449623</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1682085449623</updated>
+    </task>
+    <task id="LOCAL-00164" summary="link updated">
+      <created>1682681579496</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1682681579496</updated>
+    </task>
+    <task id="LOCAL-00165" summary="news articles updated">
+      <created>1683186616547</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1683186616547</updated>
+    </task>
+    <task id="LOCAL-00166" summary="news articles updated">
+      <created>1683187146229</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1683187146229</updated>
+    </task>
+    <task id="LOCAL-00167" summary="noindex added">
+      <created>1683788725080</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1683788725080</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -613,16 +618,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="google" />
-    <MESSAGE value="БКС" />
-    <MESSAGE value="Cases Template" />
-    <MESSAGE value="BKS  update" />
-    <MESSAGE value="clients added" />
-    <MESSAGE value="minor corrections" />
-    <MESSAGE value="cases update" />
-    <MESSAGE value="IDs added" />
-    <MESSAGE value="ids" />
-    <MESSAGE value="clients" />
     <MESSAGE value="redirect to cases.html" />
     <MESSAGE value="metatags" />
     <MESSAGE value="GA-4 tag added" />
@@ -637,8 +632,18 @@
     <MESSAGE value="spelling fix" />
     <MESSAGE value="clients update" />
     <MESSAGE value="bks update" />
+    <MESSAGE value="cookie info" />
+    <MESSAGE value="client Assorti added" />
+    <MESSAGE value="technical requirements updated" />
+    <MESSAGE value="GA UA tag deleted" />
     <MESSAGE value="news update" />
-    <option name="LAST_COMMIT_MESSAGE" value="news update" />
+    <MESSAGE value="pharma modules added" />
+    <MESSAGE value="cases added" />
+    <MESSAGE value="terminal model  added" />
+    <MESSAGE value="link updated" />
+    <MESSAGE value="news articles updated" />
+    <MESSAGE value="noindex added" />
+    <option name="LAST_COMMIT_MESSAGE" value="noindex added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/404.html">

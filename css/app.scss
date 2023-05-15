@@ -3074,3 +3074,21 @@ nav.pagination{
     }
   }
 }
+#politics{
+  h3{
+    margin: 0 0 1em 0;
+  }
+  ol {
+    margin: 0 0 2em 40px;
+    & > li{
+      margin: 0 0 1em 0;
+      ul{
+        padding: .5em 0 0 0;
+        margin: 0 0 0 30px;
+        & > li{
+          margin: 0 0 0.5em 0;
+        }
+      }
+    }
+  }
+}

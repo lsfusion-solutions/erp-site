@@ -17,7 +17,14 @@ echo "<?xml version='1.0' encoding='UTF-8'?>\n"; ?>
 <?php
     $f = fopen("../sitemap.xml", "w");
 
-    $ingores = [".", "..", "google6c9d04d5ad4904a7.html", ".git", ".gitignore", ".idea", ".htaccess", "CNAME", "admin", "404.html", "css", "js", "imgs", "includes", "attachments", "thank-you.html", "sitemap.xml"];
+    $ingores = [
+            ".", "..", "google6c9d04d5ad4904a7.html", ".git", ".gitignore", ".idea", ".htaccess", "CNAME", "admin", "404.html", "css", "js", "imgs", "includes", "attachments", "thank-you.html", "sitemap.xml",
+            "index.html",
+            "case_template.html",
+            "cookie.html",
+            "reviews.html",
+
+        ];
 
 function processDir($path){
     global $ingores;

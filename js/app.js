@@ -386,6 +386,7 @@ $(document).ready(function() {
     _html = '<form method="post" action="https://luxsoft.by/brended_sites/unstatic.php" id="demo-form" class="popup">' +
         '<input type="hidden" name="to[]" value="office#luxsoft.by" />' +
         '<input type="hidden" name="to[]" value="info@lsfusion-erp.com" />' +
+        '<input type="hidden" name="to[]" value="roman@fit.ru" />' +
         '<input type="hidden" name="subject" value="ERP: переход на ДЕМО" />' +
         '<input type="hidden" name="thankyou" value="https://lsfusion-erp.com/thank-you.html" />' +
         '<span class="close">x</span><div class="inner">' +

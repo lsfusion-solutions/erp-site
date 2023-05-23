@@ -141,26 +141,35 @@ $(document).ready(function() {
         $("#section-companies nav span.active").removeClass("active")
         $(this).addClass("active")
 
+        //depends on the screen width we need to scroll to different positions (to make first active element visible)
+        let _leftPos = Math.min(250, $("#section-companies nav span").offset().left);
+        let _skipCount = 2;
+        if($("#section-companies nav span").offset().left < 300){
+            _skipCount = 1;
+        }
+        if($("#section-companies nav span").offset().left < 150){
+            _skipCount = 0;
+        }
 
         if($(this).index() == 0){//fmcg
             $("#section-companies ul").removeClass("farma").removeClass("fashion").addClass("fmcg").removeClass("other");
 
-            companiesSlider.slideTo($("#section-companies ul li.fmcg").index() - 2, 250);
+            companiesSlider.slideTo($("#section-companies ul li.fmcg").index() - _skipCount, _leftPos);
 
         }else if($(this).index() == 1){//fashion
             $("#section-companies ul").removeClass("farma").removeClass("fmcg").addClass("fashion").removeClass("other");
 
-            companiesSlider.slideTo($("#section-companies ul li.fashion").index() - 2, 250);
+            companiesSlider.slideTo($("#section-companies ul li.fashion").index() - _skipCount, _leftPos);
 
         }else if($(this).index() == 2){//farma
             $("#section-companies ul").removeClass("fashion").removeClass("fmcg").addClass("farma").removeClass("other");
 
-            companiesSlider.slideTo($("#section-companies ul li.farma").index() - 2, 250);
+            companiesSlider.slideTo($("#section-companies ul li.farma").index() - _skipCount, _leftPos);
 
         }else if($(this).index() == 3){//other
             $("#section-companies ul").removeClass("fashion").removeClass("fmcg").removeClass("farma").addClass("other");
 
-            companiesSlider.slideTo($("#section-companies ul li.other").index() - 2, 250);
+            companiesSlider.slideTo($("#section-companies ul li.other").index() - _skipCount, _leftPos);
         }
     })
 

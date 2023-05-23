@@ -2712,6 +2712,9 @@ body > footer{
   box-sizing: border-box;
 
   & > div.inner{
+    & > *:first-child{
+      padding-right: 45px;
+    }
     h3{
       color: #2C2A28;
       font-size: 30px;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05863a48-de35-460d-8137-65aeb02ed490" name="Default" comment="iKassa added">
+    <list default="true" id="05863a48-de35-460d-8137-65aeb02ed490" name="Default" comment="video updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -218,13 +218,6 @@
       <workItem from="1655895172611" duration="6859000" />
       <workItem from="1656331126931" duration="5629000" />
       <workItem from="1656843501151" duration="703000" />
-    </task>
-    <task id="LOCAL-00123" summary="clients added">
-      <created>1672844845291</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1672844845291</updated>
     </task>
     <task id="LOCAL-00124" summary="clients added">
       <created>1672922862368</created>
@@ -562,7 +555,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684936476190</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary="video updated">
+      <created>1686040201080</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1686040201081</updated>
+    </task>
+    <option name="localTasksCounter" value="173" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -616,7 +616,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Yandex.Metrica added" />
     <MESSAGE value="Yandex.Metrica added to all pages" />
     <MESSAGE value="clients classified" />
     <MESSAGE value="e-mail added" />
@@ -641,7 +640,8 @@
     <MESSAGE value="vitalur update" />
     <MESSAGE value="сруытлл added" />
     <MESSAGE value="iKassa added" />
-    <option name="LAST_COMMIT_MESSAGE" value="iKassa added" />
+    <MESSAGE value="video updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="video updated" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/404.html">

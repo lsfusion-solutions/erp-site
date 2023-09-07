@@ -1,5 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://lsfusion-erp.com/news/EZ.html</loc>
+        <lastmod>2023-08-29</lastmod>
+    </url>
+    <url>
+        <loc>https://lsfusion-erp.com/news/administrirovanie_2.html</loc>
+        <lastmod>2023-08-10</lastmod>
+    </url>
+    <url>
+        <loc>https://lsfusion-erp.com/news/BCS_marks.html</loc>
+        <lastmod>2023-07-10</lastmod>
+    </url>
+    <url>
+        <loc>https://lsfusion-erp.com/news/vial.htmll</loc>
+        <lastmod>2023-06-19</lastmod>
+    </url>
     <url>
         <loc>https://lsfusion-erp.com/news/ikassa.html</loc>
         <lastmod>2023-05-24</lastmod>

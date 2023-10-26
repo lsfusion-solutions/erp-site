@@ -1824,6 +1824,9 @@ section{
         }
         div.info{
           padding: 0 0 0 30px;
+          @media (max-width: $mobileWidth - 1){
+            padding: 0;
+          }
           h2{
             color: #848484;
             font-size: 12px;
@@ -1847,6 +1850,18 @@ section{
               @extend .btn-empty-invert;
               position: relative;
               color: #848484 !important;
+              @media (max-width: 480px){
+                display: block;
+                float: none !important;
+                &.back{
+                  margin: 0 0 12px 0;
+                  padding-left: 42px;
+                }
+                &.forward{
+                  text-align: right;
+                  padding-right: 42px;
+                }
+              }
               &:before {
                 content: '';
                 width: 6px;

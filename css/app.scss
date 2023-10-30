@@ -1814,7 +1814,12 @@ section{
           flex-direction: row;
         }
         div.img {
-          flex: 0 0 445px;
+          @media (min-width: $siteWidth) {
+            flex: 0 0 445px;
+          }
+          @media (max-width: $siteWidth - 1) {
+            flex: 0 0 40%;
+          }
           display: flex;
           justify-content: start;
           flex-direction: column;
@@ -1852,15 +1857,25 @@ section{
               position: relative;
               color: #848484 !important;
               @media (max-width: 480px){
-                display: block;
-                float: none !important;
+                //float: none !important;
+                padding: 6px 6px;
                 &.back{
                   margin: 0 0 12px 0;
-                  padding-left: 42px;
+                  padding-left: 21px;
+                  &:before{
+                    left: 8px !important;
+                    top: 11px;
+                  }
                 }
                 &.forward{
                   text-align: right;
-                  padding-right: 42px;
+                  padding-right: 21px;
+                  background: red;
+                  &:before{
+                    right: 8px !important;
+                    top: 11px !important;
+
+                  }
                 }
               }
               &:before {

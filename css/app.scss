@@ -2852,6 +2852,7 @@ body > footer{
 a.lnk{
   font-size: 14px;
   position: relative;
+  white-space: nowrap;
   &:after{
     content: " >";
     position: absolute;

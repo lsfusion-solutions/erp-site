@@ -52,11 +52,6 @@ function showMessage(title, msg, options){
 }
 
 $(document).ready(function() {
-
-    setTimeout(function(){
-        $("#tripetto-1qxtg4b").show();
-    }, 100);
-
     if(getCookie("acceptCookie") == null ){
         $("body").append("<div id='acceptCookie'><div class='inner'>Мы используем файлы cookie, чтобы сделать наш сайт максимально удобным для вас. <!--a href='/politics.html' target='_blank'>Узнать больше</a-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class='ok'>OK</span></div></div>")
         $("#acceptCookie span.ok").click(function(){

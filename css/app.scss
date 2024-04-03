@@ -886,7 +886,10 @@ section{
     background: #26C4F7;
     & > .inner{
       position: relative;
-      min-height: 235px;
+      //min-height: 235px;
+      @media (min-width: $mobileWidth) {
+        padding-right: 400px;
+      }
       h2{
         color: #FFFFFF;
         max-width: 450px;
@@ -895,15 +898,22 @@ section{
       p{
         color: #FFFFFF;
         max-width: 700px;
+        @media (max-width: $mobileWidth - 1){
+          margin: 0 0 30px 0;
+        }
       }
       strong{
         color: #FFFFFF;
-        position: absolute;
         background: url(../imgs/icons/instant.svg) no-repeat 0 0;
-        top: 46px;
-        right: 0;
+        display: flex;
+        align-items: center;
+        @media(min-width: $mobileWidth) {
+          position: absolute;
+          top: 46px;
+          right: 0;
+        }
         font-weight: 400;
-        padding: 67px 0 0 150px;
+        padding: 0 20px 0 150px;
         height: 157px;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
@@ -941,12 +951,19 @@ section{
         margin: 0 0 40px 0;
       }
       .info{
-        float: left;
-        width: 50%;
+        @media (min-width: $mobileWidth) {
+          float: left;
+          width: 50%;
+        }
+        @media (max-width: $mobileWidth - 1) {
+          margin: 0 0 30px 0;
+        }
       }
       ul{
-        float: right;
-        width: 50%;
+        @media (min-width: $mobileWidth) {
+          float: right;
+          width: 50%;
+        }
         list-style: none;
         display: flex;
         flex-direction: row;
@@ -954,6 +971,9 @@ section{
         li{
           padding: 0 9px 18px 9px;
           flex: 0 0 33.33333%;
+          @media (max-width: 480px){
+            flex: 0 0 50%;
+          }
           -webkit-box-sizing: border-box;
           -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -967,6 +987,7 @@ section{
             img{
               display: block;
               margin: 0 auto;
+              max-width: 100%;
             }
           }
         }
@@ -988,12 +1009,22 @@ section{
         color: #fff;
       }
       .col1{
-        float: left;
-        width: 45%;
+        @media (min-width: $mobileWidth) {
+          float: left;
+          width: 45%;
+        }
+        @media (max-width: $mobileWidth - 1){
+          margin: 0 0 10px 0;
+        }
       }
       .col2{
-        float: right;
-        width: 45%;
+        @media (min-width: $mobileWidth) {
+          float: right;
+          width: 45%;
+        }
+        @media (max-width: $mobileWidth - 1){
+          margin-left: 80px;
+        }
         color: #fff;
         position: relative;
         padding: 27px 0 0 60px;

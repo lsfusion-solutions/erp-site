@@ -1,9 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05863a48-de35-460d-8137-65aeb02ed490" name="Default" comment="link fix">
+    <list default="true" id="05863a48-de35-460d-8137-65aeb02ed490" name="Default" comment="BKS spelling fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases.html" beforeDir="false" afterPath="$PROJECT_DIR$/cases.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/SBS_vino.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/SBS_vino.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/assorti.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/assorti.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/baraka.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/baraka.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/bks.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/bks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/bmk.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/bmk.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/caprice.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/caprice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/case_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/case_template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/chesnok.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/chesnok.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/dorors.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/dorors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/druzhba.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/druzhba.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/elema.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/elema.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/fantastic.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/fantastic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/gippo.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/gippo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/hodabbi.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/hodabbi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/komvak.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/komvak.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/kristal.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/kristal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/kupalinka.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/kupalinka.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/lekocentr.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/lekocentr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/library.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/library.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/medway.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/medway.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/megahand.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/megahand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/miniso.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/miniso.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/mothercare.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/mothercare.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/next.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/next.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/ostrov.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/ostrov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/ostrov_pharm.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/ostrov_pharm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/pmoda.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/pmoda.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/puhovichi.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/puhovichi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/santa.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/santa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/sosedi.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/sosedi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/svitanak.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/svitanak.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/tabakerka.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/tabakerka.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/tishas.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/tishas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/vitalur.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/vitalur.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/vitebsk.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/vitebsk.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cookie.html" beforeDir="false" afterPath="$PROJECT_DIR$/cookie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/equipment.html" beforeDir="false" afterPath="$PROJECT_DIR$/equipment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/3d_modelirovanie.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/3d_modelirovanie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/ABM_Cloud.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/ABM_Cloud.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/BCS_marks.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/BCS_marks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/ChestnyZnak.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/ChestnyZnak.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/Cost_estimation_method.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/Cost_estimation_method.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/EZ.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/EZ.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/LR_integration.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/LR_integration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/RSshelfspace.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/RSshelfspace.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/RabbitMQ.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/RabbitMQ.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/SberMarket.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/SberMarket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/UI_lsf_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/UI_lsf_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/administrirovanie.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/administrirovanie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/administrirovanie_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/administrirovanie_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/alcohol_declaration.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/alcohol_declaration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/artix.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/artix.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/dokumenti_komplektatsii_i_razukomplektatsii.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/dokumenti_komplektatsii_i_razukomplektatsii.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/dorabotka_rascheta_estestvennoy_ubili_v_to.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/dorabotka_rascheta_estestvennoy_ubili_v_to.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/edi_cherez_api_diadok.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/edi_cherez_api_diadok.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/edi_proslezhivaemosty_dlya_rb.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/edi_proslezhivaemosty_dlya_rb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/egais.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/egais.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/el_receipt.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/el_receipt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/express24.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/express24.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/fusion_manual.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/fusion_manual.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/google_tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/google_tables.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/ikassa.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/ikassa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/insurance.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/insurance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/integratsiya_merkuriy.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/integratsiya_merkuriy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/integratsiya_s_agregatorami_dostavki.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/integratsiya_s_agregatorami_dostavki.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/integratsiya_s_egais.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/integratsiya_s_egais.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/integratsiya_s_evotor.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/integratsiya_s_evotor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/integratsiya_s_sms_traffic.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/integratsiya_s_sms_traffic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/integratsiya_s_solvo.wms.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/integratsiya_s_solvo.wms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/inventarizacia.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/inventarizacia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/kontroly_maksimalynih_roznichnih_tsen.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/kontroly_maksimalynih_roznichnih_tsen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/menyu_na_glavnom_ekrane_tsd.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/menyu_na_glavnom_ekrane_tsd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/mobile_bi.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/mobile_bi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/nastraivaemiy_rabochiy_stol.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/nastraivaemiy_rabochiy_stol.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/novaya_versiya_platformi_lsfusion_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/novaya_versiya_platformi_lsfusion_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/noviy_metod_pererascheta_sebestoimosti.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/noviy_metod_pererascheta_sebestoimosti.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/noviy_moduly_internet-magazin.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/noviy_moduly_internet-magazin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/noviy_moduly_markirovka.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/noviy_moduly_markirovka.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/noviy_moduly_raschet_marketingovih_platezhey.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/noviy_moduly_raschet_marketingovih_platezhey.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/noviy_moduly_tsentralynaya_kassa.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/noviy_moduly_tsentralynaya_kassa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/novoe_prilozhenie_mobilyniy_zakaz.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/novoe_prilozhenie_mobilyniy_zakaz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/obmen_s_1s_bitriks_po_api.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/obmen_s_1s_bitriks_po_api.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/pch.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/pch.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/podderzhka_upakovok_v_mobilynom_zakaze.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/podderzhka_upakovok_v_mobilynom_zakaze.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/podderzhka_upd_dlya_rf.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/podderzhka_upd_dlya_rf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/price_before.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/price_before.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/razvitie_integratsii_s_api_diadok.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/razvitie_integratsii_s_api_diadok.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/retail-tech24.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/retail-tech24.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/statisticheskaya_otchetnosty_2021 .html" beforeDir="false" afterPath="$PROJECT_DIR$/news/statisticheskaya_otchetnosty_2021 .html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/tsd_inventarizatsiya_po_partiyam.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/tsd_inventarizatsiya_po_partiyam.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/tsd_kontroly_tsen_vslepuyu.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/tsd_kontroly_tsen_vslepuyu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/tsd_litsenziya_cherez_qrcode.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/tsd_litsenziya_cherez_qrcode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/udalenie_strok_v_dokumentah_tsd.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/udalenie_strok_v_dokumentah_tsd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/vial.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/vial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/wastе_norms.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/wastе_norms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/politics.html" beforeDir="false" afterPath="$PROJECT_DIR$/politics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/reviews.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thank-you.html" beforeDir="false" afterPath="$PROJECT_DIR$/thank-you.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/why.html" beforeDir="false" afterPath="$PROJECT_DIR$/why.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,9 +223,6 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
-  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="43" />
     <option name="y" value="1" />
@@ -126,7 +230,9 @@
     <option name="height" value="1168" />
   </component>
   <component name="ProjectId" id="2BT7LntkgEO6R8kdgBWlE2Elfmc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -156,6 +262,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ENABLED_META" value="false" />
     <property name="META_SYNC_MODE" value="true" />
@@ -174,6 +281,7 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IDEA\ERP-site\news" />
       <recent name="D:\IDEA\ERP-site\clients" />
+      <recent name="D:\IDEA\ERP-site\imgs\news" />
       <recent name="D:\IDEA\ERP-site" />
       <recent name="D:\Dropbox\lsfusion\www_erp" />
     </key>
@@ -226,258 +334,6 @@
       <workItem from="1655895172611" duration="6859000" />
       <workItem from="1656331126931" duration="5629000" />
       <workItem from="1656843501151" duration="703000" />
-    </task>
-    <task id="LOCAL-00142" summary="GA-4 tag added">
-      <created>1675087092116</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
-      <option name="project" value="LOCAL" />
-      <updated>1675087092116</updated>
-    </task>
-    <task id="LOCAL-00143" summary="modules updated">
-      <created>1675405556931</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1675405556931</updated>
-    </task>
-    <task id="LOCAL-00144" summary="modules updated">
-      <created>1675407445326</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1675407445326</updated>
-    </task>
-    <task id="LOCAL-00145" summary="Yandex.Metrica added">
-      <created>1675851065383</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1675851065384</updated>
-    </task>
-    <task id="LOCAL-00146" summary="Yandex.Metrica added to all pages">
-      <created>1676022786200</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1676022786200</updated>
-    </task>
-    <task id="LOCAL-00147" summary="clients classified">
-      <created>1676886406580</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1676886406581</updated>
-    </task>
-    <task id="LOCAL-00148" summary="e-mail added">
-      <created>1677149410887</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
-      <option name="project" value="LOCAL" />
-      <updated>1677149410887</updated>
-    </task>
-    <task id="LOCAL-00149" summary="e-mail and video added">
-      <created>1677500977581</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
-      <option name="project" value="LOCAL" />
-      <updated>1677500977581</updated>
-    </task>
-    <task id="LOCAL-00150" summary="video added to modules">
-      <created>1677579416757</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
-      <option name="project" value="LOCAL" />
-      <updated>1677579416757</updated>
-    </task>
-    <task id="LOCAL-00151" summary="video added to modules description">
-      <created>1678374660769</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1678374660770</updated>
-    </task>
-    <task id="LOCAL-00152" summary="spelling fix">
-      <created>1678446976591</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1678446976591</updated>
-    </task>
-    <task id="LOCAL-00153" summary="clients update">
-      <created>1678780829052</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1678780829052</updated>
-    </task>
-    <task id="LOCAL-00154" summary="bks update">
-      <created>1678957974045</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
-      <option name="project" value="LOCAL" />
-      <updated>1678957974046</updated>
-    </task>
-    <task id="LOCAL-00155" summary="news update">
-      <created>1679409186646</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1679409186646</updated>
-    </task>
-    <task id="LOCAL-00156" summary="cookie info">
-      <created>1680182475056</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1680182475056</updated>
-    </task>
-    <task id="LOCAL-00157" summary="client Assorti added">
-      <created>1680602498158</created>
-      <option name="number" value="00157" />
-      <option name="presentableId" value="LOCAL-00157" />
-      <option name="project" value="LOCAL" />
-      <updated>1680602498158</updated>
-    </task>
-    <task id="LOCAL-00158" summary="technical requirements updated">
-      <created>1680777294641</created>
-      <option name="number" value="00158" />
-      <option name="presentableId" value="LOCAL-00158" />
-      <option name="project" value="LOCAL" />
-      <updated>1680777294641</updated>
-    </task>
-    <task id="LOCAL-00159" summary="GA UA tag deleted">
-      <created>1681109291865</created>
-      <option name="number" value="00159" />
-      <option name="presentableId" value="LOCAL-00159" />
-      <option name="project" value="LOCAL" />
-      <updated>1681109291865</updated>
-    </task>
-    <task id="LOCAL-00160" summary="news update">
-      <created>1681284183264</created>
-      <option name="number" value="00160" />
-      <option name="presentableId" value="LOCAL-00160" />
-      <option name="project" value="LOCAL" />
-      <updated>1681284183264</updated>
-    </task>
-    <task id="LOCAL-00161" summary="pharma modules added">
-      <created>1681311271833</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1681311271833</updated>
-    </task>
-    <task id="LOCAL-00162" summary="cases added">
-      <created>1681900637058</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1681900637058</updated>
-    </task>
-    <task id="LOCAL-00163" summary="terminal model  added">
-      <created>1682085449623</created>
-      <option name="number" value="00163" />
-      <option name="presentableId" value="LOCAL-00163" />
-      <option name="project" value="LOCAL" />
-      <updated>1682085449623</updated>
-    </task>
-    <task id="LOCAL-00164" summary="link updated">
-      <created>1682681579496</created>
-      <option name="number" value="00164" />
-      <option name="presentableId" value="LOCAL-00164" />
-      <option name="project" value="LOCAL" />
-      <updated>1682681579496</updated>
-    </task>
-    <task id="LOCAL-00165" summary="news articles updated">
-      <created>1683186616547</created>
-      <option name="number" value="00165" />
-      <option name="presentableId" value="LOCAL-00165" />
-      <option name="project" value="LOCAL" />
-      <updated>1683186616547</updated>
-    </task>
-    <task id="LOCAL-00166" summary="news articles updated">
-      <created>1683187146229</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
-      <option name="project" value="LOCAL" />
-      <updated>1683187146229</updated>
-    </task>
-    <task id="LOCAL-00167" summary="noindex added">
-      <created>1683788725080</created>
-      <option name="number" value="00167" />
-      <option name="presentableId" value="LOCAL-00167" />
-      <option name="project" value="LOCAL" />
-      <updated>1683788725080</updated>
-    </task>
-    <task id="LOCAL-00168" summary="santa update">
-      <created>1684505735631</created>
-      <option name="number" value="00168" />
-      <option name="presentableId" value="LOCAL-00168" />
-      <option name="project" value="LOCAL" />
-      <updated>1684505735631</updated>
-    </task>
-    <task id="LOCAL-00169" summary="vitalur update">
-      <created>1684741879226</created>
-      <option name="number" value="00169" />
-      <option name="presentableId" value="LOCAL-00169" />
-      <option name="project" value="LOCAL" />
-      <updated>1684741879226</updated>
-    </task>
-    <task id="LOCAL-00170" summary="сруытлл added">
-      <created>1684855275725</created>
-      <option name="number" value="00170" />
-      <option name="presentableId" value="LOCAL-00170" />
-      <option name="project" value="LOCAL" />
-      <updated>1684855275725</updated>
-    </task>
-    <task id="LOCAL-00171" summary="iKassa added">
-      <created>1684936476190</created>
-      <option name="number" value="00171" />
-      <option name="presentableId" value="LOCAL-00171" />
-      <option name="project" value="LOCAL" />
-      <updated>1684936476190</updated>
-    </task>
-    <task id="LOCAL-00172" summary="video updated">
-      <created>1686040201080</created>
-      <option name="number" value="00172" />
-      <option name="presentableId" value="LOCAL-00172" />
-      <option name="project" value="LOCAL" />
-      <updated>1686040201081</updated>
-    </task>
-    <task id="LOCAL-00173" summary="WMS link updated">
-      <created>1686838635106</created>
-      <option name="number" value="00173" />
-      <option name="presentableId" value="LOCAL-00173" />
-      <option name="project" value="LOCAL" />
-      <updated>1686838635106</updated>
-    </task>
-    <task id="LOCAL-00174" summary="EZ video, module, news updated">
-      <created>1693304884292</created>
-      <option name="number" value="00174" />
-      <option name="presentableId" value="LOCAL-00174" />
-      <option name="project" value="LOCAL" />
-      <updated>1693304884292</updated>
-    </task>
-    <task id="LOCAL-00175" summary="EZ updated">
-      <created>1693307192973</created>
-      <option name="number" value="00175" />
-      <option name="presentableId" value="LOCAL-00175" />
-      <option name="project" value="LOCAL" />
-      <updated>1693307192973</updated>
-    </task>
-    <task id="LOCAL-00176" summary="module ancor added">
-      <created>1693402476971</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
-      <option name="project" value="LOCAL" />
-      <updated>1693402476971</updated>
-    </task>
-    <task id="LOCAL-00177" summary="module ancors added">
-      <created>1693403218433</created>
-      <option name="number" value="00177" />
-      <option name="presentableId" value="LOCAL-00177" />
-      <option name="project" value="LOCAL" />
-      <updated>1693403218433</updated>
     </task>
     <task id="LOCAL-00178" summary="sitemap updated">
       <created>1694066691265</created>
@@ -570,7 +426,259 @@
       <option name="project" value="LOCAL" />
       <updated>1698909239539</updated>
     </task>
-    <option name="localTasksCounter" value="191" />
+    <task id="LOCAL-00191" summary="module description fix">
+      <created>1699883355261</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1699883355261</updated>
+    </task>
+    <task id="LOCAL-00192" summary="module description fix">
+      <created>1700738210506</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1700738210506</updated>
+    </task>
+    <task id="LOCAL-00193" summary="image added">
+      <created>1700806414448</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1700806414448</updated>
+    </task>
+    <task id="LOCAL-00194" summary="bubble image changed">
+      <created>1700806986665</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1700806986665</updated>
+    </task>
+    <task id="LOCAL-00195" summary="bubble image changed">
+      <created>1700808652832</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1700808652832</updated>
+    </task>
+    <task id="LOCAL-00196" summary="bubble image changed">
+      <created>1700808904139</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1700808904139</updated>
+    </task>
+    <task id="LOCAL-00197" summary="bubble image changed">
+      <created>1700809312710</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1700809312710</updated>
+    </task>
+    <task id="LOCAL-00198" summary="bubble image changed">
+      <created>1700809692538</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1700809692538</updated>
+    </task>
+    <task id="LOCAL-00199" summary="bubble image changed">
+      <created>1700809950432</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1700809950432</updated>
+    </task>
+    <task id="LOCAL-00200" summary="ids added">
+      <created>1701077877560</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1701077877560</updated>
+    </task>
+    <task id="LOCAL-00201" summary="ids added">
+      <created>1701078403299</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1701078403299</updated>
+    </task>
+    <task id="LOCAL-00202" summary="ids added">
+      <created>1701079143961</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1701079143961</updated>
+    </task>
+    <task id="LOCAL-00203" summary="ids added">
+      <created>1701082689011</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1701082689011</updated>
+    </task>
+    <task id="LOCAL-00204" summary="news update">
+      <created>1701094439300</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1701094439300</updated>
+    </task>
+    <task id="LOCAL-00205" summary="footer address position switched">
+      <created>1701676199863</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1701676199863</updated>
+    </task>
+    <task id="LOCAL-00206" summary="chesnok update">
+      <created>1701760001266</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1701760001266</updated>
+    </task>
+    <task id="LOCAL-00207" summary="minor wording fix">
+      <created>1701936757161</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1701936757161</updated>
+    </task>
+    <task id="LOCAL-00208" summary="news update">
+      <created>1701957724925</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1701957724925</updated>
+    </task>
+    <task id="LOCAL-00209" summary="news update">
+      <created>1702906984600</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1702906984601</updated>
+    </task>
+    <task id="LOCAL-00210" summary="news update">
+      <created>1702907236553</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1702907236553</updated>
+    </task>
+    <task id="LOCAL-00211" summary="news update">
+      <created>1703593051704</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1703593051704</updated>
+    </task>
+    <task id="LOCAL-00212" summary="client druzhba added">
+      <created>1703602889701</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1703602889701</updated>
+    </task>
+    <task id="LOCAL-00213" summary="client chesnok  updated">
+      <created>1706620219188</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1706620219188</updated>
+    </task>
+    <task id="LOCAL-00214" summary="faq technical reqirements updated">
+      <created>1707142503182</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1707142503182</updated>
+    </task>
+    <task id="LOCAL-00215" summary="news update">
+      <created>1707835053189</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1707835053190</updated>
+    </task>
+    <task id="LOCAL-00216" summary="news update">
+      <created>1707835060464</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1707835060464</updated>
+    </task>
+    <task id="LOCAL-00217" summary="links update">
+      <created>1708928174643</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
+      <option name="project" value="LOCAL" />
+      <updated>1708928174643</updated>
+    </task>
+    <task id="LOCAL-00218" summary="BKS update">
+      <created>1709650510071</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1709650510072</updated>
+    </task>
+    <task id="LOCAL-00219" summary="BKS update">
+      <created>1709707659389</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
+      <option name="project" value="LOCAL" />
+      <updated>1709707659390</updated>
+    </task>
+    <task id="LOCAL-00220" summary="why.html update">
+      <created>1710314899184</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1710314899185</updated>
+    </task>
+    <task id="LOCAL-00221" summary="news update">
+      <created>1710857842557</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1710857842557</updated>
+    </task>
+    <task id="LOCAL-00222" summary="clients' data update">
+      <created>1710919768264</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1710919768264</updated>
+    </task>
+    <task id="LOCAL-00223" summary="diadok video update">
+      <created>1711006910978</created>
+      <option name="number" value="00223" />
+      <option name="presentableId" value="LOCAL-00223" />
+      <option name="project" value="LOCAL" />
+      <updated>1711006910978</updated>
+    </task>
+    <task id="LOCAL-00224" summary="modules id update">
+      <created>1711014401991</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1711014401991</updated>
+    </task>
+    <task id="LOCAL-00225" summary="kupalinka update">
+      <created>1711115987485</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1711115987485</updated>
+    </task>
+    <task id="LOCAL-00226" summary="BKS spelling fix">
+      <created>1711526241026</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1711526241027</updated>
+    </task>
+    <option name="localTasksCounter" value="227" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -624,32 +732,33 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pharma modules added" />
-    <MESSAGE value="cases added" />
-    <MESSAGE value="terminal model  added" />
-    <MESSAGE value="link updated" />
-    <MESSAGE value="news articles updated" />
-    <MESSAGE value="noindex added" />
-    <MESSAGE value="santa update" />
-    <MESSAGE value="vitalur update" />
-    <MESSAGE value="сруытлл added" />
-    <MESSAGE value="iKassa added" />
-    <MESSAGE value="video updated" />
-    <MESSAGE value="WMS link updated" />
-    <MESSAGE value="EZ video, module, news updated" />
-    <MESSAGE value="EZ updated" />
-    <MESSAGE value="module ancor added" />
-    <MESSAGE value="module ancors added" />
-    <MESSAGE value="sitemap updated" />
-    <MESSAGE value="PCH module draughted" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="PCH news added" />
     <MESSAGE value="PCH video added" />
     <MESSAGE value="bks client update" />
-    <MESSAGE value="news update" />
     <MESSAGE value="minor fix" />
     <MESSAGE value="PCH fix" />
     <MESSAGE value="link fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="link fix" />
+    <MESSAGE value="module description fix" />
+    <MESSAGE value="image added" />
+    <MESSAGE value="bubble image changed" />
+    <MESSAGE value="ids added" />
+    <MESSAGE value="footer address position switched" />
+    <MESSAGE value="chesnok update" />
+    <MESSAGE value="minor wording fix" />
+    <MESSAGE value="client druzhba added" />
+    <MESSAGE value="client chesnok  updated" />
+    <MESSAGE value="faq technical reqirements updated" />
+    <MESSAGE value="links update" />
+    <MESSAGE value="BKS update" />
+    <MESSAGE value="why.html update" />
+    <MESSAGE value="news update" />
+    <MESSAGE value="clients' data update" />
+    <MESSAGE value="diadok video update" />
+    <MESSAGE value="modules id update" />
+    <MESSAGE value="kupalinka update" />
+    <MESSAGE value="BKS spelling fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="BKS spelling fix" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/404.html">

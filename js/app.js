@@ -406,14 +406,38 @@ $(document).ready(function() {
         '<input type="text" name="organization" placeholder="Организация" />' +
         '<label for="demo-need-help"><input type="checkbox" name="need-help" value="yes" id="demo-need-help" />Мне нужна консультация (мы свяжемся с вами в ближайшее время)</label>' +
         '<label for="demo-newsletter"><input type="checkbox" name="newsletter" value="yes" id="demo-newsletter" />Я хочу получать новостную рассылку (новые возможности, модули, анонсы, промо предложения)</label>' +
+        '<label for="demo-justsee"><input type="checkbox" name="justsee" value="yes" id="demo-justsee" />Мне только посмотреть (мы не будем ни звонить, ни писать Вам, но будем рады, если Вы передумаете)</label> ' +
         '<label for="demo-agree"><input type="checkbox" name="egree" value="yes" required id="demo-agree" />Я согласен на обработку персональных данных. <a href="/politics.html" target="_blank">Ознакомиться с политикой обработки персональных данных.</a> </label> ' +
         '<div class="buttons">' +
-        '<a href="http://157.90.31.30:8080/login?user=guest&password=guest" class="demo" target="_blank">Смотреть ДЕМО</a>' +
-        '<input type="submit" value="Отправить" />' +
+        '<a href="http://157.90.31.30:8080/login?user=guest&password=guest" class="demo" target="_blank">Перейти на Демо</a>' +
+        //'<input type="submit" value="Отправить" />' +
         '</div>' +
         '</fieldset></div> </form>'
     $("body").append( _html )
     $("#demo-form").popup({closeelement: ".close"})
+
+    $("#demo-form a.demo").click(function(){
+        if( $("#demo-form").valid() ){
+            let form = $("#demo-form");
+
+            $.ajax({
+                url: $(form).attr("action"),
+                data: $(form).serialize(),
+                type: $(form).attr("method"),
+                success: function() {
+                    $("#demo-form").popup("hide");
+                    $("#demo-form").removeClass("loading").hide().get(0).reset();
+                    showMessage("Спасибо!", "Мы свяжемся с вами в ближайшее время. ", {html: "<a href='http://157.90.31.30:8080/login?user=guest&password=guest' target='_blank' class='btn'>Смотреть ДЕМО</a>"})
+                }
+            });
+
+            return true;
+        }else{
+            return false;
+        }
+
+    })
+
     $("#demo-form").validate({
         submitHandler: function(form){
             $(form).addClass("loading");

@@ -2,16 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
+        <loc>https://lsfusion-erp.com/news/SMM.html</loc>
+        <lastmod>2024-08-19</lastmod>
+    </url>
+    <url>
+        <loc>https://lsfusion-erp.com/news/fuel_module.html</loc>
+        <lastmod>2024-08-19</lastmod>
+    </url>
+    <url>
         <loc>https://lsfusion-erp.com/clients/brest-pharma.html</loc>
         <lastmod>2024-05-28</lastmod>
     </url>
     <url>
         <loc>https://lsfusion-erp.com/clients/vitapharm.html</loc>
-        <lastmod>2024-05-28</lastmod>
-    </url>
-    <url>
-        <loc>https://lsfusion-erp.com/news/artixBI.html</loc>
-        <lastmod>2024-05-20</lastmod>
+        <lastmod>2024-08-19</lastmod>
     </url>
     <url>
         <loc>https://lsfusion-erp.com/news/EDI.html</loc>
@@ -231,7 +235,7 @@
     </url>
                 <url>
             <loc>https://lsfusion-erp.com/modules.html</loc>
-            <lastmod>2024-03-21</lastmod>
+            <lastmod>2024-08-07</lastmod>
     </url>
                 <url>
             <loc>https://lsfusion-erp.com/news/3d_modelirovanie.html</loc>
@@ -407,7 +411,7 @@
     </url>
                 <url>
             <loc>https://lsfusion-erp.com/news.html</loc>
-            <lastmod>2024-04-03</lastmod>
+            <lastmod>2024-08-19</lastmod>
     </url>
                 <url>
             <loc>https://lsfusion-erp.com/politics.html</loc>

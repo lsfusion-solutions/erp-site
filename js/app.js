@@ -249,7 +249,14 @@ $(document).ready(function() {
         var match = url.match(regExp);
         return (match&&match[7].length==11)? match[7] + start : false;
     }
-    $("#section-best .videos a, a.video").click(function(e){
+    function getDzenCode(url){
+        return url;
+    }
+    function getVKCode(url){
+        let vals = getUrlVars(url)["z"].substring(5).split("_");
+        return "oid=" + vals[0] + "&id=" + vals[1];
+    }
+    $(document).on("click", "#section-best .videos a, a.video, a.youtube, a.dzen, a.vk", function(e){
         if( $("#videopopup").length == 0 ){
             $("body").append(
                 '<div id="videopopup" class="popup"><span class="close">x</span><div class="inner"></div></div>'
@@ -261,12 +268,44 @@ $(document).ready(function() {
                 }
             });
         }
-        $("#videopopup .inner").html( '<iframe src="https://www.youtube.com/embed/' + getYouTubeCode($(this).attr("href")) + '" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' )
+
+        let _html = "";
+        if($(this).attr("alt-youtube") || $(this).attr("alt-dzen") || $(this).attr("alt-vk")){
+            _noticeHTML = '<span class="notice">Медленно работает видео? Смотреть в';
+            if($(this).attr("alt-youtube")){
+                _noticeHTML += ' <a href="' + $(this).attr("alt-youtube") + '" class="youtube">YouTube</a>'
+            }
+            if($(this).attr("alt-dzen")){
+                _noticeHTML += ' <a href="' + $(this).attr("alt-dzen") + '" class="dzen">Дзен</a>'
+            }
+            if($(this).attr("alt-vk")){
+                _noticeHTML += ' <a href="' + $(this).attr("alt-vk") + '" class="vk">ВК</a>'
+            }
+            _noticeHTML += "</span>"
+
+            _html += _noticeHTML;
+        }
+
+        $("#videopopup").removeClass("video-dzen").removeClass("video-vk").removeClass("video-youtube")
+        if($(this).is(".dzen")){
+            $("#videopopup").addClass("video-dzen")
+            _html += '<iframe src="https://dzen.ru/embed/' + getDzenCode($(this).attr("data-id")) + '?mute=0&autoplay=1&tv=0" allow="autoplay; fullscreen; accelerometer; gyroscope; picture-in-picture; encrypted-media" frameborder="0" scrolling="no" allowfullscreen></iframe>';
+        }else if($(this).is(".vk")){
+            $("#videopopup").addClass("video-vk")
+            _html += '<iframe src="https://vk.com/video_ext.php?' + getVKCode($(this).attr("href")) + '&autoplay=1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>';
+        }else{//by default it is youtube video
+            $("#videopopup").addClass("video-youtube")
+            _html += '<iframe src="https://www.youtube.com/embed/' + getYouTubeCode($(this).attr("href")) + '?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+        }
+
+        $("#videopopup .inner").html( _html )
         $("#videopopup").popup("show");
 
         e.preventDefault()
         return false;
     })
+
+
     $("ul.dd-list > li > h3").click(function(){
         $(this).closest("li").toggleClass("active")
     })

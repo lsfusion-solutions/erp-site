@@ -2739,10 +2739,48 @@ body > footer{
   width: 550px;
   &#videopopup{
     width: 1024px;
+    .close{
+
+    }
     & > .inner{
       position: relative;
       height: 0;
       padding: 0 0 66.6666%;
+      .notice{
+        position: absolute;
+        background: #ff0000;
+        left: 20px;
+        right: 20px;
+        //top: -47px;
+        bottom: 100%;
+        bottom: calc(100% + 3px);
+        padding: 6px 9px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 9px;
+        text-align: center;
+        vertical-align: middle;
+        a{
+          color: #0E84BC;
+          display: inline-block;
+          width: 32px;
+          height: 32px;
+          text-indent: -3000px;
+          overflow: hidden;
+          background-size: 32px 32px !important;
+          vertical-align: inherit;
+          &.youtube{
+            background: url(../imgs/icons/youtube.svg);
+          }
+          &.dzen{
+            background: url(../imgs/icons/dzen.svg);
+          }
+          &.vk{
+            background: url(../imgs/icons/vk.svg);
+          }
+        }
+      }
     }
     iframe{
       position: absolute;
@@ -3186,6 +3224,41 @@ nav.pagination{
         & > li{
           margin: 0 0 0.5em 0;
         }
+      }
+    }
+  }
+}
+.video-wrapper{
+  padding: 12px 0 0 0;
+  & > a, & > span, & > label{
+    line-height: 32px;
+    vertical-align: top;
+  }
+  ul{
+    list-style: none !important;
+    display: inline;
+    margin: 0 0 0 0 !important;
+    padding: 0 0 0 50px !important;
+    li{
+      margin: 0 !important;
+      padding: 0 0 0 0 !important;
+      display: inline-block;
+      a{
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        text-indent: -3000px;
+        overflow: hidden;
+        background-size: 32px 32px !important;
+      }
+      .youtube{
+        background: url(../imgs/icons/youtube.svg);
+      }
+      .dzen{
+        background: url(../imgs/icons/dzen.svg);
+      }
+      .vk{
+        background: url(../imgs/icons/vk.svg);
       }
     }
   }

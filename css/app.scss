@@ -2780,6 +2780,14 @@ body > footer{
             background: url(../imgs/icons/vk.svg);
           }
         }
+        .c{
+          cursor: pointer;
+          font-style: normal;
+          position: absolute;
+          right: 6px;
+          top: 0px;
+          font-weight: bold;
+        }
       }
     }
     iframe{

@@ -271,7 +271,7 @@ $(document).ready(function() {
 
         let _html = "";
         if($(this).attr("alt-youtube") || $(this).attr("alt-dzen") || $(this).attr("alt-vk")){
-            _noticeHTML = '<span class="notice">Медленно работает видео? Смотреть в';
+            _noticeHTML = '<span class="notice"><em class="c" title="Скрыть">x</em>Медленно работает видео? Смотреть в';
             if($(this).attr("alt-youtube")){
                 _noticeHTML += ' <a href="' + $(this).attr("alt-youtube") + '" class="youtube">YouTube</a>'
             }
@@ -303,6 +303,9 @@ $(document).ready(function() {
 
         e.preventDefault()
         return false;
+    })
+    $(document).on("click", "#videopopup .notice .c", function(){
+        $(this).closest(".notice").hide();
     })
 
 

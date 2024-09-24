@@ -276,7 +276,8 @@ $(document).ready(function() {
                 _noticeHTML += ' <a href="' + $(this).attr("alt-youtube") + '" class="youtube">YouTube</a>'
             }
             if($(this).attr("alt-dzen")){
-                _noticeHTML += ' <a href="' + $(this).attr("alt-dzen") + '" class="dzen">Дзен</a>'
+                let _id = $(this).closest(".video-wrapper").find(".dzen").attr("data-id")
+                _noticeHTML += ' <a href="' + $(this).attr("alt-dzen") + '" data-id="' + _id + '" class="dzen">Дзен</a>'
             }
             if($(this).attr("alt-vk")){
                 _noticeHTML += ' <a href="' + $(this).attr("alt-vk") + '" class="vk">ВК</a>'

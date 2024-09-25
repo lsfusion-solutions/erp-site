@@ -253,16 +253,14 @@ $(document).ready(function() {
         return url;
     }
     function getVKCode(url){
-        //examples: https://vk.com/video870533294_456239048
         if(getUrlVars(url)["z"]) {
             let vals = getUrlVars(url)["z"].substring(5).split("_");
             return "oid=" + vals[0] + "&id=" + vals[1];
         }
+        //example: https://vk.com/video870533294_456239048
         url = url.substring(url.indexOf("video") + 5);
         let vals = url.split("_");
         return "oid=" + vals[0] + "&id=" + vals[1];
-
-
     }
     $(document).on("click", "#section-best .videos a, a.video, a.youtube, a.dzen, a.vk", function(e){
         if( $("#videopopup").length == 0 ){
@@ -283,9 +281,17 @@ $(document).ready(function() {
             if($(this).attr("alt-youtube")){
                 _noticeHTML += ' <a href="' + $(this).attr("alt-youtube") + '" class="youtube">YouTube</a>'
             }
-            if($(this).attr("alt-dzen")){
-                let _id = $(this).closest(".video-wrapper").find(".dzen").attr("data-id")
-                _noticeHTML += ' <a href="' + $(this).attr("alt-dzen") + '" data-id="' + _id + '" class="dzen">Дзен</a>'
+            if( $(this).attr("alt-dzen") ){
+                let _id = "";
+                if( $(this).attr("data-id") ){
+                    _id = $(this).attr("data-id")
+                }else {
+                    _id = $(this).closest(".video-wrapper").find(".dzen").attr("data-id")
+                }
+
+                if(_id) {
+                    _noticeHTML += ' <a href="' + $(this).attr("alt-dzen") + '" data-id="' + _id + '" class="dzen">Дзен</a>'
+                }
             }
             if($(this).attr("alt-vk")){
                 _noticeHTML += ' <a href="' + $(this).attr("alt-vk") + '" class="vk">ВК</a>'

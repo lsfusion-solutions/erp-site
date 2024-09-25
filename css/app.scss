@@ -1269,6 +1269,9 @@ section{
            .inner.module-farm_settings{
              background-image: url(../imgs/modules/module-farm.svg);
            }
+            .inner.module-fuel_settings{
+                         background-image: url(../imgs/modules/module-fuel.svg);
+                       }
            .inner.module-integration_services{
              background-image: url(../imgs/modules/module-services.svg);
            }
@@ -1968,7 +1971,7 @@ section{
         list-style: none;
         & > li{
           scroll-margin-top: 80px;
-          $modules: purchases,store,equipment,form,calc,gift,sales,settlements,internet,farm,delivery,minibi,
+          $modules: purchases,store,equipment,form,calc,gift,sales,settlements,internet,farm,fuel,delivery,minibi,
           production,foreign,order,transport,cash,report,anal,services,custom,bcs,mobileorder, pch;
 
           @each $module in $modules {

@@ -253,8 +253,16 @@ $(document).ready(function() {
         return url;
     }
     function getVKCode(url){
-        let vals = getUrlVars(url)["z"].substring(5).split("_");
+        //examples: https://vk.com/video870533294_456239048
+        if(getUrlVars(url)["z"]) {
+            let vals = getUrlVars(url)["z"].substring(5).split("_");
+            return "oid=" + vals[0] + "&id=" + vals[1];
+        }
+        url = url.substring(url.indexOf("video") + 5);
+        let vals = url.split("_");
         return "oid=" + vals[0] + "&id=" + vals[1];
+
+
     }
     $(document).on("click", "#section-best .videos a, a.video, a.youtube, a.dzen, a.vk", function(e){
         if( $("#videopopup").length == 0 ){

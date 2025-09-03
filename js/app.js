@@ -337,6 +337,14 @@ $(document).ready(function() {
         $(this).addClass("active")
         $(this).closest("section").find("div.tab").hide().eq( $(this).index() ).show()
     })
+    $("#section-technology nav span").click(function(){
+        if( $(this).hasClass("active") ){
+            return;
+        }
+        $(this).closest("nav").find("span.active").removeClass("active")
+        $(this).addClass("active")
+        $(this).closest("section").find("div.tab").hide().eq( $(this).index() ).show()
+    })
     if( document.location.href.indexOf("faq") > 0) {
         if (document.location.hash.length > 0) {
             $("#" + document.location.hash.substring(1)).trigger("click")

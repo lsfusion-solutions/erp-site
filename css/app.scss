@@ -2241,7 +2241,7 @@ section{
         & > li{
           scroll-margin-top: 80px;
           $modules: purchases,store,equipment,form,calc,gift,sales,settlements,internet,farm,fuel,delivery,minibi,
-          production,foreign,order,transport,cash,report,anal,services,custom,bcs,mobileorder, pch;
+          production,foreign,order,transport,cash,report,anal,services,saleswms,wms,custom,bcs,mobileorder,pch;
 
           @each $module in $modules {
             &.module-#{$module}{

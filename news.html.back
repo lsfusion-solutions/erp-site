@@ -27,9 +27,10 @@
         <h2><a href="/#top" title="Go to home page">LSFusion ERP</a></h2>
         <a class="menu-link" href="#menu">Навигация по сайту</a>
         <ul class="nav">
-            <li><a href="/why.html">Почему lsFuison ERP</a></li>
+            <li><a href="/why.html">Преимущества</a></li>
             <li><a href="/cases.html" target="_blank">Клиенты</a></li>
             <li><a href="/modules.html">Модули</a></li>
+            <li><a href="/wms.html">WMS</a></li>
             <li><a href="/faq.html">FAQ</a></li>
             <li><a href="https://lsfusion.org/ru/" target="_blank">О платформе</a></li>
             <li><a href="/about.html">О нас</a></li>             <li id="search">                 <a href="https://www.google.com/search?q=site%3Alsfusion-erp.com" target="_blank">Поиск</a>                 <form method="get" action="https://www.google.com/search" target="_blank">                     <input type="hidden" name="q" id="q" value="" />                     <input type="text" id="term" placeholder="Введите поисковый запрос" />                     <input type="submit" value="Поиск" />                 </form>             </li>

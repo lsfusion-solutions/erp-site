@@ -521,7 +521,10 @@ $(document).ready(function() {
         }
     });
 
-    $("body > nav a.special, #section-header a:contains('Попробовать демо')").click(function(){
+    $("body > nav a.special, #section-header a:contains('Попробовать демо'), #section-header-lsf a:contains('Попробовать демо')").click(function(){
+        if( $(this).closest("#section-header-lsf").length > 0 ){
+            $("#demo-form input[name=subject]").val("ERP: переход на ДЕМО (со страницы WMS)")
+        }
         $("#demo-form").popup("show");
         return false;
     })

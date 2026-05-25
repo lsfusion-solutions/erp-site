@@ -2172,8 +2172,15 @@ section{
           ul{
             color: #596062;
             @extend .list;
-            padding-bottom: 0;
-            margin-bottom: 30px;
+            padding-bottom: 0 !important;
+            margin-bottom: 30px !important;
+            ul{
+              padding-top: 20px !important;
+              padding-bottom: 20px !important;
+              li:last-child{
+                padding-bottom: 0 !important;
+              }
+            }
           }
           div.buttons{
             padding: 15px 0 0 0;

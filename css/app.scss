@@ -2172,6 +2172,8 @@ section{
           ul{
             color: #596062;
             @extend .list;
+            padding-bottom: 0;
+            margin-bottom: 30px;
           }
           div.buttons{
             padding: 15px 0 0 0;

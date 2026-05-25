@@ -2165,6 +2165,9 @@ section{
             font-size: 16px;
             line-height: 22px;
             margin: 0 0 40px 0;
+            & + ul{
+              padding-top: 0 !important;
+            }
           }
           ul{
             color: #596062;

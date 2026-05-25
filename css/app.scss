@@ -2169,7 +2169,7 @@ section{
               padding-top: 0 !important;
             }
           }
-          ul{
+          & > ul{
             color: #596062;
             @extend .list;
             padding-bottom: 0 !important;

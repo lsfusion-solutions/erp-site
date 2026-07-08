@@ -455,7 +455,7 @@ $(document).ready(function() {
 
 
 
-    let _url = "https://erp.lsfusion.org/login?user=guest&password=guest";
+    let _url = "https://erp.lsfusion.ru/login?user=guest&password=guest";
     if($("a:contains('Попробовать демо')").length > 0){
         _url = $("a:contains('Попробовать демо')").attr("href");
     }
@@ -496,7 +496,7 @@ $(document).ready(function() {
                     $("#demo-form").popup("hide");
                     $("#demo-form").removeClass("loading").hide().get(0).reset();
 
-                    let _url = "https://erp.lsfusion.org/login?user=guest&password=guest";
+                    let _url = "https://erp.lsfusion.ru/login?user=guest&password=guest";
                     if($("a:contains('Попробовать демо')").length > 0){
                         _url = $("a:contains('Попробовать демо')").attr("href");
                     }
@@ -523,7 +523,7 @@ $(document).ready(function() {
                 success: function() {
                     $("#demo-form").popup("hide");
                     $("#demo-form").removeClass("loading").hide().get(0).reset();
-                    showMessage("Спасибо!", "Мы свяжемся с вами в ближайшее время. ", {html: "<a href='https://erp.lsfusion.org/login?user=guest&password=guest' target='_blank' class='btn'>Смотреть ДЕМО</a>"})
+                    showMessage("Спасибо!", "Мы свяжемся с вами в ближайшее время. ", {html: "<a href='https://erp.lsfusion.ru/login?user=guest&password=guest' target='_blank' class='btn'>Смотреть ДЕМО</a>"})
                 }
             });
             return;

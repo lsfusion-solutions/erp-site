@@ -2240,6 +2240,36 @@ section{
           }
         }
       }
+
+      /* Длинные кейсы: изображение обтекается текстом, текст ниже картинки — на всю ширину */
+      div.news.news-wide {
+        @media (min-width: $mobileWidth) {
+          display: block;
+        }
+        &:after {
+          content: '';
+          display: table;
+          clear: both;
+        }
+        div.img {
+          @media (min-width: $mobileWidth) {
+            float: left;
+            margin: 0 30px 0 0;
+          }
+          @media (min-width: $siteWidth) {
+            width: 445px;
+          }
+          @media (min-width: $mobileWidth) and (max-width: $siteWidth - 1) {
+            width: 40%;
+          }
+        }
+        div.info {
+          padding: 0;
+          & > ul {
+            overflow: hidden;
+          }
+        }
+      }
     }
   }
   &#section-allmodules{

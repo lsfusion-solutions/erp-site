@@ -4,41 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05863a48-de35-460d-8137-65aeb02ed490" name="Default" comment="homepage video update">
+    <list default="true" id="05863a48-de35-460d-8137-65aeb02ed490" name="Default" comment="link update">
+      <change afterPath="$PROJECT_DIR$/imgs/news/MO-template.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news/MO_templates.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/SBS_vino.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/SBS_vino.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/baraka.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/baraka.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/bks.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/bks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/bmk.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/bmk.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/brest-pharma.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/brest-pharma.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/caprice.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/caprice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/case_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/case_template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/chesnok.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/chesnok.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/dorors.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/dorors.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/druzhba.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/druzhba.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/elema.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/elema.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/fantastic.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/fantastic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/gippo.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/gippo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/hodabbi.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/hodabbi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/komvak.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/komvak.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/kristal.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/kristal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/kupalinka.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/kupalinka.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/lekocentr.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/lekocentr.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/library.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/library.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/medway.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/medway.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/megahand.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/megahand.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/miniso.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/miniso.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/mothercare.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/mothercare.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/next.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/next.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/ostrov.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/ostrov.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/ostrov_pharm.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/ostrov_pharm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/pmoda.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/pmoda.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/puhovichi.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/puhovichi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/santa.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/santa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/sosedi.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/sosedi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/svitanak.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/svitanak.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/tabakerka.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/tabakerka.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/tishas.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/tishas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +75,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -166,6 +138,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -176,7 +151,7 @@
     <option name="height" value="1168" />
   </component>
   <component name="ProjectId" id="2BT7LntkgEO6R8kdgBWlE2Elfmc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -210,8 +185,12 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ENABLED_META&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IDEA/ERP-site/news&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -222,6 +201,13 @@
       <recent name="D:\IDEA\ERP-site\imgs\news" />
       <recent name="D:\Dropbox\lsfusion\www_erp" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -615,7 +601,7 @@
       <option name="project" value="LOCAL" />
       <updated>1724162046234</updated>
     </task>
-    <option name="localTasksCounter" value="254" />
+    <option name="localTasksCounter" value="346" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -650,6 +636,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="sitemap.xml" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -669,32 +658,32 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="BKS spelling fix" />
-    <MESSAGE value="Demo links changed to Demo RU" />
-    <MESSAGE value="links for Mobile BI &amp; Diadok added" />
-    <MESSAGE value="fix" />
-    <MESSAGE value="yes/no pages added" />
-    <MESSAGE value="OPLATI added to Modules" />
+    <MESSAGE value="Тиллиум added to POS" />
+    <MESSAGE value="FAQ TSD list updated" />
+    <MESSAGE value="Тиллиум.Касса" />
+    <MESSAGE value="Dashboards module added" />
+    <MESSAGE value="FAQ update" />
+    <MESSAGE value="lsFusion BCS download links updated" />
+    <MESSAGE value="MyC &amp; e-com links update" />
+    <MESSAGE value="modules update" />
+    <MESSAGE value="spelling fix" />
+    <MESSAGE value="news link fixed" />
+    <MESSAGE value="BCS download links updated" />
+    <MESSAGE value="minor changes" />
+    <MESSAGE value="seo hero, title, description update" />
     <MESSAGE value="news update" />
-    <MESSAGE value="demo link updated" />
-    <MESSAGE value="Artix webinar link added" />
-    <MESSAGE value="tsd/bcs apk update" />
-    <MESSAGE value="asssortment video in modules updated" />
-    <MESSAGE value="slack link updated" />
-    <MESSAGE value="ArtixBI news deleted" />
-    <MESSAGE value="lsFusion 6 news added" />
-    <MESSAGE value="terms of coop video updated" />
-    <MESSAGE value="Fuel module added" />
-    <MESSAGE value="Fuel module update" />
-    <MESSAGE value="documentation link updated" />
-    <MESSAGE value="fuel module updated" />
-    <MESSAGE value="news and vitapharm updated" />
-    <MESSAGE value="homepage news update" />
-    <MESSAGE value="vitapharm link update" />
-    <MESSAGE value="video update test" />
-    <MESSAGE value="modules video update" />
-    <MESSAGE value="homepage video update" />
-    <option name="LAST_COMMIT_MESSAGE" value="homepage video update" />
+    <MESSAGE value="wms links update" />
+    <MESSAGE value="misprints fix" />
+    <MESSAGE value="demo link changed to ru" />
+    <MESSAGE value="docs links updated" />
+    <MESSAGE value="wms docs added" />
+    <MESSAGE value="brest-pharma case updated" />
+    <MESSAGE value="epd news added" />
+    <MESSAGE value="epd news update" />
+    <MESSAGE value="POS list updated" />
+    <MESSAGE value="news updated" />
+    <MESSAGE value="link update" />
+    <option name="LAST_COMMIT_MESSAGE" value="link update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/404.html">
